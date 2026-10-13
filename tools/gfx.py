@@ -226,7 +226,75 @@ def job_class_tiles(rom, free=None, preview=None):
                 rom[font8.FONT8 + code * 32:font8.FONT8 + code * 32 + 32] = tile
 
 
-JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles}
+def draw_cond(px, text, cx, y, color):
+    """Proportional text with the condensed 8x8 glyphs (font/cond8.txt): advance = ink width + 1. -> width."""
+    import font8
+    glyphs = []
+    for ch in text:
+        art = font8.ARTS[ch]
+        cols = [x for x in range(3) if any(r[x] for r in art)]
+        glyphs.append((art, (cols[-1] + 1) if cols else 2))
+    width = sum(w + 1 for _, w in glyphs) - 1
+    x = cx - width // 2
+    for art, w in glyphs:
+        for yy, r in enumerate(art):
+            for xx in range(w):
+                if r[xx]:
+                    px[y + yy][x + xx] = color
+        x += w + 1
+    return width
+
+
+BUTTONS = 0x0EB0D8   # order buttons: 32x16 sprites, 8 raw 4bpp tiles (0x100 bytes) each
+BUTTON_WORDS = {'たたかえ': 'FIGHT', '守れ': 'GUARD', 'にげろ': 'FLEE', 'アイテム': 'ITEM',
+                'ポコれ': 'SWARM', 'ほかく': 'CATCH', 'たいき': 'WAIT'}   # 22x7 px inside the button
+BUTTON_LIST = {   # block index -> JP word (read from the rendered sheet)
+    3: 'たたかえ', 4: '守れ', 5: 'にげろ', 6: 'アイテム', 7: 'ポコれ',
+    8: 'たたかえ', 9: '守れ', 10: 'にげろ', 11: 'アイテム', 12: 'ほかく', 13: 'たいき', 14: 'たたかえ', 15: '守れ',
+    16: 'にげろ', 17: 'アイテム', 18: 'ポコれ', 19: 'ほかく', 20: 'たいき', 21: 'たたかえ', 22: '守れ', 23: 'にげろ',
+    24: 'アイテム', 25: 'ポコれ', 26: 'たたかえ', 27: '守れ', 28: 'にげろ', 29: 'アイテム', 30: 'ほかく', 31: 'たいき',
+}
+
+
+def relabel(px, box, text):
+    """Inside box: the most common colour is the fill, the next the ink; clear it and centre the new text."""
+    from collections import Counter
+    x0, y0, x1, y1 = box
+    c = Counter(px[y][x] for y in range(y0, y1) for x in range(x0, x1)).most_common()
+    fill = c[0][0]
+    ink = c[1][0] if len(c) > 1 else fill
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            px[y][x] = fill
+    draw_cond(px, text, (x0 + x1) // 2, y0 + (y1 - y0 - 7) // 2, ink)
+
+
+TARGET_BUTTONS = 0x0ED138   # 6 buttons: ぜんたい (all) / たんたい (single) alternating, 3 colour sets
+BUTTON_WORDS.update({'ぜんたい': 'ALL', 'たんたい': 'ONE'})
+
+
+def job_buttons(rom, free=None, preview=None):
+    out = []
+    items = [(BUTTONS + i * 0x100, jp) for i, jp in BUTTON_LIST.items()]
+    items += [(TARGET_BUTTONS + k * 0x100, 'ぜんたい' if k % 2 == 0 else 'たんたい') for k in range(6)]
+    for off, jp in items:
+        ids = list(range(8))
+        px = tiles_to_px(rom[off:off + 0x100], 4, ids)
+        relabel(px, (5, 4, 27, 11), BUTTON_WORDS[jp])
+        if preview:
+            out.append(px)
+        else:
+            rom[off:off + 0x100] = px_to_tiles(rom[off:off + 0x100], 4, ids, px)
+    if preview:
+        from PIL import Image
+        p = [(i * 16, i * 16, i * 16) for i in range(16)]
+        sheet = Image.new('RGB', (8 * 36, 4 * 20))
+        for k, px in enumerate(out):
+            sheet.paste(to_image(px, p).convert('RGB'), ((k % 8) * 36, (k // 8) * 20))
+        sheet.resize((sheet.width * 3, sheet.height * 3), 0).save(preview)
+
+
+JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles, 'buttons': job_buttons}
 
 
 def apply_all(rom, free):

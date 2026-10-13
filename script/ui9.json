@@ -710,7 +710,7 @@
   ],
   "jp": "　【命令：捕獲】　　　敵を指定して捕まえる",
   "bytes": 44,
-  "en": "[Order: Capture]{br}Pick an enemy and catch it",
+  "en": "[Order: Catch]{br}Pick an enemy and catch it",
   "status": "done"
  },
  {
@@ -753,7 +753,7 @@
   ],
   "jp": "　【命令：ポコれ】　　集中攻撃",
   "bytes": 32,
-  "en": "[Order: Gang Up]{br}Focus attacks on one foe",
+  "en": "[Order: Swarm]{br}Focus attacks on one foe",
   "status": "done"
  },
  {

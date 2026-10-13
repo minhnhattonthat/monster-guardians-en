@@ -59,7 +59,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ザコ | small fry | | | |
 | 祭壇のある部屋 | the room with the altar | | | |
 | クリア条件 | Goal: (inline header) | | 9px boxes are 2 x 11 cells | Clear Condition |
-| 命令 | Order | | 戦え Fight, 待機 Wait, 捕獲 Capture, アイテム Item, 逃げろ Flee, 守れ Guard, ボコれ Gang Up | |
+| 命令 | Order | | 戦え Fight, 待機 Wait, 捕獲/ほかく Catch, アイテム Item, 逃げろ Flee, 守れ Guard, ボコれ/ポコれ Swarm (button labels are 22 px: FIGHT GUARD FLEE ITEM SWARM CATCH WAIT) | Gang Up, Capture |
 | プレイヤーポイント | Player Points | | | |
 | 魔物 | fiends | | kept apart from 魔獣 = monster | |
 | 合成魔獣 | fused monster | | | |

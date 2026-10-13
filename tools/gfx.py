@@ -1,0 +1,163 @@
+"""Graphics text: LZSS resources (decoder 0x08081B48), 4bpp tiles <-> indexed pixels, and per-item edit jobs.
+
+A resource is [u32 decompressed size][LZSS data]; the resource table (0x0DA000-) holds the header pointer, the data
+pointer and the compressed size next to each other. Edited resources are recompressed into free space and every
+table word pointing at the old header/data is repointed (size word after the data pointer updated).
+
+    python -X utf8 tools/gfx.py preview JOB OUT.png     # render the edited area of a job for eyeballing
+Jobs are applied by tools/insert.py (apply_all).
+"""
+import struct
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import lz  # noqa: E402
+import romlib  # noqa: E402
+
+ROOT = romlib.ROOT
+TABLE = (0x0DA000, 0x0DE000)
+
+
+def resource(rom, data_off, comp_size):
+    return lz.lzss_decompress(rom[data_off:data_off + comp_size])
+
+
+def tiles_to_px(data, n_tiles_w, tile_ids):
+    """Compose tiles (4bpp, tile t at data[t*32]) laid out row-major n_tiles_w wide -> list of pixel rows."""
+    rows_t = (len(tile_ids) + n_tiles_w - 1) // n_tiles_w
+    px = [[0] * (n_tiles_w * 8) for _ in range(rows_t * 8)]
+    for k, t in enumerate(tile_ids):
+        if t is None:
+            continue
+        tx, ty = k % n_tiles_w, k // n_tiles_w
+        b = data[t * 32:t * 32 + 32]
+        for y in range(8):
+            for x in range(8):
+                v = b[y * 4 + x // 2]
+                px[ty * 8 + y][tx * 8 + x] = (v >> 4) if x & 1 else (v & 0xF)
+    return px
+
+
+def px_to_tiles(data, n_tiles_w, tile_ids, px):
+    """Write pixels back into the tiles they came from (later duplicates of a tile id win)."""
+    data = bytearray(data)
+    for k, t in enumerate(tile_ids):
+        if t is None:
+            continue
+        tx, ty = k % n_tiles_w, k // n_tiles_w
+        b = bytearray(32)
+        for y in range(8):
+            for x in range(0, 8, 2):
+                b[y * 4 + x // 2] = px[ty * 8 + y][tx * 8 + x] | px[ty * 8 + y][tx * 8 + x + 1] << 4
+        data[t * 32:t * 32 + 32] = b
+    return bytes(data)
+
+
+def repoint(rom, old_hdr, new_hdr, new_size):
+    """Repoint table words: header ptr old_hdr -> new_hdr, data ptr old_hdr+4 -> new_hdr+4 (+ size after it)."""
+    n = 0
+    for o in range(TABLE[0], TABLE[1], 4):
+        v = struct.unpack_from('<I', rom, o)[0]
+        if v == romlib.BASE + old_hdr:
+            struct.pack_into('<I', rom, o, romlib.BASE + new_hdr)
+            n += 1
+        elif v == romlib.BASE + old_hdr + 4:
+            struct.pack_into('<II', rom, o, romlib.BASE + new_hdr + 4, new_size)
+            n += 1
+    if not n:
+        raise SystemExit(f'no table entry for resource {old_hdr:06X}')
+    return n
+
+
+def store(rom, free, old_hdr, data):
+    comp = lz.lzss_compress(data)
+    blob = struct.pack('<I', len(data)) + comp
+    off = free.put(blob, 4)
+    repoint(rom, old_hdr, off, len(comp))
+    return off
+
+
+def inpaint(px, box, ink, fill):
+    """Replace `ink` colours inside box (x0, y0, x1, y1) with the nearest `fill` colour on the same row."""
+    x0, y0, x1, y1 = box
+    for y in range(y0, y1):
+        row = px[y]
+        src = row[:]
+        for x in range(x0, x1):
+            if src[x] in ink:
+                for d in range(1, 40):
+                    for xx in (x - d, x + d):
+                        if 0 <= xx < len(row) and src[xx] in fill:
+                            row[x] = src[xx]
+                            break
+                    else:
+                        continue
+                    break
+
+
+def draw_text(px, text, size, cx, y, color):
+    """Draw text with tools/vwf.py font `size`, centred on cx, top row y."""
+    import vwf
+    f = vwf.Font(size)
+    rows = f.draw(text)
+    x0 = cx - len(rows[0]) // 2
+    for yy, r in enumerate(rows):
+        for xx, v in enumerate(r):
+            if v:
+                px[y + yy][x0 + xx] = color
+
+
+# ---- jobs ------------------------------------------------------------------------------------------------
+def job_title(rom, free=None, preview=None):
+    """Title logo banner: katakana reading of the logo -> small English lettering (BG1 rows 13-16)."""
+    hdr, data_off, size = 0x14F1D8, 0x14F1DC, 0x163A
+    data = resource(rom, data_off, size)
+    # BG1 map rows 13-16 (title screen): tile value - 1 = resource tile; values <= 2 are blank
+    layout = [(13, 1, 0x06F, 28), (14, 2, 0x08B, 27), (15, 4, 0x0A4, 22), (16, 5, 0x0BA, 20)]
+    ids = [None] * (30 * 4)
+    for k, (row, col, first, n) in enumerate(layout):
+        for i in range(n):
+            ids[k * 30 + col + i] = first + i - 1
+    px = tiles_to_px(data, 30, ids)
+    inpaint(px, (52, 12, 194, 26), ink={1, 2, 3, 4, 5, 6, 7, 8, 9}, fill={10, 11, 12, 13, 14, 15})
+    draw_text(px, 'Monster Guardians', 9, 121, 14, 3)
+    if preview:
+        pal = [((x & 31) * 8, (x >> 5 & 31) * 8, (x >> 10 & 31) * 8) for x in struct.unpack_from('<16H', rom, 0x14F1B8)]
+        img = to_image(px, pal)
+        img.resize((img.width * 4, img.height * 4)).save(preview)
+        return
+    store(rom, free, hdr, px_to_tiles(data, 30, ids, px))
+
+
+JOBS = {'title': job_title}
+
+
+def apply_all(rom, free):
+    for name, job in JOBS.items():
+        job(rom, free)
+    return len(JOBS)
+
+
+def load_palette(path, index):
+    p = Path(path).read_bytes()
+    out = []
+    for i in range(16):
+        v = struct.unpack_from('<H', p, (index * 16 + i) * 2)[0]
+        out.append(((v & 31) * 8, (v >> 5 & 31) * 8, (v >> 10 & 31) * 8))
+    return out
+
+
+def to_image(px, pal):
+    from PIL import Image
+    img = Image.new('P', (len(px[0]), len(px)))
+    img.putpalette([c for rgb in pal for c in rgb] + [0] * (768 - 48))
+    img.putdata([v for row in px for v in row])
+    return img
+
+
+if __name__ == '__main__':
+    if len(sys.argv) == 4 and sys.argv[1] == 'preview':
+        JOBS[sys.argv[2]](romlib.rom_bytes(), preview=sys.argv[3])
+    else:
+        print(__doc__)

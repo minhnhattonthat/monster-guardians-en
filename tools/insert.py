@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import gfx  # noqa: E402
 import menu8  # noqa: E402
 import records  # noqa: E402
 import romlib  # noqa: E402
@@ -227,6 +228,7 @@ def build(out_path, marker=False, qa=None):
             done += 1
         glyphs.commit(rom, free)
         stats[bank] = (done, len(glyphs.index))
+    stats['gfx'] = (gfx.apply_all(rom, free), 0)
     n8, pool, kept = menu8.build(rom, marker)
     n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1])[0])
     Path(out_path).parent.mkdir(exist_ok=True)

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.gba binary
+*.bin binary
+*.png binary
+*.bps binary
+*.ips binary
+*.ss1 binary
+*.mss binary
+*.sav binary

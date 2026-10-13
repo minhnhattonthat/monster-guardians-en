@@ -16,7 +16,7 @@ import lz  # noqa: E402
 import romlib  # noqa: E402
 
 ROOT = romlib.ROOT
-TABLE = (0x0DA000, 0x0DE000)
+TABLE = (0x0D8000, 0x0DE000)
 
 
 def resource(rom, data_off, comp_size):
@@ -130,7 +130,88 @@ def job_title(rom, free=None, preview=None):
     store(rom, free, hdr, px_to_tiles(data, 30, ids, px))
 
 
-JOBS = {'title': job_title}
+CARDS = [   # (chapter label, title) for the 3 chapter cards
+    ('Chapter 1', 'Ambition by Design'),
+    ('Chapter 2', 'Past and Present...'),
+    ('Chapter 3', 'What It Means to Be Human'),
+]
+CARD_TABLE = 0x0D92B0   # 6 layers x 0x44 bytes: per chapter a crisp layer then a glow layer
+
+
+def card_layers(rom):
+    """-> [(pal, tiles hdr, tiles off, tiles size, map hdr, map off, map size)] for the 6 card layers."""
+    out = []
+    for k in range(6):
+        w = struct.unpack_from('<17I', rom, CARD_TABLE + k * 0x44)
+        out.append(tuple(x - romlib.BASE if x >= romlib.BASE else x
+                         for x in (w[0], w[2], w[4], w[5], w[7], w[9], w[10])))
+    return out
+
+
+def render_card_text(label, title, glow):
+    """Intensity image (L, 256x160) of the card text; glow = blurred, brighter version."""
+    from PIL import Image, ImageDraw, ImageFilter, ImageFont
+    font_path = str(ROOT / 'font' / 'STIXGeneral.ttf')
+    img = Image.new('L', (256, 160), 0)
+    d = ImageDraw.Draw(img)
+    for text, size, y in ((label, 12, 47), (title, 16, 66)):
+        f = ImageFont.truetype(font_path, size, layout_engine=ImageFont.Layout.BASIC)
+        w = d.textlength(text, font=f)
+        x = 120 - w / 2
+        for dx in (0, 1):   # faux bold
+            d.text((x + dx, y), text, fill=255, font=f)
+    if glow:
+        img = img.filter(ImageFilter.GaussianBlur(1.5))
+        img = img.point(lambda v: min(255, int(v * 1.6)))
+    return img
+
+
+def tiles_and_map(img, max_tiles, pal_bits):
+    """Quantise an L image to 16 levels, cut 8x8 tiles (deduplicated, tile 0 blank) -> (tile bytes, map bytes)."""
+    w, h = img.size
+    q = [[(img.getpixel((x, y)) * 15 + 127) // 255 for x in range(w)] for y in range(h)]
+    tiles, index, mp = [bytes(32)], {bytes(32): 0}, [0] * (32 * 32)
+    for ty in range(h // 8):
+        for tx in range(w // 8):
+            b = bytearray(32)
+            for y in range(8):
+                for x in range(0, 8, 2):
+                    b[y * 4 + x // 2] = q[ty * 8 + y][tx * 8 + x] | q[ty * 8 + y][tx * 8 + x + 1] << 4
+            b = bytes(b)
+            if b not in index:
+                index[b] = len(tiles)
+                tiles.append(b)
+            mp[ty * 32 + tx] = index[b] | (pal_bits if index[b] else 0)
+    if len(tiles) > max_tiles:
+        raise SystemExit(f'card text needs {len(tiles)} tiles (room for {max_tiles})')
+    return b''.join(tiles).ljust(max_tiles * 32, b'\0'), struct.pack('<1024H', *mp)
+
+
+def job_cards(rom, free=None, preview=None):
+    layers = card_layers(rom)
+    shots = []
+    for ch, (label, title) in enumerate(CARDS):
+        for g in (0, 1):
+            pal, thdr, toff, tsize, mhdr, moff, msize = layers[ch * 2 + g]
+            old_tiles = resource(rom, toff, tsize)
+            old_map = struct.unpack('<1024H', resource(rom, moff, msize))
+            pal_bits = next((e & 0xF000 for e in old_map if e & 0x3FF), 0)
+            img = render_card_text(label, title, g)
+            tiles, mp = tiles_and_map(img, len(old_tiles) // 32, pal_bits)
+            if preview:
+                shots.append(img)
+                continue
+            store(rom, free, thdr, tiles)
+            store(rom, free, mhdr, mp)
+    if preview:
+        from PIL import Image
+        sheet = Image.new('L', (512, 160 * 3))
+        for k, im in enumerate(shots):
+            sheet.paste(im, ((k % 2) * 256, (k // 2) * 160))
+        sheet.save(preview)
+
+
+JOBS = {'title': job_title, 'cards': job_cards}
 
 
 def apply_all(rom, free):

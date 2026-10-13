@@ -1,0 +1,1671 @@
+[
+ {
+  "id": "0CC90E",
+  "slots": [],
+  "jp": "モモンスターを選んでください",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC92C",
+  "slots": [
+   "003F10"
+  ],
+  "jp": "命令を決めてください",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC942",
+  "slots": [],
+  "jp": "指示の対象を決めてください",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC95E",
+  "slots": [],
+  "jp": "全部のモンスターに指示を出します",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC980",
+  "slots": [],
+  "jp": "モンスター個別に指示を出します",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC9A0",
+  "slots": [],
+  "jp": "どのモンスターを狙うか決めてください",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC9C6",
+  "slots": [],
+  "jp": "コマンド対象モンスターを決めてください",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC9EE",
+  "slots": [],
+  "jp": "戦闘終了",
+  "bytes": 10,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CC9F8",
+  "slots": [],
+  "jp": "クリア条件",
+  "bytes": 12,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCA04",
+  "slots": [],
+  "jp": "一　クリア条件　一　　　全ての敵を倒す",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCA2C",
+  "slots": [],
+  "jp": "一　命令：戦え　一　　　敵をみつけて攻撃する",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCA5A",
+  "slots": [],
+  "jp": "一　命令：待機　一　　　その場で立ち止まる",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCA86",
+  "slots": [],
+  "jp": "一　命令：捕獲　一　　　敵を指定して捕まえる",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCAB4",
+  "slots": [],
+  "jp": "一　命令：アイテム　一　アイテムを拾いにいく",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCAE2",
+  "slots": [],
+  "jp": "一　命令：逃げろ　一　　敵から逃げる",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCB08",
+  "slots": [],
+  "jp": "一　命令：守れ　一　　　ガードして攻撃をかわす",
+  "bytes": 48,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCB38",
+  "slots": [],
+  "jp": "一　命令：ボコれ　一　　集中攻撃",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCB5A",
+  "slots": [],
+  "jp": "プレイヤーポイントが足りません",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCB7A",
+  "slots": [],
+  "jp": "対象となるモンスターがいません",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCB9A",
+  "slots": [],
+  "jp": "通信準備ができたらボタンを押してください",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCBC4",
+  "slots": [],
+  "jp": "通信できませんでした",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCBDA",
+  "slots": [],
+  "jp": "通信中",
+  "bytes": 8,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCBE2",
+  "slots": [],
+  "jp": "無制限クラス　　　　　　賞金０Ｇ",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCC04",
+  "slots": [],
+  "jp": "Ｌｖ５１以上クラス　　　賞金３００Ｇ",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCC2A",
+  "slots": [],
+  "jp": "Ｌｖ３１～Ｌｖ５０クラス賞金６０Ｇ",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCC4E",
+  "slots": [],
+  "jp": "Ｌｖ１１～Ｌｖ３０クラス賞金２０Ｇ",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCC72",
+  "slots": [],
+  "jp": "Ｌｖ１～Ｌｖ１０クラス　賞金１０Ｇ",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCC96",
+  "slots": [],
+  "jp": "参加できないモンスターがパーティーに入っています",
+  "bytes": 50,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCCC8",
+  "slots": [],
+  "jp": "対戦成績　勝　　　負　　　引き分け",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCCEC",
+  "slots": [],
+  "jp": "０１２３４５６７８９",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD02",
+  "slots": [
+   "003FA8"
+  ],
+  "jp": "プレイヤーポイントが足りません",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD22",
+  "slots": [
+   "004234"
+  ],
+  "jp": "モンスターを選んでください",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD3E",
+  "slots": [
+   "0040E4"
+  ],
+  "jp": "指示対象を決めてください",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD58",
+  "slots": [],
+  "jp": "命令を決めてください",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD6E",
+  "slots": [
+   "004158"
+  ],
+  "jp": "全部のモンスターに指示を出します",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCD90",
+  "slots": [
+   "004120"
+  ],
+  "jp": "モンスター個別に指示を出します",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCDB0",
+  "slots": [
+   "003FE0"
+  ],
+  "jp": "対象となるモンスターがいません",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCDD0",
+  "slots": [
+   "005F00"
+  ],
+  "jp": "　クリア条件　　　　　　戦闘終了",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCDF2",
+  "slots": [
+   "003120"
+  ],
+  "jp": "通信中です。Ｂボタンでキャンセルできます",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCE1C",
+  "slots": [
+   "011F50"
+  ],
+  "jp": "通信エラーです。ケーブルを確認してください",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCE48",
+  "slots": [
+   "003114"
+  ],
+  "jp": "通信準備ができたらＡボタンを押してください",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCE74",
+  "slots": [
+   "0038BC"
+  ],
+  "jp": "　　相手の作戦中！",
+  "bytes": 20,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCE88",
+  "slots": [
+   "0C37B0"
+  ],
+  "jp": "【クリア条件】　　　　行く手を阻む魔獣を殲滅",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCEB6",
+  "slots": [
+   "0C37B4"
+  ],
+  "jp": "【クリア条件】　　　　襲いくる魔獣達を倒せ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCEE4",
+  "slots": [
+   "0C37B8"
+  ],
+  "jp": "【クリア条件】　　　　追手の魔獣を全滅せよ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCF12",
+  "slots": [
+   "0C37BC"
+  ],
+  "jp": "【クリア条件】　　　　追手の魔獣を全滅せよ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCF40",
+  "slots": [
+   "0C37C0"
+  ],
+  "jp": "【クリア条件】　　　　敵の魔獣の全滅！",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCF68",
+  "slots": [
+   "0C37C4"
+  ],
+  "jp": "【クリア条件】　　　　敵の魔獣達を全滅せよ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCF96",
+  "slots": [
+   "0C37C8"
+  ],
+  "jp": "【クリア条件】　　　　警備の魔獣を倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCFC0",
+  "slots": [
+   "0C37CC"
+  ],
+  "jp": "【クリア条件】　　　　城内の魔獣を倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CCFEA",
+  "slots": [
+   "0C37D0"
+  ],
+  "jp": "【クリア条件】　　　　城内の魔獣の殲滅！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD014",
+  "slots": [
+   "0C37D4"
+  ],
+  "jp": "【クリア条件】　　　　敵の魔獣達を全滅せよ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD042",
+  "slots": [
+   "0C37D8"
+  ],
+  "jp": "【クリア条件】　　　　ザーゴを倒せ！",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD068",
+  "slots": [
+   "0C37DC"
+  ],
+  "jp": "【クリア条件】　　　　岩の番人達の殲滅！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD092",
+  "slots": [
+   "0C37E0"
+  ],
+  "jp": "【クリア条件】　　　　森の先住者を倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD0BC",
+  "slots": [
+   "0C37E4"
+  ],
+  "jp": "【クリア条件】　　　　魔物たちを倒せ！",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD0E4",
+  "slots": [
+   "0C37E8"
+  ],
+  "jp": "【クリア条件】　　　　蘇った武士の殲滅！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD10E",
+  "slots": [
+   "0C37EC"
+  ],
+  "jp": "【クリア条件】　　　　待ち伏せた魔獣を倒せ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD13C",
+  "slots": [
+   "0C37F0"
+  ],
+  "jp": "【クリア条件】　　　　敵の放った魔獣を倒せ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD16A",
+  "slots": [
+   "0C37F4"
+  ],
+  "jp": "【クリア条件】　　　　ザーゴを倒せ！",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD190",
+  "slots": [
+   "0C37F8"
+  ],
+  "jp": "【クリア条件】　　　　ラミレスを倒せ！",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD1B8",
+  "slots": [
+   "0C37FC"
+  ],
+  "jp": "【クリア条件】　　　　魔獣を倒せ！",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD1DC",
+  "slots": [
+   "0C3800"
+  ],
+  "jp": "【クリア条件】　　　　イグニスを倒せ！",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD204",
+  "slots": [
+   "0C3804"
+  ],
+  "jp": "【クリア条件】　　　　追手の魔獣を殲滅せよ！",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD232",
+  "slots": [
+   "0C3808"
+  ],
+  "jp": "【クリア条件】　　　　砂漠の魔獣達を倒せ！",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD25E",
+  "slots": [
+   "0C380C"
+  ],
+  "jp": "【クリア条件】　　　　廃墟の魔獣達を倒せ！",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD28A",
+  "slots": [
+   "0C3810"
+  ],
+  "jp": "【クリア条件】　　　　敵の追跡者を倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD2B4",
+  "slots": [
+   "0C3814"
+  ],
+  "jp": "【クリア条件】　　　　敵の見張りを倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD2DE",
+  "slots": [
+   "0C3818"
+  ],
+  "jp": "【クリア条件】　　　　ザーゴを倒せ！",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD304",
+  "slots": [
+   "0C381C"
+  ],
+  "jp": "【クリア条件】　　　　ラミレスを倒せ！",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD32C",
+  "slots": [
+   "0C3820"
+  ],
+  "jp": "【クリア条件】　　　　敵の合成魔獣を倒せ！",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD358",
+  "slots": [
+   "0C3824"
+  ],
+  "jp": "【クリア条件】　　　　ベリンガムを倒せ！",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD382",
+  "slots": [
+   "0C3828"
+  ],
+  "jp": "【クリア条件】　　　　敵最終形態の魔獣を倒せ",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD3B0",
+  "slots": [
+   "005FD4",
+   "0C382C"
+  ],
+  "jp": "【クリア条件】　　　　現れた魔獣達の殲滅！",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD3DC",
+  "slots": [
+   "0C3710",
+   "0C3728"
+  ],
+  "jp": "　【命令：戦え】　　　敵をみつけて攻撃する",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD408",
+  "slots": [
+   "0C3724",
+   "0C373C"
+  ],
+  "jp": "　【命令：待機】　　　その場で立ち止まる",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD432",
+  "slots": [
+   "0C3720"
+  ],
+  "jp": "　【命令：捕獲】　　　敵を指定して捕まえる",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD45E",
+  "slots": [
+   "0C371C",
+   "0C3734"
+  ],
+  "jp": "　【命令：アイテム】　アイテムを拾いにいく",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD48A",
+  "slots": [
+   "0C3718",
+   "0C3730"
+  ],
+  "jp": "　【命令：逃げろ】　　敵から逃げる",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD4AE",
+  "slots": [
+   "0C3714",
+   "0C372C"
+  ],
+  "jp": "　【命令：守れ】　　　ガードして攻撃をかわす",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD4DC",
+  "slots": [
+   "0C3738"
+  ],
+  "jp": "　【命令：ポコれ】　　集中攻撃",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD4FC",
+  "slots": [],
+  "jp": "無制限級　　　　　　　　　賞金０Ｇ",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD520",
+  "slots": [],
+  "jp": "レベル５１以上級　　　　　賞金３００Ｇ",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD548",
+  "slots": [],
+  "jp": "レベル３１～レベル５０級　賞金６０Ｇ",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD56E",
+  "slots": [],
+  "jp": "レベル１１～レベル３０級　賞金２０Ｇ",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD594",
+  "slots": [],
+  "jp": "レベル１～レベル１０級　　賞金１０Ｇ",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD5BA",
+  "slots": [],
+  "jp": "参加できないモンスターがパーティーに入っています",
+  "bytes": 50,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD5EC",
+  "slots": [],
+  "jp": "対戦成績　　勝　　負　　引き分け",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD60E",
+  "slots": [],
+  "jp": "０１２３４５６７８９",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD624",
+  "slots": [
+   "011DE0"
+  ],
+  "jp": "記録が破壊されています　削除完了しました",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD64E",
+  "slots": [],
+  "jp": "データをセーブしますか　はい　　いいえ",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD676",
+  "slots": [],
+  "jp": "データをセーブしました",
+  "bytes": 24,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD68E",
+  "slots": [],
+  "jp": "残念ですがデータはセーブできないようです",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD6B8",
+  "slots": [
+   "0B78D8",
+   "0B7938",
+   "0BC7AC",
+   "0BC854",
+   "0BC8CC",
+   "0BCBC0"
+  ],
+  "jp": "ワールドマップへ切替えます",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD6D4",
+  "slots": [
+   "0B78E4",
+   "0B7944",
+   "0BC7B8",
+   "0BC8D8",
+   "0BCBCC"
+  ],
+  "jp": "ブリーフィングへ切替えます",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD6F0",
+  "slots": [
+   "0B7950",
+   "0BC7C4",
+   "0BC860",
+   "0BC8E4",
+   "0BCBD8"
+  ],
+  "jp": "モンスター管理へ切替えます",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD70C",
+  "slots": [
+   "0B78F0",
+   "0B795C",
+   "0BC86C",
+   "0BC8F0",
+   "0BCBE4"
+  ],
+  "jp": "パーティ編成へ切替えます",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD726",
+  "slots": [
+   "0B78FC",
+   "0B7968",
+   "0BC7D0",
+   "0BC878",
+   "0BC8FC"
+  ],
+  "jp": "アイテム管理へ切替えます",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD740",
+  "slots": [
+   "0B7908",
+   "0B7974",
+   "0BC7DC",
+   "0BC884",
+   "0BCBF0"
+  ],
+  "jp": "システム処理へ切替えます",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD75A",
+  "slots": [
+   "0BC890"
+  ],
+  "jp": "プレイヤーの名前を変更します",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD778",
+  "slots": [
+   "0BC8A8"
+  ],
+  "jp": "メッセージ表示を行います",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD792",
+  "slots": [
+   "0BC8B4"
+  ],
+  "jp": "通信イベント中のパーティ状態を表示します",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD7BC",
+  "slots": [
+   "0BC8C0"
+  ],
+  "jp": "攻略に必要なモンスターの情報を表示します",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD7E6",
+  "slots": [
+   "0B7914",
+   "0B7920",
+   "0B792C"
+  ],
+  "jp": "モンスターパラメータを確認します",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD808",
+  "slots": [
+   "0B798C"
+  ],
+  "jp": "モンスターの名前変更が行えます",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD828",
+  "slots": [],
+  "jp": "モンスターの名前変更は、只今行えません",
+  "bytes": 40,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD850",
+  "slots": [
+   "0BC80C",
+   "0BC818",
+   "0BC824",
+   "0BC89C"
+  ],
+  "jp": "出撃設定にできます",
+  "bytes": 20,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD864",
+  "slots": [
+   "03F95C",
+   "046034"
+  ],
+  "jp": "このパーティが戦闘を行います",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD882",
+  "slots": [
+   "03F918",
+   "045FF4"
+  ],
+  "jp": "修行中の為、出撃設定にはできません",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD8A6",
+  "slots": [
+   "03F92C",
+   "046008"
+  ],
+  "jp": "編成されていないので出撃設定にはできません",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD8D2",
+  "slots": [
+   "03F948",
+   "04601C"
+  ],
+  "jp": "パーティ名未設定の為、出撃設定できません",
+  "bytes": 42,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD8FC",
+  "slots": [
+   "03F8EC"
+  ],
+  "jp": "パーティ名を設定します",
+  "bytes": 24,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD914",
+  "slots": [
+   "0BC830",
+   "0BC83C",
+   "0BC848"
+  ],
+  "jp": "パーティ名を変更します",
+  "bytes": 24,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD92C",
+  "slots": [
+   "03F8D0"
+  ],
+  "jp": "修行中の為、名前の変更は行えません",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD950",
+  "slots": [
+   "0BC7E8",
+   "0BC7F4",
+   "0BC800"
+  ],
+  "jp": "パーティ編成を行います",
+  "bytes": 24,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD968",
+  "slots": [
+   "03F8A8"
+  ],
+  "jp": "修行中の為、編成は行えません",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD986",
+  "slots": [
+   "03F9DC",
+   "03FA08"
+  ],
+  "jp": "パーティに加えることができます",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD9A6",
+  "slots": [
+   "03FA0C"
+  ],
+  "jp": "位置変更／パーティから外せます",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD9C6",
+  "slots": [
+   "03F9C8"
+  ],
+  "jp": "修行中の為、操作は行えません",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD9E4",
+  "slots": [
+   "0B7980",
+   "0BCBFC",
+   "0BCC08",
+   "0BCC14"
+  ],
+  "jp": "アイテムの装備を行います",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CD9FE",
+  "slots": [
+   "04FF20"
+  ],
+  "jp": "アイテムの装備／解除を行います",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDA1E",
+  "slots": [
+   "02C0B8",
+   "04FF24"
+  ],
+  "jp": "このアイテムの装備変更は行えません",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDA42",
+  "slots": [
+   "02C0D0",
+   "02C0E8",
+   "04FFF4"
+  ],
+  "jp": "モンスターにアイテムを装備します",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDA64",
+  "slots": [
+   "02C0D4",
+   "04FFF8"
+  ],
+  "jp": "装備中のアイテムを外します",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDA80",
+  "slots": [
+   "04FFB0"
+  ],
+  "jp": "このモンスターには装備できません",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDAA2",
+  "slots": [
+   "0B7998",
+   "0B79A4",
+   "0B79B0",
+   "0B79BC",
+   "0B79C8",
+   "0B79D4",
+   "0B79E0",
+   "0B79EC",
+   "0B79F8",
+   "0B7A04",
+   "0B7A10",
+   "0B7A1C",
+   "0B7A28"
+  ],
+  "jp": "このパラメータを強化します",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDABE",
+  "slots": [
+   "0C4E04"
+  ],
+  "jp": "これがなくなるとダウンします",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDADC",
+  "slots": [
+   "0C4E08"
+  ],
+  "jp": "ダメージ時のスキが小さくなります",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDAFE",
+  "slots": [
+   "0C4E0C"
+  ],
+  "jp": "与えるダメージが大きくなります",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDB1E",
+  "slots": [
+   "0C4E10"
+  ],
+  "jp": "受けたダメージを軽減します",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDB3A",
+  "slots": [
+   "0C4E14"
+  ],
+  "jp": "移動するスピードが速くなります",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDB5A",
+  "slots": [
+   "0C4E18"
+  ],
+  "jp": "行動のムダな動作が減ります",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDB76",
+  "slots": [
+   "0C4E1C"
+  ],
+  "jp": "必殺技を行いやすくなります",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDB92",
+  "slots": [
+   "0C4E20"
+  ],
+  "jp": "反撃を行いやすくなります",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDBAC",
+  "slots": [
+   "0C4E24"
+  ],
+  "jp": "相性の良い敵を選ぶようになります",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDBCE",
+  "slots": [
+   "0C4E28"
+  ],
+  "jp": "命令に服従しやすくなります",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDBEA",
+  "slots": [
+   "0C4E2C"
+  ],
+  "jp": "攻撃が命中しやすくなります",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDC06",
+  "slots": [
+   "0C4E30"
+  ],
+  "jp": "攻撃を回避しやすくなります",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDC22",
+  "slots": [
+   "0C4E34"
+  ],
+  "jp": "捕獲の成功する確率がアップします",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDC44",
+  "slots": [
+   "0BC908"
+  ],
+  "jp": "データを保存します",
+  "bytes": 20,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDC58",
+  "slots": [
+   "0BC914",
+   "0BC9C8"
+  ],
+  "jp": "いままでのイベントを見ます",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDC74",
+  "slots": [
+   "0BC920",
+   "0BC9D4"
+  ],
+  "jp": "仲間にした事のあるモンスターなどを表示します",
+  "bytes": 46,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDCA2",
+  "slots": [
+   "0BC92C",
+   "0BC9E0"
+  ],
+  "jp": "サウンド関連の調整を行います",
+  "bytes": 30,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDCC0",
+  "slots": [
+   "0BC938",
+   "0BC9EC"
+  ],
+  "jp": "メッセージの表示スピードを変更します",
+  "bytes": 38,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDCE6",
+  "slots": [
+   "0BC944",
+   "0BC9F8"
+  ],
+  "jp": "自分のモンスターにマークをつけます",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDD0A",
+  "slots": [
+   "0BC950",
+   "0BCA04"
+  ],
+  "jp": "ヘルプの自動表示を行うか設定します",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDD2E",
+  "slots": [],
+  "jp": "出力タイプを選択します",
+  "bytes": 24,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDD46",
+  "slots": [
+   "0BC9B0",
+   "0BCA64"
+  ],
+  "jp": "音楽のＯＮ／ＯＦＦを設定します",
+  "bytes": 32,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDD66",
+  "slots": [
+   "0BC9BC",
+   "0BCA70"
+  ],
+  "jp": "効果音のＯＮ／ＯＦＦを設定します",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDD88",
+  "slots": [
+   "0BC974",
+   "0BC980",
+   "0BC98C",
+   "0BCA28",
+   "0BCA34",
+   "0BCA40"
+  ],
+  "jp": "データを保存するファイルを選択してください",
+  "bytes": 44,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDDB4",
+  "slots": [
+   "0BC998",
+   "0BCA4C"
+  ],
+  "jp": "見たいイベントを選択してください",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDDD6",
+  "slots": [
+   "0BC9A4",
+   "0BCA58"
+  ],
+  "jp": "閲覧モンスターを選択してください",
+  "bytes": 34,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDDF8",
+  "slots": [
+   "0BC968",
+   "0BCA1C"
+  ],
+  "jp": "全ての保存データのクリアを行います",
+  "bytes": 36,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE1C",
+  "slots": [
+   "0BC95C",
+   "0BCA10"
+  ],
+  "jp": "パスワードの削除を行います",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE38",
+  "slots": [
+   "053DFC"
+  ],
+  "jp": "前回の続きからはじめます",
+  "bytes": 26,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE52",
+  "slots": [
+   "053DF8"
+  ],
+  "jp": "セーブデータが存在しません",
+  "bytes": 28,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE6E",
+  "slots": [
+   "02F338"
+  ],
+  "jp": "０１２３４５６７８９",
+  "bytes": 22,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE84",
+  "slots": [],
+  "jp": "生命",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE8A",
+  "slots": [],
+  "jp": "耐久",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE90",
+  "slots": [],
+  "jp": "攻撃",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE96",
+  "slots": [],
+  "jp": "防御",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDE9C",
+  "slots": [],
+  "jp": "行動",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEA2",
+  "slots": [],
+  "jp": "知識",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEA8",
+  "slots": [],
+  "jp": "必殺技",
+  "bytes": 8,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEB0",
+  "slots": [],
+  "jp": "反撃",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEB6",
+  "slots": [],
+  "jp": "索敵",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEBC",
+  "slots": [],
+  "jp": "従順",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEC2",
+  "slots": [],
+  "jp": "命中",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDEC8",
+  "slots": [],
+  "jp": "回避",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0CDECE",
+  "slots": [],
+  "jp": "技能",
+  "bytes": 6,
+  "en": "",
+  "status": "todo"
+ }
+]

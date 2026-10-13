@@ -19,7 +19,7 @@ F11 = [
     'ロア王国ヴァダィーナ庭突然目前ザ',
     'ゴラミレ現ぞ▼【】』『ＢＧチェッ',
     '用Ａボタ進フイホドウあくメＬＶ以',
-    '上ノヘビブユハエグォ僕ご子息女■',
+    '上ノヘビブュハエグォ僕ご子息女■',
     '　ＣＤＥＦＨＩＪＫＭＮＯＰＱＲＳ',
     'ＴＵＷＸＹＺａｂｃｄｅｆｇｈｉｊ',
     'ｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ',
@@ -27,7 +27,7 @@ F11 = [
     'ひびぴふぶぷぺほぼぽむめもやゅゆ',
     'ょりろゥオカキギケゲコサジズセゼ',
     'ソゾヂツヅデニヌネパヒピプペポマ',
-    'モャヤュョヨヲ，．：；？／＼＋－',
+    'モャヤユョヨヲ，．：；？／＼＋－',
     '±×÷＝≠＜＞￥＄％＃＆＊＠（）',
     '→←↑↓”’［］＾＿｛｝｜゛゜￣',
     '┌─┐│└┘┬┴共巨大匹空天地血',
@@ -99,11 +99,35 @@ def rows_to_table(rows, extra_names):
     return lines, i
 
 
+GRID = 0x0CFB82   # name-entry grid: u16 glyph11 indices, 0x00AF = unused cell, 0x7FFF end
+GRID_EXTRA = {0x191: '支', 0x192: '配', 0x193: '常'}  # 8x8 font tiles past the grid's kanji (seen in VRAM)
+
+
+def grid_table(rom, f11):
+    """8x8 BG font (menus): tile index == name-entry grid index, so its table comes from the grid."""
+    import struct
+    lines, i = [], 0
+    while True:
+        c = struct.unpack_from('<H', rom, GRID + 2 * i)[0]
+        if c == 0x7FFF:
+            break
+        if c != 0xAF and i < 0x1A0:  # 0x1A0+ rows hold stray a-f markers, not font tiles
+            lines.append('%02X%02X=%s' % (i & 0xFF, i >> 8, r'\s' if f11[c] == ' ' else f11[c]))
+        i += 1
+    lines += ['%02X%02X=%s' % (i & 0xFF, i >> 8, ch) for i, ch in sorted(GRID_EXTRA.items())]
+    return lines
+
+
 if __name__ == '__main__':
-    out = Path(__file__).resolve().parent.parent / 'tbl'
+    root = Path(__file__).resolve().parent.parent
+    out = root / 'tbl'
     out.mkdir(exist_ok=True)
     for name, rows, n_expect, extra in (('jp11', F11, 685, {}), ('jp9', F9, 317, {})):
         lines, n = rows_to_table(rows, extra)
         assert n == n_expect, (name, n)
         (out / (name + '.tbl')).write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
         print(name, n, 'glyphs')
+    f11 = ''.join(F11)
+    lines = grid_table((root / 'rom' / 'mg_jp.gba').read_bytes(), f11)
+    (out / 'jp8.tbl').write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
+    print('jp8', len(lines), 'tiles')

@@ -29,7 +29,10 @@ Read it before ROM, text or QA work. `$S` below = `.claude/skills/translate-retr
 - Orders: Fight, Wait, Catch, Item, Flee, Guard, Swarm (button labels FIGHT/GUARD/.../ALL/ONE).
 
 ## Status (2026-10-14)
-- Done: story + ui9 + all 8x8 banks translated; 8x8 engine; names; default names Leo/Tina; title banner, 3 chapter
-  cards, class-name tiles, battle buttons.
-- Next: cold-boot QA of all screens (menus, shops, fusion, name entry kana grid -> Latin), story scene SFX graphics
-  (ゴゴゴ, ドガッ/バキッ), stat-help box in monster status (ui9 text cut), review of 8x8 batches, release.
+- Done: all text banks (story, ui9, m8 menu/shop/msg/itemdesc/stage/mobile/link/port), 8x8 engine, 523 name
+  fields, Leo/Tina, Latin keyboard, graphics (title, 3 cards, class tiles, buttons, 9 scene SFX), reviews (story,
+  m8 Critical/Important fixed). RC v1.0: `python -X utf8 tools/release.py 1.0` -> release/ (local, unpublished);
+  cold-boot tour to menu/map OK, 0 truncated strings.
+- Open: 17 m8 Minor review notes (work/review/m8.report.md); chapters 2-3 + shops/fusion/link/password screens
+  not toured in-emulator; free space 0x79B3C0 of 0x7A0000 (pair table at 0x7A0000).
+- Release command: `python -X utf8 tools/release.py VERSION`. Never publish without the user.

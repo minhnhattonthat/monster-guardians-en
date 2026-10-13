@@ -1239,7 +1239,11 @@
   "jp": "このパラメータを強化します",
   "bytes": 28,
   "en": "Raise this stat.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDABE",
@@ -1249,7 +1253,11 @@
   "jp": "これがなくなるとダウンします",
   "bytes": 30,
   "en": "At zero, the monster goes down.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDADC",
@@ -1259,7 +1267,11 @@
   "jp": "ダメージ時のスキが小さくなります",
   "bytes": 34,
   "en": "Less of an opening when hit.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDAFE",
@@ -1269,7 +1281,11 @@
   "jp": "与えるダメージが大きくなります",
   "bytes": 32,
   "en": "Deal more damage.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDB1E",
@@ -1279,7 +1295,11 @@
   "jp": "受けたダメージを軽減します",
   "bytes": 28,
   "en": "Reduce damage taken.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDB3A",
@@ -1289,7 +1309,11 @@
   "jp": "移動するスピードが速くなります",
   "bytes": 32,
   "en": "Move faster.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDB5A",
@@ -1299,7 +1323,11 @@
   "jp": "行動のムダな動作が減ります",
   "bytes": 28,
   "en": "Fewer wasted moves when acting.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDB76",
@@ -1309,7 +1337,11 @@
   "jp": "必殺技を行いやすくなります",
   "bytes": 28,
   "en": "Use Specials more easily.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDB92",
@@ -1319,7 +1351,11 @@
   "jp": "反撃を行いやすくなります",
   "bytes": 26,
   "en": "Counterattack more easily.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDBAC",
@@ -1328,8 +1364,12 @@
   ],
   "jp": "相性の良い敵を選ぶようになります",
   "bytes": 34,
-  "en": "Seek out enemies it matches up well against.",
-  "status": "done"
+  "en": "Picks foes it has the edge on.",
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDBCE",
@@ -1339,7 +1379,11 @@
   "jp": "命令に服従しやすくなります",
   "bytes": 28,
   "en": "Obey orders more readily.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDBEA",
@@ -1349,7 +1393,11 @@
   "jp": "攻撃が命中しやすくなります",
   "bytes": 28,
   "en": "Attacks hit more easily.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDC06",
@@ -1359,7 +1407,11 @@
   "jp": "攻撃を回避しやすくなります",
   "bytes": 28,
   "en": "Dodge attacks more easily.",
-  "status": "done"
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDC22",
@@ -1368,8 +1420,12 @@
   ],
   "jp": "捕獲の成功する確率がアップします",
   "bytes": 34,
-  "en": "Raise the chance of a successful capture.",
-  "status": "done"
+  "en": "Catches succeed more often.",
+  "status": "done",
+  "box": [
+   180,
+   1
+  ]
  },
  {
   "id": "0CDC44",

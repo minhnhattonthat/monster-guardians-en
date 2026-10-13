@@ -42,15 +42,19 @@ REGION = (0x0AE000, 0x0B6B00)   # monster/item/encounter records: names are 8-co
 def find_fields(orig, enc, names):
     """-> {offset: jp} for every zero-padded 8-code field holding a known name (longest names first; a match
     preceded by a name character is a suffix of a longer name and is skipped)."""
-    chars = {enc[c] for jp in names for c in jp}
+    def codes(s):
+        return struct.pack('<%dH' % len(s), *[enc[c] for c in s])
+
     found = {}
     for jp in sorted(names, key=len, reverse=True):
-        b = struct.pack('<%dH' % len(jp), *[enc[c] for c in jp])
+        b = codes(jp)
+        longer = [n for n in names if len(n) > len(jp) and n.endswith(jp)]
         i = orig.find(b, REGION[0], REGION[1])
         while i >= 0:
             pad = struct.unpack_from('<%dH' % (8 - len(jp)), orig, i + 2 * len(jp)) if len(jp) < 8 else ()
-            prev = struct.unpack_from('<H', orig, i - 2)[0]
-            if all(x == 0 for x in pad) and prev not in chars and i not in found:
+            # a suffix of a longer name (ゴーレム in ミニゴーレム) only when that longer name really is there
+            suffix = any(orig[i - 2 * (len(n) - len(jp)):i + len(b)] == codes(n) for n in longer)
+            if all(x == 0 for x in pad) and not suffix and i not in found:
                 found[i] = jp
             i = orig.find(b, i + 2, REGION[1])
     return found

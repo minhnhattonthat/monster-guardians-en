@@ -109,7 +109,7 @@ def m8_limit(e):
     return f'{nl} line(s) x {width} tiles, {budget} tiles total (1 char/tile normal, 2 chars/tile condensed)'
 
 
-def check_entry(bank, jp, en, font):
+def check_entry(bank, jp, en, font, entry=None):
     if bank.startswith('m8_'):
         return check_m8(jp, en)  # jp is the whole entry for 8x8 banks
     errs = []
@@ -126,11 +126,11 @@ def check_entry(bank, jp, en, font):
     if re.search(r'\{(name|word1:[0-9A-F]+|word2:[0-9A-F]+)\}(st|nd|rd|th)\b', en):
         errs.append('ordinal suffix glued to a variable')
     if bank == 'ui9':
-        cfg = insert.BANKS[bank]
-        toks = insert.layout(en, font, cfg['width'], 99, 72)
+        width, lines, _ = insert.box_of(bank, entry or {})
+        toks = insert.layout(en, font, width, 99, 72)
         nlines = 1 + sum(1 for k, v in toks if v == '{br}')
-        if nlines > cfg['lines']:
-            errs.append(f'{nlines} lines at {cfg["width"]}px (max {cfg["lines"]})')
+        if nlines > lines:
+            errs.append(f'{nlines} lines at {width}px (max {lines})')
     return errs
 
 
@@ -141,7 +141,8 @@ def vfont(bank):
 def check(batch, quiet=False):
     bank = bank_of(batch)
     meta = json.loads((TL / f'{batch}.meta.json').read_text(encoding='utf-8'))
-    jp = {e['id']: (e if bank.startswith('m8_') else e['jp']) for e in load_bank(bank)}
+    entries = {e['id']: e for e in load_bank(bank)}
+    jp = {i: (e if bank.startswith('m8_') else e['jp']) for i, e in entries.items()}
     font = vfont(bank)
     out, errs = read_out(batch)
     want = set(meta['ids'])
@@ -151,7 +152,7 @@ def check(batch, quiet=False):
         errs.append(f'{i}: not in batch')
     for i, en in out.items():
         if i in want:
-            errs += [f'{i}: {m}' for m in check_entry(bank, jp[i], en, font)]
+            errs += [f'{i}: {m}' for m in check_entry(bank, jp[i], en, font, entries.get(i))]
     if not quiet:
         print('\n'.join(errs) if errs else 'OK')
     return out, errs
@@ -185,7 +186,7 @@ def fix(bank, path):
                 errs.append(f'{i}: unknown id')
                 continue
             src = by_id[i] if bank.startswith('m8_') else by_id[i]['jp']
-            errs += [f'{i}: {m}' for m in check_entry(bank, src, en, font)]
+            errs += [f'{i}: {m}' for m in check_entry(bank, src, en, font, by_id[i])]
             rows[i] = en
     if errs:
         print('\n'.join(errs)); sys.exit('fix refused')

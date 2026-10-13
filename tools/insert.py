@@ -93,6 +93,16 @@ class Glyphs:
         struct.pack_into('<I', rom, self.struct + 8, romlib.BASE + off)
 
 
+def box_of(bank, e):
+    """(width px, lines, pad) for an entry: bank default, or the entry's 'box': [width, lines] (9px boxes wider
+    than the 11-cell help box, e.g. the one-line stat help in the monster status screen)."""
+    cfg = BANKS[bank]
+    if 'box' in e:
+        w, n = e['box']
+        return w, n, ((w // 10, cfg['pad'][1]) if cfg.get('pad') else None)
+    return cfg['width'], cfg['lines'], cfg.get('pad')
+
+
 def parse(text):
     """-> list of ('text', str) / ('ctl', '{...}')."""
     return [('ctl', p) if TOKEN.fullmatch(p) else ('text', p) for p in TOKEN.split(text) if p]
@@ -203,6 +213,7 @@ def build(out_path, marker=False, qa=None):
                 raise SystemExit(f'patch {off:06X}: expected {old:#x}')
             struct.pack_into(fmt, rom, off, new)
     default_names(rom, free)
+    keyboard(rom)
     qa = qa or {}
     stats = {}
     for bank, cfg in BANKS.items():
@@ -220,8 +231,11 @@ def build(out_path, marker=False, qa=None):
             if miss:
                 raise SystemExit(f'{bank} {e["id"]}: no glyph for {miss}')
             auto = bank == 'story' and AUTO[0] <= int(e['id'], 16) < AUTO[1]
-            tokens = layout(text, font, cfg['width'], cfg['lines'], NAME_CHARS * 12, auto)
-            codes = encode(tokens, font, glyphs, cfg.get('pad'))
+            width, lines, pad = box_of(bank, e)
+            tokens = layout(text, font, width, lines, NAME_CHARS * 12, auto)
+            if bank == 'ui9' and sum(v == '{clear}' for k, v in tokens) > text.count('{clear}'):
+                raise SystemExit(f'ui9 {e["id"]}: more than {lines} line(s) at {width}px')
+            codes = encode(tokens, font, glyphs, pad)
             off = free.put(struct.pack('<%dH' % len(codes), *codes), 2)
             for s in e['slots']:
                 struct.pack_into('<I', rom, int(s, 16), romlib.BASE + off)
@@ -251,6 +265,16 @@ def default_names(rom, free):
             struct.pack_into('<I', rom, s, romlib.BASE + off)
     tina = [enc[menu8.ASCII[c]] for c in HEROINE[1]]
     struct.pack_into('<4H', rom, HEROINE[0], *tina)
+
+
+KEYBOARD = 0x0BCC44   # name entry: 3 pages x 228 u16 codes (hiragana, katakana, Latin)
+
+
+def keyboard(rom):
+    """Kana tiles are reused by the pair cache and names must stay Latin: every page becomes the Latin page."""
+    latin = rom[KEYBOARD + 2 * 456:KEYBOARD + 2 * 684]
+    rom[KEYBOARD:KEYBOARD + 2 * 228] = latin
+    rom[KEYBOARD + 2 * 228:KEYBOARD + 2 * 456] = latin
 
 
 ASM_AT = 0x7A0000   # asm/menu8.asm code + pair tiles (296 KB) up to ROM end

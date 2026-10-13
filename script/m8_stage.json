@@ -1809,7 +1809,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0C6DD0",
@@ -1818,7 +1818,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0C6DD4",
@@ -1860,6 +1860,6 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  }
 ]

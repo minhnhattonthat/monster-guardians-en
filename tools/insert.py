@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import menu8  # noqa: E402
 import romlib  # noqa: E402
 import vwf  # noqa: E402
 
@@ -211,6 +212,7 @@ def build(out_path, marker=False, qa=None):
             done += 1
         glyphs.commit(rom, free)
         stats[bank] = (done, len(glyphs.index))
+    stats['menu8'] = menu8.build(rom, marker)
     Path(out_path).parent.mkdir(exist_ok=True)
     Path(out_path).write_bytes(rom)
     for bank, (n, cells) in stats.items():

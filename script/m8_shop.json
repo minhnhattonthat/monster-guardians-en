@@ -165,7 +165,7 @@
   "len": 384,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A85F4",
@@ -176,7 +176,7 @@
   "len": 6,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8600",
@@ -187,7 +187,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8608",
@@ -238,7 +238,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8620",
@@ -247,7 +247,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8624",
@@ -259,7 +259,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8628",
@@ -268,7 +268,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A862C",
@@ -277,7 +277,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8630",
@@ -286,7 +286,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8634",
@@ -307,7 +307,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8640",
@@ -321,7 +321,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8644",
@@ -333,7 +333,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A864C",
@@ -347,7 +347,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8650",
@@ -359,7 +359,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8658",
@@ -371,7 +371,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A865C",
@@ -529,7 +529,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8860",
@@ -540,7 +540,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8864",
@@ -579,7 +579,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8878",
@@ -588,7 +588,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A887C",
@@ -599,7 +599,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8880",
@@ -608,7 +608,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8884",
@@ -617,7 +617,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8888",
@@ -626,7 +626,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A888C",
@@ -725,7 +725,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8988",
@@ -736,7 +736,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A898C",
@@ -967,7 +967,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CC4",
@@ -978,7 +978,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CC8",
@@ -1017,7 +1017,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CDC",
@@ -1026,7 +1026,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CE0",
@@ -1037,7 +1037,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CE4",
@@ -1046,7 +1046,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CE8",
@@ -1055,7 +1055,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CEC",
@@ -1064,7 +1064,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CF0",
@@ -1085,7 +1085,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8CFC",
@@ -1097,7 +1097,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8D00",
@@ -1187,7 +1187,7 @@
   "len": 12,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8E00",
@@ -1198,7 +1198,7 @@
   "len": 39,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8E50",
@@ -1209,7 +1209,7 @@
   "len": 39,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8EA0",
@@ -1220,7 +1220,7 @@
   "len": 39,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8EF0",
@@ -1231,7 +1231,7 @@
   "len": 37,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8F3C",
@@ -1240,7 +1240,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8F44",
@@ -1249,7 +1249,7 @@
   "len": 4,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8F4E",
@@ -1291,7 +1291,7 @@
   "len": 30,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8FEC",
@@ -1302,7 +1302,7 @@
   "len": 30,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A902A",
@@ -1707,7 +1707,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A9690",
@@ -1771,6 +1771,6 @@
   "len": 0,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  }
 ]

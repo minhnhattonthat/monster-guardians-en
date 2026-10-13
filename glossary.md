@@ -66,6 +66,37 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 修行中 / 出撃設定 | in training / set for sortie | | | |
 | 岩の番人 / 森の先住者 / 蘇った武士 | rock guardians / forest natives / risen warriors | | | |
 
+## Monsters (no official English; draft 2026-10-14, keep exactly)
+| JP | EN | JP | EN | JP | EN |
+|---|---|---|---|---|---|
+| ゴブリン | Goblin | ゴブリンフライ | Goblin Fly | オーク | Orc |
+| ホブゴブリン | Hobgoblin | ドラゴンマン | Dragonman | ゴブテンペスト | Gob Tempest |
+| ゴブガリー | Gobgary | バードマン | Birdman | ノーム | Gnome |
+| ハイエルフ | High Elf | ドラゴンバード | Dragonbird | バーペスト | Barpest |
+| ハイウイング | High Wing | エルフ | Elf | ゴーレム | Golem |
+| ミニゴーレム | Mini Golem | ゴーレムライト | Golem Light | フライゴーレム | Fly Golem |
+| ドラゴンゴーレム | Dragon Golem | ゴーペスト | Gopest | ガリゴーレム | Gari Golem |
+| ミノタウロス | Minotaur | ミニミノタウロス | Mini Minotaur | ローンタウロス | Lone Taurus |
+| フライングミノ | Flying Mino | ミノドラゴン | Minodragon | ロードミノ | Lord Mino |
+| ミノガリズーント | Mino Garizunt | グリフォン | Griffon | ミニグリフォン | Mini Griffon |
+| ビッググリフォン | Big Griffon | フットグリフォン | Foot Griffon | ドラグリフォン | Dragriffon |
+| グリテンペスト | Gri Tempest | ガリグリフォン | Gari Griffon | ムシャ | Musha |
+| カラステング | Karasu Tengu | ドラゴンザムライ | Dragon Samurai | テンムシャ | Ten Musha |
+| ガリムシャ | Gari Musha | グレムリン | Gremlin | イビル | Evil |
+| デーモン | Demon | デビルドラゴン | Devil Dragon | ムールク | Muurk |
+| ガリグレ | Garigre | ホワイトドラゴン | White Dragon | ファイアドラゴン | Fire Dragon |
+| アースドラゴン | Earth Dragon | ブラックドラゴン | Black Dragon | ブルードラゴン | Blue Dragon |
+| ウインドドラゴン | Wind Dragon | ミニドラゴン | Mini Dragon | セカンドドラゴン | Second Dragon |
+| ハイドラゴン | High Dragon | ドラテンペスト | Dra Tempest | ビジョンドラゴン | Vision Dragon |
+| テンペスト | Tempest | ミニテン | Mini Ten | ダイテンペスト | Dai Tempest |
+| スカイテンペスト | Sky Tempest | ガリズーント | Garizunt | ミニガリズーント | Mini Garizunt |
+| チーフガリズント | Chief Garizunt | ビッグガリン | Big Garin | ドラガリズーント | Dragarizunt |
+| ベヒーモス | Behemoth | ファーブニル | Fafnir | リトルガウ | Little Gau |
+| メインガウ | Main Gau | ヘビーガウ | Heavy Gau | ビュアリー | Beaury |
+| リンビュアリー | Linbeaury | メインビュアリー | Main Beaury | チンビュアリー | Chinbeaury |
+| こあくま | Imp | ゼラートドラゴン | Zerat Dragon | ヨクジン | Yokujin |
+| たまご / タマゴ | Egg | | | | |
+
 ## Decisions from earlier batches
 - ui01: 9px boxes hold 2 lines x 11 cells and cannot page; clear conditions use an inline "Goal:" header
   instead of "[Clear Condition]" so the objective keeps its full meaning.

@@ -16,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import insert  # noqa: E402
+import menu8  # noqa: E402
 import romlib  # noqa: E402
 import vwf  # noqa: E402
 
@@ -44,7 +45,9 @@ def controls(text):
 
 def split(bank, ids=None, chars=3500, prefix=None):
     TL.mkdir(parents=True, exist_ok=True)
-    todo = [e for e in load_bank(bank) if e['slots'] and e['status'] == 'todo' and not e['en']]
+    # 8x8 packed strings are often reached by base+offset, so unreferenced ones are translated too
+    todo = [e for e in load_bank(bank) if (e['slots'] or bank.startswith('m8_'))
+            and e['status'] == 'todo' and not e['en']]
     if ids:
         lo, hi = (int(x, 16) for x in ids.split('-'))
         todo = [e for e in todo if lo <= int(e['id'], 16) <= hi]
@@ -59,7 +62,8 @@ def split(bank, ids=None, chars=3500, prefix=None):
     existing = len(list(TL.glob(f'{prefix}*.meta.json')))
     for i, b in enumerate(batches, existing + 1):
         name = f'{prefix}{i:02d}'
-        lines = [f"{e['id']}\t{'narration'}\t{LIMITS[bank]}\t{e['jp']}" for e in b]
+        lines = [f"{e['id']}\t{'menu' if bank.startswith('m8_') else 'narration'}\t"
+                 f"{m8_limit(e) if bank.startswith('m8_') else LIMITS[bank]}\t{e['jp']}" for e in b]
         (TL / f'{name}.tsv').write_text('\n'.join(lines) + '\n', encoding='utf-8', newline='\n')
         (TL / f'{name}.meta.json').write_text(json.dumps({'bank': bank, 'ids': [e['id'] for e in b]}),
                                               encoding='utf-8', newline='\n')
@@ -81,7 +85,33 @@ def read_out(batch):
     return out, errs
 
 
+def check_m8(e, en):
+    """8x8 menu text: ASCII, same palette codes, fits in place (normal or condensed)."""
+    errs = []
+    if '\t' in en or '\\u' in en:
+        errs.append('tab or \\u escape')
+    bad = sorted({c for c in en if ord(c) > 0x7E or ord(c) < 0x20})
+    if bad:
+        errs.append(f'non-ASCII {bad}')
+    if controls(e['jp']) != controls(en):
+        errs.append(f'controls differ: jp {sorted(controls(e["jp"]).elements())} en {sorted(controls(en).elements())}')
+    _, enc = romlib.load_table('jp8')
+    import font8
+    try:
+        menu8.encode_en(en, *menu8.limits(e), enc, None, set(font8.ARTS))
+    except ValueError as err:
+        errs.append(str(err))
+    return errs
+
+
+def m8_limit(e):
+    budget, width, nl = menu8.limits(e)
+    return f'{nl} line(s) x {width} tiles, {budget} tiles total (1 char/tile normal, 2 chars/tile condensed)'
+
+
 def check_entry(bank, jp, en, font):
+    if bank.startswith('m8_'):
+        return check_m8(jp, en)  # jp is the whole entry for 8x8 banks
     errs = []
     if '\t' in en or '\\u' in en:
         errs.append('tab or \\u escape')
@@ -104,11 +134,15 @@ def check_entry(bank, jp, en, font):
     return errs
 
 
+def vfont(bank):
+    return None if bank.startswith('m8_') else vwf.Font(insert.BANKS[bank]['font'])
+
+
 def check(batch, quiet=False):
     bank = bank_of(batch)
     meta = json.loads((TL / f'{batch}.meta.json').read_text(encoding='utf-8'))
-    jp = {e['id']: e['jp'] for e in load_bank(bank)}
-    font = vwf.Font(insert.BANKS[bank]['font'])
+    jp = {e['id']: (e if bank.startswith('m8_') else e['jp']) for e in load_bank(bank)}
+    font = vfont(bank)
     out, errs = read_out(batch)
     want = set(meta['ids'])
     for i in sorted(want - set(out)):
@@ -142,7 +176,7 @@ def fix(bank, path):
     """Apply reviewed replacements (id<TAB>en lines) to one bank, with the same per-entry checks."""
     entries = load_bank(bank)
     by_id = {e['id']: e for e in entries}
-    font = vwf.Font(insert.BANKS[bank]['font'])
+    font = vfont(bank)
     errs, rows = [], {}
     for line in Path(path).read_text(encoding='utf-8-sig').splitlines():
         if line.strip():
@@ -150,7 +184,8 @@ def fix(bank, path):
             if i not in by_id:
                 errs.append(f'{i}: unknown id')
                 continue
-            errs += [f'{i}: {m}' for m in check_entry(bank, by_id[i]['jp'], en, font)]
+            src = by_id[i] if bank.startswith('m8_') else by_id[i]['jp']
+            errs += [f'{i}: {m}' for m in check_entry(bank, src, en, font)]
             rows[i] = en
     if errs:
         print('\n'.join(errs)); sys.exit('fix refused')

@@ -438,7 +438,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD4EC",
@@ -449,7 +449,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD4F4",
@@ -471,7 +471,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD502",
@@ -493,7 +493,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD512",
@@ -504,7 +504,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD51A",
@@ -515,7 +515,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD522",
@@ -526,7 +526,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD52A",
@@ -538,7 +538,7 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0BD532",
@@ -698,7 +698,8 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "special",
+  "notes": "default hero/heroine name: handled by tools"
  },
  {
   "id": "0BD5AA",
@@ -712,7 +713,8 @@
   "len": 4,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "special",
+  "notes": "default hero/heroine name: handled by tools"
  },
  {
   "id": "0BD5B2",

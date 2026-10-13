@@ -4,20 +4,32 @@ Skill: translate-retro-game (H:/translation/monster-guardians/.claude/skills/tra
 Read it before ROM, text or QA work. `$S` below = `.claude/skills/translate-retro-game/scripts`.
 
 ## Commands (repo root; `python`, never `python3`)
-- Tables:  `python -X utf8 tools/mktbl.py` -> tbl/jp11.tbl, tbl/jp9.tbl (glyph rows live in mktbl.py)
-- Fonts:   `python -X utf8 tools/font.py sheet rom/mg_jp.gba out.png --font 11|9 --start N --count 64`
+- Build:   `python -X utf8 tools/insert.py` -> build/mg_en.gba (`--marker`, `--qa ID=TEXT`, `--width BANK=PX`).
+  Runs: story/ui9 VWF cells, 8x8 menu text (tools/menu8.py), name fields (tools/records.py), graphics jobs
+  (tools/gfx.py), then armips asm/menu8.asm (tools/armips/armips.exe, gitignored).
 - Check:   `python -X utf8 tools/check.py` (unittest + lint; the pre-commit hook runs this)
-- Smoke:   `python -X utf8 $S/emu.py <rom> --out work/qa/smoke --frames 3000 --shot-every 300 --sheet --smoke`
+- Batches: `python -X utf8 tools/batches.py split|check|merge|fix ...` (work/tl/; briefs docs/translator-brief*.md)
+- Extract: `tools/dump.py` (story, ui9), `tools/menu8.py dump` (8x8 banks); tables `tools/mktbl.py`.
+- Smoke:   `python -X utf8 $S/emu.py build/mg_en.gba --out work/qa/smoke --frames 3000 --shot-every 300 --sheet --smoke`
+- Cold tour: `--route tools/routes/newgame.txt --frames 40000 --mash 40 --mash-key a` (title ~f9840, menu ~f36000).
+  `tools/lua/textlog.lua` + `tools/textcheck.py` = story strings cut off by timed scenes.
 
 ## Paths
-- JP ROM `rom/mg_jp.gba` (copy of the No-Intro dump, gitignored). Mesen `tools/mesen2/` (+ Firmware/gba_bios.bin,
-  gitignored): **QA in Mesen** (user ruling). QA output `work/qa/`, savestates `work/states/`.
-- RE notes: `docs/re/README.md` (fonts, encoding, control codes, text ranges). Glossary + rulings: `glossary.md`.
+- JP ROM `rom/mg_jp.gba` (No-Intro, CRC 93815CDE). Mesen `tools/mesen2/` + Firmware/gba_bios.bin: **QA in Mesen**.
+- Text: `script/story.json` (11px), `ui9.json` (9px), `m8_*.json` (8x8), `names.json` (monster/item names).
+- RE notes: `docs/re/README.md` (fonts, story/ui9), `docs/re/menu8.md` (8x8 engine + pair cache),
+  `docs/graphics.md` (graphics survey). Glossary + rulings: `glossary.md`. Style: `docs/style-reference.md`.
+- Savestates: `work/states/` (menu.mss, stage1_select.mss, battle1_start.mss: made with older builds - VRAM in
+  states keeps old graphics/text; cold boot to verify graphics).
 
 ## Rulings
-- Edit source files only with the file-edit tool. Honorifics dropped, Western name order, official names else
-  Hepburn, credits English, all graphics text in scope, no abbreviations. Pre-approved: report at the end.
+- Edit source files only with the file-edit tool. Honorifics dropped, Western order, official names else Hepburn,
+  credits English, all graphics text in scope, no abbreviations (engine work instead), pre-approved (report at end).
+- 8x8 text: user chose engine work: condensed pair codes + run-time tile cache (docs/re/menu8.md).
+- Orders: Fight, Wait, Catch, Item, Flee, Guard, Swarm (button labels FIGHT/GUARD/.../ALL/ONE).
 
-## Status
-- Done: Step 0, recon of text system (both fonts decoded, control codes mapped).
-- Next: graphics-text survey, extract/identity build, pre-rendered proportional cells for English (see notes).
+## Status (2026-10-14)
+- Done: story + ui9 + all 8x8 banks translated; 8x8 engine; names; default names Leo/Tina; title banner, 3 chapter
+  cards, class-name tiles, battle buttons.
+- Next: cold-boot QA of all screens (menus, shops, fusion, name entry kana grid -> Latin), story scene SFX graphics
+  (ゴゴゴ, ドガッ/バキッ), stat-help box in monster status (ui9 text cut), review of 8x8 batches, release.

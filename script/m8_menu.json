@@ -313,8 +313,9 @@
   "jp": "かいひ",
   "len": 3,
   "term": false,
-  "en": "Evade",
-  "status": "done"
+  "en": "Evasion",
+  "status": "done",
+  "reloc": 4
  },
  {
   "id": "0BD468",
@@ -571,8 +572,9 @@
   "jp": "ミズ",
   "len": 2,
   "term": false,
-  "en": "Aqua",
-  "status": "done"
+  "en": "Water",
+  "status": "done",
+  "reloc": 3
  },
  {
   "id": "0BD542",
@@ -648,8 +650,9 @@
   "jp": "大地のイグニス",
   "len": 7,
   "term": false,
-  "en": "Earth Ignis",
-  "status": "done"
+  "en": "Earth Dragon Ignis",
+  "status": "done",
+  "reloc": 9
  },
  {
   "id": "0BD57A",
@@ -1624,7 +1627,7 @@
   "jp": "ホカクがせいこうしやすくなりますへんせいされていませんしようできるめいれい",
   "len": 37,
   "term": false,
-  "en": "Captures succeed more easily.   Not in a formation    Usable Orders",
+  "en": "Catches succeed more easily.   Not in a formation    Usable Orders",
   "status": "done"
  },
  {
@@ -2128,7 +2131,7 @@
   "jp": "モンスターじてん",
   "len": 8,
   "term": false,
-  "en": "Bestiary",
+  "en": "Monster Book",
   "status": "done"
  },
  {

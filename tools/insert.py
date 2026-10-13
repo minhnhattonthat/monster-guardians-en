@@ -229,7 +229,7 @@ def build(out_path, marker=False, qa=None):
         glyphs.commit(rom, free)
         stats[bank] = (done, len(glyphs.index))
     stats['gfx'] = (gfx.apply_all(rom, free), 0)
-    n8, pool, kept = menu8.build(rom, marker)
+    n8, pool, kept = menu8.build(rom, marker, free)
     n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1])[0])
     Path(out_path).parent.mkdir(exist_ok=True)
     Path(out_path).write_bytes(rom)

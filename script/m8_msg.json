@@ -18,7 +18,7 @@
   "jp": "は、",
   "len": 2,
   "term": true,
-  "en": ", up",
+  "en": " on ",
   "status": "done"
  },
  {
@@ -29,7 +29,7 @@
   "jp": "Ｆにいる/",
   "len": 5,
   "term": true,
-  "en": " floors,/",
+  "en": "F:/",
   "status": "done"
  },
  {
@@ -40,7 +40,7 @@
   "jp": "のパーティにたおされました。",
   "len": 14,
   "term": true,
-  "en": "'s party defeated them.",
+  "en": "'s party beat them.",
   "status": "done"
  },
  {
@@ -91,7 +91,7 @@
   "jp": "はレベル",
   "len": 4,
   "term": true,
-  "en": ": Level",
+  "en": ": Level ",
   "status": "done"
  },
  {
@@ -102,7 +102,7 @@
   "jp": "になりました。",
   "len": 7,
   "term": true,
-  "en": " reached.",
+  "en": " reached!",
   "status": "done"
  },
  {
@@ -113,7 +113,7 @@
   "jp": "をほかくしました。",
   "len": 9,
   "term": true,
-  "en": " was captured.",
+  "en": " was caught.",
   "status": "done"
  },
  {
@@ -256,7 +256,7 @@
   "jp": "ふ～ん、じゃあこの",
   "len": 9,
   "term": true,
-  "en": "Hmm, then this",
+  "en": "Hmm, then this ",
   "status": "done"
  },
  {
@@ -339,7 +339,7 @@
   "jp": "やればできるじゃない。/ちょっと",
   "len": 16,
   "term": false,
-  "en": "See, you can do it!/I see",
+  "en": "See, you can do it!/I think a ",
   "status": "done"
  },
  {
@@ -350,7 +350,7 @@
   "jp": "はみなおしたかな。",
   "len": 9,
   "term": true,
-  "en": " in a new light.",
+  "en": "bit better of you.",
   "status": "done"
  },
  {

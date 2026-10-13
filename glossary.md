@@ -97,6 +97,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | こあくま | Imp | ゼラートドラゴン | Zerat Dragon | ヨクジン | Yokujin |
 | たまご / タマゴ | Egg | | | | |
 
+## Menu terms (8x8)
+| JP | EN | notes | Avoid |
+|---|---|---|---|
+| モンスターじてん | Monster Book | | Bestiary |
+| でんせつ カゼ ミズ ホノオ ダイチ シンセイ アンコク | Legend Wind Water Fire Earth Holy Dark | elements | Aqua |
+| かいひ (stat) | Evasion | | Evade |
+| ほんきょち | Home Base | | |
+
 ## Decisions from earlier batches
 - ui01: 9px boxes hold 2 lines x 11 cells and cannot page; clear conditions use an inline "Goal:" header
   instead of "[Clear Condition]" so the objective keeps its full meaning.

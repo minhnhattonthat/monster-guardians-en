@@ -142,7 +142,9 @@ def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None):
 
 
 def limits(e):
-    """(budget codes, line width tiles, lines) for an entry: in place, JP geometry."""
+    """(budget codes, line width tiles, lines) for an entry: in place, JP geometry; 'reloc': N = moved label."""
+    if e.get('reloc'):
+        return e['reloc'], e['reloc'], 1
     ls = lines_of(e['jp'])
     return e['len'], max(plain_len(TOKEN.sub('x', l)) for l in ls), len(ls)
 
@@ -178,7 +180,7 @@ def strncpy_targets(rom, code_end=0x0A0000):
     return out
 
 
-def build(rom, marker=False):
+def build(rom, marker=False, free=None):
     """Write translated 8x8 strings in place; -> (strings written, cache pool, codes still used by Japanese).
     The caller assembles asm/menu8.asm with pairs_bin() and the pool (FREE_CODES minus codes Japanese still uses)."""
     import font8
@@ -203,6 +205,15 @@ def build(rom, marker=False):
                 codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars)
             except ValueError as err:
                 raise SystemExit(f'm8_{bank} {e["id"]}: {err}')
+            if e.get('reloc'):
+                # label from a (pointer, u16 length) table: moved to free space, every slot + length repointed
+                off = free.put(struct.pack('<%dH' % (len(codes) + 1), *codes, 0), 2)
+                for s in e['slots']:
+                    s = int(s, 16)
+                    struct.pack_into('<I', rom, s, romlib.BASE + off)
+                    struct.pack_into('<H', rom, s + 4, len(codes))
+                n += 1
+                continue
             pad = [0] if e['term'] or int(e['id'], 16) in zero_pad else []
             codes += (pad + [SPACE] * budget)[:budget - len(codes)]
             off = int(e['id'], 16)

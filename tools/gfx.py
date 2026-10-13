@@ -211,7 +211,22 @@ def job_cards(rom, free=None, preview=None):
         sheet.save(preview)
 
 
-JOBS = {'title': job_title, 'cards': job_cards}
+CLASS_TILES = [   # 8x8 font tiles 0x1A0-0x1BF: pre-drawn class names, 4 tiles each
+    'Minotaur', 'Griffon', 'Gremlin', 'Tempest', 'Garizunt', 'Behemoth', 'Fafnir', 'Legend']
+
+
+def job_class_tiles(rom, free=None, preview=None):
+    import font8
+    for k, name in enumerate(CLASS_TILES):
+        text = name.center(8)
+        for i in range(4):
+            code = 0x1A0 + k * 4 + i
+            tile = font8.tile_bytes(font8.pair_pixels(text[2 * i], text[2 * i + 1]))
+            if not preview:
+                rom[font8.FONT8 + code * 32:font8.FONT8 + code * 32 + 32] = tile
+
+
+JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles}
 
 
 def apply_all(rom, free):

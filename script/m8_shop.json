@@ -6,7 +6,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A7FFC",
@@ -17,8 +17,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A8004",
@@ -29,8 +29,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0A800C",
@@ -40,8 +40,8 @@
   "jp": "で、なにがほしいんだ？",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "So, what'll you have?",
+  "status": "done"
  },
  {
   "id": "0A8024",
@@ -51,8 +51,8 @@
   "jp": "このアイテムでいいんだな？",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "This item, right?",
+  "status": "done"
  },
  {
   "id": "0A8040",
@@ -62,8 +62,8 @@
   "jp": "なんだ、かねがないじゃないか。/かねをもってないものには、しょうひんはうれんな。",
   "len": 40,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "What? You haven't got the money!/No money, no merchandise.",
+  "status": "done"
  },
  {
   "id": "0A8092",
@@ -73,8 +73,8 @@
   "jp": "これだな。ホラ、うけとれ。",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "This one? Here, take it.",
+  "status": "done"
  },
  {
   "id": "0A80AE",
@@ -84,8 +84,8 @@
   "jp": "どのアイテムをうってくれるんだ？",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Which item are you selling me?",
+  "status": "done"
  },
  {
   "id": "0A80D0",
@@ -95,8 +95,8 @@
   "jp": "そのアイテムだな。/そいつのかいとりかかくは",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "That item, huh?/I'll give you ",
+  "status": "done"
  },
  {
   "id": "0A80FE",
@@ -106,8 +106,8 @@
   "jp": "Ｇになるが、/どうだ？",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " Gold./Deal?",
+  "status": "done"
  },
  {
   "id": "0A8116",
@@ -117,8 +117,8 @@
   "jp": "おっと、これいじょうおかねをもちきれそうにないな。/もちきれるぶんだけしはらうが、それでもいいな？",
   "len": 49,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Whoa, you can't carry any more money./I'll pay only what you can hold. That OK?",
+  "status": "done"
  },
  {
   "id": "0A817A",
@@ -129,8 +129,8 @@
   "jp": "う　る",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sell",
+  "status": "done"
  },
  {
   "id": "0A8182",
@@ -141,8 +141,8 @@
   "jp": "えらびなおす",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose again",
+  "status": "done"
  },
  {
   "id": "0A8190",
@@ -152,8 +152,8 @@
   "jp": "ん？　そのアイテムは、/しゅぎょうちゅうのモンスターがみにつけてるようだな。/それはひきとれんぞ。",
   "len": 49,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? That item's being worn/by a monster out training./I can't take that.",
+  "status": "done"
  },
  {
   "id": "0A81F4",
@@ -199,7 +199,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A860C",
@@ -211,7 +211,7 @@
   "len": 2,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8614",
@@ -220,7 +220,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8618",
@@ -229,7 +229,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A861C",
@@ -295,7 +295,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8638",
@@ -382,8 +382,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A8664",
@@ -394,8 +394,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0A866C",
@@ -405,8 +405,8 @@
   "jp": "ほしいのは、どのモンスターだ？",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Which monster do you want?",
+  "status": "done"
  },
  {
   "id": "0A868C",
@@ -416,8 +416,8 @@
   "jp": "こいつでいいのか？",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "This one?",
+  "status": "done"
  },
  {
   "id": "0A86A0",
@@ -427,8 +427,8 @@
   "jp": "ん？　かねがたらんようだな。/それじゃあ、うることはできんぞ。/ま、こっちもしょうばいだからな。",
   "len": 48,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? Not enough money, eh?/Then I can't sell to you./This is my living, after all.",
+  "status": "done"
  },
  {
   "id": "0A8702",
@@ -438,8 +438,8 @@
   "jp": "そら、きちんとせわしてやれよ。",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "There. Take good care of it.",
+  "status": "done"
  },
  {
   "id": "0A8722",
@@ -449,8 +449,8 @@
   "jp": "どのモンスターをひきとってほしいんだ？",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Which monster should I take in?",
+  "status": "done"
  },
  {
   "id": "0A874A",
@@ -460,8 +460,8 @@
   "jp": "どれどれ．．．ふむ、そいつか。/そいつなら",
   "len": 21,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Let's see... Hm, that one./I'll give you ",
+  "status": "done"
  },
  {
   "id": "0A8776",
@@ -471,8 +471,8 @@
   "jp": "Ｇでひきとってやるが、/それでもいいか？",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " Gold for it./That all right?",
+  "status": "done"
  },
  {
   "id": "0A87A0",
@@ -482,8 +482,8 @@
   "jp": "ふむ、どうやらおかねがいっぱいのようだな。/もちきれないぶんのしはらいはできんが、/それでもいいか？",
   "len": 50,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hm, looks like your purse is full./I can't pay what you can't carry./That all right?",
+  "status": "done"
  },
  {
   "id": "0A8806",
@@ -494,8 +494,8 @@
   "jp": "う　る",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sell",
+  "status": "done"
  },
  {
   "id": "0A880E",
@@ -506,8 +506,8 @@
   "jp": "えらびなおす",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose again",
+  "status": "done"
  },
  {
   "id": "0A881C",
@@ -517,8 +517,8 @@
   "jp": "おおっと、/しゅぎょうにでているモンスターはひきとれんぞ。",
   "len": 29,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Whoa there,/I won't take monsters out training.",
+  "status": "done"
  },
  {
   "id": "0A8858",
@@ -552,7 +552,7 @@
   "len": 2,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A886C",
@@ -561,7 +561,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8870",
@@ -570,7 +570,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8874",
@@ -635,7 +635,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8890",
@@ -646,8 +646,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A8898",
@@ -658,8 +658,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0A88A0",
@@ -669,8 +669,8 @@
   "jp": "ほしいアイテムをえらんでください。",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose the item you want.",
+  "status": "done"
  },
  {
   "id": "0A88C4",
@@ -680,8 +680,8 @@
   "jp": "このアイテムがほしいんだね？",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You want this item, right?",
+  "status": "done"
  },
  {
   "id": "0A88E2",
@@ -691,8 +691,8 @@
   "jp": "アイテムがとうちゃくしたよ。/ハイこれ、ちゃんとわたしたからね！",
   "len": 32,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Your item has arrived!/Here it is. Delivered, okay?",
+  "status": "done"
  },
  {
   "id": "0A8924",
@@ -702,8 +702,8 @@
   "jp": "アイテムのこうにゅうをキャンセルしました。",
   "len": 21,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Item purchase canceled.",
+  "status": "done"
  },
  {
   "id": "0A8950",
@@ -713,8 +713,8 @@
   "jp": "あ、あと、ほんきょちでセーブするのをわすれずに。",
   "len": 24,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Oh, and don't forget to save at your base.",
+  "status": "done"
  },
  {
   "id": "0A8984",
@@ -746,8 +746,8 @@
   "jp": "なにかごようですか？",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "May I help you?",
+  "status": "done"
  },
  {
   "id": "0A89A2",
@@ -757,8 +757,8 @@
   "jp": "しゅぎょうにだす",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Send to Training",
+  "status": "done"
  },
  {
   "id": "0A89B4",
@@ -768,8 +768,8 @@
   "jp": "しゅぎょうのかくにん",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Check Training",
+  "status": "done"
  },
  {
   "id": "0A89CA",
@@ -779,8 +779,8 @@
   "jp": "モンスターのつうはん",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monster Mail Order",
+  "status": "done"
  },
  {
   "id": "0A89E0",
@@ -790,8 +790,8 @@
   "jp": "アイテムのつうはん",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Item Mail Order",
+  "status": "done"
  },
  {
   "id": "0A89F4",
@@ -801,8 +801,8 @@
   "jp": "みなとをでる",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Leave Port",
+  "status": "done"
  },
  {
   "id": "0A8A02",
@@ -812,8 +812,8 @@
   "jp": "ええっと．．．/しゅぎょうにいけるパーティがないみたい。",
   "len": 28,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Um.../No party can go training, it seems.",
+  "status": "done"
  },
  {
   "id": "0A8A3C",
@@ -823,8 +823,8 @@
   "jp": "だれもしゅぎょうになんかいってないよ！/だからみにいくひつよう、なしなし。",
   "len": 37,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Nobody's out training!/So no need to go look. Nope, nope.",
+  "status": "done"
  },
  {
   "id": "0A8A88",
@@ -834,8 +834,8 @@
   "jp": "なんか、モンスターがいっぱいなんで/これいじょうはむりみたいです。",
   "len": 33,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You've got too many monsters,/so no more, I'm afraid.",
+  "status": "done"
  },
  {
   "id": "0A8ACC",
@@ -845,8 +845,8 @@
   "jp": "えっ？　だめだめ！/アイテムいっぱいもってるじゃない。/それいじょうもてないでしょ。",
   "len": 42,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Huh? No, no!/You've got a full load of items./You can't hold any more.",
+  "status": "done"
  },
  {
   "id": "0A8B22",
@@ -856,8 +856,8 @@
   "jp": "きょうはなんのようだ？",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "What'll it be today?",
+  "status": "done"
  },
  {
   "id": "0A8B3A",
@@ -867,8 +867,8 @@
   "jp": "モンスターをかう",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Buy Monsters",
+  "status": "done"
  },
  {
   "id": "0A8B4C",
@@ -878,8 +878,8 @@
   "jp": "アイテムをかう",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Buy Items",
+  "status": "done"
  },
  {
   "id": "0A8B5C",
@@ -889,8 +889,8 @@
   "jp": "モンスターをうる",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sell Monsters",
+  "status": "done"
  },
  {
   "id": "0A8B6E",
@@ -900,8 +900,8 @@
   "jp": "アイテムをうる",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sell Items",
+  "status": "done"
  },
  {
   "id": "0A8B7E",
@@ -911,8 +911,8 @@
   "jp": "みせをでる",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Leave Shop",
+  "status": "done"
  },
  {
   "id": "0A8B8A",
@@ -922,8 +922,8 @@
   "jp": "ふむ、モンスターがいっぱいじゃないか。/どれかをうるなりなんなりしてから、かうこったな。",
   "len": 44,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hm, you've got a full set of monsters./Sell one or something first, then buy.",
+  "status": "done"
  },
  {
   "id": "0A8BE4",
@@ -933,8 +933,8 @@
   "jp": "もうそれいじょう、アイテムはもちきれんぞ。/もしなんなら、いらないアイテムはひきとってやるが。",
   "len": 47,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You can't carry any more items./If you like, I'll buy what you don't need.",
+  "status": "done"
  },
  {
   "id": "0A8C44",
@@ -944,8 +944,8 @@
   "jp": "なにいってるんだ？/モンスターなんていないじゃないか。",
   "len": 27,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "What are you on about?/You've got no monsters.",
+  "status": "done"
  },
  {
   "id": "0A8C7C",
@@ -955,8 +955,8 @@
   "jp": "アイテムをもっていないというのに、/なにをうるっていうんだ？",
   "len": 30,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You've got no items,/so what're you selling?",
+  "status": "done"
  },
  {
   "id": "0A8CBC",
@@ -990,7 +990,7 @@
   "len": 2,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8CD0",
@@ -999,7 +999,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8CD4",
@@ -1008,7 +1008,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8CD8",
@@ -1073,7 +1073,7 @@
   "len": 1,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "done"
  },
  {
   "id": "0A8CF4",
@@ -1108,8 +1108,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A8D08",
@@ -1120,8 +1120,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0A8D10",
@@ -1131,8 +1131,8 @@
   "jp": "どのモンスターをかうんですか？",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Which monster will you buy?",
+  "status": "done"
  },
  {
   "id": "0A8D30",
@@ -1142,8 +1142,8 @@
   "jp": "このモンスターでいいんですね？",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "This monster, right?",
+  "status": "done"
  },
  {
   "id": "0A8D50",
@@ -1153,8 +1153,8 @@
   "jp": "モンスターがとどきました！/ちゃんとめんどうみるんだよ！",
   "len": 28,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Your monster has arrived!/Take good care of it!",
+  "status": "done"
  },
  {
   "id": "0A8D8A",
@@ -1164,8 +1164,8 @@
   "jp": "モンスターのこうにゅうをキャンセルしました。",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monster purchase canceled.",
+  "status": "done"
  },
  {
   "id": "0A8DB8",
@@ -1175,8 +1175,8 @@
   "jp": "それと、ちゃんとほんきょちでセーブもしてね。",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "And be sure to save at your base.",
+  "status": "done"
  },
  {
   "id": "0A8DE8",
@@ -1260,7 +1260,7 @@
   "len": 18,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8F74",
@@ -1269,7 +1269,7 @@
   "len": 8,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8F84",
@@ -1280,7 +1280,7 @@
   "len": 18,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A8FAC",
@@ -1312,8 +1312,8 @@
   "jp": "ＣＬ　ＢＳ　ＯＫ",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CL BS OK",
+  "status": "done"
  },
  {
   "id": "0A903C",
@@ -1332,8 +1332,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A9044",
@@ -1350,8 +1350,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0A904C",
@@ -1361,8 +1361,8 @@
   "jp": "モバイルアダプタをしょきかちゅう．．．",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Initializing Mobile Adapter...",
+  "status": "done"
  },
  {
   "id": "0A9074",
@@ -1372,8 +1372,8 @@
   "jp": "かいせんをせつぞくちゅう．．．",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Connecting...",
+  "status": "done"
  },
  {
   "id": "0A9094",
@@ -1383,8 +1383,8 @@
   "jp": "つうしんちゅう．．．",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Communicating...",
+  "status": "done"
  },
  {
   "id": "0A90AA",
@@ -1394,8 +1394,8 @@
   "jp": "かいせんをせつだんちゅう．．．",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Disconnecting...",
+  "status": "done"
  },
  {
   "id": "0A90CA",
@@ -1405,8 +1405,8 @@
   "jp": "パスワードをにゅうりょくしてください",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Please enter your password.",
+  "status": "done"
  },
  {
   "id": "0A90F0",
@@ -1416,8 +1416,8 @@
   "jp": "パスワードはアルファベットとすうじをくみあわせて/４～１６もじをにゅうりょくしてください",
   "len": 44,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Combine letters and numbers in your/password: please enter 4 to 16 characters.",
+  "status": "done"
  },
  {
   "id": "0A914A",
@@ -1425,8 +1425,8 @@
   "jp": "モバイルデータセンターにせつぞくします。/せつぞくするさいに、つうわりょうとせつぞくりょうがかかります。/よろしいですか？",
   "len": 61,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Connecting to the Mobile Data Center./Call charges and connection fees will apply./Is that all right?",
+  "status": "done"
  },
  {
   "id": "0A91C6",
@@ -1436,8 +1436,8 @@
   "jp": "モバイルデータセンターにせつぞくします。/せつぞくするさいに、つうわりょうとせつぞくりょうがかかります。/よろしいですか？",
   "len": 61,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Connecting to the Mobile Data Center./Call charges and connection fees will apply./Is that all right?",
+  "status": "done"
  },
  {
   "id": "0A9242",
@@ -1448,8 +1448,8 @@
   "jp": "モバイルデータセンターにせつぞくします。/せつぞくするさいに、つうわりょうとせつぞくりょうがかかります。/またこれとはべつに、コンテンツりょうとして",
   "len": 74,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Connecting to the Mobile Data Center./Call charges and connection fees will apply./In addition, a content fee of ",
+  "status": "done"
  },
  {
   "id": "0A92D8",
@@ -1460,8 +1460,8 @@
   "jp": "０えんかかります。/よろしいですか？",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "0 yen will apply./Is that OK?",
+  "status": "done"
  },
  {
   "id": "0A92FE",
@@ -1471,8 +1471,8 @@
   "jp": "せいじょうにしゅうりょうしました。",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Completed successfully.",
+  "status": "done"
  },
  {
   "id": "0A9322",
@@ -1482,8 +1482,8 @@
   "jp": "つうしんがせいじょうにしゅうりょうしました。/こんかいのつうしんじかんは",
   "len": 36,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Communication completed successfully./Connection time this session: ",
+  "status": "done"
  },
  {
   "id": "0A936C",
@@ -1493,8 +1493,8 @@
   "jp": "ふん",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "m ",
+  "status": "done"
  },
  {
   "id": "0A9372",
@@ -1504,8 +1504,8 @@
   "jp": "びょうでした。",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "s.",
+  "status": "done"
  },
  {
   "id": "0A9382",
@@ -1515,8 +1515,8 @@
   "jp": "せつぞくさきがとうろくされていません。/とりあつかいせつめいしょをごらんのうえ、/とうろくしてください。",
   "len": 52,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No access point has been registered./Please read the instruction manual/and register one.",
+  "status": "done"
  },
  {
   "id": "0A93EC",
@@ -1526,8 +1526,8 @@
   "jp": "ログインＩＤがとうろくされていません。/とりあつかいせつめいしょをごらんのうえ、/とうろくしてください。",
   "len": 52,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No login ID has been registered./Please read the instruction manual/and register one.",
+  "status": "done"
  },
  {
   "id": "0A9456",
@@ -1537,8 +1537,8 @@
   "jp": "すでにほぞんされたパスワードがあります。/このパスワードをしようしますか？",
   "len": 37,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "A saved password already exists./Use this password?",
+  "status": "done"
  },
  {
   "id": "0A94A2",
@@ -1549,8 +1549,8 @@
   "jp": "いれなおす",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Re-enter",
+  "status": "done"
  },
  {
   "id": "0A94AE",
@@ -1560,8 +1560,8 @@
   "jp": "パスワードをカートリッジにほぞんすることができます。/しかし、モバイルアダプタＧＢとカートリッジをふんしつしたばあい、ほかのひとにふせいにしようされるかのうせいがあります。/パスワードをほぞんしますか？",
   "len": 101,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You can save your password to the cartridge./However, if you lose the Mobile Adapter GB and cartridge, others could misuse it./Save your password?",
+  "status": "done"
  },
  {
   "id": "0A957A",
@@ -1571,8 +1571,8 @@
   "jp": "パスワードのほぞんにしっぱいしました。/しょりをちゅうだんします。",
   "len": 33,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Failed to save the password./Canceling the operation.",
+  "status": "done"
  },
  {
   "id": "0A95C0",
@@ -1584,7 +1584,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95C4",
@@ -1595,7 +1595,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95C8",
@@ -1606,7 +1606,7 @@
   "len": 2,
   "term": false,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95CC",
@@ -1617,7 +1617,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95D4",
@@ -1626,7 +1626,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95DC",
@@ -1635,7 +1635,7 @@
   "len": 7,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95EC",
@@ -1644,7 +1644,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A95F4",
@@ -1653,7 +1653,7 @@
   "len": 23,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A9624",
@@ -1662,7 +1662,7 @@
   "len": 15,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A9646",
@@ -1671,7 +1671,7 @@
   "len": 2,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A964C",
@@ -1680,7 +1680,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A9654",
@@ -1689,7 +1689,7 @@
   "len": 23,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A9684",
@@ -1698,7 +1698,7 @@
   "len": 3,
   "term": true,
   "en": "",
-  "status": "todo"
+  "status": "data"
  },
  {
   "id": "0A968C",
@@ -1717,8 +1717,8 @@
   "jp": "いらっしゃいませ！/ようこそ、おいでくださいました！",
   "len": 26,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Welcome!/Thank you for coming!",
+  "status": "done"
  },
  {
   "id": "0A96C6",
@@ -1728,8 +1728,8 @@
   "jp": "ありがとうございました！/またきてくださいね！",
   "len": 23,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Thank you very much!/Please come again!",
+  "status": "done"
  },
  {
   "id": "0A96F6",
@@ -1739,8 +1739,8 @@
   "jp": "おぅ、いらっしゃい！/よくきたな。",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hey, welcome!/Good to see you.",
+  "status": "done"
  },
  {
   "id": "0A971A",
@@ -1750,8 +1750,8 @@
   "jp": "なんだ、もうかえるのか？/またこいよな。",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "What, leaving already?/Come back soon.",
+  "status": "done"
  },
  {
   "id": "0A9744",

@@ -61,9 +61,26 @@ def encode(text, enc):
 ASCII = {' ': '　', '.': '．', ',': '，', '!': '！', '?': '？', ':': '：', ';': '；', '-': '－', "'": '’',
          '"': '”', '(': '（', ')': '）', '&': '＆', '+': '＋', '%': '％', '~': '～', '*': '＊', '=': '＝'}
 ASCII.update({c: chr(ord(c) + 0xFEE0) for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'})
-# tile codes freed for condensed pairs: kana 0x40-0xE0 and the kanji row 0x170-0x193
+# font slots the run-time pair cache (asm/menu8.asm) may overwrite in VRAM: kana 0x40-0xE0, kanji row 0x170-0x193
 FREE_CODES = list(range(0x40, 0xE1)) + list(range(0x170, 0x194))
 TOKEN_EN = re.compile(r'(\{pal:[0-9A-F]+\})')
+PAIR_BASE = 0x4000   # 0x200+ and 0x2000-0x200F are palette codes in some drawers; 0x4000-0x63FF is free
+
+
+def pair_code(p):
+    """Condensed pair code: 0x4000 + (a-0x20)*0x60 + (b-0x20); asm/menu8.asm draws it through the tile cache."""
+    return PAIR_BASE + (ord(p[0]) - 0x20) * 0x60 + ord(p[1]) - 0x20
+
+
+def pairs_bin():
+    """All 96x96 condensed pair tiles, indexed like pair_code (blank where a character has no glyph)."""
+    import font8
+    out = bytearray(96 * 96 * 32)
+    for a in font8.ARTS:
+        for b in font8.ARTS:
+            i = (ord(a) - 0x20) * 0x60 + ord(b) - 0x20
+            out[i * 32:i * 32 + 32] = font8.tile_bytes(font8.pair_pixels(a, b))
+    return bytes(out)
 
 
 def lines_of(text):
@@ -72,20 +89,6 @@ def lines_of(text):
 
 def plain_len(line):
     return len(TOKEN_EN.sub('', line))
-
-
-class Pairs:
-    """Global condensed-pair allocator: 'ab' -> tile code."""
-
-    def __init__(self):
-        self.codes = {}
-
-    def code(self, pair):
-        if pair not in self.codes:
-            if len(self.codes) >= len(FREE_CODES):
-                raise SystemExit(f'out of condensed tile codes at pair {pair!r}')
-            self.codes[pair] = FREE_CODES[len(self.codes)]
-        return self.codes[pair]
 
 
 def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None):
@@ -125,7 +128,7 @@ def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None):
                     p = part[i:i + 2]
                     if cond_chars is not None and not set(p) <= cond_chars:
                         raise ValueError(f'no condensed glyph for {p!r}')
-                    out.append(pairs.code(p) if pairs else 0x40)
+                    out.append(pair_code(p))
         return out
 
     codes = normal()
@@ -147,12 +150,43 @@ def limits(e):
 SPACE = 0x01  # fullwidth-space tile
 
 
+STRNCPY16 = 0x080365DC   # copy until 0 or max: pieces copied by it are padded with 0, so composed messages close up
+
+
+def strncpy_targets(rom, code_end=0x0A0000):
+    """String offsets loaded from a Thumb literal pool and passed to strncpy16 within the next 8 instructions."""
+    lit_users = {}
+    for a in range(0, code_end, 2):
+        h = struct.unpack_from('<H', rom, a)[0]
+        if h >> 11 == 0b01001:
+            lit_users.setdefault(((a + 4) & ~3) + (h & 0xFF) * 4, []).append(a)
+    out = set()
+    for lit, users in lit_users.items():
+        v = struct.unpack_from('<I', rom, lit)[0] - romlib.BASE
+        if not 0 <= v < len(rom):
+            continue
+        for a in users:
+            for b in range(a + 2, a + 18, 2):
+                hi, lo = struct.unpack_from('<HH', rom, b)
+                if hi >> 11 == 0b11110 and lo >> 11 == 0b11111:
+                    off = ((hi & 0x7FF) << 12 | (lo & 0x7FF) << 1)
+                    if off & 0x400000:
+                        off -= 0x800000
+                    if 0x08000000 + b + 4 + off == STRNCPY16:
+                        out.add(v)
+                    break
+    return out
+
+
 def build(rom, marker=False):
-    """Write translated 8x8 strings in place and the condensed pair tiles into the font. -> (strings, pairs)."""
+    """Write translated 8x8 strings in place; -> (strings written, cache pool, codes still used by Japanese).
+    The caller assembles asm/menu8.asm with pairs_bin() and the pool (FREE_CODES minus codes Japanese still uses)."""
     import font8
-    _, enc = romlib.load_table('jp8')
-    pairs = Pairs()
+    dec, enc = romlib.load_table('jp8')
+    pairs = None
     cond_chars = set(font8.ARTS)
+    jp_used = set()
+    zero_pad = strncpy_targets(romlib.rom_bytes())
     n = 0
     for bank in BANKS:
         path = romlib.ROOT / 'script' / f'm8_{bank}.json'
@@ -160,21 +194,22 @@ def build(rom, marker=False):
             continue
         for e in json.loads(path.read_text(encoding='utf-8')):
             text = e['en'] or (marker_text(e) if marker and e['slots'] else '')
-            if not text or e['status'] in ('keep', 'unused'):
+            if not text or e['status'] in ('keep', 'unused', 'data', 'special'):
+                if e['status'] != 'data':
+                    jp_used.update(encode(e['jp'], enc) if '[' not in e['jp'] else [])
                 continue
             budget, width, nl = limits(e)
             try:
                 codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars)
             except ValueError as err:
                 raise SystemExit(f'm8_{bank} {e["id"]}: {err}')
-            pad = [0] if e['term'] else []
+            pad = [0] if e['term'] or int(e['id'], 16) in zero_pad else []
             codes += (pad + [SPACE] * budget)[:budget - len(codes)]
             off = int(e['id'], 16)
             struct.pack_into('<%dH' % budget, rom, off, *codes)
             n += 1
-    for pair, code in pairs.codes.items():
-        rom[font8.FONT8 + code * 32:font8.FONT8 + code * 32 + 32] = font8.tile_bytes(font8.pair_pixels(*pair))
-    return n, len(pairs.codes)
+    pool = [c for c in FREE_CODES if c not in jp_used]
+    return n, pool, sorted(jp_used & set(FREE_CODES))
 
 
 def marker_text(e):

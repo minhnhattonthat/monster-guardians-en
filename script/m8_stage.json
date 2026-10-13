@@ -5,8 +5,8 @@
   "jp": "０１２３４５６７",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "01234567",
+  "status": "done"
  },
  {
   "id": "0C5DAE",
@@ -14,8 +14,8 @@
   "jp": "すたーとちてん",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Start Point",
+  "status": "done"
  },
  {
   "id": "0C5DBE",
@@ -23,8 +23,8 @@
   "jp": "へいげん",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Plains",
+  "status": "done"
  },
  {
   "id": "0C5DC8",
@@ -32,8 +32,8 @@
   "jp": "へいげん２",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Plains 2",
+  "status": "done"
  },
  {
   "id": "0C5DD4",
@@ -41,8 +41,8 @@
   "jp": "おか",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hill",
+  "status": "done"
  },
  {
   "id": "0C5DDA",
@@ -50,8 +50,8 @@
   "jp": "よるのまち",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Night Town",
+  "status": "done"
  },
  {
   "id": "0C5DE6",
@@ -59,8 +59,8 @@
   "jp": "こはんのもり",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Lake Forest",
+  "status": "done"
  },
  {
   "id": "0C5DF4",
@@ -68,8 +68,8 @@
   "jp": "じょうがい＜じょうもんまえ＞",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Outside Castle (Front Gate)",
+  "status": "done"
  },
  {
   "id": "0C5E12",
@@ -77,8 +77,8 @@
   "jp": "じょうない＜なかにわ＞",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "In Castle (Courtyard)",
+  "status": "done"
  },
  {
   "id": "0C5E2A",
@@ -86,8 +86,8 @@
   "jp": "じょうない",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "In Castle",
+  "status": "done"
  },
  {
   "id": "0C5E36",
@@ -95,8 +95,8 @@
   "jp": "じょうない",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "In Castle",
+  "status": "done"
  },
  {
   "id": "0C5E42",
@@ -104,8 +104,8 @@
   "jp": "じょうない",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "In Castle",
+  "status": "done"
  },
  {
   "id": "0C5E4E",
@@ -113,8 +113,8 @@
   "jp": "じょうない＜さいだん＞",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "In Castle (Altar)",
+  "status": "done"
  },
  {
   "id": "0C5E66",
@@ -122,8 +122,8 @@
   "jp": "こうげん",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Highland",
+  "status": "done"
  },
  {
   "id": "0C5E70",
@@ -131,8 +131,8 @@
   "jp": "もり",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wood",
+  "status": "done"
  },
  {
   "id": "0C5E76",
@@ -140,8 +140,8 @@
   "jp": "しつげん＜ぬま＞",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wetland (Swamp)",
+  "status": "done"
  },
  {
   "id": "0C5E88",
@@ -149,8 +149,8 @@
   "jp": "もり＜よる＞",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Night Forest",
+  "status": "done"
  },
  {
   "id": "0C5E96",
@@ -158,8 +158,8 @@
   "jp": "やま＜せまいたに＞",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mountain (Ravine)",
+  "status": "done"
  },
  {
   "id": "0C5EAA",
@@ -167,8 +167,8 @@
   "jp": "やま＜おか＞",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mountainside",
+  "status": "done"
  },
  {
   "id": "0C5EB8",
@@ -176,8 +176,8 @@
   "jp": "やまいりぐち",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Trailhead",
+  "status": "done"
  },
  {
   "id": "0C5EC6",
@@ -185,8 +185,8 @@
   "jp": "やま＜けいこく＞",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mountain (Gorge)",
+  "status": "done"
  },
  {
   "id": "0C5ED8",
@@ -194,8 +194,8 @@
   "jp": "やま＜ちょうてん＞",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mountain (Summit)",
+  "status": "done"
  },
  {
   "id": "0C5EEC",
@@ -203,8 +203,8 @@
   "jp": "やま＜かこう＞",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Volcano Crater",
+  "status": "done"
  },
  {
   "id": "0C5EFC",
@@ -212,8 +212,8 @@
   "jp": "やま＜でぐち＞",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mountain Exit",
+  "status": "done"
  },
  {
   "id": "0C5F0C",
@@ -221,8 +221,8 @@
   "jp": "さばく",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Desert",
+  "status": "done"
  },
  {
   "id": "0C5F14",
@@ -230,8 +230,8 @@
   "jp": "はいきょのまち",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Ruined Town",
+  "status": "done"
  },
  {
   "id": "0C5F24",
@@ -239,8 +239,8 @@
   "jp": "もり＜こはん＞",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Forest (Lake)",
+  "status": "done"
  },
  {
   "id": "0C5F34",
@@ -248,8 +248,8 @@
   "jp": "こじょういせきせきじょうもんまえ",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle Ruins (Front Gate)",
+  "status": "done"
  },
  {
   "id": "0C5F56",
@@ -257,8 +257,8 @@
   "jp": "こじょうなか",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle",
+  "status": "done"
  },
  {
   "id": "0C5F64",
@@ -266,8 +266,8 @@
   "jp": "こじょうなか",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle",
+  "status": "done"
  },
  {
   "id": "0C5F72",
@@ -275,8 +275,8 @@
   "jp": "こじょうない",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle",
+  "status": "done"
  },
  {
   "id": "0C5F80",
@@ -284,8 +284,8 @@
   "jp": "こじょうないこじょうない",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle, Old Castle",
+  "status": "done"
  },
  {
   "id": "0C5F9A",
@@ -293,8 +293,8 @@
   "jp": "こじょうない＜２９とおなじ＞",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle (Same as 29)",
+  "status": "done"
  },
  {
   "id": "0C5FB8",
@@ -302,8 +302,8 @@
   "jp": "こじょうない＜ごうせいしつ＞",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle (Fusion Room)",
+  "status": "done"
  },
  {
   "id": "0C5FD6",
@@ -311,8 +311,8 @@
   "jp": "こじょうない＜ごうせいしつ＞",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Old Castle (Fusion Room)",
+  "status": "done"
  },
  {
   "id": "0C5FF4",
@@ -320,8 +320,8 @@
   "jp": "べんりなショップ",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Handy Shop",
+  "status": "done"
  },
  {
   "id": "0C6006",
@@ -329,8 +329,8 @@
   "jp": "いせき？",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Ruins?",
+  "status": "done"
  },
  {
   "id": "0C6010",
@@ -338,8 +338,8 @@
   "jp": "しんかサーバー",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Evolve Server",
+  "status": "done"
  },
  {
   "id": "0C6020",
@@ -347,8 +347,8 @@
   "jp": "スーパーしんかサーバー",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Super Evolve Server",
+  "status": "done"
  },
  {
   "id": "0C6038",
@@ -358,8 +358,8 @@
   "jp": "しょうきん",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Prize",
+  "status": "done"
  },
  {
   "id": "0C6044",
@@ -369,8 +369,8 @@
   "jp": "せんか",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Spoils",
+  "status": "done"
  },
  {
   "id": "0C604C",
@@ -378,8 +378,8 @@
   "jp": "おかね",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Money",
+  "status": "done"
  },
  {
   "id": "0C6054",
@@ -391,8 +391,8 @@
   "jp": "ＥＸＰ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "EXP",
+  "status": "done"
  },
  {
   "id": "0C605C",
@@ -406,8 +406,8 @@
   "jp": "Ｇｏｌｄ",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Gold",
+  "status": "done"
  },
  {
   "id": "0C6066",
@@ -417,8 +417,8 @@
   "jp": "じかん",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Time",
+  "status": "done"
  },
  {
   "id": "0C606E",
@@ -428,8 +428,8 @@
   "jp": "ＥＸＰ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "EXP",
+  "status": "done"
  },
  {
   "id": "0C6076",
@@ -437,8 +437,8 @@
   "jp": "おかね",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Money",
+  "status": "done"
  },
  {
   "id": "0C607E",
@@ -446,8 +446,8 @@
   "jp": "ポイント",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Points",
+  "status": "done"
  },
  {
   "id": "0C6088",
@@ -458,8 +458,8 @@
   "jp": "Ｇｏｌｄ",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Gold",
+  "status": "done"
  },
  {
   "id": "0C6092",
@@ -467,8 +467,8 @@
   "jp": "せんとうけっか",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Battle Results",
+  "status": "done"
  },
  {
   "id": "0C60A2",
@@ -478,8 +478,8 @@
   "jp": "モンスター",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monster",
+  "status": "done"
  },
  {
   "id": "0C60AE",
@@ -489,8 +489,8 @@
   "jp": "をなかまにくわえますか？",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " - add to the party?",
+  "status": "done"
  },
  {
   "id": "0C60C8",
@@ -500,8 +500,8 @@
   "jp": "をはずして",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " leaves,",
+  "status": "done"
  },
  {
   "id": "0C60D4",
@@ -512,8 +512,8 @@
   "jp": "をなかまにくわえました",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " joins the party.",
+  "status": "done"
  },
  {
   "id": "0C60EC",
@@ -525,8 +525,8 @@
   "jp": "はい",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0C60F2",
@@ -538,8 +538,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0C60FA",
@@ -547,8 +547,8 @@
   "jp": "もとのじょうたいにもどします",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Restore the original state.",
+  "status": "done"
  },
  {
   "id": "0C6118",
@@ -558,8 +558,8 @@
   "jp": "アイテムがもちきれないので、どれかをすてますか？",
   "len": 24,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You can't carry more items. Discard one?",
+  "status": "done"
  },
  {
   "id": "0C614A",
@@ -569,8 +569,8 @@
   "jp": "すてるアイテムをえらんでください",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose an item to discard.",
+  "status": "done"
  },
  {
   "id": "0C616C",
@@ -580,8 +580,8 @@
   "jp": "をすてて",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " tossed,",
+  "status": "done"
  },
  {
   "id": "0C6176",
@@ -591,8 +591,8 @@
   "jp": "をアイテムにくわえてよろしいですか？",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " added to items. OK?",
+  "status": "done"
  },
  {
   "id": "0C619C",
@@ -602,8 +602,8 @@
   "jp": "をすてて",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " tossed,",
+  "status": "done"
  },
  {
   "id": "0C61A6",
@@ -613,8 +613,8 @@
   "jp": "をアイテムにくわえました",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " added to items.",
+  "status": "done"
  },
  {
   "id": "0C61C0",
@@ -624,8 +624,8 @@
   "jp": "はしゅぎょうちゅうのモンスターがそうびしているのでこうかんできません",
   "len": 34,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " is held by a monster in training and can't be swapped.",
+  "status": "done"
  },
  {
   "id": "0C6206",
@@ -635,8 +635,8 @@
   "jp": "はしゅぎょうにでているのでこうかんできません",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " is away training and can't be swapped.",
+  "status": "done"
  },
  {
   "id": "0C6234",
@@ -644,8 +644,8 @@
   "jp": "たおしたモンスター",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monsters Defeated",
+  "status": "done"
  },
  {
   "id": "0C6248",
@@ -653,8 +653,8 @@
   "jp": "ほかくモンスター",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monsters Caught",
+  "status": "done"
  },
  {
   "id": "0C625A",
@@ -662,8 +662,8 @@
   "jp": "いきのこったモンスター",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Surviving Monsters",
+  "status": "done"
  },
  {
   "id": "0C6272",
@@ -674,8 +674,8 @@
   "jp": "ＬＶ",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "LV",
+  "status": "done"
  },
  {
   "id": "0C6278",
@@ -686,8 +686,8 @@
   "jp": "ぞくせい",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Element",
+  "status": "done"
  },
  {
   "id": "0C6282",
@@ -698,8 +698,8 @@
   "jp": "こうかんするモンスターをえらんでください",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose a monster to swap.",
+  "status": "done"
  },
  {
   "id": "0C62AC",
@@ -707,8 +707,8 @@
   "jp": "そのモンスターでよろしいですか？",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Is this monster OK?",
+  "status": "done"
  },
  {
   "id": "0C62CE",
@@ -718,8 +718,8 @@
   "jp": "モンスターをこうかんしないでせんとうけっかがめんにもどってよろしいですか？",
   "len": 37,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Return to the battle results without swapping monsters?",
+  "status": "done"
  },
  {
   "id": "0C631A",
@@ -729,8 +729,8 @@
   "jp": "アイテムをこうかんしないでせんとうけっかがめんにもどってよろしいですか？",
   "len": 36,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Return to the battle results without swapping items?",
+  "status": "done"
  },
  {
   "id": "0C6364",
@@ -738,8 +738,8 @@
   "jp": "モンスターをいれかえました",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Monsters swapped.",
+  "status": "done"
  },
  {
   "id": "0C6380",
@@ -749,8 +749,8 @@
   "jp": "をはずして",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " leaves,",
+  "status": "done"
  },
  {
   "id": "0C638C",
@@ -760,8 +760,8 @@
   "jp": "をなかまにくわえてよろしいですか？",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " joins the party. OK?",
+  "status": "done"
  },
  {
   "id": "0C63B0",
@@ -775,8 +775,8 @@
   "jp": "・",
   "len": 1,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": ".",
+  "status": "done"
  },
  {
   "id": "0C63B4",
@@ -786,8 +786,8 @@
   "jp": "トータル",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Total",
+  "status": "done"
  },
  {
   "id": "0C63BE",
@@ -797,8 +797,8 @@
   "jp": "アイテム",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Items",
+  "status": "done"
  },
  {
   "id": "0C63C8",
@@ -809,8 +809,8 @@
   "jp": "パーティのしゅつげきせっていがされていません",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "No party is set for sortie.",
+  "status": "done"
  },
  {
   "id": "0C63F6",
@@ -820,8 +820,8 @@
   "jp": "じゅうじキー・・・せんとうステージ",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Control Pad...Battle Stages",
+  "status": "done"
  },
  {
   "id": "0C641A",
@@ -831,8 +831,8 @@
   "jp": "Ｌ／Ｒ・・・・・・ほんきょち／ほか",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "L, R..........Home Base, Others",
+  "status": "done"
  },
  {
   "id": "0C643E",
@@ -842,8 +842,8 @@
   "jp": "ステージ１　へいげん",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 1 Plains",
+  "status": "done"
  },
  {
   "id": "0C6454",
@@ -853,8 +853,8 @@
   "jp": "ステージ２　へいげん",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 2 Plains",
+  "status": "done"
  },
  {
   "id": "0C646A",
@@ -864,8 +864,8 @@
   "jp": "ステージ３　おか",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 3 Hill",
+  "status": "done"
  },
  {
   "id": "0C647C",
@@ -875,8 +875,8 @@
   "jp": "ステージ４　まち",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 4 Town",
+  "status": "done"
  },
  {
   "id": "0C648E",
@@ -886,8 +886,8 @@
   "jp": "ステージ５　もりこはん",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 5 Lake Forest",
+  "status": "done"
  },
  {
   "id": "0C64A6",
@@ -897,8 +897,8 @@
   "jp": "ステージ６　しろのそと",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 6 Outside Castle",
+  "status": "done"
  },
  {
   "id": "0C64BE",
@@ -908,8 +908,8 @@
   "jp": "ステージ７　しろのなかにわ",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 7 Castle Courtyard",
+  "status": "done"
  },
  {
   "id": "0C64DA",
@@ -919,8 +919,8 @@
   "jp": "ステージ８　じょうない",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 8 In Castle",
+  "status": "done"
  },
  {
   "id": "0C64F2",
@@ -930,8 +930,8 @@
   "jp": "ステージ９　じょうない",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 9 In Castle",
+  "status": "done"
  },
  {
   "id": "0C650A",
@@ -941,8 +941,8 @@
   "jp": "ステージ１０　じょうない",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 10 In Castle",
+  "status": "done"
  },
  {
   "id": "0C6524",
@@ -952,8 +952,8 @@
   "jp": "ステージ１１　じょうないさいだん",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 11 Castle Altar",
+  "status": "done"
  },
  {
   "id": "0C6546",
@@ -963,8 +963,8 @@
   "jp": "ステージ１２　こうげん",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 12 Highland",
+  "status": "done"
  },
  {
   "id": "0C655E",
@@ -974,8 +974,8 @@
   "jp": "ステージ１３　もり",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 13 Forest",
+  "status": "done"
  },
  {
   "id": "0C6572",
@@ -985,8 +985,8 @@
   "jp": "ステージ１４　しつげん",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 14 Wetland",
+  "status": "done"
  },
  {
   "id": "0C658A",
@@ -996,8 +996,8 @@
   "jp": "ステージ１５　もり　よる",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 15 Night Forest",
+  "status": "done"
  },
  {
   "id": "0C65A4",
@@ -1007,8 +1007,8 @@
   "jp": "ステージ１６　やま　いりぐち",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 16 Mountain Entrance",
+  "status": "done"
  },
  {
   "id": "0C65C2",
@@ -1018,8 +1018,8 @@
   "jp": "ステージ１７　やま　けいこく",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 17 Mountain Gorge",
+  "status": "done"
  },
  {
   "id": "0C65E0",
@@ -1029,8 +1029,8 @@
   "jp": "ステージ１８　やま　おか",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 18 Mountainside",
+  "status": "done"
  },
  {
   "id": "0C65FA",
@@ -1040,8 +1040,8 @@
   "jp": "ステージ１９　やま　けいこく２",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 19 Mountain Gorge 2",
+  "status": "done"
  },
  {
   "id": "0C661A",
@@ -1051,8 +1051,8 @@
   "jp": "ステージ２０　やま　さんちょう",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 20 Mountain Summit",
+  "status": "done"
  },
  {
   "id": "0C663A",
@@ -1062,8 +1062,8 @@
   "jp": "ステージ２１　やま　さんちょう",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 21 Mountain Summit",
+  "status": "done"
  },
  {
   "id": "0C665A",
@@ -1073,8 +1073,8 @@
   "jp": "ステージ２２　やま　でぐち",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 22 Mountain Exit",
+  "status": "done"
  },
  {
   "id": "0C6676",
@@ -1084,8 +1084,8 @@
   "jp": "ステージ２３　さばく",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 23 Desert",
+  "status": "done"
  },
  {
   "id": "0C668C",
@@ -1095,8 +1095,8 @@
   "jp": "ステージ２４　はいきょのまち",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 24 Ruined Town",
+  "status": "done"
  },
  {
   "id": "0C66AA",
@@ -1106,8 +1106,8 @@
   "jp": "ステージ２５　ぬまち",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 25 Swamp",
+  "status": "done"
  },
  {
   "id": "0C66C0",
@@ -1117,8 +1117,8 @@
   "jp": "ステージ２６　こじょういりぐち",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 26 Old Castle Entrance",
+  "status": "done"
  },
  {
   "id": "0C66E0",
@@ -1128,8 +1128,8 @@
   "jp": "ステージ２７　こじょうない１",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 27 In Old Castle 1",
+  "status": "done"
  },
  {
   "id": "0C66FE",
@@ -1139,8 +1139,8 @@
   "jp": "ステージ２８　こじょうない２",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 28 In Old Castle 2",
+  "status": "done"
  },
  {
   "id": "0C671C",
@@ -1150,8 +1150,8 @@
   "jp": "ステージ２９　ごうせいしついりぐち１",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 29 Fusion Room Entrance 1",
+  "status": "done"
  },
  {
   "id": "0C6742",
@@ -1161,8 +1161,8 @@
   "jp": "ステージ３０　ごうせいしついりぐち２",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 30 Fusion Room Entrance 2",
+  "status": "done"
  },
  {
   "id": "0C6768",
@@ -1172,8 +1172,8 @@
   "jp": "ステージ３１　ごうせいしつ",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage 31 Fusion Room",
+  "status": "done"
  },
  {
   "id": "0C6784",
@@ -1183,8 +1183,8 @@
   "jp": "ほんきょち",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Home Base",
+  "status": "done"
  },
  {
   "id": "0C6790",
@@ -1194,8 +1194,8 @@
   "jp": "ごうせいや",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Fusion Lab",
+  "status": "done"
  },
  {
   "id": "0C679C",
@@ -1205,8 +1205,8 @@
   "jp": "ショップ",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Shop",
+  "status": "done"
  },
  {
   "id": "0C67A6",
@@ -1216,8 +1216,8 @@
   "jp": "とうぎじょう",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Arena",
+  "status": "done"
  },
  {
   "id": "0C67B4",
@@ -1227,8 +1227,8 @@
   "jp": "みなと",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Port",
+  "status": "done"
  },
  {
   "id": "0C67BC",
@@ -1236,8 +1236,8 @@
   "jp": "ショップ・ごうせいや・そのた",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Shop, Fusion Lab, Others",
+  "status": "done"
  },
  {
   "id": "0C67DA",
@@ -1247,8 +1247,8 @@
   "jp": "せんとうをかいしする",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Start Battle",
+  "status": "done"
  },
  {
   "id": "0C67F0",
@@ -1258,8 +1258,8 @@
   "jp": "せんきょうをみる",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Battle Status",
+  "status": "done"
  },
  {
   "id": "0C6802",
@@ -1267,8 +1267,8 @@
   "jp": "しょうりじょうけん：",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Victory Condition:",
+  "status": "done"
  },
  {
   "id": "0C6818",
@@ -1279,8 +1279,8 @@
   "jp": "ミッション",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Mission",
+  "status": "done"
  },
  {
   "id": "0C6824",
@@ -1290,8 +1290,8 @@
   "jp": "あらわれたまじゅうたちを、ぜんめつさせろ！！",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out all the monsters that appear!!",
+  "status": "done"
  },
  {
   "id": "0C6852",
@@ -1301,8 +1301,8 @@
   "jp": "ゆくてをはばむ、やせいのまじゅうたちのせんめつ！！",
   "len": 25,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the wild monsters in your way!!",
+  "status": "done"
  },
  {
   "id": "0C6886",
@@ -1312,8 +1312,8 @@
   "jp": "おそいくる、まじゅうたちをたおせ！！",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the attacking monsters!!",
+  "status": "done"
  },
  {
   "id": "0C68AC",
@@ -1323,8 +1323,8 @@
   "jp": "おってのまじゅうを、ぜんめつさせろ！！",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the pursuers' monsters!!",
+  "status": "done"
  },
  {
   "id": "0C68D4",
@@ -1334,8 +1334,8 @@
   "jp": "おってのついげきを、かわせ！！",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Evade the pursuers!!",
+  "status": "done"
  },
  {
   "id": "0C68F4",
@@ -1345,8 +1345,8 @@
   "jp": "てきのまじゅうたちを、ぜんめつさせろ！！",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the enemy monsters!!",
+  "status": "done"
  },
  {
   "id": "0C691E",
@@ -1356,8 +1356,8 @@
   "jp": "まじゅうたちを、ぜんめつさせろ！！",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the monsters!!",
+  "status": "done"
  },
  {
   "id": "0C6942",
@@ -1367,8 +1367,8 @@
   "jp": "けいびのまじゅうたちを、たおせ！",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the guard monsters!",
+  "status": "done"
  },
  {
   "id": "0C6964",
@@ -1378,8 +1378,8 @@
   "jp": "じょうないのまじゅうを、たおせ！",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the castle's monsters!",
+  "status": "done"
  },
  {
   "id": "0C6986",
@@ -1389,8 +1389,8 @@
   "jp": "じょうないのまじゅうを、ぜんめつさせろ！！",
   "len": 21,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the monsters in the castle!!",
+  "status": "done"
  },
  {
   "id": "0C69B2",
@@ -1400,8 +1400,8 @@
   "jp": "てきのまじゅうを、ぜんめつさせろ！！",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the enemy monsters!!",
+  "status": "done"
  },
  {
   "id": "0C69D8",
@@ -1411,8 +1411,8 @@
   "jp": "あらわれたザーゴを、たおせ！！",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Zago is here! Defeat him!!",
+  "status": "done"
  },
  {
   "id": "0C69F8",
@@ -1422,8 +1422,8 @@
   "jp": "いわの、ばんにんたちのせんめつ！！",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the rock guardians!!",
+  "status": "done"
  },
  {
   "id": "0C6A1C",
@@ -1433,8 +1433,8 @@
   "jp": "ゆくてをはばむ、もりのせんじゅうしゃをたおせ！！",
   "len": 24,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the forest natives in your way!!",
+  "status": "done"
  },
  {
   "id": "0C6A4E",
@@ -1444,8 +1444,8 @@
   "jp": "あんこくからの、つかいをたおせ！！",
   "len": 17,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the envoys of darkness!!",
+  "status": "done"
  },
  {
   "id": "0C6A72",
@@ -1455,8 +1455,8 @@
   "jp": "よみがえった、ぶしのたましいを、たおせ！！",
   "len": 21,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the risen warrior souls!!",
+  "status": "done"
  },
  {
   "id": "0C6A9E",
@@ -1466,8 +1466,8 @@
   "jp": "まちぶせていた、てきのせんめつ！",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the ambushers!",
+  "status": "done"
  },
  {
   "id": "0C6AC0",
@@ -1477,8 +1477,8 @@
   "jp": "てきの、はなったまじゅうを、たおせ！",
   "len": 18,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the monsters the enemy sent!",
+  "status": "done"
  },
  {
   "id": "0C6AE6",
@@ -1488,8 +1488,8 @@
   "jp": "ザーゴをたおせ！",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Zago!",
+  "status": "done"
  },
  {
   "id": "0C6AF8",
@@ -1499,8 +1499,8 @@
   "jp": "ラミレスをたおせ！",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Ramirez!",
+  "status": "done"
  },
  {
   "id": "0C6B0C",
@@ -1510,8 +1510,8 @@
   "jp": "ベリンガムの、まじゅうたちを、たおせ！！",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Bellingham's monsters!!",
+  "status": "done"
  },
  {
   "id": "0C6B36",
@@ -1521,8 +1521,8 @@
   "jp": "よみがえったイグニスを、たおせ！",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the revived Ignis!",
+  "status": "done"
  },
  {
   "id": "0C6B58",
@@ -1532,8 +1532,8 @@
   "jp": "おってのまじゅうたちをせんめつしろ！！",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the pursuers' monsters!!",
+  "status": "done"
  },
  {
   "id": "0C6B80",
@@ -1543,8 +1543,8 @@
   "jp": "さばくにすくう、まじゅうたちをたおせ！",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the desert-dwelling monsters!",
+  "status": "done"
  },
  {
   "id": "0C6BA8",
@@ -1554,8 +1554,8 @@
   "jp": "はいきょの、まじゅうたちをせんめつしろ！",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Wipe out the monsters of the Ruins!",
+  "status": "done"
  },
  {
   "id": "0C6BD2",
@@ -1565,8 +1565,8 @@
   "jp": "てきの、ついせきしゃをたおせ！",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the enemy trackers!",
+  "status": "done"
  },
  {
   "id": "0C6BF2",
@@ -1576,8 +1576,8 @@
   "jp": "てきの、みはりをたおせ！",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the lookouts!",
+  "status": "done"
  },
  {
   "id": "0C6C0C",
@@ -1587,8 +1587,8 @@
   "jp": "ザーゴを、たおせ！！",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Zago!!",
+  "status": "done"
  },
  {
   "id": "0C6C22",
@@ -1598,8 +1598,8 @@
   "jp": "ラミレスを、たおせ！",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Ramirez!",
+  "status": "done"
  },
  {
   "id": "0C6C38",
@@ -1609,8 +1609,8 @@
   "jp": "あらたに、あらわれてきたてきをたおせ！！",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the newly arrived enemies!!",
+  "status": "done"
  },
  {
   "id": "0C6C62",
@@ -1620,8 +1620,8 @@
   "jp": "ベリンガムを、たおせ！",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat Bellingham!",
+  "status": "done"
  },
  {
   "id": "0C6C7A",
@@ -1631,8 +1631,8 @@
   "jp": "さいきょうのてきを、たおせ！",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Defeat the strongest foe!",
+  "status": "done"
  },
  {
   "id": "0C6C98",
@@ -1642,8 +1642,8 @@
   "jp": "ほんきょちにはいる",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Enter Home Base",
+  "status": "done"
  },
  {
   "id": "0C6CAC",
@@ -1653,8 +1653,8 @@
   "jp": "ごうせいやにはいる",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Enter Fusion Lab",
+  "status": "done"
  },
  {
   "id": "0C6CC0",
@@ -1664,8 +1664,8 @@
   "jp": "ショップにはいる",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Enter Shop",
+  "status": "done"
  },
  {
   "id": "0C6CD2",
@@ -1675,8 +1675,8 @@
   "jp": "とうぎじょうにはいる",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Enter Arena",
+  "status": "done"
  },
  {
   "id": "0C6CE8",
@@ -1686,8 +1686,8 @@
   "jp": "みなとにはいる",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Enter Port",
+  "status": "done"
  },
  {
   "id": "0C6CF8",
@@ -1701,8 +1701,8 @@
   "jp": "もどる",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Back",
+  "status": "done"
  },
  {
   "id": "0C6D00",
@@ -1710,8 +1710,8 @@
   "jp": "ここはアイテムとモンスターのみせ。なんのようじゃ？",
   "len": 25,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Items and monsters sold here. What'll it be?",
+  "status": "done"
  },
  {
   "id": "0C6D34",
@@ -1719,8 +1719,8 @@
   "jp": "アイテムをかう",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Buy Items",
+  "status": "done"
  },
  {
   "id": "0C6D44",
@@ -1728,8 +1728,8 @@
   "jp": "モンスターをかう",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Buy Monsters",
+  "status": "done"
  },
  {
   "id": "0C6D56",
@@ -1737,8 +1737,8 @@
   "jp": "もどる",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Back",
+  "status": "done"
  },
  {
   "id": "0C6D5E",
@@ -1746,8 +1746,8 @@
   "jp": "まだじゅんびできてないんじゃ",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Not ready yet, I tell you.",
+  "status": "done"
  },
  {
   "id": "0C6D7C",
@@ -1757,8 +1757,8 @@
   "jp": "せんとうかいし",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Start Battle",
+  "status": "done"
  },
  {
   "id": "0C6D8C",
@@ -1768,8 +1768,8 @@
   "jp": "マップをみる",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "View Map",
+  "status": "done"
  },
  {
   "id": "0C6D9A",
@@ -1779,8 +1779,8 @@
   "jp": "もどる",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Back",
+  "status": "done"
  },
  {
   "id": "0C6DA2",
@@ -1788,8 +1788,8 @@
   "jp": "モンスターいちらんへもどる",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Back to Monster List",
+  "status": "done"
  },
  {
   "id": "0C6DBE",
@@ -1799,8 +1799,8 @@
   "jp": "ステージ",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Stage",
+  "status": "done"
  },
  {
   "id": "0C6DC8",
@@ -1826,8 +1826,8 @@
   "jp": "タマゴ",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Egg",
+  "status": "done"
  },
  {
   "id": "0C6DDC",
@@ -1837,8 +1837,8 @@
   "jp": "レオ",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Leo",
+  "status": "done"
  },
  {
   "id": "0C6DE2",
@@ -1848,8 +1848,8 @@
   "jp": "ティーナ",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Tina",
+  "status": "done"
  },
  {
   "id": "0C6DEC",

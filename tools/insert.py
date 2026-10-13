@@ -14,10 +14,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import menu8  # noqa: E402
+import records  # noqa: E402
 import romlib  # noqa: E402
 import vwf  # noqa: E402
 
-FREE_START, FREE_END = 0x770000, 0x800000
+FREE_START, FREE_END = 0x770000, 0x7A0000   # 0x7A0000-: asm/menu8.asm (see assemble)
 # bank -> font size, font struct offset, original glyph count, layout (line px, lines per page)
 BANKS = {
     # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP
@@ -212,12 +213,35 @@ def build(out_path, marker=False, qa=None):
             done += 1
         glyphs.commit(rom, free)
         stats[bank] = (done, len(glyphs.index))
-    stats['menu8'] = menu8.build(rom, marker)
+    n8, pool, kept = menu8.build(rom, marker)
+    n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1])[0])
     Path(out_path).parent.mkdir(exist_ok=True)
     Path(out_path).write_bytes(rom)
+    assemble(out_path, pool)
     for bank, (n, cells) in stats.items():
         print(f'{bank}: {n} strings, {cells} cells')
+    print(f'menu8: {n8} strings/names, cache pool {len(pool)} slots'
+          + (f' (kept for Japanese: {", ".join("%X" % c for c in kept)})' if kept else ''))
     print(f'free space used to {free.pos:06X}; wrote {out_path}')
+
+
+ASM_AT = 0x7A0000   # asm/menu8.asm code + pair tiles (296 KB) up to ROM end
+
+
+def assemble(rom_path, pool):
+    """Assemble asm/menu8.asm onto the built ROM (armips), with the pair tiles and the cache pool."""
+    import subprocess
+    work = romlib.ROOT / 'build'
+    (work / 'pairs.bin').write_bytes(menu8.pairs_bin())
+    (work / 'pool.bin').write_bytes(struct.pack('<%dH' % (len(pool) + 1), len(pool), *pool))
+    exe = romlib.ROOT / 'tools' / 'armips' / 'armips.exe'
+    cmd = [str(exe), str(romlib.ROOT / 'asm' / 'menu8.asm'),
+           '-strequ', 'BUILD_ROM', str(Path(rom_path).resolve()),
+           '-strequ', 'POOL_BIN', str(work / 'pool.bin'), '-strequ', 'PAIRS_BIN', str(work / 'pairs.bin'),
+           '-equ', 'MENU8_DATA', hex(0x08000000 + ASM_AT)]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode:
+        raise SystemExit('armips failed:\n' + r.stdout + r.stderr)
 
 
 if __name__ == '__main__':

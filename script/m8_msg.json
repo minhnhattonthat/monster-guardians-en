@@ -7,8 +7,8 @@
   "jp": "がしゅぎょうからかえってきたよ。",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " is back from training!",
+  "status": "done"
  },
  {
   "id": "0A12CE",
@@ -18,8 +18,8 @@
   "jp": "は、",
   "len": 2,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": ", up",
+  "status": "done"
  },
  {
   "id": "0A12D4",
@@ -29,8 +29,8 @@
   "jp": "Ｆにいる/",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " floors,/",
+  "status": "done"
  },
  {
   "id": "0A12E0",
@@ -40,8 +40,8 @@
   "jp": "のパーティにたおされました。",
   "len": 14,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "'s party defeated them.",
+  "status": "done"
  },
  {
   "id": "0A12FE",
@@ -51,8 +51,8 @@
   "jp": "は１００Ｆぜんフロアをかんぜんせいは！/さいしゅうボス、ゼラートドラゴンをたおしました。",
   "len": 44,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " conquered all 100 floors!/They defeated the final boss, Zerat Dragon.",
+  "status": "done"
  },
  {
   "id": "0A1358",
@@ -60,8 +60,8 @@
   "jp": "はそれぞれ/",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " gained/",
+  "status": "done"
  },
  {
   "id": "0A1366",
@@ -69,8 +69,8 @@
   "jp": "のけいけんちをえました。",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " experience points each.",
+  "status": "done"
  },
  {
   "id": "0A1380",
@@ -80,8 +80,8 @@
   "jp": "がレベルアップ！/",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " leveled up!/",
+  "status": "done"
  },
  {
   "id": "0A1394",
@@ -91,8 +91,8 @@
   "jp": "はレベル",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": ": Level",
+  "status": "done"
  },
  {
   "id": "0A139E",
@@ -102,8 +102,8 @@
   "jp": "になりました。",
   "len": 7,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " reached.",
+  "status": "done"
  },
  {
   "id": "0A13AE",
@@ -113,8 +113,8 @@
   "jp": "をほかくしました。",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " was captured.",
+  "status": "done"
  },
  {
   "id": "0A13C2",
@@ -124,8 +124,8 @@
   "jp": "をしゅとくしました。",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " obtained.",
+  "status": "done"
  },
  {
   "id": "0A13D8",
@@ -135,8 +135,8 @@
   "jp": "あら、モンスターがもういっぱいじゃない。/わかれてもい",
   "len": 27,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Oh my, you can't take more monsters!/Choose a monster",
+  "status": "done"
  },
  {
   "id": "0A140E",
@@ -146,8 +146,8 @@
   "jp": "いモンスターをえらんでね。",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " you can part with.",
+  "status": "done"
  },
  {
   "id": "0A142A",
@@ -157,8 +157,8 @@
   "jp": "ん～、まだモンスターがいっぱいだわ。/またえらんでもらえるかな？",
   "len": 32,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hmm, still too many monsters./Could you choose again?",
+  "status": "done"
  },
  {
   "id": "0A146C",
@@ -168,8 +168,8 @@
   "jp": "とわかれることになるけど/それでもいい？",
   "len": 20,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " will leave you./Is that okay?",
+  "status": "done"
  },
  {
   "id": "0A1496",
@@ -179,8 +179,8 @@
   "jp": "はなかまにしないのね？",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " won't join you, then?",
+  "status": "done"
  },
  {
   "id": "0A14AE",
@@ -190,8 +190,8 @@
   "jp": "じゃあ、このたまごをすてるよ？",
   "len": 15,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Then I'll throw this egg away?",
+  "status": "done"
  },
  {
   "id": "0A14CE",
@@ -201,8 +201,8 @@
   "jp": "ごめんなさい。/しゅぎょうちゅうのモンスターとはわかれられないの。",
   "len": 33,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sorry./You can't part with monsters in training.",
+  "status": "done"
  },
  {
   "id": "0A1512",
@@ -212,8 +212,8 @@
   "jp": "アイテムがいっ",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Your bag is",
+  "status": "done"
  },
  {
   "id": "0A1520",
@@ -223,8 +223,8 @@
   "jp": "ぱいで、もうもちきれない？/なら、なにかアイテムをすてなくちゃ。",
   "len": 32,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " full, and you can't carry more?/Then you must toss an item.",
+  "status": "done"
  },
  {
   "id": "0A1562",
@@ -234,8 +234,8 @@
   "jp": "まだまだアイテムがおおいみたいね。/すててもいいアイテムはどれかな？",
   "len": 34,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Still too many items, it seems./Which item can you do without?",
+  "status": "done"
  },
  {
   "id": "0A15A8",
@@ -245,8 +245,8 @@
   "jp": "をすてるんだね？",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " gets tossed?",
+  "status": "done"
  },
  {
   "id": "0A15BA",
@@ -256,8 +256,8 @@
   "jp": "ふ～ん、じゃあこの",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hmm, then this",
+  "status": "done"
  },
  {
   "id": "0A15CE",
@@ -267,8 +267,8 @@
   "jp": "はいらないんだ？/このまますてちゃうからね？",
   "len": 22,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " isn't needed?/I'll just toss it, okay?",
+  "status": "done"
  },
  {
   "id": "0A15FC",
@@ -278,8 +278,8 @@
   "jp": "あっと、ごめん。/しゅぎょうちゅうのモンスターがそうびしている/アイテムはすてられないんだ。",
   "len": 46,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Oops, sorry./Items held by monsters in training/can't be thrown away.",
+  "status": "done"
  },
  {
   "id": "0A165A",
@@ -292,8 +292,8 @@
   "jp": "は　い",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0A1662",
@@ -306,8 +306,8 @@
   "jp": "えらびなおす",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Choose again",
+  "status": "done"
  },
  {
   "id": "0A1670",
@@ -317,8 +317,8 @@
   "jp": "う～ん．．．/でなおしといで！　てかんじかな。/もっとしゅぎょうにはげもうね。",
   "len": 39,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hmm.../I'd say 'come back stronger!'/Let's train harder, okay?",
+  "status": "done"
  },
  {
   "id": "0A16C0",
@@ -328,8 +328,8 @@
   "jp": "すこしはやるようになったけど．．．/しょうじき、まだまだ。",
   "len": 29,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "You've improved a bit, but.../Honestly, not there yet.",
+  "status": "done"
  },
  {
   "id": "0A16FC",
@@ -339,8 +339,8 @@
   "jp": "やればできるじゃない。/ちょっと",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "See, you can do it!/I see",
+  "status": "done"
  },
  {
   "id": "0A171C",
@@ -350,8 +350,8 @@
   "jp": "はみなおしたかな。",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " in a new light.",
+  "status": "done"
  },
  {
   "id": "0A1730",
@@ -361,8 +361,8 @@
   "jp": "おしい！　あともうすこし！/ここからが、がんばりどころだよ。",
   "len": 30,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "So close! Just a bit more!/This is where you push hard!",
+  "status": "done"
  },
  {
   "id": "0A176E",
@@ -372,8 +372,8 @@
   "jp": "すご～い！　しゅぎょうをクリアしちゃうなんて．．．/おどろきでことばもでないって、このことかな。/とにかく、おめでとう！",
   "len": 60,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Amazing! You actually cleared training.../I guess this is what 'speechless' means./Anyway, congratulations!",
+  "status": "done"
  },
  {
   "id": "0A17E8",
@@ -383,8 +383,8 @@
   "jp": "あ、ほかにもしゅぎょうからかえってきた/パーティがいる",
   "len": 27,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Oh, there's another party back/from training",
+  "status": "done"
  },
  {
   "id": "0A181E",
@@ -394,8 +394,8 @@
   "jp": "ね。/もうすこし、まってくれる？",
   "len": 16,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " too./Can you wait a bit more?",
+  "status": "done"
  },
  {
   "id": "0A1840",
@@ -405,8 +405,8 @@
   "jp": "うん、ほかにしゅぎょうからかえってきた/パーティはいないみたい。",
   "len": 32,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Okay, looks like no other party/is back from training.",
+  "status": "done"
  },
  {
   "id": "0A1882",
@@ -416,8 +416,8 @@
   "jp": "それじゃあ、このあとほんきょちにもどって/セーブするのをわすれないでね。",
   "len": 36,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Then head back to your home base next,/and don't forget to save!",
+  "status": "done"
  },
  {
   "id": "0A18CC",
@@ -427,8 +427,8 @@
   "jp": "それじゃあ、しゅぎょうからもどってきたパーティが/いるかどうか、いまかくにんとってみるから。/すこしだけまっててくれる？",
   "len": 60,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Okay, I'll check right now whether any/parties have come back from training./Could you wait just a moment?",
+  "status": "done"
  },
  {
   "id": "0A1946",
@@ -438,8 +438,8 @@
   "jp": "ごめんなさい、かくにんがとれなかったの。/すこしまってからまた、かくにんしてみてね。",
   "len": 42,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Sorry, I couldn't check on them./Wait a little, then try checking again.",
+  "status": "done"
  },
  {
   "id": "0A199C",
@@ -449,8 +449,8 @@
   "jp": "しゅぎょうからかえってきたパーティがいるみたい。/ちょっとまってね。",
   "len": 34,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Looks like a party is back from training./Just a moment, okay?",
+  "status": "done"
  },
  {
   "id": "0A19E2",
@@ -460,8 +460,8 @@
   "jp": "ん～、まだしゅぎょうにはげんでるみたい。/またしばらくしてからかくにんしてみてね。",
   "len": 41,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Hmm, seems they're still training hard./Check again in a little while, okay?",
+  "status": "done"
  },
  {
   "id": "0A1A38",
@@ -471,8 +471,8 @@
   "jp": "ぁ",
   "len": 1,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " ",
+  "status": "done"
  },
  {
   "id": "0A1A3C",
@@ -480,7 +480,7 @@
   "jp": "ＵＵ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "UU",
+  "status": "done"
  }
 ]

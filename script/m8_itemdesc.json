@@ -7,8 +7,8 @@
   "jp": "コウゲキリョクがすこしつよくなります",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Attack slightly.",
+  "status": "done"
  },
  {
   "id": "0B7230",
@@ -18,8 +18,8 @@
   "jp": "コウゲキリョクがアップします",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B724C",
@@ -29,8 +29,8 @@
   "jp": "とってもコウゲキリョクがアップします",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Greatly raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B7270",
@@ -40,8 +40,8 @@
   "jp": "コウゲキリョクがアップして、アタマもよくなります",
   "len": 24,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Attack and makes it smarter.",
+  "status": "done"
  },
  {
   "id": "0B72A0",
@@ -51,8 +51,8 @@
   "jp": "コウゲキにかんするチカラがアップします",
   "len": 19,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises all attack-related power.",
+  "status": "done"
  },
  {
   "id": "0B72C6",
@@ -62,8 +62,8 @@
   "jp": "ボウギョリョクがすこしアップします",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Defense slightly.",
+  "status": "done"
  },
  {
   "id": "0B72E8",
@@ -73,8 +73,8 @@
   "jp": "ボウギョリョクがアップします",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Defense.",
+  "status": "done"
  },
  {
   "id": "0B7304",
@@ -84,8 +84,8 @@
   "jp": "ボウギョリョクがアップします",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Defense.",
+  "status": "done"
  },
  {
   "id": "0B7320",
@@ -95,8 +95,8 @@
   "jp": "キビンにうごくようになります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Makes it move more nimbly.",
+  "status": "done"
  },
  {
   "id": "0B733C",
@@ -106,8 +106,8 @@
   "jp": "コウゲキをよけやすくなります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Dodges attacks more easily.",
+  "status": "done"
  },
  {
   "id": "0B7358",
@@ -117,8 +117,8 @@
   "jp": "すこしメイレイをききやすくなります",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders a little better.",
+  "status": "done"
  },
  {
   "id": "0B737A",
@@ -128,8 +128,8 @@
   "jp": "メイレイをききやすくなります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders better.",
+  "status": "done"
  },
  {
   "id": "0B7396",
@@ -139,8 +139,8 @@
   "jp": "とてもメイレイをききやすくなります",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders much better.",
+  "status": "done"
  },
  {
   "id": "0B73B8",
@@ -150,8 +150,8 @@
   "jp": "あたまがよくなります",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Makes it smarter.",
+  "status": "done"
  },
  {
   "id": "0B73CC",
@@ -161,8 +161,8 @@
   "jp": "あたまがよくなって、うごきもキビンになります",
   "len": 22,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Makes it smarter and more nimble.",
+  "status": "done"
  },
  {
   "id": "0B73F8",
@@ -172,8 +172,8 @@
   "jp": "ゾクセイがむこうかされます",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Nullifies its element.",
+  "status": "done"
  },
  {
   "id": "0B7412",
@@ -183,8 +183,8 @@
   "jp": "ゾクセイがむこうかされます",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Nullifies its element.",
+  "status": "done"
  },
  {
   "id": "0B742C",
@@ -194,8 +194,8 @@
   "jp": "ゾクセイがむこうかされます",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Nullifies its element.",
+  "status": "done"
  },
  {
   "id": "0B7446",
@@ -205,8 +205,8 @@
   "jp": "セイメイリョクがすこしアップします",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Life slightly.",
+  "status": "done"
  },
  {
   "id": "0B7468",
@@ -216,8 +216,8 @@
   "jp": "セイメイリョクがたいへんアップします",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Greatly raises Life.",
+  "status": "done"
  },
  {
   "id": "0B748C",
@@ -227,8 +227,8 @@
   "jp": "セイメイリョクがアップしてすこしボウギョがあがります",
   "len": 26,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises Life, plus a little Defense.",
+  "status": "done"
  },
  {
   "id": "0B74C0",
@@ -238,8 +238,8 @@
   "jp": "メイレイをききやすくなります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders better.",
+  "status": "done"
  },
  {
   "id": "0B74DC",
@@ -249,8 +249,8 @@
   "jp": "たいへんメイレイをききやすくなります",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders far better.",
+  "status": "done"
  },
  {
   "id": "0B7500",
@@ -260,8 +260,8 @@
   "jp": "メイレイをきかなくなるかわりに、コウゲキリョクがあがります",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Stops obeying orders, but raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B753A",
@@ -271,8 +271,8 @@
   "jp": "メイレイをききにくくなりますが、コウゲキリョクがアップします",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys orders less, but raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B7576",
@@ -282,8 +282,8 @@
   "jp": "ほかのパラメータがさがりますがメイレイをききやすくなります",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Lowers other stats, but obeys orders better.",
+  "status": "done"
  },
  {
   "id": "0B75B0",
@@ -293,8 +293,8 @@
   "jp": "ハンゲキしにくくなりますが、コウゲキリョクがあがります",
   "len": 27,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Counters less often, but raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B75E6",
@@ -304,8 +304,8 @@
   "jp": "コウゲキをよけにくくなるかわりに、コウゲキリョクがアップします",
   "len": 31,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Dodges attacks less, but raises Attack.",
+  "status": "done"
  },
  {
   "id": "0B7624",
@@ -315,8 +315,8 @@
   "jp": "モンスターのコウゲキをつよくしてメイレイをききやすくします",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises a monster's Attack and obedience.",
+  "status": "done"
  },
  {
   "id": "0B765E",
@@ -326,8 +326,8 @@
   "jp": "みているとほしくなるアイテムです",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "One look and you'll want it.",
+  "status": "done"
  },
  {
   "id": "0B767E",
@@ -337,8 +337,8 @@
   "jp": "こんじきにかがやくよろい",
   "len": 12,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Gleaming golden armor.",
+  "status": "done"
  },
  {
   "id": "0B7696",
@@ -348,8 +348,8 @@
   "jp": "なめらかにうごくようになれるピアス",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "An earring for moving smoothly.",
+  "status": "done"
  },
  {
   "id": "0B76B8",
@@ -359,8 +359,8 @@
   "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse with this equipped to keep its element.",
+  "status": "done"
  },
  {
   "id": "0B76EA",
@@ -370,8 +370,8 @@
   "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse with this equipped to keep its element.",
+  "status": "done"
  },
  {
   "id": "0B771C",
@@ -381,8 +381,8 @@
   "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse with this equipped to keep its element.",
+  "status": "done"
  },
  {
   "id": "0B774E",
@@ -392,8 +392,8 @@
   "jp": "これをつけてゴウセイするとゴウセイケッカにえいきょうをあたえます",
   "len": 32,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse with this equipped to influence the result.",
+  "status": "done"
  },
  {
   "id": "0B778E",
@@ -403,8 +403,8 @@
   "jp": "これをつけてゴウセイするとゴウセイケッカにえいきょうをあたえます",
   "len": 32,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse with this equipped to influence the result.",
+  "status": "done"
  },
  {
   "id": "0B77CE",
@@ -414,8 +414,8 @@
   "jp": "モンスターをミリョウしてメイレイをききやすくします",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Charms a monster so it obeys orders better.",
+  "status": "done"
  },
  {
   "id": "0B7800",
@@ -425,8 +425,8 @@
   "jp": "ココロをつなぎとめてメイレイをききやすくします",
   "len": 23,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Holds its heart so it obeys orders better.",
+  "status": "done"
  },
  {
   "id": "0B782E",
@@ -436,8 +436,8 @@
   "jp": "シュジンのココロをリカイしやすくなります",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Understands its master's heart better.",
+  "status": "done"
  },
  {
   "id": "0B7856",
@@ -447,8 +447,8 @@
   "jp": "まぼろしのモンスターのツノ　ゴウセイのときソウビしたら・・・",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Horn of a phantom monster. Equip it when fusing...",
+  "status": "done"
  },
  {
   "id": "0B7892",
@@ -458,7 +458,7 @@
   "jp": "フシギなかたちをしたツバサ　ゴウセイのときソウビしたら・・・",
   "len": 30,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "A strangely shaped wing. Equip it when fusing...",
+  "status": "done"
  }
 ]

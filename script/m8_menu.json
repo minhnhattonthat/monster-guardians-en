@@ -5,8 +5,8 @@
   "jp": "ＣＯＭＰＬＥＴＥ",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "COMPLETE",
+  "status": "done"
  },
  {
   "id": "0BD398",
@@ -16,8 +16,8 @@
   "jp": "ＣＬＥＡＲ",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CLEAR",
+  "status": "done"
  },
  {
   "id": "0BD3A2",
@@ -35,8 +35,8 @@
   "jp": "はい",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Yes",
+  "status": "done"
  },
  {
   "id": "0BD3A6",
@@ -54,8 +54,8 @@
   "jp": "いいえ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No",
+  "status": "done"
  },
  {
   "id": "0BD3AC",
@@ -72,8 +72,8 @@
   "jp": "ＯＮ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "ON",
+  "status": "done"
  },
  {
   "id": "0BD3B0",
@@ -90,8 +90,8 @@
   "jp": "ＯＦＦ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "OFF",
+  "status": "done"
  },
  {
   "id": "0BD3B6",
@@ -102,8 +102,8 @@
   "jp": "ステージけっていキャンセル",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Stage   OK      Cancel",
+  "status": "done"
  },
  {
   "id": "0BD3D0",
@@ -114,8 +114,8 @@
   "jp": "なまえ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Name",
+  "status": "done"
  },
  {
   "id": "0BD3D6",
@@ -127,8 +127,8 @@
   "jp": "ぞくせい",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Element",
+  "status": "done"
  },
  {
   "id": "0BD3DE",
@@ -141,8 +141,8 @@
   "jp": "みせってい",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Unset",
+  "status": "done"
  },
  {
   "id": "0BD3E8",
@@ -157,8 +157,8 @@
   "jp": "ＬＶ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "LV",
+  "status": "done"
  },
  {
   "id": "0BD3EC",
@@ -169,8 +169,8 @@
   "jp": "ＥＸＰけっとう",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "EXP   Lineage",
+  "status": "done"
  },
  {
   "id": "0BD3FA",
@@ -181,8 +181,8 @@
   "jp": "ごうせい",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fusion",
+  "status": "done"
  },
  {
   "id": "0BD402",
@@ -192,8 +192,8 @@
   "jp": "いのち",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Life",
+  "status": "done"
  },
  {
   "id": "0BD408",
@@ -203,8 +203,8 @@
   "jp": "たいきゅう",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Stamina",
+  "status": "done"
  },
  {
   "id": "0BD412",
@@ -214,8 +214,8 @@
   "jp": "こうげき",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "0BD41A",
@@ -225,8 +225,8 @@
   "jp": "ぼうぎょ",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "0BD422",
@@ -236,8 +236,8 @@
   "jp": "こうどう",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Action",
+  "status": "done"
  },
  {
   "id": "0BD42A",
@@ -247,8 +247,8 @@
   "jp": "ちしき",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Wisdom",
+  "status": "done"
  },
  {
   "id": "0BD430",
@@ -258,8 +258,8 @@
   "jp": "ひっさつわざ",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Special",
+  "status": "done"
  },
  {
   "id": "0BD43C",
@@ -269,8 +269,8 @@
   "jp": "はんげき",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Counter",
+  "status": "done"
  },
  {
   "id": "0BD444",
@@ -280,8 +280,8 @@
   "jp": "さくてき",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Search",
+  "status": "done"
  },
  {
   "id": "0BD44C",
@@ -291,8 +291,8 @@
   "jp": "じゅうじゅん",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obedience",
+  "status": "done"
  },
  {
   "id": "0BD458",
@@ -302,8 +302,8 @@
   "jp": "めいちゅう",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Accuracy",
+  "status": "done"
  },
  {
   "id": "0BD462",
@@ -313,8 +313,8 @@
   "jp": "かいひ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Evade",
+  "status": "done"
  },
  {
   "id": "0BD468",
@@ -324,8 +324,8 @@
   "jp": "ぎのうきしょういどうひこう",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Skill Temper  Move  Flight",
+  "status": "done"
  },
  {
   "id": "0BD482",
@@ -335,8 +335,8 @@
   "jp": "Ｇｏｌｄ",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Gold",
+  "status": "done"
  },
  {
   "id": "0BD48A",
@@ -347,8 +347,8 @@
   "jp": "Ｇモンスターアイテムブリーフィング",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "G Monster   Item    Briefing",
+  "status": "done"
  },
  {
   "id": "0BD4AC",
@@ -358,8 +358,8 @@
   "jp": "ＰＰＵＳＥＤ",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "PPUSED",
+  "status": "done"
  },
  {
   "id": "0BD4B8",
@@ -369,8 +369,8 @@
   "jp": "はいぶん",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Allocate",
+  "status": "done"
  },
  {
   "id": "0BD4C0",
@@ -380,8 +380,8 @@
   "jp": "めいれい",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Orders",
+  "status": "done"
  },
  {
   "id": "0BD4C8",
@@ -393,8 +393,8 @@
   "jp": "ＰＰ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "PP",
+  "status": "done"
  },
  {
   "id": "0BD4CC",
@@ -404,8 +404,8 @@
   "jp": "ゴブリン",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Goblin",
+  "status": "done"
  },
  {
   "id": "0BD4D4",
@@ -415,8 +415,8 @@
   "jp": "ヨクジン",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Yokujin",
+  "status": "done"
  },
  {
   "id": "0BD4DC",
@@ -426,8 +426,8 @@
   "jp": "ゴーレム",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Golem",
+  "status": "done"
  },
  {
   "id": "0BD4E4",
@@ -459,8 +459,8 @@
   "jp": "ムシャ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Musha",
+  "status": "done"
  },
  {
   "id": "0BD4FA",
@@ -481,8 +481,8 @@
   "jp": "ドラゴン",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Dragon",
+  "status": "done"
  },
  {
   "id": "0BD50A",
@@ -549,8 +549,8 @@
   "jp": "でんせつ",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Legend",
+  "status": "done"
  },
  {
   "id": "0BD53A",
@@ -560,8 +560,8 @@
   "jp": "カゼ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Wind",
+  "status": "done"
  },
  {
   "id": "0BD53E",
@@ -571,8 +571,8 @@
   "jp": "ミズ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Aqua",
+  "status": "done"
  },
  {
   "id": "0BD542",
@@ -582,8 +582,8 @@
   "jp": "ホノオ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fire",
+  "status": "done"
  },
  {
   "id": "0BD548",
@@ -593,8 +593,8 @@
   "jp": "ダイチ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Earth",
+  "status": "done"
  },
  {
   "id": "0BD54E",
@@ -604,8 +604,8 @@
   "jp": "シンセイ",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Holy",
+  "status": "done"
  },
  {
   "id": "0BD556",
@@ -615,8 +615,8 @@
   "jp": "アンコク",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Dark",
+  "status": "done"
  },
  {
   "id": "0BD55E",
@@ -626,8 +626,8 @@
   "jp": "ザーゴ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Zago",
+  "status": "done"
  },
  {
   "id": "0BD564",
@@ -637,8 +637,8 @@
   "jp": "ラミレス",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Ramirez",
+  "status": "done"
  },
  {
   "id": "0BD56C",
@@ -648,8 +648,8 @@
   "jp": "大地のイグニス",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Earth Ignis",
+  "status": "done"
  },
  {
   "id": "0BD57A",
@@ -659,8 +659,8 @@
   "jp": "だいいちけいたい",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "First Form",
+  "status": "done"
  },
  {
   "id": "0BD58A",
@@ -670,8 +670,8 @@
   "jp": "だいにけいたい",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Second Form",
+  "status": "done"
  },
  {
   "id": "0BD598",
@@ -681,8 +681,8 @@
   "jp": "さいしゅうけい",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Final Form",
+  "status": "done"
  },
  {
   "id": "0BD5A6",
@@ -724,8 +724,8 @@
   "jp": "カノン",
   "len": 3,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Canon",
+  "status": "done"
  },
  {
   "id": "0BD5C2",
@@ -735,8 +735,8 @@
   "jp": "ベッフル",
   "len": 4,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Beffle",
+  "status": "done"
  },
  {
   "id": "0BD5D2",
@@ -746,8 +746,8 @@
   "jp": "ファーブス",
   "len": 5,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Farbus",
+  "status": "done"
  },
  {
   "id": "0BD5E2",
@@ -757,8 +757,8 @@
   "jp": "しゅじんこうをえらんでください",
   "len": 15,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Please choose your character.",
+  "status": "done"
  },
  {
   "id": "0BD600",
@@ -769,8 +769,8 @@
   "jp": "なまえをへんこうしますか？",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Change the name?",
+  "status": "done"
  },
  {
   "id": "0BD61A",
@@ -780,8 +780,8 @@
   "jp": "このなまえでよろしいですか？",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Is this name OK?",
+  "status": "done"
  },
  {
   "id": "0BD636",
@@ -791,8 +791,8 @@
   "jp": "しゅじんこうのゾクセイをえらんでください",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Please choose your character's element.",
+  "status": "done"
  },
  {
   "id": "0BD65E",
@@ -802,8 +802,8 @@
   "jp": "でんせつのモンスターをせんたくしてください",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Please choose the Legendary Monster.",
+  "status": "done"
  },
  {
   "id": "0BD688",
@@ -813,8 +813,8 @@
   "jp": "すべてのせっていをしゅうりょうしました/これでよろしいですか？",
   "len": 31,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "All settings are complete./Is everything OK?",
+  "status": "done"
  },
  {
   "id": "0BD6C6",
@@ -825,8 +825,8 @@
   "jp": "ん？、どうするんじゃ。",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? What'll it be?",
+  "status": "done"
  },
  {
   "id": "0BD6DC",
@@ -836,8 +836,8 @@
   "jp": "ん？、ゴウセイできるモンスターがたりんぞ。/ちゃんとそろえてからきてくれんか。",
   "len": 39,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? Not enough monsters you can fuse./Come back once you've got a full set.",
+  "status": "done"
  },
  {
   "id": "0BD72A",
@@ -847,8 +847,8 @@
   "jp": "ん？、モンスターがおらんぞ、かえったかえった。",
   "len": 23,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? You've no monsters! Off with you, off!",
+  "status": "done"
  },
  {
   "id": "0BD758",
@@ -858,8 +858,8 @@
   "jp": "ごうせい",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fusion",
+  "status": "done"
  },
  {
   "id": "0BD760",
@@ -869,8 +869,8 @@
   "jp": "みせをでる",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Leave",
+  "status": "done"
  },
  {
   "id": "0BD76A",
@@ -883,8 +883,8 @@
   "jp": "どのモンスターをゴウセイするんじゃ？",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Which monster will you fuse?",
+  "status": "done"
  },
  {
   "id": "0BD78E",
@@ -895,8 +895,8 @@
   "jp": "このモンスターとゴウセイするのはどれじゃ？",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "And which one fuses with this monster?",
+  "status": "done"
  },
  {
   "id": "0BD7B8",
@@ -906,8 +906,8 @@
   "jp": "そのモンスターはもうえらんでおるぞ。/ちがうモンスターをえらぶんじゃ。",
   "len": 35,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "You've already picked that monster./Pick a different one.",
+  "status": "done"
  },
  {
   "id": "0BD7FE",
@@ -917,8 +917,8 @@
   "jp": "この２タイをゴウセイすると、",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fuse these two and you get",
+  "status": "done"
  },
  {
   "id": "0BD81A",
@@ -928,8 +928,8 @@
   "jp": "デンセツのモンスター",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": " Legendary Monster",
+  "status": "done"
  },
  {
   "id": "0BD82E",
@@ -939,8 +939,8 @@
   "jp": "/「",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "/\"",
+  "status": "done"
  },
  {
   "id": "0BD832",
@@ -950,8 +950,8 @@
   "jp": "」になるようじゃ。/ゴウセイには",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "\", it seems./It'll cost you ",
+  "status": "done"
  },
  {
   "id": "0BD852",
@@ -961,8 +961,8 @@
   "jp": "かかるが、よいな？",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ". That suit you?",
+  "status": "done"
  },
  {
   "id": "0BD864",
@@ -972,8 +972,8 @@
   "jp": "それでは、ゴウセイをしてくるとするかの。",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Well then, I'll go do the fusion.",
+  "status": "done"
  },
  {
   "id": "0BD88C",
@@ -983,8 +983,8 @@
   "jp": "まだ、ごうせいしたいモンスターはおるかの？",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Any other monsters you want fused?",
+  "status": "done"
  },
  {
   "id": "0BD8B6",
@@ -994,8 +994,8 @@
   "jp": "ゴウセイできるモンスターがおらんのぅ。/また、きてくれよ。まっておるぞ。",
   "len": 36,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No monsters left that can be fused./Come again. I'll be waiting.",
+  "status": "done"
  },
  {
   "id": "0BD8FE",
@@ -1005,8 +1005,8 @@
   "jp": "すまんが、タマゴはゴウセイできんのじゃ。/べつのモンスターをえらんでくれんか。",
   "len": 39,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Sorry, but Eggs can't be fused./Pick another monster, would you?",
+  "status": "done"
  },
  {
   "id": "0BD94C",
@@ -1016,8 +1016,8 @@
   "jp": "ん？、そいつはいまここにはいないようじゃ。/べつのモンスターをえらんでくれんか。",
   "len": 40,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? That one doesn't seem to be here./Pick another monster, would you?",
+  "status": "done"
  },
  {
   "id": "0BD99C",
@@ -1028,8 +1028,8 @@
   "jp": "ん？、Ｇｏｌｄがたりんぞ。/はらうものがはらえるようになってからきてくれんか/のぉ。",
   "len": 42,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? You're short on Gold./Come back when you can pay what you owe.",
+  "status": "done"
  },
  {
   "id": "0BD9F0",
@@ -1039,8 +1039,8 @@
   "jp": "Ｇｏｌｄがなくなったようじゃな。/また、きてくれよ。まっておるぞ。",
   "len": 33,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Looks like you're out of Gold./Come again. I'll be waiting.",
+  "status": "done"
  },
  {
   "id": "0BDA32",
@@ -1050,8 +1050,8 @@
   "jp": "そいつとはゴウセイできないようじゃ、すまんのぉ。",
   "len": 24,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't fuse with that one, it seems. Sorry.",
+  "status": "done"
  },
  {
   "id": "0BDA62",
@@ -1061,8 +1061,8 @@
   "jp": "ん？、モンスターがすくなくてゴウセイできんのぅ。/モンスターをそろえてからきてくれんかの。",
   "len": 45,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Hm? Too few monsters to do any fusing./Gather more monsters and come back, eh?",
+  "status": "done"
  },
  {
   "id": "0BDABC",
@@ -1072,8 +1072,8 @@
   "jp": "そいつとゴウセイできるモンスターはいないようじゃ。/べつのモンスターをえらんでくれんかの。",
   "len": 45,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Seems nothing can be fused with that one./Pick another monster, would you?",
+  "status": "done"
  },
  {
   "id": "0BDB16",
@@ -1083,8 +1083,8 @@
   "jp": "ホッホッホッ、ゴウセイはせいこうじゃ。/",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Ho ho ho! The fusion worked!/It became ",
+  "status": "done"
  },
  {
   "id": "0BDB3E",
@@ -1094,8 +1094,8 @@
   "jp": "になったようじゃの。",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ", it seems.",
+  "status": "done"
  },
  {
   "id": "0BDB52",
@@ -1105,8 +1105,8 @@
   "jp": "みせんたくあたらしいじょうほうは、とどいていませんしゅぎょうからパーティがかえってきています",
   "len": 46,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "UnselectedNo new information has arrived.         A party has returned from training.",
+  "status": "done"
  },
  {
   "id": "0BDBAE",
@@ -1116,8 +1116,8 @@
   "jp": "しゅぎょうちゅうのためしゅつげきできません",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't sortie while in training.",
+  "status": "done"
  },
  {
   "id": "0BDBD8",
@@ -1128,8 +1128,8 @@
   "jp": "パーティがへんせいされていません",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No party has been formed.",
+  "status": "done"
  },
  {
   "id": "0BDBF8",
@@ -1139,8 +1139,8 @@
   "jp": "パーティのナマエがきまっていないため、しゅつげきできません",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The party has no name, so it can't sortie.",
+  "status": "done"
  },
  {
   "id": "0BDC32",
@@ -1150,8 +1150,8 @@
   "jp": "しゅぎょうちゅうのパーティはありません/",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No parties are in training./",
+  "status": "done"
  },
  {
   "id": "0BDC5A",
@@ -1161,8 +1161,8 @@
   "jp": "しゅぎょうパーティのキカンよてい/",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Training party due back:/",
+  "status": "done"
  },
  {
   "id": "0BDC7C",
@@ -1172,8 +1172,8 @@
   "jp": "しゅつげきパーティがせっていされていません",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No party is set for sortie.",
+  "status": "done"
  },
  {
   "id": "0BDCA6",
@@ -1184,8 +1184,8 @@
   "jp": "しゅつげきできるパーティがありません",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No party can sortie.",
+  "status": "done"
  },
  {
   "id": "0BDCCA",
@@ -1195,8 +1195,8 @@
   "jp": "へんせいされたパーティがすべてしゅぎょうにいっています",
   "len": 27,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "All formed parties are in training.",
+  "status": "done"
  },
  {
   "id": "0BDD00",
@@ -1206,8 +1206,8 @@
   "jp": "すべてのパーティがしゅぎょうにいっています",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "All parties are in training.",
+  "status": "done"
  },
  {
   "id": "0BDD2A",
@@ -1217,8 +1217,8 @@
   "jp": "すべてのモンスターがしゅぎょうにいっています",
   "len": 22,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "All monsters are in training.",
+  "status": "done"
  },
  {
   "id": "0BDD56",
@@ -1228,8 +1228,8 @@
   "jp": "へんせいされていますが、なまえがきまっていないパーティがあります",
   "len": 32,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "A party has been formed but has no name.",
+  "status": "done"
  },
  {
   "id": "0BDD96",
@@ -1239,8 +1239,8 @@
   "jp": "しゅつげきパーティにステージコウリャクにひつようなモンスターがいません",
   "len": 35,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The sortie party lacks the monsters needed to clear the stage.",
+  "status": "done"
  },
  {
   "id": "0BDDDC",
@@ -1250,8 +1250,8 @@
   "jp": "モンスターがいません",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No monsters.",
+  "status": "done"
  },
  {
   "id": "0BDDF0",
@@ -1261,8 +1261,8 @@
   "jp": "パーティは、すでにしゅつげきにせっていされています",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The party is already set for sortie.",
+  "status": "done"
  },
  {
   "id": "0BDE22",
@@ -1272,8 +1272,8 @@
   "jp": "つぎのこうりゃくは",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Next, clear ",
+  "status": "done"
  },
  {
   "id": "0BDE34",
@@ -1283,8 +1283,8 @@
   "jp": "です",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ".",
+  "status": "done"
  },
  {
   "id": "0BDE38",
@@ -1294,8 +1294,8 @@
   "jp": "つぎはモンスターじてんをそろえよう",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Next, let's fill the Monster Book!",
+  "status": "done"
  },
  {
   "id": "0BDE5A",
@@ -1305,8 +1305,8 @@
   "jp": "モンスターじてんコンプリート！！/おめでとう！！",
   "len": 24,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Monster Book complete!!/Congratulations!!",
+  "status": "done"
  },
  {
   "id": "0BDE8A",
@@ -1316,8 +1316,8 @@
   "jp": "メッセージ",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Message",
+  "status": "done"
  },
  {
   "id": "0BDE94",
@@ -1327,8 +1327,8 @@
   "jp": "つうしん",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Link",
+  "status": "done"
  },
  {
   "id": "0BDE9C",
@@ -1338,8 +1338,8 @@
   "jp": "モンスター",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Monster",
+  "status": "done"
  },
  {
   "id": "0BDEA6",
@@ -1349,8 +1349,8 @@
   "jp": "いまひつようなモンスターはありません",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No monsters are needed right now.",
+  "status": "done"
  },
  {
   "id": "0BDECA",
@@ -1360,8 +1360,8 @@
   "jp": "のゴウセイほうほう！/",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "'s fusion recipe!/",
+  "status": "done"
  },
  {
   "id": "0BDEE0",
@@ -1371,8 +1371,8 @@
   "jp": "いじょうの",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "+ ",
+  "status": "done"
  },
  {
   "id": "0BDEEA",
@@ -1382,8 +1382,8 @@
   "jp": "と",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ", ",
+  "status": "done"
  },
  {
   "id": "0BDEEC",
@@ -1393,8 +1393,8 @@
   "jp": "いじょうの",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "+ ",
+  "status": "done"
  },
  {
   "id": "0BDEF6",
@@ -1404,8 +1404,8 @@
   "jp": "をゴウセイする",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ": fuse them!",
+  "status": "done"
  },
  {
   "id": "0BDF04",
@@ -1415,8 +1415,8 @@
   "jp": "モンスターがいませんアイテムのソウビをおこないます",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No monsters.        Equip items to monsters.",
+  "status": "done"
  },
  {
   "id": "0BDF36",
@@ -1426,8 +1426,8 @@
   "jp": "そうびかのうなアイテムを/もっていません",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "You have no/equippable items.",
+  "status": "done"
  },
  {
   "id": "0BDF5E",
@@ -1437,8 +1437,8 @@
   "jp": "しゅぎょうちゅうのため、/なまえのへんこうはおこな/えません",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't change names/while in training.",
+  "status": "done"
  },
  {
   "id": "0BDF9A",
@@ -1448,8 +1448,8 @@
   "jp": "しゅぎょうちゅうのため、/アイテムへんこうはおこな/えません",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't change items/while in training.",
+  "status": "done"
  },
  {
   "id": "0BDFD6",
@@ -1459,8 +1459,8 @@
   "jp": "たまごへアイテムのソウビ/はできません",
   "len": 19,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Eggs can't equip items.",
+  "status": "done"
  },
  {
   "id": "0BDFFC",
@@ -1470,8 +1470,8 @@
   "jp": "しゅぎょうちゅうのため、/プレイヤーポイントわりふ/りはできません",
   "len": 33,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Player Points can't be/allotted while in/training.",
+  "status": "done"
  },
  {
   "id": "0BE03E",
@@ -1481,8 +1481,8 @@
   "jp": "たまごへのプレイヤーポイ/ントわりふりはできません",
   "len": 25,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Player Points can't be/allotted to Eggs.",
+  "status": "done"
  },
  {
   "id": "0BE070",
@@ -1492,8 +1492,8 @@
   "jp": "なくなるとモンスターはせんとうできなくなります",
   "len": 23,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Monsters can't fight when this runs out.",
+  "status": "done"
  },
  {
   "id": "0BE09E",
@@ -1503,8 +1503,8 @@
   "jp": "ダメージをうけたときにスキができにくくなります",
   "len": 23,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Less likely to be left open when hit.",
+  "status": "done"
  },
  {
   "id": "0BE0CC",
@@ -1514,8 +1514,8 @@
   "jp": "あいてにあたえるダメージがおおきくなります",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Increases the damage dealt to foes.",
+  "status": "done"
  },
  {
   "id": "0BE0F6",
@@ -1525,8 +1525,8 @@
   "jp": "あいてからうけるダメージをへらします",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Reduces the damage taken from foes.",
+  "status": "done"
  },
  {
   "id": "0BE11A",
@@ -1536,8 +1536,8 @@
   "jp": "はんだんしてうごくスピードがアップします",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Decides and moves more quickly.",
+  "status": "done"
  },
  {
   "id": "0BE142",
@@ -1547,8 +1547,8 @@
   "jp": "メイレイをリカイするようになります",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Learns to understand Orders.",
+  "status": "done"
  },
  {
   "id": "0BE164",
@@ -1558,8 +1558,8 @@
   "jp": "ひっさつわざをだしやすくなります",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Easier to unleash Special moves.",
+  "status": "done"
  },
  {
   "id": "0BE184",
@@ -1569,8 +1569,8 @@
   "jp": "コウゲキされたさいにハンゲキをするかのうせいがアップします",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Raises the chance of a Counter when attacked.",
+  "status": "done"
  },
  {
   "id": "0BE1BE",
@@ -1580,8 +1580,8 @@
   "jp": "かてそうなモンスターにむかうようになります",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Heads for monsters it can likely beat.",
+  "status": "done"
  },
  {
   "id": "0BE1E8",
@@ -1591,8 +1591,8 @@
   "jp": "メイレイをききやすくなります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Obeys Orders more readily.",
+  "status": "done"
  },
  {
   "id": "0BE204",
@@ -1602,8 +1602,8 @@
   "jp": "コウゲキがメイチュウしやすくなります",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Attacks hit more easily.",
+  "status": "done"
  },
  {
   "id": "0BE228",
@@ -1613,8 +1613,8 @@
   "jp": "コウゲキをよけやすくなります",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Dodges attacks more easily.",
+  "status": "done"
  },
  {
   "id": "0BE244",
@@ -1624,8 +1624,8 @@
   "jp": "ホカクがせいこうしやすくなりますへんせいされていませんしようできるめいれい",
   "len": 37,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Captures succeed more easily.   Not in a formation    Usable Orders",
+  "status": "done"
  },
  {
   "id": "0BE28E",
@@ -1636,8 +1636,8 @@
   "jp": "みへんせい",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Unformed",
+  "status": "done"
  },
  {
   "id": "0BE298",
@@ -1648,8 +1648,8 @@
   "jp": "たいき",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Wait",
+  "status": "done"
  },
  {
   "id": "0BE29E",
@@ -1660,8 +1660,8 @@
   "jp": "しゅつげき",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Sortie",
+  "status": "done"
  },
  {
   "id": "0BE2A8",
@@ -1673,8 +1673,8 @@
   "jp": "しゅぎょうちゅうパーティせんたくにもどる",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "In Training     Back to Party Selection",
+  "status": "done"
  },
  {
   "id": "0BE2D0",
@@ -1684,8 +1684,8 @@
   "jp": "へんせいをつづける",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Continue Formation",
+  "status": "done"
  },
  {
   "id": "0BE2E2",
@@ -1695,8 +1695,8 @@
   "jp": "へんせいをしゅうりょうして/へんこうをはんえいします",
   "len": 26,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "End formation and/apply the changes.",
+  "status": "done"
  },
  {
   "id": "0BE316",
@@ -1706,8 +1706,8 @@
   "jp": "パーティへんせいを/しゅうりょうしますか",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "End party/formation?",
+  "status": "done"
  },
  {
   "id": "0BE33E",
@@ -1717,8 +1717,8 @@
   "jp": "パーティからはずす",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove from Party",
+  "status": "done"
  },
  {
   "id": "0BE350",
@@ -1728,8 +1728,8 @@
   "jp": "パーティから/はずしてよろしいですかはずしてよろしいですか",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove from/the party. Is that OK?OK to remove it?",
+  "status": "done"
  },
  {
   "id": "0BE38A",
@@ -1739,8 +1739,8 @@
   "jp": "はずすモンスターを/えらんでください",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Choose a monster/to remove.",
+  "status": "done"
  },
  {
   "id": "0BE3AE",
@@ -1751,8 +1751,8 @@
   "jp": "パーティにはいぞく",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Assign to Party",
+  "status": "done"
  },
  {
   "id": "0BE3C0",
@@ -1762,8 +1762,8 @@
   "jp": "パーティにはいぞくしますか",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Assign to the party?",
+  "status": "done"
  },
  {
   "id": "0BE3DA",
@@ -1773,8 +1773,8 @@
   "jp": "いったいはずしてはいぞくいったいはずして、/はいぞくしますか",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Swap One Out, Assign    Remove one and/assign this one?",
+  "status": "done"
  },
  {
   "id": "0BE416",
@@ -1784,8 +1784,8 @@
   "jp": "しょぞくモンスターと/こうかん",
   "len": 15,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Swap with a/party member",
+  "status": "done"
  },
  {
   "id": "0BE434",
@@ -1795,8 +1795,8 @@
   "jp": "しょぞくモンスターと/こうかんしますか",
   "len": 19,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Swap with a/party member?",
+  "status": "done"
  },
  {
   "id": "0BE45A",
@@ -1807,8 +1807,8 @@
   "jp": "げんざいのパーティから/はずしてはいぞくしますかげんざいのパーティから/はずしてはいぞく",
   "len": 44,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove it from its current party/and assign it?Remove from current party/and assign",
+  "status": "done"
  },
  {
   "id": "0BE4B2",
@@ -1820,8 +1820,8 @@
   "jp": "こうかんするモンスター//をえらんでください",
   "len": 22,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Choose the monster//to swap with.",
+  "status": "done"
  },
  {
   "id": "0BE4DE",
@@ -1831,8 +1831,8 @@
   "jp": "ポジションへんこうポジションをへんこうしますか",
   "len": 23,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Change Position   Change this position?",
+  "status": "done"
  },
  {
   "id": "0BE50C",
@@ -1842,8 +1842,8 @@
   "jp": "どのモンスターと//ポジションをへんこうしますか",
   "len": 24,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Swap positions with//which monster?",
+  "status": "done"
  },
  {
   "id": "0BE53C",
@@ -1858,8 +1858,8 @@
   "jp": "はいぶんパラメータが/おおいためクリアします/よろしいですか",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Allotted stats too/high, so they'll be/cleared. OK?",
+  "status": "done"
  },
  {
   "id": "0BE578",
@@ -1870,8 +1870,8 @@
   "jp": "しゅぎょうちゅうのため/へんせいさぎょうはおこ/なえません",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't edit formation/while in training.",
+  "status": "done"
  },
  {
   "id": "0BE5B2",
@@ -1881,8 +1881,8 @@
   "jp": "モンスターがいないため、/へんせいさぎょうはおこ/なえません",
   "len": 30,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't edit formation/with no monsters.",
+  "status": "done"
  },
  {
   "id": "0BE5EE",
@@ -1892,8 +1892,8 @@
   "jp": "しゅぎょうちゅうのため/パーティめいへんこう/はおこなえません",
   "len": 31,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't rename the party/while in training.",
+  "status": "done"
  },
  {
   "id": "0BE62C",
@@ -1903,8 +1903,8 @@
   "jp": "しゅぎょうちゅうのため/しゅつげきせっていには/できません",
   "len": 29,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't set for sortie/while in training.",
+  "status": "done"
  },
  {
   "id": "0BE666",
@@ -1914,8 +1914,8 @@
   "jp": "みへんせいのためしゅつ/げきせっていにはできま/せん",
   "len": 26,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't set an unformed/party for sortie.",
+  "status": "done"
  },
  {
   "id": "0BE69A",
@@ -1925,8 +1925,8 @@
   "jp": "パーティめいがみせってい/のためしゅつげきせっていには/できません",
   "len": 33,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Party has no name, so/it can't be set for/sortie.",
+  "status": "done"
  },
  {
   "id": "0BE6DC",
@@ -1936,8 +1936,8 @@
   "jp": "アイテムをもっていません",
   "len": 12,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "You have no items.",
+  "status": "done"
  },
  {
   "id": "0BE6F4",
@@ -1948,8 +1948,8 @@
   "jp": "しゅぎょうちゅうのモンスター/がソウビしているためセンタク/できません。",
   "len": 36,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "A monster in training is/using it, so it can't/be selected.",
+  "status": "done"
  },
  {
   "id": "0BE73C",
@@ -1959,8 +1959,8 @@
   "jp": "しゅぎょうちゅうのため/ソウビできません。",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Can't equip while/in training.",
+  "status": "done"
  },
  {
   "id": "0BE766",
@@ -1970,8 +1970,8 @@
   "jp": "タマゴにはソウビすること/はできません。",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Eggs cannot equip/items.",
+  "status": "done"
  },
  {
   "id": "0BE78E",
@@ -1983,8 +1983,8 @@
   "jp": "アイテムをはずします、/よろしいですか？",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove the item./Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BE7B6",
@@ -1995,8 +1995,8 @@
   "jp": "アイテムをそうびします、/よろしいですか？",
   "len": 21,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Equip the item./Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BE7E0",
@@ -2006,8 +2006,8 @@
   "jp": "ほかのモンスターにソウビする",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Equip to another monster",
+  "status": "done"
  },
  {
   "id": "0BE7FC",
@@ -2017,8 +2017,8 @@
   "jp": "アイテムをはずす",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove Item",
+  "status": "done"
  },
  {
   "id": "0BE80C",
@@ -2029,8 +2029,8 @@
   "jp": "げんざいのアイテムをはず/してソウビします、よろし/いですか？",
   "len": 31,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Remove the current item/and equip this one./Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BE84A",
@@ -2040,8 +2040,8 @@
   "jp": "ほかのモンスターがソウビし/ていますので、はずしてソウビ/します。よろしいですか？",
   "len": 41,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Another monster has this/equipped. Remove it and/equip it here. Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BE89C",
@@ -2051,8 +2051,8 @@
   "jp": "そうびできるモンスターが/いません。",
   "len": 18,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No monster can/equip this.",
+  "status": "done"
  },
  {
   "id": "0BE8C0",
@@ -2062,8 +2062,8 @@
   "jp": "セーブ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Save",
+  "status": "done"
  },
  {
   "id": "0BE8C6",
@@ -2073,8 +2073,8 @@
   "jp": "サウンド",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Sound",
+  "status": "done"
  },
  {
   "id": "0BE8CE",
@@ -2084,8 +2084,8 @@
   "jp": "メッセージスピード",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Message Speed",
+  "status": "done"
  },
  {
   "id": "0BE8E0",
@@ -2095,8 +2095,8 @@
   "jp": "モンスターマーク",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Monster Mark",
+  "status": "done"
  },
  {
   "id": "0BE8F0",
@@ -2106,8 +2106,8 @@
   "jp": "イベントリプレイ",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Event Replay",
+  "status": "done"
  },
  {
   "id": "0BE900",
@@ -2117,8 +2117,8 @@
   "jp": "ヘルプ",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Help",
+  "status": "done"
  },
  {
   "id": "0BE906",
@@ -2128,8 +2128,8 @@
   "jp": "モンスターじてん",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Bestiary",
+  "status": "done"
  },
  {
   "id": "0BE916",
@@ -2139,8 +2139,8 @@
   "jp": "データクリア",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Clear Data",
+  "status": "done"
  },
  {
   "id": "0BE922",
@@ -2150,8 +2150,8 @@
   "jp": "パスワードさくじょスピーカー",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Delete Password   Speaker",
+  "status": "done"
  },
  {
   "id": "0BE93E",
@@ -2161,8 +2161,8 @@
   "jp": "ミュージック",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Music",
+  "status": "done"
  },
  {
   "id": "0BE94A",
@@ -2172,8 +2172,8 @@
   "jp": "こうかおんモノラルステレオ",
   "len": 13,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Effects   Mono    Stereo",
+  "status": "done"
  },
  {
   "id": "0BE964",
@@ -2184,8 +2184,8 @@
   "jp": "つかわれていません",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Not used",
+  "status": "done"
  },
  {
   "id": "0BE976",
@@ -2195,8 +2195,8 @@
   "jp": "リプレイできるイベントがありません",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "There are no events to replay.",
+  "status": "done"
  },
  {
   "id": "0BE998",
@@ -2206,8 +2206,8 @@
   "jp": "このコマンドをおこなうと、カートリッジにセーブしたデータをすべてクリアします",
   "len": 38,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "This command clears all data saved on the cartridge.",
+  "status": "done"
  },
  {
   "id": "0BE9E4",
@@ -2217,8 +2217,8 @@
   "jp": "ほんとうに消しますよ？セーブはおこなえません、ごめんね。サウンドのそうさはできません。このそうさはできません、ごめんね。モンスターリストはじゅんびちゅう。",
   "len": 77,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Really erase the data?Saving is not possible, sorry.    Sound cannot be adjusted.     This action is unavailable, sorry.The Monster List is not ready yet.",
+  "status": "done"
  },
  {
   "id": "0BEA7E",
@@ -2228,8 +2228,8 @@
   "jp": "セーブデータをすべてクリアしました",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "All save data has been cleared.",
+  "status": "done"
  },
  {
   "id": "0BEAA0",
@@ -2239,8 +2239,8 @@
   "jp": "カセットにほぞんしているモバイルアダプタＧＢのパスワードをさくじょします",
   "len": 36,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Deletes the Mobile Adapter GB password saved on the cartridge.",
+  "status": "done"
  },
  {
   "id": "0BEAE8",
@@ -2250,8 +2250,8 @@
   "jp": "パスワードをさくじょしました",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The password was deleted.",
+  "status": "done"
  },
  {
   "id": "0BEB04",
@@ -2262,8 +2262,8 @@
   "jp": "いまあるデータにうわがきセーブします。/よろしいですか？",
   "len": 28,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Overwrite the current save data./Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BEB3C",
@@ -2274,8 +2274,8 @@
   "jp": "データはせいじょうにセーブできました。",
   "len": 19,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The data was saved successfully.",
+  "status": "done"
  },
  {
   "id": "0BEB62",
@@ -2286,8 +2286,8 @@
   "jp": "データのセーブにシッパイしました。",
   "len": 17,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Failed to save the data.",
+  "status": "done"
  },
  {
   "id": "0BEB84",
@@ -2297,8 +2297,8 @@
   "jp": "プロローグ",
   "len": 5,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Prologue",
+  "status": "done"
  },
  {
   "id": "0BEB8E",
@@ -2308,8 +2308,8 @@
   "jp": "オープニング　ぜんはん",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Opening, Part 1",
+  "status": "done"
  },
  {
   "id": "0BEBA4",
@@ -2319,8 +2319,8 @@
   "jp": "オープニング　こうはん",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Opening, Part 2",
+  "status": "done"
  },
  {
   "id": "0BEBBA",
@@ -2330,8 +2330,8 @@
   "jp": "テスト",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Test",
+  "status": "done"
  },
  {
   "id": "0BEBC0",
@@ -2341,8 +2341,8 @@
   "jp": "ザーゴあらわる",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Zago Appears",
+  "status": "done"
  },
  {
   "id": "0BEBCE",
@@ -2352,8 +2352,8 @@
   "jp": "カコとゲンザイと・・・",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Past and Present...",
+  "status": "done"
  },
  {
   "id": "0BEBE4",
@@ -2363,8 +2363,8 @@
   "jp": "ファムファンタルかざんへ",
   "len": 12,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "To Mount Famfantal",
+  "status": "done"
  },
  {
   "id": "0BEBFC",
@@ -2374,8 +2374,8 @@
   "jp": "ベリンガムのインボウ",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham's Plot",
+  "status": "done"
  },
  {
   "id": "0BEC10",
@@ -2385,8 +2385,8 @@
   "jp": "イグニスのめざめ",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Ignis Awakens",
+  "status": "done"
  },
  {
   "id": "0BEC20",
@@ -2396,8 +2396,8 @@
   "jp": "イグニスやぶれる",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Ignis Defeated",
+  "status": "done"
  },
  {
   "id": "0BEC30",
@@ -2407,8 +2407,8 @@
   "jp": "ザーゴとラミレス",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Zago and Ramirez",
+  "status": "done"
  },
  {
   "id": "0BEC40",
@@ -2418,8 +2418,8 @@
   "jp": "ゴウセイジュウ",
   "len": 7,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Fused Monster",
+  "status": "done"
  },
  {
   "id": "0BEC4E",
@@ -2429,8 +2429,8 @@
   "jp": "ベリンガムのカケ",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham's Bet",
+  "status": "done"
  },
  {
   "id": "0BEC5E",
@@ -2440,8 +2440,8 @@
   "jp": "さいごのたたかい",
   "len": 8,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "The Final Battle",
+  "status": "done"
  },
  {
   "id": "0BEC6E",
@@ -2451,8 +2451,8 @@
   "jp": "エンディング",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Ending",
+  "status": "done"
  },
  {
   "id": "0BEC7A",
@@ -2462,8 +2462,8 @@
   "jp": "マジュウがいない　１",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No Monsters 1",
+  "status": "done"
  },
  {
   "id": "0BEC8E",
@@ -2473,8 +2473,8 @@
   "jp": "マジュウがいない　２",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No Monsters 2",
+  "status": "done"
  },
  {
   "id": "0BECA2",
@@ -2484,8 +2484,8 @@
   "jp": "マジュウがいない　３",
   "len": 10,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No Monsters 3",
+  "status": "done"
  },
  {
   "id": "0BECB6",
@@ -2495,8 +2495,8 @@
   "jp": "デモ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Demo",
+  "status": "done"
  },
  {
   "id": "0BECBA",
@@ -2506,8 +2506,8 @@
   "jp": "オープニングオール",
   "len": 9,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Full Opening",
+  "status": "done"
  },
  {
   "id": "0BECCC",
@@ -2517,8 +2517,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECCE",
@@ -2528,8 +2528,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECD0",
@@ -2539,8 +2539,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECD2",
@@ -2550,8 +2550,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECD4",
@@ -2561,8 +2561,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECD6",
@@ -2572,8 +2572,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECD8",
@@ -2583,8 +2583,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECDA",
@@ -2594,8 +2594,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECDC",
@@ -2605,8 +2605,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECDE",
@@ -2616,8 +2616,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECE0",
@@ -2627,8 +2627,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECE2",
@@ -2638,8 +2638,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECE4",
@@ -2649,8 +2649,8 @@
   "jp": "？？？",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "???",
+  "status": "done"
  },
  {
   "id": "0BECEA",
@@ -2660,8 +2660,8 @@
   "jp": "Ａ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "A",
+  "status": "done"
  },
  {
   "id": "0BECEC",
@@ -2671,8 +2671,8 @@
   "jp": "Ｂ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "B",
+  "status": "done"
  },
  {
   "id": "0BECEE",
@@ -2682,8 +2682,8 @@
   "jp": "？",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "?",
+  "status": "done"
  },
  {
   "id": "0BECF0",
@@ -2693,8 +2693,8 @@
   "jp": "ロード",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Load",
+  "status": "done"
  },
  {
   "id": "0BECF6",
@@ -2704,8 +2704,8 @@
   "jp": "ロードしますよろしいですか？",
   "len": 14,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Load the data. Is that OK?",
+  "status": "done"
  },
  {
   "id": "0BED12",
@@ -2715,8 +2715,8 @@
   "jp": "セーブデータが無いため/ロードできません",
   "len": 20,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "There is no save data/to load.",
+  "status": "done"
  },
  {
   "id": "0BED3A",
@@ -2726,8 +2726,8 @@
   "jp": "ロードにしっぱいしました/データはしょうきょされます。",
   "len": 27,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Load failed. The data/will be erased.",
+  "status": "done"
  },
  {
   "id": "0BED70",
@@ -2737,8 +2737,8 @@
   "jp": "ロードにせいこうしました/ゲームをかいしします。",
   "len": 24,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Loaded successfully./Starting the game.",
+  "status": "done"
  },
  {
   "id": "0BEDA0",
@@ -2748,8 +2748,8 @@
   "jp": "いやだ・・・",
   "len": 6,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "No...",
+  "status": "done"
  },
  {
   "id": "0BEDAC",
@@ -2759,7 +2759,7 @@
   "jp": "たすけ・・・て・・・！",
   "len": 11,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Help... me...!",
+  "status": "done"
  }
 ]

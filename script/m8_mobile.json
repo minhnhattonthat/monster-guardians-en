@@ -7,8 +7,8 @@
   "jp": "ＣＯＤＥ：１０－０００/　/モバイルアダプタがただしくさしこまれていません。/とりあつかいせつめいしょをごらんのうえ、しっかりとさしこんでください。",
   "len": 74,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 10-000/ /The Mobile Adapter is not inserted correctly./Please see the instruction manual and insert it firmly.",
+  "status": "done"
  },
  {
   "id": "09DBCA",
@@ -18,8 +18,8 @@
   "jp": "ＣＯＤＥ：１１－０００/　/でんわがうまくかけられないか、かいせんがこんでいるためつうしんできません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 11-000/ /Cannot connect: the call could not be placed, or the line is busy./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09DC94",
@@ -29,8 +29,8 @@
   "jp": "ＣＯＤＥ：１２－０００/　/かいせんがこんでいるためつうしんできません。/しばらくまってつうしんしなおしてください。",
   "len": 58,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 12-000/ /Cannot connect because the line is busy./Please wait a while and try again.",
+  "status": "done"
  },
  {
   "id": "09DD0A",
@@ -40,8 +40,8 @@
   "jp": "ＣＯＤＥ：１３－０００/　/でんわがうまくかけられないか、かいせんがこんでいるためつうしんできません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 13-000/ /Cannot connect: the call could not be placed, or the line is busy./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09DDD4",
@@ -51,8 +51,8 @@
   "jp": "ＣＯＤＥ：１４－０００/　/モバイルアダプタにとうろくされたじょうほうがただしくありません。/モバイルトレーナーでしょきとうろくをしてください。",
   "len": 72,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 14-000/ /The data registered in the Mobile Adapter is incorrect./Please do the initial setup in Mobile Trainer.",
+  "status": "done"
  },
  {
   "id": "09DE66",
@@ -62,8 +62,8 @@
   "jp": "ＣＯＤＥ：１５－０００/　/モバイルアダプタのエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 105,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 15-000/ /Mobile Adapter error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09DF3A",
@@ -73,8 +73,8 @@
   "jp": "ＣＯＤＥ：１５－００１/　/モバイルアダプタのエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 105,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 15-001/ /Mobile Adapter error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E00E",
@@ -84,8 +84,8 @@
   "jp": "ＣＯＤＥ：１５－００２/　/モバイルアダプタのエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 105,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 15-002/ /Mobile Adapter error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E0E2",
@@ -95,8 +95,8 @@
   "jp": "ＣＯＤＥ：１５－００３/　/かいせんがこんでいるためつうしんできません。/しばらくまってつうしんしなおしてください。",
   "len": 58,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 15-003/ /Cannot connect because the line is busy./Please wait a while and try again.",
+  "status": "done"
  },
  {
   "id": "09E158",
@@ -106,8 +106,8 @@
   "jp": "ＣＯＤＥ：１６－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 16-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E222",
@@ -117,8 +117,8 @@
   "jp": "ＣＯＤＥ：１７－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 17-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E2EC",
@@ -128,8 +128,8 @@
   "jp": "ＣＯＤＥ：２０－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 20-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E3B6",
@@ -139,8 +139,8 @@
   "jp": "ＣＯＤＥ：２１－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 21-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E480",
@@ -150,8 +150,8 @@
   "jp": "ＣＯＤＥ：２２－０００/　/パスワードかログインＩＤにまちがいがあります。/パスワードをごかくにんのうえ、しばらくまってからつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 103,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 22-000/ /The password or login ID is incorrect./Please check your password, wait a while, and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09E550",
@@ -161,8 +161,8 @@
   "jp": "ＣＯＤＥ：２３－０００/　/つうしんがせつだんされました。/とりあつかいせつめいしょをごらんのうえ、しばらくまってつうしんしなおしてください。",
   "len": 71,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 23-000/ /The connection was lost./Please see the instruction manual, wait a while, and try again.",
+  "status": "done"
  },
  {
   "id": "09E5E0",
@@ -172,8 +172,8 @@
   "jp": "ＣＯＤＥ：２４－０００/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 24-000/ /Cannot connect: the line is busy or there is a server error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09E6A2",
@@ -183,8 +183,8 @@
   "jp": "ＣＯＤＥ：２５－０００/　/モバイルアダプタにとうろくされたじょうほうがただしくありません。/モバイルトレーナーでしょきとうろくをしてください。",
   "len": 72,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 25-000/ /The data registered in the Mobile Adapter is incorrect./Please do the initial setup in Mobile Trainer.",
+  "status": "done"
  },
  {
   "id": "09E734",
@@ -194,8 +194,8 @@
   "jp": "ＣＯＤＥ：２６－０００/　/タイムアウトによりつうしんがせつだんされました。/つうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 80,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 26-000/ /The connection timed out./Please try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09E7D6",
@@ -205,8 +205,8 @@
   "jp": "ＣＯＤＥ：３０－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09E8A0",
@@ -216,8 +216,8 @@
   "jp": "ＣＯＤＥ：３０－２２１/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-221/ /Cannot connect: the line is busy or there is a server error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09E962",
@@ -227,8 +227,8 @@
   "jp": "ＣＯＤＥ：３０－４２１/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-421/ /Cannot connect: the line is busy or there is a server error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09EA24",
@@ -238,8 +238,8 @@
   "jp": "ＣＯＤＥ：３０－４５０/　/あてさきメールアドレスにまちがいがあります。/ただしいメールアドレスをにゅうりょくしてください。",
   "len": 62,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-450/ /The recipient e-mail address is incorrect./Please enter a correct e-mail address.",
+  "status": "done"
  },
  {
   "id": "09EAA2",
@@ -249,8 +249,8 @@
   "jp": "ＣＯＤＥ：３０－４５１/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-451/ /Cannot connect: the line is busy or there is a server error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09EB64",
@@ -260,8 +260,8 @@
   "jp": "ＣＯＤＥ：３０－４５２/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-452/ /Cannot connect: the line is busy or there is a server error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09EC26",
@@ -271,8 +271,8 @@
   "jp": "ＣＯＤＥ：３０－５００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-500/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09ECF0",
@@ -282,8 +282,8 @@
   "jp": "ＣＯＤＥ：３０－５０１/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-501/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09EDBA",
@@ -293,8 +293,8 @@
   "jp": "ＣＯＤＥ：３０－５０２/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE: 30-502/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09EE84",
@@ -304,8 +304,8 @@
   "jp": "ＣＯＤＥ：３０－５０３/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-503/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09EF4E",
@@ -315,8 +315,8 @@
   "jp": "ＣＯＤＥ：３０－５０４/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-504/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F018",
@@ -326,8 +326,8 @@
   "jp": "ＣＯＤＥ：３０－５５０/　/あてさきメールアドレスにまちがいがあります。/ただしいメールアドレスをにゅうりょくしてください。",
   "len": 62,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-550/ /The recipient's e-mail address is incorrect./Please enter the correct e-mail address.",
+  "status": "done"
  },
  {
   "id": "09F096",
@@ -337,8 +337,8 @@
   "jp": "ＣＯＤＥ：３０－５５１/　/あてさきメールアドレスにまちがいがあります。/ただしいメールアドレスをにゅうりょくしてください。",
   "len": 62,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-551/ /The recipient's e-mail address is incorrect./Please enter the correct e-mail address.",
+  "status": "done"
  },
  {
   "id": "09F114",
@@ -348,8 +348,8 @@
   "jp": "ＣＯＤＥ：３０－５５２/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-552/ /Cannot connect: the line is busy or a server error occurred./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09F1D6",
@@ -359,8 +359,8 @@
   "jp": "ＣＯＤＥ：３０－５５３/　/あてさきメールアドレスにまちがいがあります。/ただしいメールアドレスをにゅうりょくしてください。",
   "len": 62,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-553/ /The recipient's e-mail address is incorrect./Please enter the correct e-mail address.",
+  "status": "done"
  },
  {
   "id": "09F254",
@@ -370,8 +370,8 @@
   "jp": "ＣＯＤＥ：３０－５５４/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-554/ /Cannot connect: the line is busy or a server error occurred./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09F316",
@@ -381,8 +381,8 @@
   "jp": "ＣＯＤＥ：３０－ＸＸＸ/　/かいせんがこんでいるか、サーバのエラーのためつうしんができません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 96,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:30-XXX/ /Cannot connect: the line is busy or a server error occurred./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09F3D8",
@@ -392,8 +392,8 @@
   "jp": "ＣＯＤＥ：３１－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:31-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F4A2",
@@ -403,8 +403,8 @@
   "jp": "ＣＯＤＥ：３１－００２/　/メールアドレスにまちがいがあります。/とりあつかいせつめいしょをごらんのうえ、モバイルトレーナーでしょきとうろくをしてください。",
   "len": 78,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:31-002/ /The e-mail address is incorrect./Please see the instruction manual and complete the initial setup with the Mobile Trainer.",
+  "status": "done"
  },
  {
   "id": "09F540",
@@ -414,8 +414,8 @@
   "jp": "ＣＯＤＥ：３１－００３/　/パスワードにまちがいがあるか、サーバのエラーです。/ただしいパスワードをにゅうりょくして、しばらくまってからつうしんしなおしてください。",
   "len": 82,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:31-003/ /The password is incorrect, or there is a server error./Enter the correct password, wait a while, and try again.",
+  "status": "done"
  },
  {
   "id": "09F5E6",
@@ -425,8 +425,8 @@
   "jp": "ＣＯＤＥ：３１－００４/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:31-004/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F6B0",
@@ -436,8 +436,8 @@
   "jp": "ＣＯＤＥ：３１－ＸＸＸ/　/かいせんがこんでいるか、サーバのエラーのためつうしんできません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 95,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:31-XXX/ /Cannot connect: the line is busy or a server error occurred./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "09F770",
@@ -447,8 +447,8 @@
   "jp": "ＣＯＤＥ：３２－０００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-000/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F83A",
@@ -458,8 +458,8 @@
   "jp": "ＣＯＤＥ：３２－３０１/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-301/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F904",
@@ -469,8 +469,8 @@
   "jp": "ＣＯＤＥ：３２－３０２/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-302/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09F9CE",
@@ -480,8 +480,8 @@
   "jp": "ＣＯＤＥ：３２－４００/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-400/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FA98",
@@ -491,8 +491,8 @@
   "jp": "ＣＯＤＥ：３２－４０１/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-401/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FB62",
@@ -502,8 +502,8 @@
   "jp": "ＣＯＤＥ：３２－４０３/　/コンテンツダウンロードができません。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 108,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-403/ /Unable to download content./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FC3C",
@@ -513,8 +513,8 @@
   "jp": "ＣＯＤＥ：３２－４０４/　/コンテンツダウンロードができません。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセン",
   "len": 94,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-404/                                     /Unable to download content./Please wait a while and try again./If the problem persists, see the instruction manual and contact the",
+  "status": "done"
  },
  {
   "id": "09FCF8",
@@ -524,8 +524,8 @@
   "jp": "ターへお",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "Mobile S",
+  "status": "done"
  },
  {
   "id": "09FD00",
@@ -535,8 +535,8 @@
   "jp": "といあわせください。",
   "len": 10,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "upport Center.",
+  "status": "done"
  },
  {
   "id": "09FD16",
@@ -546,8 +546,8 @@
   "jp": "ＣＯＤＥ：３２－４０５/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-405/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FDE0",
@@ -557,8 +557,8 @@
   "jp": "ＣＯＤＥ：３２－４０６/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-406/ /Communication error./Please wait a while and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FEAA",
@@ -568,8 +568,8 @@
   "jp": "ＣＯＤＥ：３２－４０７/　/つうしんエラーです。/しばらくまってつうしん",
   "len": 36,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-407/             /Communication error./Please wait a while",
+  "status": "done"
  },
  {
   "id": "09FEF2",
@@ -579,8 +579,8 @@
   "jp": "しなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 64,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "09FF74",
@@ -590,8 +590,8 @@
   "jp": "ＣＯＤＥ：３２－４０８/　/タイムアウトによりつうしんがせつだんされました。/つうしんしなおしてください。/くわしくはとりあつかいせつめいしょを",
   "len": 72,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-408/                     /The connection was cut off due to a timeout./Please try connecting again./See the instruction manual for",
+  "status": "done"
  },
  {
   "id": "0A0004",
@@ -601,8 +601,8 @@
   "jp": "ごらんください。",
   "len": 8,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " details.",
+  "status": "done"
  },
  {
   "id": "0A0016",
@@ -612,8 +612,8 @@
   "jp": "ＣＯＤＥ：３２－５００/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 77,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-500/ /Server communication error./Please wait a while and try again./For details, see the instruction manual.",
+  "status": "done"
  },
  {
   "id": "0A00B2",
@@ -623,8 +623,8 @@
   "jp": "ＣＯＤＥ：３２－５０１/　/つうしんエラーです。/しばらくまってつうし",
   "len": 35,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-501/           /Communication error./Please wait a while",
+  "status": "done"
  },
  {
   "id": "0A00F8",
@@ -634,8 +634,8 @@
   "jp": "んしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 65,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "and try again./If the problem persists, see the instruction manual and contact the Mobile Support Center.",
+  "status": "done"
  },
  {
   "id": "0A017C",
@@ -645,8 +645,8 @@
   "jp": "ＣＯＤＥ：３２－５０２/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせ",
   "len": 63,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-502/                       /Server communication error./Please wait a while and try again./For details, see the",
+  "status": "done"
  },
  {
   "id": "0A01FA",
@@ -656,8 +656,8 @@
   "jp": "つめ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": " ins",
+  "status": "done"
  },
  {
   "id": "0A01FE",
@@ -667,8 +667,8 @@
   "jp": "いしょをごらんください。",
   "len": 12,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "truction manual.",
+  "status": "done"
  },
  {
   "id": "0A0218",
@@ -678,8 +678,8 @@
   "jp": "ＣＯＤＥ：３２－５０３/　/サーバがこんでいるためつうしんできません。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 84,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-503/ /The server is busy./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A02C2",
@@ -689,8 +689,8 @@
   "jp": "ＣＯＤＥ：３２－５０４/　/サーバのつうしんエラーです。/しばらくまっ",
   "len": 35,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-504/  /Server error./Please",
+  "status": "done"
  },
  {
   "id": "0A0308",
@@ -700,8 +700,8 @@
   "jp": "てつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 42,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A035E",
@@ -711,8 +711,8 @@
   "jp": "ＣＯＤＥ：３２－ＸＸＸ/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごら",
   "len": 71,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:32-XXX/   /Server error./Please retry later./Please see the manual",
+  "status": "done"
  },
  {
   "id": "0A03EC",
@@ -722,8 +722,8 @@
   "jp": "んください。",
   "len": 6,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": ".",
+  "status": "done"
  },
  {
   "id": "0A03FA",
@@ -733,8 +733,8 @@
   "jp": "ＣＯ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CO",
+  "status": "done"
  },
  {
   "id": "0A03FE",
@@ -744,8 +744,8 @@
   "jp": "ＤＥ：３",
   "len": 4,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "DE:3",
+  "status": "done"
  },
  {
   "id": "0A0406",
@@ -755,8 +755,8 @@
   "jp": "３－１０１/　/ごりようりょうきんのおしはらいがおくれたばあいには、ごりようができなくなります。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 75,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "3-101/ /If payment is late, service will stop./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A049E",
@@ -766,8 +766,8 @@
   "jp": "ＣＯＤＥ：３３－１０２/　/おきゃくさまのつごうにより、ごりようできません。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 65,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-102/ /Your account is on hold./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0522",
@@ -777,8 +777,8 @@
   "jp": "ＣＯＤＥ：３３－１０３/　/ごりようりょうきんがじょうげんをこえているため、こんげつはりようできません。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 79,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-103/ /Fee limit reached; blocked this month./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A05C2",
@@ -788,8 +788,8 @@
   "jp": "ＣＯＤＥ：３３－１０４/　/コンテンツダウンロードができません",
   "len": 31,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-104/   /Cannot download",
+  "status": "done"
  },
  {
   "id": "0A0600",
@@ -799,8 +799,8 @@
   "jp": "。/",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "./",
+  "status": "done"
  },
  {
   "id": "0A0604",
@@ -810,8 +810,8 @@
   "jp": "くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 26,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A063A",
@@ -821,8 +821,8 @@
   "jp": "ＣＯＤＥ：３３－１０５/　/コンテンツダウンロードができません。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 59,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-105/ /Cannot download./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A06B2",
@@ -832,8 +832,8 @@
   "jp": "ＣＯＤＥ：３３－１０６/　/げんざいメンテナンスちゅうのためごりようできません",
   "len": 39,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-106/      /Down for maintenance",
+  "status": "done"
  },
  {
   "id": "0A0700",
@@ -843,8 +843,8 @@
   "jp": "。",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": ".",
+  "status": "done"
  },
  {
   "id": "0A0702",
@@ -855,8 +855,8 @@
   "jp": "/しば",
   "len": 3,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "/Pl",
+  "status": "done"
  },
  {
   "id": "0A0708",
@@ -867,8 +867,8 @@
   "jp": "らくまっておかけなおしください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 43,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "ease retry soon./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0760",
@@ -878,8 +878,8 @@
   "jp": "ＣＯＤＥ：３３－２０１/　/とうろくしょのしょりがかんりょうしていないようです。/しょりがかんりょうするまでしばらくおまちください。",
   "len": 66,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-201/ /Registration is pending./Please wait until done.",
+  "status": "done"
  },
  {
   "id": "0A07E6",
@@ -889,8 +889,8 @@
   "jp": "ＣＯＤＥ：３３－２０２/　/つう",
   "len": 16,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-202//Net",
+  "status": "done"
  },
  {
   "id": "0A0806",
@@ -901,8 +901,8 @@
   "jp": "しん",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "wo",
+  "status": "done"
  },
  {
   "id": "0A080A",
@@ -912,8 +912,8 @@
   "jp": "エ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "r",
+  "status": "done"
  },
  {
   "id": "0A080C",
@@ -923,8 +923,8 @@
   "jp": "ラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 81,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "k error./Please retry later./If it fails, see the manual and call Mobile Support.",
+  "status": "done"
  },
  {
   "id": "0A08B0",
@@ -934,8 +934,8 @@
   "jp": "ＣＯＤＥ：３３－２０３/　/コンテンツダウンロードができません。/くわしくはとりあつ",
   "len": 42,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-203/  /Cannot download./See the ma",
+  "status": "done"
  },
  {
   "id": "0A0904",
@@ -945,8 +945,8 @@
   "jp": "か",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "n",
+  "status": "done"
  },
  {
   "id": "0A0906",
@@ -956,8 +956,8 @@
   "jp": "い",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "u",
+  "status": "done"
  },
  {
   "id": "0A0908",
@@ -968,8 +968,8 @@
   "jp": "せ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "a",
+  "status": "done"
  },
  {
   "id": "0A090A",
@@ -980,8 +980,8 @@
   "jp": "つ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "l",
+  "status": "done"
  },
  {
   "id": "0A090C",
@@ -991,8 +991,8 @@
   "jp": "めいしょをごらんください。",
   "len": 13,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " for details.",
+  "status": "done"
  },
  {
   "id": "0A0928",
@@ -1002,8 +1002,8 @@
   "jp": "ＣＯＤＥ：３３－２０４/　/つうしんエラーです。/しばらくまってつうしんしなおしてください。/なおらないばあいは、とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 100,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-204//Network error./Please retry later./If it fails, see the manual and call Mobile Support.",
+  "status": "done"
  },
  {
   "id": "0A09F2",
@@ -1013,8 +1013,8 @@
   "jp": "ＣＯＤＥ：３３－２０５",
   "len": 11,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-205",
+  "status": "done"
  },
  {
   "id": "0A0A08",
@@ -1024,8 +1024,8 @@
   "jp": "/",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "/",
+  "status": "done"
  },
  {
   "id": "0A0A0A",
@@ -1036,8 +1036,8 @@
   "jp": "　/",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": " /",
+  "status": "done"
  },
  {
   "id": "0A0A0E",
@@ -1047,8 +1047,8 @@
   "jp": "サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 63,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "Server error./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0A8E",
@@ -1058,8 +1058,8 @@
   "jp": "ＣＯＤＥ：３３－２０６/　/コンテンツダウンロードができません。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 59,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-206/ /Cannot download./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0B06",
@@ -1070,8 +1070,8 @@
   "jp": "ＣＯ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CO",
+  "status": "done"
  },
  {
   "id": "0A0B0A",
@@ -1084,8 +1084,8 @@
   "jp": "Ｄ",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "D",
+  "status": "done"
  },
  {
   "id": "0A0B0C",
@@ -1097,8 +1097,8 @@
   "jp": "Ｅ：３３－２９９/　/おきゃくさまのつごうにより、ごりようできません。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 62,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "E:33-299//Your account is on hold./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0B8A",
@@ -1108,8 +1108,8 @@
   "jp": "ＣＯＤＥ：３３－３０１/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめ",
   "len": 65,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-301/ /Server error./Please retry later./Details are in th",
+  "status": "done"
  },
  {
   "id": "0A0C0C",
@@ -1119,8 +1119,8 @@
   "jp": "い",
   "len": 1,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "e",
+  "status": "done"
  },
  {
   "id": "0A0C0E",
@@ -1134,8 +1134,8 @@
   "jp": "しょ",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": " m",
+  "status": "done"
  },
  {
   "id": "0A0C12",
@@ -1145,8 +1145,8 @@
   "jp": "をごらんください。",
   "len": 9,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "anual.",
+  "status": "done"
  },
  {
   "id": "0A0C26",
@@ -1156,8 +1156,8 @@
   "jp": "ＣＯＤＥ：３３－４０１/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 77,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-401/ /Server error./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0CC2",
@@ -1167,8 +1167,8 @@
   "jp": "ＣＯＤＥ：３３－４０２/　/サーバのつうしんエラーです。/しばらくまってつう",
   "len": 38,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-402/   /Server error./Please r",
+  "status": "done"
  },
  {
   "id": "0A0D0E",
@@ -1180,8 +1180,8 @@
   "jp": "しんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 39,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "etry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0D5E",
@@ -1191,8 +1191,8 @@
   "jp": "ＣＯＤＥ：３３－４０３/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 77,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-403/ /Server error./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0DFA",
@@ -1202,8 +1202,8 @@
   "jp": "ＣＯＤＥ：３３－４０４/",
   "len": 12,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-404/",
+  "status": "done"
  },
  {
   "id": "0A0E12",
@@ -1213,8 +1213,8 @@
   "jp": "　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 65,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " /Server error./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0E96",
@@ -1224,8 +1224,8 @@
   "jp": "ＣＯＤＥ：３３－４０５/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとり",
   "len": 58,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-405/    /Server error./Please retry later./Details",
+  "status": "done"
  },
  {
   "id": "0A0F0A",
@@ -1236,8 +1236,8 @@
   "jp": "あつかいせつめいしょをごらんください。",
   "len": 19,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0F32",
@@ -1247,8 +1247,8 @@
   "jp": "ＣＯＤＥ：３３－４０６/　/サーバのつうしんエラーです。/しばらくまってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 77,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-406/ /Server error./Please retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A0FCE",
@@ -1258,8 +1258,8 @@
   "jp": "ＣＯＤＥ：３３－ＸＸＸ/　/サーバのつうしんエラーです。/しばら",
   "len": 32,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:33-XXX/ /Server error./Plea",
+  "status": "done"
  },
  {
   "id": "0A100E",
@@ -1269,8 +1269,8 @@
   "jp": "くま",
   "len": 2,
   "term": false,
-  "en": "",
-  "status": "todo"
+  "en": "se",
+  "status": "done"
  },
  {
   "id": "0A1012",
@@ -1280,8 +1280,8 @@
   "jp": "ってつうしんしなおしてください。/くわしくはとりあつかいせつめいしょをごらんください。",
   "len": 43,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": " retry later./Details are in the manual.",
+  "status": "done"
  },
  {
   "id": "0A106A",
@@ -1291,7 +1291,7 @@
   "jp": "ＣＯＤＥ：ＸＸ－ＸＸＸ/　/そうていがいのエラーがはっせいしました。/とりあつかいせつめいしょをごらんのうえモバイルサポートセンターへおといあわせください。",
   "len": 78,
   "term": true,
-  "en": "",
-  "status": "todo"
+  "en": "CODE:XX-XXX/ /Unexpected error./See the manual and call Mobile Support.",
+  "status": "done"
  }
 ]

@@ -1,0 +1,6 @@
+# cold boot -> intro (unskippable) -> title (~f9840) -> new game
+10100 -
+6 start
+120 -
+6 a
+120 -

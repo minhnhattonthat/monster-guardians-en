@@ -290,8 +290,8 @@
   ],
   "jp": "神のいない世界に、繁栄などは無い{wait:003C}{page}だから私が使わされた。{wait:003C}",
   "bytes": 66,
-  "en": "",
-  "status": "todo"
+  "en": "In a world without gods, there can be no prosperity.{wait:003C}{page}That is why I was sent.{wait:003C}",
+  "status": "done"
  },
  {
   "id": "0CFFC6",
@@ -300,8 +300,8 @@
   ],
   "jp": "暗黒の時代{wait:003C}{page}グランデート大陸は常に{br}人類の危機と共に存在していた。{wait:000A}{clear}永遠の命を持つといわれた、{br}巨大な２匹のハイドラゴンが{wait:000A}{clear}大陸の権力を、掌握していた{wait:0014}",
   "bytes": 168,
-  "en": "",
-  "status": "todo"
+  "en": "An age of darkness.{wait:003C}{page}On the continent of Grandate, mankind always lived on the brink of ruin.{wait:000A}{clear}Two colossal High Dragons, said to live forever,{wait:000A}{clear}held all power over the land.{wait:0014}",
+  "status": "done"
  },
  {
   "id": "0D006E",
@@ -310,8 +310,8 @@
   ],
   "jp": "空を支配していた、天空の{c7535:0001,FFFF}カノン{c7536}{wait:0032}",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Ruler of the skies: Sky Dragon {c7535:0001,FFFF}Canon{c7536}{wait:0032}",
+  "status": "done"
  },
  {
   "id": "0D009A",
@@ -320,8 +320,8 @@
   ],
   "jp": "地上を支配していた、大地の{c7535:0001,FFFF}イグニス{c7536}{wait:0032}",
   "bytes": 48,
-  "en": "",
-  "status": "todo"
+  "en": "Ruler of the land: Earth Dragon {c7535:0001,FFFF}Ignis{c7536}{wait:0032}",
+  "status": "done"
  },
  {
   "id": "0D00CA",
@@ -330,8 +330,8 @@
   ],
   "jp": "２匹は互いに対峙し、{wait:0001}大陸を征服しようと、{clear}{wait:0002}血塗られた戦争をくり広げていた。{wait:0014}",
   "bytes": 88,
-  "en": "",
-  "status": "todo"
+  "en": "The two stood against each other,{wait:0001} each bent on conquering the continent,{clear}{wait:0002}and waged a bloody war.{wait:0014}",
+  "status": "done"
  },
  {
   "id": "0D0122",
@@ -340,8 +340,8 @@
   ],
   "jp": "長き戦いの末、{br}この大陸全ての生命と、{clear}繁栄が消え去ろうとしたとき{c7535:0001,0004}・・・{c7536}{clear}見たことも無い二匹の魔獣を{br}引き連れた、一人の{col:0002}魔術使い{colend}が現れ、{wait:0014}{clear}２匹に戦いを挑んだ！{wait:001E}",
   "bytes": 182,
-  "en": "",
-  "status": "todo"
+  "en": "At the end of that long war, all life{clear}and prosperity on the continent were about to vanish{c7535:0001,0004}...{c7536}{clear}Then a {col:0002}sorcerer{colend} appeared, leading two monsters no one had ever seen,{wait:0014}{clear}and challenged the two dragons!{wait:001E}",
+  "status": "done"
  },
  {
   "id": "0D01D8",
@@ -350,8 +350,8 @@
   ],
   "jp": "長く壮絶な戦いが繰り広げられ{c7535:0001,0004}・・・{c7536}{wait:001E}",
   "bytes": 48,
-  "en": "",
-  "status": "todo"
+  "en": "A long and fierce battle raged{c7535:0001,0004}...{c7536}{wait:001E}",
+  "status": "done"
  },
  {
   "id": "0D0208",
@@ -360,8 +360,8 @@
   ],
   "jp": "天空のカノンは敗れ、{br}傷を負った大地のイグニスは、{wait:000A}{clear}ファムファンタル火山の地下深く、{br}姿を隠したのであった。{wait:0014}{clear}",
   "bytes": 120,
-  "en": "",
-  "status": "todo"
+  "en": "Sky Dragon Canon was defeated, and the wounded Earth Dragon Ignis{wait:000A}{clear}hid itself deep beneath Mount Famfantal.{wait:0014}{clear}",
+  "status": "done"
  },
  {
   "id": "0D0280",
@@ -370,8 +370,8 @@
   ],
   "jp": "その勝利は、二匹の魔獣の命と、{br}引き換えに勝ち取った。{wait:0014}{clear}そして魔獣使い自身もまた、{br}力尽きようとしていた。{wait:0014}{clear}その時、この魔獣使いを救える技術を持つ者は{col:0002}私{colend}以外、{wait:0004}{clear}この世界には{wait:0001}居なかった。{wait:001E}",
   "bytes": 212,
-  "en": "",
-  "status": "todo"
+  "en": "The victory cost the lives of the two monsters.{wait:0014}{clear}And the Tamer himself was close to death as well.{wait:0014}{clear}In those days, no one but {col:0002}me{colend}{wait:0004}{clear}in all the world{wait:0001} had the skill to save him.{wait:001E}",
+  "status": "done"
  },
  {
   "id": "0D0354",
@@ -380,8 +380,8 @@
   ],
   "jp": "その後この魔獣使いと、二匹の魔獣は{clear}{col:0002}伝説の魔獣使い{colend}{br}{wait:0001}として人々に伝えられた。{wait:0014}{clear}そしてグランデート大陸は、{br}人類が支配者となった。{wait:001E}",
   "bytes": 148,
-  "en": "",
-  "status": "todo"
+  "en": "Ever after, the Tamer and his two monsters{clear}were spoken of as {col:0002}the Legendary Monster Tamer{colend}{wait:0001} and his beasts.{wait:0014}{clear}And mankind became the master of Grandate.{wait:001E}",
+  "status": "done"
  },
  {
   "id": "0D03E8",
@@ -390,8 +390,8 @@
   ],
   "jp": "～ファムファンタル火山～{c7533}その{col:0002}男{colend}は、いまだ盛んに噴煙を上げる、{col:0002}火口{colend}にいた。",
   "bytes": 88,
-  "en": "",
-  "status": "todo"
+  "en": "- Mount Famfantal -{c7533}A {col:0002}man{colend} stood at the {col:0002}crater{colend} of the volcano, which still belched great clouds of smoke.",
+  "status": "done"
  },
  {
   "id": "0D0440",
@@ -400,8 +400,8 @@
   ],
   "jp": "火口には{col:0002}イグニス{colend}を祭ったと思われる、廃墟が残っていた。{clear}男「どうした！大地のイグニスよ！」",
   "bytes": 98,
-  "en": "",
-  "status": "todo"
+  "en": "Ruins that seemed to have once enshrined {col:0002}Ignis{colend} remained at the crater.{clear}Man: \"What's the matter?! Earth Dragon Ignis!\"",
+  "status": "done"
  },
  {
   "id": "0D04A2",
@@ -410,8 +410,8 @@
   ],
   "jp": "男「このタクトを見て思い出さないのか？」{clear}男「おまえを世界から追いやった{br}{col:0002}伝説の魔獣使い{colend}のタクトだ！」{clear}男「今再びよみがえりヤツに、{br}いやこの世界に{clear}共に、{col:0002}復讐{colend}しようではないか！！」",
   "bytes": 196,
-  "en": "",
-  "status": "todo"
+  "en": "Man: \"Does this baton not stir your memory?\"{clear}Man: \"It is the baton of {col:0002}the Legendary Monster Tamer{colend}, who drove you from this world!\"{clear}Man: \"Rise again, and let us take {col:0002}revenge{colend}{clear}together, on him... no, on the whole world!!\"",
+  "status": "done"
  },
  {
   "id": "0D0566",
@@ -420,8 +420,8 @@
   ],
   "jp": "{c7537:0000}男「{c7535:0001,000A}・・・{c7536}」{clear}男「これだけではまだ弱いか！{wait:0008}{br}やはりヤツを{c7535:0001,0005}・・・{c7536}」{clear}そのとき男は足元の地中深くから、何かがうごめくのを感じとっていた。",
   "bytes": 158,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:0000}Man: \"{c7535:0001,000A}...{c7536}\"{clear}Man: \"Is this still not enough?!{wait:0008} Then I must have him{c7535:0001,0005}...{c7536}\"{clear}At that moment, the man sensed something stirring deep in the earth beneath his feet.",
+  "status": "done"
  },
  {
   "id": "0D0604",
@@ -430,8 +430,8 @@
   ],
   "jp": "～廃墟～{c7533}朝もやの中、人里離れた廃墟から、{br}男達の声が聞こえた！{clear}追っ手１「見つけ出すぞ！」{clear}追っ手２「逃がすな！！」",
   "bytes": 120,
-  "en": "",
-  "status": "todo"
+  "en": "- The Ruins -{c7533}Through the morning mist, men's voices rang out from ruins far from any village!{clear}Pursuer 1: \"We'll find him!\"{clear}Pursuer 2: \"Don't let him escape!!\"",
+  "status": "done"
  },
  {
   "id": "0D067C",
@@ -440,8 +440,8 @@
   ],
   "jp": "それは、バルロア王国配下の{br}衛兵達であった。{br}追っ手３「もう逃がさんぞ！」{clear}追っ手２{br}「えーと{c7535:0001,0002}・・・{c7536}{wait:001A}こいつの名前は？」",
   "bytes": 132,
-  "en": "",
-  "status": "todo"
+  "en": "They were guards serving the Kingdom of Balroa.{br}Pursuer 3: \"You're not getting away this time!\"{clear}Pursuer 2: \"Uh{c7535:0001,0002}...{c7536}{wait:001A} what was this kid's name again?\"",
+  "status": "done"
  },
  {
   "id": "0D0700",
@@ -450,8 +450,8 @@
   ],
   "jp": "追っ手３「あ、そうだ！」{clear}追っ手１{br}「{col:0002}{name}{colend}だった！」{clear}追っ手２「かくごしろ！{br}{name}！{clear}おまえを捕まえて{col:0002}ベリンガム様{colend}に{br}渡せば謝礼がたんまりと{c7535:0001,0004}・・・{c7536}」{clear}そういって追っ手達が{name}に手をかけようとしたその時！",
   "bytes": 218,
-  "en": "",
-  "status": "todo"
+  "en": "Pursuer 3: \"Oh, I remember!\"{clear}Pursuer 1: \"It was {col:0002}{name}{colend}!\"{clear}Pursuer 2: \"Prepare yourself, {name}!{clear}Once we catch you and hand you over to {col:0002}Lord Bellingham{colend}, the reward will be huge{c7535:0001,0004}...{c7536}\"{clear}With that, the pursuers reached for {name}, when suddenly...!",
+  "status": "done"
  },
  {
   "id": "0D07DA",
@@ -460,8 +460,8 @@
   ],
   "jp": "背後から魔獣達が{br}突然、追っ手達におそいかかった！",
   "bytes": 52,
-  "en": "",
-  "status": "todo"
+  "en": "Monsters leapt out from behind and suddenly fell upon the pursuers!",
+  "status": "done"
  },
  {
   "id": "0D080E",
@@ -470,8 +470,8 @@
   ],
   "jp": "追っ手達「うわぁ！！」{clear}{name}は唖然として、{br}事の成り行きを見ていた。",
   "bytes": 68,
-  "en": "",
-  "status": "todo"
+  "en": "Pursuers: \"Waaagh!!\"{clear}{name} watched the whole thing, dumbfounded.",
+  "status": "done"
  },
  {
   "id": "0D0852",
@@ -480,8 +480,8 @@
   ],
   "jp": "追っ手達はあっというまに倒された{clear}{c7535:0001,FFFE}すると、となりの部屋から{br}一人の老人が現れた。{br}{c7536}",
   "bytes": 92,
-  "en": "",
-  "status": "todo"
+  "en": "The pursuers were beaten in the blink of an eye.{clear}{c7535:0001,FFFE}Then an old man appeared from the next room.{br}{c7536}",
+  "status": "done"
  },
  {
   "id": "0D08AE",
@@ -490,8 +490,8 @@
   ],
   "jp": "{c7537:0002}老人「やかましいのう！{wait:0006}わしゃ{br}寝起きは機嫌がわるいんじゃ！」",
   "bytes": 70,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:0002}Old Man: \"What a racket!{wait:0006} I'm always in a foul mood when I've just woken up!\"",
+  "status": "done"
  },
  {
   "id": "0D08F4",
@@ -500,8 +500,8 @@
   ],
   "jp": "その老人はクリムトと名乗った。{c7533}クリムト「いや、助けたのはベリンガムと言う名を聞いてな。{br}やつとは少々ワケありでの{c7535:0001,000A}・・・{c7536}{clear}うーん、そなたはヴァンダム城の{br}ウィンスローの{word2:0001}とみたが・・{clear}城でなにかあったかの？」{br}",
   "bytes": 222,
-  "en": "",
-  "status": "todo"
+  "en": "The old man introduced himself as Klimt.{c7533}Klimt: \"No, I only helped because I heard the name Bellingham. That fellow and I have a bit of history{c7535:0001,000A}...{c7536}{clear}Hmm, I take it you are Winslow's {word2:0001}, of Vandam Castle...{clear}Did something happen at the castle?\"",
+  "status": "done"
  },
  {
   "id": "0D09D2",
@@ -510,8 +510,8 @@
   ],
   "jp": "{c7538:0031,0030}{name}は昨日に起こった{br}{col:0002}事件{colend}をクリムトに語り始めた。",
   "bytes": 62,
-  "en": "",
-  "status": "todo"
+  "en": "{c7538:0031,0030}{name} began telling Klimt of the {col:0002}incident{colend} that had happened the day before.",
+  "status": "done"
  },
  {
   "id": "0D0A10",

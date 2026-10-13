@@ -195,7 +195,7 @@ def build(rom, marker=False):
         for e in json.loads(path.read_text(encoding='utf-8')):
             text = e['en'] or (marker_text(e) if marker and e['slots'] else '')
             if not text or e['status'] in ('keep', 'unused', 'data', 'special'):
-                if e['status'] != 'data':
+                if e['status'] not in ('data', 'special'):  # special: written by insert.default_names
                     jp_used.update(encode(e['jp'], enc) if '[' not in e['jp'] else [])
                 continue
             budget, width, nl = limits(e)

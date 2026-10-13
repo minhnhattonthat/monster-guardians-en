@@ -1,0 +1,72 @@
+# from work/states/menu (main menu, cursor on the first right-hand icon): visit each section
+30 -
+# icon 2: briefing
+6 down
+30 -
+6 a
+120 -
+6 a
+90 -
+6 b
+90 -
+6 b
+90 -
+# icon 3: monster management
+6 down
+30 -
+6 a
+120 -
+6 a
+90 -
+6 down
+40 -
+6 a
+90 -
+6 b
+60 -
+6 b
+60 -
+6 b
+90 -
+# icon 4: party formation
+6 down
+30 -
+6 a
+120 -
+6 a
+90 -
+6 b
+60 -
+6 b
+90 -
+# icon 5: items
+6 down
+30 -
+6 a
+120 -
+6 a
+90 -
+6 b
+60 -
+6 b
+90 -
+# icon 6: system
+6 down
+30 -
+6 a
+120 -
+6 down
+40 -
+6 down
+40 -
+6 down
+40 -
+6 b
+90 -
+# bottom tabs
+6 left
+40 -
+6 right
+40 -
+6 right
+40 -

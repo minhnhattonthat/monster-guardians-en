@@ -36,7 +36,19 @@ AUTO_WAIT = '{wait:003C}'
 # owner var a = b, var 2 = frames per glyph. The intro runs on a timer, so English cells must type faster.
 PATCHES = {
     0x0C8D5C: (5, 3),   # intro scene: glyph delay 5 -> 3
+    # default hero name レオ (2 codes) -> "Leo" (3): DMA into the save's name field and label lengths
+    0x055120: (0x80000002, 0x80000003),
+    0x05539C: (0x80000002, 0x80000003),
 }
+# u16 Thumb instruction patches: offset -> (JP, new)
+PATCHES16 = {
+    0x0492C4: (0x2202, 0x2203),   # movs r2,#2 -> #3: strncpy16 of the default hero name
+    0x049314: (0x2202, 0x2203),
+    0x057734: (0x2002, 0x2003),   # hero/heroine select label length
+    0x057E1A: (0x2204, 0x2206),   # name copy in bytes
+}
+# default names: drawn by the 8x8 font AND mapped into the story font by {name}, so normal tiles only
+HERO, HEROINE = (0x0BD5A6, 'Leo'), (0x0BD5AA, 'Tina')
 TOKEN = re.compile(r'(\{[^}]*\})')
 FILLER = 'the quick brown fox jumps over a lazy dog and then '
 
@@ -184,10 +196,12 @@ def marker_text(e):
 def build(out_path, marker=False, qa=None):
     rom = bytearray(romlib.rom_bytes())
     free = Free(rom)
-    for off, (old, new) in PATCHES.items():
-        if struct.unpack_from('<I', rom, off)[0] != old:
-            raise SystemExit(f'patch {off:06X}: expected {old:#x}')
-        struct.pack_into('<I', rom, off, new)
+    for fmt, table in (('<I', PATCHES), ('<H', PATCHES16)):
+        for off, (old, new) in table.items():
+            if struct.unpack_from(fmt, rom, off)[0] != old:
+                raise SystemExit(f'patch {off:06X}: expected {old:#x}')
+            struct.pack_into(fmt, rom, off, new)
+    default_names(rom, free)
     qa = qa or {}
     stats = {}
     for bank, cfg in BANKS.items():
@@ -223,6 +237,18 @@ def build(out_path, marker=False, qa=None):
     print(f'menu8: {n8} strings/names, cache pool {len(pool)} slots'
           + (f' (kept for Japanese: {", ".join("%X" % c for c in kept)})' if kept else ''))
     print(f'free space used to {free.pos:06X}; wrote {out_path}')
+
+
+def default_names(rom, free):
+    """Leo: relocated (3 codes + 0) and every slot repointed; Tina: in place (4 codes, same as ティーナ)."""
+    _, enc = romlib.load_table('jp8')
+    leo = [enc[menu8.ASCII[c]] for c in HERO[1]] + [0]
+    off = free.put(struct.pack('<%dH' % len(leo), *leo), 2)
+    for s in range(0, len(rom) - 3, 4):
+        if struct.unpack_from('<I', rom, s)[0] == romlib.BASE + HERO[0]:
+            struct.pack_into('<I', rom, s, romlib.BASE + off)
+    tina = [enc[menu8.ASCII[c]] for c in HEROINE[1]]
+    struct.pack_into('<4H', rom, HEROINE[0], *tina)
 
 
 ASM_AT = 0x7A0000   # asm/menu8.asm code + pair tiles (296 KB) up to ROM end

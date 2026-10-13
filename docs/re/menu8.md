@@ -23,6 +23,26 @@
 | 0x0BCC2C-0x0BEDC4 | name-entry kana grid, menu labels, menu messages |
 | 0x0C5884-0x0C6DF0 | stage names, map labels |
 
+## Engine (built 2026-10-14; user chose engine work over abbreviations)
+- Text is stored in place. English uses the normal 8 px Latin tiles when it fits the JP slot, else **pair codes**
+  `0x4000 + (a-0x20)*0x60 + (b-0x20)` (two condensed 3 px letters per tile; 0x200+ and 0x2000-0x200F are
+  palette codes in some drawers). Encoder: `tools/menu8.py encode_en`; art `font/cond8.txt`.
+- `asm/menu8.asm` (armips, run by `tools/insert.py assemble`): hooks at every code->tile site call `conv`, which
+  keeps an LRU cache (RAM 0x0203F000, free in all sampled screens) of pair codes in free font slots (kana/kanji
+  codes, `build/pool.bin`) of the font copy in VRAM. The font copy is found by a signature tile (code 0x0C) at the
+  char base of BG3..BG0, else by scanning; stale copies (map keeps the menu's under its picture) are skipped.
+  Every hit re-verifies the 32-byte tile, so font reloads are healed automatically. One code = one tile, so all
+  layout code is unchanged. Code lives in the zero gap 0x0809C400-0x0809C8C0 (bl range); the 96x96 pair table
+  (296 KB) at 0x087A0000.
+- Hooked sites: 0x08027E1C/F58/FC0/803C (0-terminated drawers), 0x0803D178/1F6 (line drawer), 0x0803D306/31A/3B2/3C6
+  (renderer + palette tests), 0x0807CBA4 (window module: world map), sprite tile copies 0x0801C788/0801F6B2/
+  0807EBD2/08082B0C/08064BDC. New garbage on a screen = an unhooked drawer: find its map write (watch.lua on the BG
+  map row), add a stub.
+- Name fields: `tools/records.py` replaces every zero-padded 8-code name field in 0x0AE000-0x0B6B00 (463 fields).
+- Default names: Leo relocated (+patches 0x0492C4, 0x049314, 0x057734, 0x057E1A, DMA counts 0x055120/0x05539C),
+  Tina in place; both normal tiles because `{name}` maps grid codes into the story font.
+- Strings passed to strncpy16 (0x080365DC) are padded with 0 so composed messages have no gaps; others with spaces.
+
 ## Plan (decided 2026-10-14)
 Per-site relocation is fragile: packed strings are often reached by base+offset arithmetic, lengths are Thumb
 immediates spread over ~750 code sites (work/sites8.py, work/lencov.py). So:

@@ -16,31 +16,41 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Characters
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| レオ | Leo | | default player name | |
-| クリムト | Klimt | | old man, monster researcher | |
-| ベリンガム・ロー | Bellingham Law | | duke, Monster Knights commander | |
-| ウィンスロー | Winslow | | lord of Vandam Castle (I / II) | |
+| レオ | Leo | | default hero name | |
+| ティーナ | Tina | | default heroine name | Teena |
+| クリムト | Klimt | | old man, monster researcher | Krimt |
+| ベリンガム・ロー公爵 | Duke Bellingham Law | | ベリンガム様 = Lord Bellingham | |
+| ウィンスロー二世 / 一世 | Winslow II / Winslow I | | lord of Vandam Castle; ウィンスロー王 = King Winslow | |
 | ザーゴ | Zago | | Bellingham's monster | |
 | ラミレス | Ramirez | | Bellingham's monster | |
-| カノン | Canon | | Sky dragon (天空のカノン) | Kanon |
-| イグニス | Ignis | | Earth dragon (大地のイグニス) | |
+| 天空のカノン | Sky Dragon Canon | | カノン alone = Canon | Kanon |
+| 大地のイグニス | Earth Dragon Ignis | | イグニス alone = Ignis | |
+| 男 / 老人 | Man / Old Man | | speaker labels before names are known | |
+| 追っ手1 / 追っ手達 | Pursuer 1 / Pursuers | | | |
+| 法王 | the Pontiff | | | Pope |
 
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| グランデート大陸 | Grandate | | map shows "Grandate" | |
+| グランデート大陸 | Grandate / the continent of Grandate | | map shows "Grandate" | |
 | バルロア王国 | Kingdom of Balroa | | | |
 | ヴァンダム城 | Vandam Castle | | | |
-| ファムファンタル火山 | Mt. Famfantal | | volcano | |
+| ファムファンタル火山 | Mount Famfantal | | volcano | Mt. |
+| 廃墟 | the Ruins | | Klimt's hideout | |
+| 古城跡 | the old castle ruins | | | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | 魔獣 | monster | | | beast |
-| 魔獣使い | Monster Tamer | | 伝説の魔獣使い = the Legendary Monster Tamer | |
+| 魔獣使い | Monster Tamer / the Tamer | | 伝説の魔獣使い = the Legendary Monster Tamer | |
+| 伝説の魔獣 | the Legendary Monster | | | |
+| 合成 / 合成する | fusion / fuse | | | combine |
 | 合獣機 | Fusion Machine | | | |
+| 魔獣人間 | monster-human | | Klimt's creations | |
 | 魔獣騎士団 | Monster Knights | | | |
-| 中型体 / 幼体 | mid form / infant form | | | |
-| タクト | baton | | tamer's baton | |
+| 幼体 / 中型体 | infant form / mid form | | stages of the Legendary Monster | |
+| タクト | baton | | a tamer's baton | wand |
+| ハイドラゴン | High Dragon | | | |
 
 ## Decisions from earlier batches

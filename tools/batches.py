@@ -38,8 +38,8 @@ def save_bank(bank, entries):
 
 
 def controls(text):
-    """Control multiset that must survive translation ({br} is layout, not content)."""
-    return Counter(c for c in CTL.findall(text) if c != '{br}')
+    """Control multiset that must survive translation ({br} is layout; {name} may be repeated or dropped freely)."""
+    return Counter(c for c in CTL.findall(text) if c not in ('{br}', '{name}'))
 
 
 def split(bank, ids=None, chars=3500, prefix=None):
@@ -138,7 +138,32 @@ def merge(batch):
     print(f'merged {n} entries into script/{bank}.json')
 
 
+def fix(bank, path):
+    """Apply reviewed replacements (id<TAB>en lines) to one bank, with the same per-entry checks."""
+    entries = load_bank(bank)
+    by_id = {e['id']: e for e in entries}
+    font = vwf.Font(insert.BANKS[bank]['font'])
+    errs, rows = [], {}
+    for line in Path(path).read_text(encoding='utf-8-sig').splitlines():
+        if line.strip():
+            i, en = line.split('\t', 1)
+            if i not in by_id:
+                errs.append(f'{i}: unknown id')
+                continue
+            errs += [f'{i}: {m}' for m in check_entry(bank, by_id[i]['jp'], en, font)]
+            rows[i] = en
+    if errs:
+        print('\n'.join(errs)); sys.exit('fix refused')
+    for i, en in rows.items():
+        by_id[i]['en'], by_id[i]['status'] = en, 'done'
+    save_bank(bank, entries)
+    print(f'fixed {len(rows)} entries in script/{bank}.json')
+
+
 if __name__ == '__main__':
+    if sys.argv[1:2] == ['fix']:
+        fix(sys.argv[2], sys.argv[3])
+        sys.exit()
     ap = argparse.ArgumentParser()
     ap.add_argument('cmd', choices=['split', 'check', 'merge'])
     ap.add_argument('target')

@@ -340,7 +340,7 @@
   ],
   "jp": "長き戦いの末、{br}この大陸全ての生命と、{clear}繁栄が消え去ろうとしたとき{c7535:0001,0004}・・・{c7536}{clear}見たことも無い二匹の魔獣を{br}引き連れた、一人の{col:0002}魔術使い{colend}が現れ、{wait:0014}{clear}２匹に戦いを挑んだ！{wait:001E}",
   "bytes": 182,
-  "en": "At the end of that long war, all life{clear}and prosperity on the continent were about to vanish{c7535:0001,0004}...{c7536}{clear}Then a {col:0002}sorcerer{colend} appeared, leading two monsters no one had ever seen,{wait:0014}{clear}and challenged the two dragons!{wait:001E}",
+  "en": "At the end of that long war, all life{clear}and prosperity on the continent were about to vanish{c7535:0001,0004}...{c7536}{clear}Then a {col:0002}Monster Tamer{colend} appeared, leading two monsters no one had ever seen,{wait:0014}{clear}and challenged the two dragons!{wait:001E}",
   "status": "done"
  },
  {
@@ -370,7 +370,7 @@
   ],
   "jp": "その勝利は、二匹の魔獣の命と、{br}引き換えに勝ち取った。{wait:0014}{clear}そして魔獣使い自身もまた、{br}力尽きようとしていた。{wait:0014}{clear}その時、この魔獣使いを救える技術を持つ者は{col:0002}私{colend}以外、{wait:0004}{clear}この世界には{wait:0001}居なかった。{wait:001E}",
   "bytes": 212,
-  "en": "The victory cost the lives of the two monsters.{wait:0014}{clear}And the Tamer himself was close to death as well.{wait:0014}{clear}In those days, no one but {col:0002}me{colend}{wait:0004}{clear}in all the world{wait:0001} had the skill to save him.{wait:001E}",
+  "en": "The victory cost the lives of the two monsters.{wait:0014}{clear}And the Tamer, too, was close to death.{wait:0014}{clear}In those days, no one but {col:0002}me{colend}{wait:0004}{clear}in all the world{wait:0001} had the skill to save the Tamer.{wait:001E}",
   "status": "done"
  },
  {
@@ -380,7 +380,7 @@
   ],
   "jp": "その後この魔獣使いと、二匹の魔獣は{clear}{col:0002}伝説の魔獣使い{colend}{br}{wait:0001}として人々に伝えられた。{wait:0014}{clear}そしてグランデート大陸は、{br}人類が支配者となった。{wait:001E}",
   "bytes": 148,
-  "en": "Ever after, the Tamer and his two monsters{clear}were spoken of as {col:0002}the Legendary Monster Tamer{colend}{wait:0001} and his beasts.{wait:0014}{clear}And mankind became the master of Grandate.{wait:001E}",
+  "en": "Ever after, the Tamer and the two monsters{clear}were remembered together as {col:0002}the Legendary Monster Tamer{colend}{wait:0001}.{wait:0014}{clear}And mankind became the master of Grandate.{wait:001E}",
   "status": "done"
  },
  {
@@ -410,7 +410,7 @@
   ],
   "jp": "男「このタクトを見て思い出さないのか？」{clear}男「おまえを世界から追いやった{br}{col:0002}伝説の魔獣使い{colend}のタクトだ！」{clear}男「今再びよみがえりヤツに、{br}いやこの世界に{clear}共に、{col:0002}復讐{colend}しようではないか！！」",
   "bytes": 196,
-  "en": "Man: \"Does this baton not stir your memory?\"{clear}Man: \"It is the baton of {col:0002}the Legendary Monster Tamer{colend}, who drove you from this world!\"{clear}Man: \"Rise again, and let us take {col:0002}revenge{colend}{clear}together, on him... no, on the whole world!!\"",
+  "en": "Man: \"Does this baton not stir your memory?\"{clear}Man: \"It is the baton of {col:0002}the Legendary Monster Tamer{colend}, who drove you from this world!\"{clear}Man: \"Rise again, and let us take {col:0002}revenge{colend}{clear}together, on the Tamer... no, on the whole world!!\"",
   "status": "done"
  },
  {
@@ -420,7 +420,7 @@
   ],
   "jp": "{c7537:0000}男「{c7535:0001,000A}・・・{c7536}」{clear}男「これだけではまだ弱いか！{wait:0008}{br}やはりヤツを{c7535:0001,0005}・・・{c7536}」{clear}そのとき男は足元の地中深くから、何かがうごめくのを感じとっていた。",
   "bytes": 158,
-  "en": "{c7537:0000}Man: \"{c7535:0001,000A}...{c7536}\"{clear}Man: \"Is this still not enough?!{wait:0008} Then I must have him{c7535:0001,0005}...{c7536}\"{clear}At that moment, the man sensed something stirring deep in the earth beneath his feet.",
+  "en": "{c7537:0000}Man: \"{c7535:0001,000A}...{c7536}\"{clear}Man: \"Is this still not enough?!{wait:0008} Then I need the Tamer after all{c7535:0001,0005}...{c7536}\"{clear}At that moment, the man sensed something stirring deep in the earth beneath his feet.",
   "status": "done"
  },
  {
@@ -430,7 +430,7 @@
   ],
   "jp": "～廃墟～{c7533}朝もやの中、人里離れた廃墟から、{br}男達の声が聞こえた！{clear}追っ手１「見つけ出すぞ！」{clear}追っ手２「逃がすな！！」",
   "bytes": 120,
-  "en": "- The Ruins -{c7533}Through the morning mist, men's voices rang out from ruins far from any village!{clear}Pursuer 1: \"We'll find him!\"{clear}Pursuer 2: \"Don't let him escape!!\"",
+  "en": "- The Ruins -{c7533}Through the morning mist, men's voices rang out from ruins far from any village!{clear}Pursuer 1: \"We'll find the kid!\"{clear}Pursuer 2: \"Don't let the kid escape!!\"",
   "status": "done"
  },
  {
@@ -520,8 +520,8 @@
   ],
   "jp": "～バルロア王国、ヴァンダム城～{page}",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "- Vandam Castle, Kingdom of Balroa -{page}",
+  "status": "done"
  },
  {
   "id": "0D0A32",
@@ -530,8 +530,8 @@
   ],
   "jp": "{c7537:0032}城主は、貴族の一人ウィンスロー二世{br}事件は小雨の降る朝に、突然起こった。",
   "bytes": 78,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:0032}Its lord was Winslow II, a nobleman. The incident struck without warning, one drizzly morning.",
+  "status": "done"
  },
  {
   "id": "0D0A80",
@@ -540,8 +540,8 @@
   ],
   "jp": "法王直属の{col:0002}魔獣騎士団{colend}が城に乱入！{br}城を占拠した。{br}首謀者は、法王の軍事顧問として仕えてきた{c7537:0004}{col:0002}ベリンガム・ロー公爵{colend}。{clear}彼は{col:0002}魔獣騎士団{colend}の{br}最高司令官でもある男だ。{br}彼は城占拠の理由を、王国に対立する組織へ協力した疑い！{clear}と、示したがまったくの濡れ衣であった。",
   "bytes": 276,
-  "en": "",
-  "status": "todo"
+  "en": "The Pontiff's own {col:0002}Monster Knights{colend} stormed the castle and seized it! The mastermind was {c7537:0004}{col:0002}Duke Bellingham Law{colend}, long the Pontiff's military adviser.{clear}He was also supreme commander of the {col:0002}Monster Knights{colend}. His grounds for seizing the castle: suspicion of aiding a group hostile to the kingdom!{clear}So he claimed, but the charge was completely false.",
+  "status": "done"
  },
  {
   "id": "0D0B94",
@@ -550,8 +550,8 @@
   ],
   "jp": "捜索の邪魔をするものは、容赦なく捕らえられ、{clear}その混乱の中{name}が見たものは、{clear}自分の目前ですでに息絶えている、{br}父ウィンスローの姿であった。",
   "bytes": 140,
-  "en": "",
-  "status": "todo"
+  "en": "Anyone who got in the way of the search was seized without mercy.{clear}In that chaos, {name} came upon a terrible sight:{clear}{name}'s father, Winslow, already lying dead.",
+  "status": "done"
  },
  {
   "id": "0D0C20",
@@ -560,8 +560,8 @@
   ],
   "jp": "そこには、見覚えの無い魔獣使いのタクトを手にしている{clear}ベリンガムの姿があった。",
   "bytes": 80,
-  "en": "",
-  "status": "todo"
+  "en": "And there, holding an unfamiliar Monster Tamer's baton,{clear}stood Bellingham.",
+  "status": "done"
  },
  {
   "id": "0D0C70",
@@ -570,8 +570,8 @@
   ],
   "jp": "{c7538:0007,0008}クリムト「{c7535:0001,0010}・・・{c7536}」{clear}クリムト「伝説の魔獣使いのタクトが目的か？{br}いや・・・なんでもない。{clear}それよりおぬし・・・{br}父や家族の仇をとるつもりか？{clear}何も言わんでも{br}その目が語っとるわい！」",
   "bytes": 198,
-  "en": "",
-  "status": "todo"
+  "en": "{c7538:0007,0008}Klimt: \"{c7535:0001,0010}...{c7536}\"{clear}Klimt: \"Was he after the baton of the Legendary Monster Tamer? No... never mind.{clear}More to the point, you... Do you mean to avenge your father and family?{clear}You needn't say a word. Your eyes say it all!\"",
+  "status": "done"
  },
  {
   "id": "0D0D36",
@@ -580,8 +580,8 @@
   ],
   "jp": "そう言うと、クリムトは自分のタクトを{name}に手渡した。",
   "bytes": 52,
-  "en": "",
-  "status": "todo"
+  "en": "With that, Klimt handed his own baton to {name}.",
+  "status": "done"
  },
  {
   "id": "0D0D6A",
@@ -590,8 +590,8 @@
   ],
   "jp": "クリムト「わしの魔獣達をおぬしにあずけよう。{clear}しばらくこの廃墟をねぐらにして{br}訓練するがよいぞ！」",
   "bytes": 100,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I'll entrust my monsters to you.{clear}Make these ruins your den for a while, and train!\"",
+  "status": "done"
  },
  {
   "id": "0D0DCE",
@@ -600,8 +600,8 @@
   ],
   "jp": "クリムト「よいか、ベリンガム達と戦うには、{clear}この魔獣達では力不足じゃ！{clear}そこで{col:0002}伝説の魔獣使い{colend}がつれていた{col:0002}伝説の魔獣{colend}{clear}{col:0002}{word1:0008}{colend}を作るんじゃ！",
   "bytes": 154,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"Listen. To fight Bellingham and his lot,{clear}these monsters aren't strong enough!{clear}So we'll create {col:0002}the Legendary Monster{colend} that {col:0002}the Legendary Monster Tamer{colend} once led:{clear}{col:0002}{word1:0008}{colend}!\"",
+  "status": "done"
  },
  {
   "id": "0D0E68",
@@ -610,8 +610,8 @@
   ],
   "jp": "クリムト「ワシはその研究しておった。{clear}まだ一部しか{br}解っておらんがの・・・」{clear}{c7539:000B,000C}{c7539:000D,000D}クリムト「ワシの調べでは、最初は{clear}{col:0002}{word1:0000}{colend}と{br}{col:0002}{word1:0001}{colend}を合成すると、{clear}{col:0002}{word1:0008}{colend}の幼体{col:0002}{word1:0002}{colend}が出来るはずじゃ！」",
   "bytes": 212,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I've been researching it.{clear}Though I've only worked out part of it so far...\"{clear}{c7539:000B,000C}{c7539:000D,000D}Klimt: \"By my research, first you{clear}fuse {col:0002}{word1:0000}{colend} with {col:0002}{word1:0001}{colend},{clear}and that should give you {col:0002}{word1:0002}{colend}, the infant form of {col:0002}{word1:0008}{colend}!\"",
+  "status": "done"
  },
  {
   "id": "0D0F3C",
@@ -620,8 +620,8 @@
   ],
   "jp": "クリムト「わしは再びその後の魔獣の作り方を調べる！」{br}クリムト「後はまかせたぞ！」{br}",
   "bytes": 86,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I'm off again to research how to create the monster's later forms! I leave the rest to you!\"",
+  "status": "done"
  },
  {
   "id": "0D0F92",
@@ -630,8 +630,8 @@
   ],
   "jp": "そう言い残してクリムトは{br}何処かへ旅立って行った。{clear}その後ろ姿を見て{br}{name}は思った。{clear}",
   "bytes": 86,
-  "en": "",
-  "status": "todo"
+  "en": "With those words, Klimt set off for parts unknown.{clear}Watching him go, {name} wondered{clear}",
+  "status": "done"
  },
  {
   "id": "0D0FE8",
@@ -640,8 +640,8 @@
   ],
   "jp": "{c7538:000E,000F}クリムト老人は、こうなる事を知っていたのではないだろうかと・・・{br}",
   "bytes": 74,
-  "en": "",
-  "status": "todo"
+  "en": "{c7538:000E,000F}whether old Klimt had known all along that this would happen...",
+  "status": "done"
  },
  {
   "id": "0D1032",
@@ -650,8 +650,8 @@
   ],
   "jp": "ゴゴゴゴゴ！{clear}{name}が祭壇のある部屋に入った時、{br}大きく城がゆれはじめた。{clear}{name}「地震？」",
   "bytes": 86,
-  "en": "",
-  "status": "todo"
+  "en": "RUMBLE RUMBLE RUMBLE!{clear}As {name} entered the room with the altar, the castle began to shake violently.{clear}{name}: \"An earthquake?\"",
+  "status": "done"
  },
  {
   "id": "0D1088",
@@ -660,8 +660,8 @@
   ],
   "jp": "地震に気をとられていた{name}の目前に、{clear}見たことも無い大男が立っていた。{clear}彼は{name}をにらみつけながら近づいてきた。",
   "bytes": 110,
-  "en": "",
-  "status": "todo"
+  "en": "Distracted by the quake, {name} suddenly found{clear}a huge man, never seen before, standing right there.{clear}Glaring at {name}, he came closer.",
+  "status": "done"
  },
  {
   "id": "0D10F6",
@@ -670,8 +670,8 @@
   ],
   "jp": "ベリンガム「わかるかね！この地震はイグニスが{col:0002}君{colend}に気づきはじめて、{br}地下で暴れているのだよ！」{clear}声のする方向には{br}ベリンガムの姿があった。",
   "bytes": 144,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"Do you understand? This quake is Ignis, beginning to sense {col:0002}you{colend} and raging underground!\"{clear}There, where the voice came from, stood Bellingham.",
+  "status": "done"
  },
  {
   "id": "0D1186",
@@ -680,8 +680,8 @@
   ],
   "jp": "{name}は{c7537:0011}ベリンガムに向けて、{clear}タクトを振りかざそうとしたその時{clear}クリムト「気をつけろ！ヤツの作った魔獣{col:0002}ザーゴ{colend}に狙われておるぞ！」{clear}{c7537:0010}いつのまにか{br}背後にクリムトの姿があった。{clear}クリムト{br}「よくここまで来れたのう。」",
   "bytes": 224,
-  "en": "",
-  "status": "todo"
+  "en": "{name} turned toward {c7537:0011}Bellingham{clear}and was about to raise the baton when...{clear}Klimt: \"Look out! {col:0002}Zago{colend}, the monster he made, is after you!\"{clear}{c7537:0010}Before anyone noticed, Klimt had appeared from behind.{clear}Klimt: \"You did well to make it this far.\"",
+  "status": "done"
  },
  {
   "id": "0D1266",
@@ -690,8 +690,8 @@
   ],
   "jp": "ベリンガム「{c7535:0001,000A}フフフ・・・{c7536}やはり{wait:0003}クリムトが裏に付いていたか！{br}だがすでに遅いな！」{clear}その時、再び地面が{br}激しくゆれ始めた！",
   "bytes": 134,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"{c7535:0001,000A}Heh heh heh...{c7536} So it was{wait:0003} Klimt pulling the strings after all! But you're too late!\"{clear}Just then, the ground began to shake violently again!",
+  "status": "done"
  },
  {
   "id": "0D12EC",
@@ -700,8 +700,8 @@
   ],
   "jp": "ベリンガム「{name}の存在に気が付いたイグニスが、{clear}再び復活しようとしておる！{clear}ザーゴ！{wait:0005}あとは任せるゾ！{clear}わしはファムファンタル火山へ行き、{clear}{col:0002}{name}君{colend}の古い友人に会ってくるよ。」{clear}そういい残し、ベリンガムは部屋を出て行った。{clear}そして、ザーゴはゆっくりと{name}に近づいてきた{c7535:0001,0004}・・・{c7536}",
   "bytes": 284,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"Ignis has sensed {name}'s presence{clear}and is trying to rise once more!{clear}Zago!{wait:0005} I leave the rest to you!{clear}I'm off to Mount Famfantal{clear}to pay a call on {col:0002}young {name}{colend}'s old friend.\"{clear}With that, Bellingham left the room.{clear}And then Zago slowly closed in on {name}{c7535:0001,0004}...{c7536}",
+  "status": "done"
  },
  {
   "id": "0D1408",
@@ -710,8 +710,8 @@
   ],
   "jp": "ザーゴ「グゥゥゥゥッ！」{clear}ザーゴが唸り声を上げ、{br}ヒザをついて倒れこんだ！",
   "bytes": 76,
-  "en": "",
-  "status": "todo"
+  "en": "Zago: \"Grrraaagh!\"{clear}With a growl, Zago collapsed to his knees!",
+  "status": "done"
  },
  {
   "id": "0D1454",
@@ -720,8 +720,8 @@
   ],
   "jp": "その時、上空からベリンガムのもう一人の魔獣{col:0002}ラミレス{colend}が現れた！",
   "bytes": 68,
-  "en": "",
-  "status": "todo"
+  "en": "Just then, Bellingham's other monster, {col:0002}Ramirez{colend}, appeared from the sky above!",
+  "status": "done"
  },
  {
   "id": "0D1498",
@@ -730,8 +730,8 @@
   ],
   "jp": "ラミレスはザーゴの前に立ち、{br}{name}に告げた！{br}{c7537:0014}ラミレス「自分・・・事・・・しりたいか・・・？{clear}{c7538:0012,0013}ならば・・・ファムファンタル火山に行け・・・」{clear}そう言い残してザーゴを抱え込み{br}飛び立っていった",
   "bytes": 200,
-  "en": "",
-  "status": "todo"
+  "en": "Ramirez stood before Zago and spoke to {name}!{br}{c7537:0014}Ramirez: \"You... want know... about yourself...?{clear}{c7538:0012,0013}Then... go... Mount Famfantal...\"{clear}With that, Ramirez scooped up Zago and flew off.",
+  "status": "done"
  },
  {
   "id": "0D1560",
@@ -740,8 +740,8 @@
   ],
   "jp": "クリムト「これも運命かの・・・{br}こうなったら行くしかないぞ。{clear}ファムファンタル火山へ・・・！{clear}そこでおぬしの全てが解るはずじゃ！」{clear}",
   "bytes": 134,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"Perhaps this too is fate... Now there's nothing for it but to go.{clear}To Mount Famfantal...!{clear}There you should learn everything about yourself!\"{clear}",
+  "status": "done"
  },
  {
   "id": "0D15E6",
@@ -750,8 +750,8 @@
   ],
   "jp": "{c7539:0015,0016}{c7539:0017,0018}クリムト「よいか、それまでに{clear}伝説の魔獣{col:0002}{word1:0008}{colend}の中型体を{br}完成させるのじゃ！{clear}次は{col:0002}{word1:0003}{colend}と{clear}{col:0002}{word1:0004}{colend}を合成する。{clear}さすれば、{col:0002}{word1:0008}{colend}の{clear}中型体{col:0002}{word1:0005}{colend}が{br}完成するはずじゃ！」",
   "bytes": 202,
-  "en": "",
-  "status": "todo"
+  "en": "{c7539:0015,0016}{c7539:0017,0018}Klimt: \"Listen, before then{clear}you must complete the mid form of the Legendary Monster {col:0002}{word1:0008}{colend}!{clear}Next, fuse {col:0002}{word1:0003}{colend} with{clear}{col:0002}{word1:0004}{colend}.{clear}Do that, and the mid form of {col:0002}{word1:0008}{colend},{clear}{col:0002}{word1:0005}{colend}, should be complete!\"",
+  "status": "done"
  },
  {
   "id": "0D16B0",
@@ -760,8 +760,8 @@
   ],
   "jp": "クリムト「ワシはまた、伝説の魔獣の事をしらべに旅に出る。{br}火山までの道のりは{br}至難を極めるぞ！！」{clear}そういい残し、{br}クリムトは去って行った。",
   "bytes": 142,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I'm setting off again to study the Legendary Monster. The road to the volcano will be brutally hard!!\"{clear}With that, Klimt departed.",
+  "status": "done"
  },
  {
   "id": "0D173E",
@@ -770,8 +770,8 @@
   ],
   "jp": "{name}がファムファンタル火山を登り始めてから{clear}数え切れないほどの地震が起きていた。{clear}{name}は感じた。{clear}この揺れは{col:0002}イグニス{colend}が{br}地底で暴れている",
   "bytes": 140,
-  "en": "",
-  "status": "todo"
+  "en": "Ever since {name} began climbing Mount Famfantal,{clear}countless earthquakes had struck.{clear}{name} could sense it.{clear}These tremors were {col:0002}Ignis{colend}, raging deep beneath the earth.",
+  "status": "done"
  },
  {
   "id": "0D17CA",
@@ -780,8 +780,8 @@
   ],
   "jp": "と突然、ベリンガムの魔獣{br}{col:0002}ザーゴ{colend}{c7537:001A}と{col:0002}ラミレス{colend}{c7537:0019}が現れた。{clear}ザーゴ「もっと・・・戦え！」{clear}ラミレス「たくさん・・・戦えば、{br}イグニス・・・怒る！」{clear}{name}は体の中から{col:0002}狂暴な力{colend}がみなぎるのを感じていた{c7535:0001,0008}・・・{c7536}",
   "bytes": 230,
-  "en": "",
-  "status": "todo"
+  "en": "Then suddenly, Bellingham's monsters {col:0002}Zago{colend}{c7537:001A} and {col:0002}Ramirez{colend}{c7537:0019} appeared.{clear}Zago: \"More... fight!\"{clear}Ramirez: \"Fight... lots, and Ignis... get angry!\"{clear}{name} felt a {col:0002}savage power{colend} surging up from within{c7535:0001,0008}...{c7536}",
+  "status": "done"
  },
  {
   "id": "0D18B0",
@@ -790,8 +790,8 @@
   ],
   "jp": "ファムファンタル火山の火口に着くと、{clear}そこには朽ち果てた神殿跡があった。{clear}{c7537:001B}ベリンガム「ここは大地のイグニスを祭った祭壇だよ。{clear}待っていたよ。{clear}もっともワシ以上にイグニスは{br}君を待っていたはず・・・{clear}さあ！{wait:0001}復活を盛大に{br}祝おうではないか！！」{clear}するとベリンガムの背後から魔獣達が現れた。{br}{c7537:001C}クリムト「ムッ！遅かったか。{clear}いかんココで戦っては！」{clear}しかし、遅れてきたクリムトの声は届かなかった・・・",
   "bytes": 406,
-  "en": "",
-  "status": "todo"
+  "en": "At the crater of Mount Famfantal{clear}stood the ruins of a crumbling temple.{clear}{c7537:001B}Bellingham: \"This is the altar where Earth Dragon Ignis was worshipped.{clear}I've been waiting for you.{clear}Though Ignis, surely, has been waiting for you even more than I...{clear}Now!{wait:0001} Let us celebrate its revival in grand style!!\"{clear}Then monsters appeared from behind Bellingham. {c7537:001C}Klimt: \"Hm! Too late, am I?{clear}No! You mustn't fight here!\"{clear}But Klimt had arrived too late, and his voice did not reach them...",
+  "status": "done"
  },
  {
   "id": "0D1A46",
@@ -800,8 +800,8 @@
   ],
   "jp": "ベリンガムの魔獣を倒したその時、大きく大地がゆれ{clear}{name}達の足元が崩れ出した。",
   "bytes": 76,
-  "en": "",
-  "status": "todo"
+  "en": "The moment Bellingham's monsters fell, the earth shook violently{clear}and the ground beneath {name} and the others began to crumble.",
+  "status": "done"
  },
  {
   "id": "0D1A92",
@@ -810,8 +810,8 @@
   ],
   "jp": "そして地中深くより{br}巨大なドラゴンが現れた。",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Then, from deep within the earth, a gigantic dragon emerged.",
+  "status": "done"
  },
  {
   "id": "0D1AC0",
@@ -820,8 +820,8 @@
   ],
   "jp": "そのドラゴンは、まるでマグマのように赤い体をし、{br}巨大なクチからは、嵐のような息使いが聞こえていた。",
   "bytes": 102,
-  "en": "",
-  "status": "todo"
+  "en": "The dragon's body was as red as magma, and from its enormous mouth came breathing like a raging storm.",
+  "status": "done"
  },
  {
   "id": "0D1B26",
@@ -830,8 +830,8 @@
   ],
   "jp": "ベリンガム「ハハッ！！{wait:0008}{br}待っていたぞ、この瞬間を。{clear}{col:0002}大地のイグニス{colend}の完全復活だ！」",
   "bytes": 94,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"Hah!!{wait:0008} I've been waiting for this moment.{clear}Behold the complete revival of {col:0002}Earth Dragon Ignis{colend}!\"",
+  "status": "done"
  },
  {
   "id": "0D1B84",
@@ -840,8 +840,8 @@
   ],
   "jp": "{c7538:001D,001E}ベリンガム「おまえ達は例の古城跡で合獣機の準備をしろ！{clear}ワシは二人の再会を見てから行く。{clear}イグニスと{col:0002}天空のカノン{colend}と{col:0002}伝説の魔獣使い{colend}が{clear}合成して出来た{col:0002}{name}{colend}君とのな・・・」{br}{name}は息をのんだ。",
   "bytes": 208,
-  "en": "",
-  "status": "todo"
+  "en": "{c7538:001D,001E}Bellingham: \"You lot, go to the old castle ruins and prepare the Fusion Machine!{clear}I'll follow once I've watched these two reunite.{clear}Ignis, and the one fused from {col:0002}Sky Dragon Canon{colend} and {col:0002}the Legendary Monster Tamer{colend}:{clear}you, my dear {col:0002}{name}{colend}...\" {name} gasped.",
+  "status": "done"
  },
  {
   "id": "0D1C54",
@@ -850,8 +850,8 @@
   ],
   "jp": "クリムト「今の我々の力では{br}イグニスを倒す事は不可能じゃ！{clear}ここはひとまず逃げるぞ！！」{clear}しかしその時、{br}{name}の中で{clear}何かが目覚めていた{c7535:0001,0004}・・・{c7536}",
   "bytes": 150,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"With our strength as it is now, there's no way we can defeat Ignis!{clear}We must flee for now!!\"{clear}But at that moment, deep within {name},{clear}something was awakening{c7535:0001,0004}...{c7536}",
+  "status": "done"
  },
  {
   "id": "0D1CEA",
@@ -860,8 +860,8 @@
   ],
   "jp": "クリムト「どうした！？」{clear}{name}「フフフッ！」{clear}{name}{br}「久しぶりだな{c7535:0001,0004}・・・{c7536}」{clear}{name}の表情は{clear}明らかにいつもと違う人格へと変貌していた。",
   "bytes": 136,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"What's wrong?!\"{clear}{name}: \"Heh heh heh!\"{clear}{name}: \"It's been a long time{c7535:0001,0004}...{c7536}\"{clear}{name}'s expression{clear}had plainly changed into that of someone else entirely.",
+  "status": "done"
  },
  {
   "id": "0D1D72",
@@ -870,8 +870,8 @@
   ],
   "jp": "{name}{br}「数百年にもわたる戦いの{br}決着を今ここでつけてやる！」{clear}クリムトは{name}の背後に写るカノンの姿を見た。",
   "bytes": 104,
-  "en": "",
-  "status": "todo"
+  "en": "{name}: \"Here and now, I'll settle this war that has raged for centuries!\"{clear}Klimt saw the form of Canon looming behind {name}.",
+  "status": "done"
  },
  {
   "id": "0D1DDA",
@@ -880,8 +880,8 @@
   ],
   "jp": "大地のイグニスがおたけびを上げ{br}地面に体を横たえた。{clear}ベリンガム「なんと言うことだ！{br}イグニスがやぶれるとは！！」",
   "bytes": 116,
-  "en": "",
-  "status": "todo"
+  "en": "Earth Dragon Ignis let out a roar and collapsed to the ground.{clear}Bellingham: \"Unbelievable! Ignis, defeated!!\"",
+  "status": "done"
  },
  {
   "id": "0D1E4E",
@@ -890,8 +890,8 @@
   ],
   "jp": "ベリンガム{br}「{c7535:0001,FFFE}いかん、このままでは！！{c7536}」{clear}ベリンガムの手から発せられた不思議な光の帯が、{clear}イグニスの体を包み込むと、{br}その巨体が宙に浮かんだ。",
   "bytes": 152,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"{c7535:0001,FFFE}This won't do! Not like this!!{c7536}\"{clear}A strange band of light shot from Bellingham's hand,{clear}and as it wrapped around Ignis's body, the colossal form rose into the air.",
+  "status": "done"
  },
  {
   "id": "0D1EE6",
@@ -900,8 +900,8 @@
   ],
   "jp": "光に包まれたイグニスとベリンガムは、空の彼方へ飛んでいった。",
   "bytes": 62,
-  "en": "",
-  "status": "todo"
+  "en": "Wrapped in light, Ignis and Bellingham flew off into the distant sky.",
+  "status": "done"
  },
  {
   "id": "0D1F24",
@@ -910,8 +910,8 @@
   ],
   "jp": "{c7537:001F}ベリンガム「{c7535:0001,FFFE}なんということだ！{c7536}」{clear}カノンと魔獣使いが合成した{br}{name}は、{clear}これほどの強さを{c7535:0001,0002}・・・{c7536}",
   "bytes": 114,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:001F}Bellingham: \"{c7535:0001,FFFE}How can this be!{c7536}\"{clear}So {name}, born of fusing Canon and the Tamer,{clear}holds strength such as this{c7535:0001,0002}...{c7536}",
+  "status": "done"
  },
  {
   "id": "0D1F96",
@@ -920,8 +920,8 @@
   ],
   "jp": "{name}「ハアハア！」{clear}イグニスが去った後、我に返った{name}はその場に倒れこんだ。{clear}クリムト「おぬし・・・{clear}そうか！何かをきっかけとして、{br}カノンの魂が目覚めるのか！」{clear}クリムト「もう話さねばなるまい。{br}全ての事を{c7535:0001,0002}・・・{c7536}」{clear}クリムト「ベリンガムが言っていた事は事実じゃ！{clear}ワシが{col:0002}カノン{colend}と{col:0002}魔獣使い{colend}を合成し、{br}おぬしが生まれた。」{clear}",
   "bytes": 340,
-  "en": "",
-  "status": "todo"
+  "en": "{name}: \"Haah... haah!\"{clear}Once Ignis was gone, {name} came to and collapsed on the spot.{clear}Klimt: \"You...{clear}I see! Something sets it off, and Canon's soul awakens!\"{clear}Klimt: \"I can't keep it from you any longer. I must tell you everything{c7535:0001,0002}...{c7536}\"{clear}Klimt: \"What Bellingham said is true!{clear}I fused {col:0002}Canon{colend} with {col:0002}the Tamer{colend}, and you were born.\"{clear}",
+  "status": "done"
  },
  {
   "id": "0D20EA",
@@ -930,8 +930,8 @@
   ],
   "jp": "クリムト「そもそもワシが{br}この世界に合獣機というものを{clear}作り出したんじゃ。」{clear}クリムト「二匹のドラゴンが支配し狂暴な魔獣達が、{clear}氾濫していたこの世界に、{clear}人間的な秩序を持った{col:0002}魔獣人間{colend}を作ろうとしたんじゃ」",
   "bytes": 212,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"To begin with, it was I who brought this thing,{clear}the Fusion Machine, into the world.\"{clear}Klimt: \"This world was ruled by two dragons, and savage monsters{clear}ran rampant across it.{clear}So I set out to create {col:0002}monster-humans{colend} with a human sense of order.\"",
+  "status": "done"
  },
  {
   "id": "0D21BE",
@@ -940,8 +940,8 @@
   ],
   "jp": "クリムト「ワシが初めて作った{col:0002}魔獣人間{colend}、{clear}それがベリンガムじゃ。」{clear}クリムト「合成した魔獣は、{br}強い遺伝に影響される。{clear}複数の魔獣達と合成を繰り返したが、ヤツは暗黒系の遺伝子を{clear}より強く受け継いでしまった。{clear}姿は人間だが心は狂暴な魔獣達と{br}変わらないヤツだ。」",
   "bytes": 266,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"The first {col:0002}monster-human{colend} I ever made...{clear}was Bellingham.\"{clear}Klimt: \"A fused monster is ruled by its strongest genes.{clear}I fused him with many monsters, again and again, but he took on the Dark-type genes{clear}more strongly than any other.{clear}He may look human, but at heart he's no different from a savage monster.\"",
+  "status": "done"
  },
  {
   "id": "0D22C8",
@@ -950,8 +950,8 @@
   ],
   "jp": "クリムト「結局、ワシの理想はムズカシイと感じ始めた時、{clear}{word2:0002}が現れた。」{clear}クリムト「{word2:0003}は２匹のドラゴンと{br}壮絶な戦いをし、{clear}{word2:0003}が勝利したが、{br}{word2:0003}もまた全身に瀕死の重傷をおい、{clear}もはや命を助けるには合獣機を使う方法しか残されていなかった。」{wait:001E}",
   "bytes": 250,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"Just as I began to feel my ideal was out of reach after all,{clear}the {word2:0002} appeared.\"{clear}Klimt: \"And so {word2:0003} fought a fierce battle with the two dragons,{clear}and though {word2:0003} won, {word2:0003} too was left mortally wounded,{clear}and the Fusion Machine was the only way left to save the Tamer's life.\"{wait:001E}",
+  "status": "done"
  },
  {
   "id": "0D23C2",
@@ -960,8 +960,8 @@
   ],
   "jp": "クリムト「わしは生命力の強い{c7537:0020}{col:0002}カノン{colend}と、{clear}{col:0002}{word2:0002}{colend}を合成したんじゃ！」",
   "bytes": 82,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I fused {c7537:0020}{col:0002}Canon{colend}, with its mighty life force,{clear}and {col:0002}the {word2:0002}{colend}!\"",
+  "status": "done"
  },
  {
   "id": "0D2414",
@@ -970,8 +970,8 @@
   ],
   "jp": "クリムト「そして、{word2:0002}の遺伝子を強く受け継いだ、{clear}魔獣人間の{col:0002}おぬし{colend}が産まれた。」{clear}しかし、いっさいの記憶を失ってな。{clear}その後、おぬしはバルロア国の貴族、ウィンスロー一世の子供だと判った。{clear}つまり{wait:0001}死んだおぬしの父、ウィンスロー二世はそなたの弟だ！{clear}彼は事実を知り、記憶の無いおぬしを{clear}本当の子のように育ててくれたんじゃよ。」{clear}父では無く自分の弟だったウィンスロー二世{c7535:0001,0002}・・・{c7536}{clear}{name}は動揺する自分を抑えることで精一杯であった。",
   "bytes": 438,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"And so was born one who strongly inherited the genes of the {word2:0002},{clear}a monster-human: {col:0002}you{colend}.{clear}But you had lost every last memory.{clear}Later, you came to be known as the child of Winslow I, a nobleman of Balroa.{clear}In other words,{wait:0001} your late father, Winslow II, was your younger brother!{clear}He knew the truth, yet he raised you, with no memory of your past,{clear}as if you were his own child.\"{clear}Winslow II... not a father, but a younger brother{c7535:0001,0002}...{c7536}{clear}{name} struggled just to stay calm.",
+  "status": "done"
  },
  {
   "id": "0D25CA",
@@ -980,8 +980,8 @@
   ],
   "jp": "クリムト「ベリンガムはこの事実を知って{clear}{c7537:0021}{col:0002}イグニス{colend}をおびき出すために、{br}おぬしを利用したんじゃ」",
   "bytes": 106,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"Bellingham learned the truth,{clear}{c7537:0021}and used you to lure out {col:0002}Ignis{colend}.\"",
+  "status": "done"
  },
  {
   "id": "0D2634",
@@ -990,8 +990,8 @@
   ],
   "jp": "クリムト「ヤツは古城跡に向かっているはずじゃ。{clear}あそこには昔、おぬしを合成した{br}合獣機がある。{clear}ヤツはおぬしになろうとしておる。」",
   "bytes": 132,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"He's bound to be heading for the old castle ruins.{clear}The Fusion Machine that once fused you is still there.{clear}He means to become you.\"",
+  "status": "done"
  },
  {
   "id": "0D26B8",
@@ -1000,8 +1000,8 @@
   ],
   "jp": "{c7537:0022}クリムト「おぬしとイグニスの{br}因果関係は永遠。{br}逃れることは出来ん！{clear}伝説の魔獣を復活し、{br}ヤツらを倒すのじゃ！」",
   "bytes": 120,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:0022}Klimt: \"The bond between you and Ignis is eternal. There's no escaping it!{clear}Revive the Legendary Monster and defeat them!\"",
+  "status": "done"
  },
  {
   "id": "0D2730",
@@ -1010,8 +1010,8 @@
   ],
   "jp": "{c7539:0023,0024}{c7539:0025,0026}クリムト{br}「いいか！これで伝説の魔獣{br}{col:0002}{word1:0008}{colend}が完成する。{clear}中型体の{col:0002}{word1:0006}{colend}と{clear}{col:0002}{word1:0007}{colend}を合成するんじゃ！",
   "bytes": 126,
-  "en": "",
-  "status": "todo"
+  "en": "{c7539:0023,0024}{c7539:0025,0026}Klimt: \"Listen! This will complete the Legendary Monster, {col:0002}{word1:0008}{colend}.{clear}Fuse the mid form {col:0002}{word1:0006}{colend} with{clear}{col:0002}{word1:0007}{colend}!\"",
+  "status": "done"
  },
  {
   "id": "0D27AE",
@@ -1020,8 +1020,8 @@
   ],
   "jp": "クリムト「さすれば伝説の魔獣{br}{col:0002}{word1:0008}{colend}の完成じゃ！{br}この魔獣を使えるのは、{br}そなただけだ。{clear}古城跡へ向かい、ベリンガムの野望を阻止するんじゃ！」",
   "bytes": 148,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"Then the Legendary Monster, {col:0002}{word1:0008}{colend}, will be complete! You alone can command this monster.{clear}Go to the old castle ruins and put a stop to Bellingham's ambitions!\"",
+  "status": "done"
  },
  {
   "id": "0D2842",
@@ -1030,8 +1030,8 @@
   ],
   "jp": "{name}が中庭まで来ると、{clear}突然目の前にザーゴとラミレスが現れた。{clear}ザーゴ「今度は・・・本気！」{clear}ラミレス「もう容赦・・・しない！」",
   "bytes": 128,
-  "en": "",
-  "status": "todo"
+  "en": "When {name} reached the courtyard,{clear}Zago and Ramirez suddenly appeared out of nowhere!{clear}Zago: \"This time... for real!\"{clear}Ramirez: \"No more... holding back!\"",
+  "status": "done"
  },
  {
   "id": "0D28C2",
@@ -1040,8 +1040,8 @@
   ],
   "jp": "{c7537:0027}ベリンガムの所へ{c7537:0028}ザーゴと{c7537:0029}ラミレスが、逃げ帰って来た。{clear}ベリンガム「情けないやつらだ。{br}おまえ達、この中へ入れ！」",
   "bytes": 126,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:0027}Back to Bellingham came {c7537:0028}Zago and {c7537:0029}Ramirez, in full retreat.{clear}Bellingham: \"Pathetic wretches. You two, get in here!\"",
+  "status": "done"
  },
  {
   "id": "0D2940",
@@ -1050,8 +1050,8 @@
   ],
   "jp": "{c7537:002A}{c7537:002B}ベリンガム「おのれ、{wait:0001}所詮ザコ同士の合成では、この程度の強さかっ！」{clear}ベリンガム「ならば{br}さらなる{col:0002}力{colend}をあたえるために、{br}ワシ自身と・・・」{clear}そう言うと、ベリンガムみずから{br}合獣機の中に入った。",
   "bytes": 210,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:002A}{c7537:002B}Bellingham: \"Curses!{wait:0001} So fusing two small fry together gets me only this much strength?!\"{clear}Bellingham: \"Then, to grant it still greater {col:0002}power{colend}, I shall fuse it with... myself...\"{clear}With that, Bellingham climbed into the Fusion Machine himself.",
+  "status": "done"
  },
  {
   "id": "0D2A12",
@@ -1060,8 +1060,8 @@
   ],
   "jp": "ベリンガム「お・・・{wait:0005}おのれ{clear}これ・・・で、{clear}ワシが・・・{clear}",
   "bytes": 64,
-  "en": "",
-  "status": "todo"
+  "en": "Bellingham: \"Cu...{wait:0005}curses...{clear}With... this...{clear}I... will be...{clear}",
+  "status": "done"
  },
  {
   "id": "0D2A52",
@@ -1070,8 +1070,8 @@
   ],
   "jp": "最強・・・」{clear}その先には、すでに{col:0002}イグニス{colend}が{br}合獣機の中に入れられていた。{clear}ベリンガムは体を引きずりながら、合獣機の中に入った。{clear}",
   "bytes": 136,
-  "en": "",
-  "status": "todo"
+  "en": "the strongest...\"{clear}Ahead of him, {col:0002}Ignis{colend} had already been placed inside the Fusion Machine.{clear}Bellingham dragged himself into the Fusion Machine.{clear}",
+  "status": "done"
  },
  {
   "id": "0D2ADA",
@@ -1080,8 +1080,8 @@
   ],
   "jp": "合獣機が火を噴き、その炎はまたたくまに古城全体を包んだ！",
   "bytes": 58,
-  "en": "",
-  "status": "todo"
+  "en": "The Fusion Machine spewed fire, and in an instant the flames engulfed the whole old castle!",
+  "status": "done"
  },
  {
   "id": "0D2B14",
@@ -1090,8 +1090,8 @@
   ],
   "jp": "部屋中が炎に包まれても{br}{name}は逃げ出さず、{br}死んだベリンガムの姿をみつめていた。",
   "bytes": 80,
-  "en": "",
-  "status": "todo"
+  "en": "Though the whole room was engulfed in flames, {name} did not flee, but stood staring at Bellingham's corpse.",
+  "status": "done"
  },
  {
   "id": "0D2B64",
@@ -1100,8 +1100,8 @@
   ],
   "jp": "{c7538:002C,002D}{name}は思い出していた。{clear}ベリンガムが{br}城に攻めて来た時の事を。",
   "bytes": 68,
-  "en": "",
-  "status": "todo"
+  "en": "{c7538:002C,002D}{name} was remembering{clear}the day Bellingham attacked the castle.",
+  "status": "done"
  },
  {
   "id": "0D2BA8",
@@ -1110,8 +1110,8 @@
   ],
   "jp": "ウィンスロー{br}「これが目的だったのか！」{clear}ウィンスロー王が{br}伝説の魔獣使いのタクトを{clear}ベリンガムの前に差し出した時！{clear}タクトを見た{br}{name}の心がカノンの{br}魂に支配され",
   "bytes": 164,
-  "en": "",
-  "status": "todo"
+  "en": "Winslow: \"So this was what you were after!\"{clear}The moment King Winslow held out the Legendary Monster Tamer's baton{clear}before Bellingham...!{clear}At the sight of the baton, {name}'s heart was seized by Canon's soul--",
+  "status": "done"
  },
  {
   "id": "0D2C4C",
@@ -1120,8 +1120,8 @@
   ],
   "jp": "伝説の魔獣使いに{br}恨みを持つカノンが、{clear}弟であるウィンスロー王に{br}何をしたのか・・・",
   "bytes": 86,
-  "en": "",
-  "status": "todo"
+  "en": "Canon, which bore a grudge against the Legendary Monster Tamer...{clear}What had it done to {name}'s younger brother, King Winslow...?",
+  "status": "done"
  },
  {
   "id": "0D2CA2",
@@ -1130,8 +1130,8 @@
   ],
   "jp": "{name}の手から{br}魔獣使いのタクトが落ちた。",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "The Monster Tamer's baton slipped from {name}'s hand.",
+  "status": "done"
  },
  {
   "id": "0D2CCA",
@@ -1140,8 +1140,8 @@
   ],
   "jp": "{name}{br}「{c7535:0001,FFFF}{word2:0000}が殺した{c7535:0001,FFFF}・・・」{c7536}{c7536}{clear}炎が部屋中に広がり、{clear}{name}の姿も炎に包まれた。",
   "bytes": 90,
-  "en": "",
-  "status": "todo"
+  "en": "{name}: \"{c7535:0001,FFFF}{word2:0000} killed him{c7535:0001,FFFF}...\"{c7536}{c7536}{clear}The flames spread through the room,{clear}and {name}, too, was engulfed by them.",
+  "status": "done"
  },
  {
   "id": "0D2D24",
@@ -1150,8 +1150,8 @@
   ],
   "jp": "古城全体が煙に包まれ、{br}外壁が崩れた。",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Smoke engulfed the whole old castle, and its outer walls crumbled.",
+  "status": "done"
  },
  {
   "id": "0D2D4C",
@@ -1160,8 +1160,8 @@
   ],
   "jp": "{c7537:002E}クリムト「古い合獣機をムリに動かした結果じゃ！」{clear}クリムト{br}「{name}は・・・？」{clear}",
   "bytes": 84,
-  "en": "",
-  "status": "todo"
+  "en": "{c7537:002E}Klimt: \"That's what comes of forcing that old Fusion Machine to run!\"{clear}Klimt: \"And {name}...?\"{clear}",
+  "status": "done"
  },
  {
   "id": "0D2DA0",
@@ -1170,8 +1170,8 @@
   ],
   "jp": "その時、炎に包まれていた城が{br}崩れ落ちた。",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "At that moment, the burning castle collapsed.",
+  "status": "done"
  },
  {
   "id": "0D2DCC",
@@ -1180,8 +1180,8 @@
   ],
   "jp": "クリムトはその崩れた残骸の中、{br}{name}を探し歩いた。{clear}そして、火に焼かれ黒くなったタクトを見つけ出した。{clear}クリムトはそのタクトを見て{br}確信した。{clear}",
   "bytes": 144,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt searched the collapsed wreckage for {name}.{clear}And he found the baton, scorched black by the fire.{clear}Looking at the baton, Klimt was certain.{clear}",
+  "status": "done"
  },
  {
   "id": "0D2E5C",
@@ -1190,8 +1190,8 @@
   ],
   "jp": "クリムト「そうか・・・{wait:0001}全て知った上での、決断か・・・」{clear}クリムト「何処かで生き延びて{br}いるじゃろ！」{clear}",
   "bytes": 108,
-  "en": "",
-  "status": "todo"
+  "en": "Klimt: \"I see...{wait:0001} So you made that choice knowing the whole truth...\"{clear}Klimt: \"Surely you're still alive out there somewhere!\"{clear}",
+  "status": "done"
  },
  {
   "id": "0D2EC8",
@@ -1200,8 +1200,8 @@
   ],
   "jp": "そう自分に言い聞かせるよう、{br}黒くなったタクトを見つめていた。",
   "bytes": 64,
-  "en": "",
-  "status": "todo"
+  "en": "As if trying to convince himself, Klimt stared at the blackened baton.",
+  "status": "done"
  },
  {
   "id": "0D2F08",
@@ -1218,8 +1218,8 @@
   ],
   "jp": "{name}は立ち止まり、考えた。{clear}クリムト老人が言った、伝説の魔獣無しで、戦えるだろうかと？{clear}そう考え、{name}はその場を立ち去った。",
   "bytes": 122,
-  "en": "",
-  "status": "todo"
+  "en": "{name} stopped and thought.{clear}Could {name} really fight without the Legendary Monster old Klimt had spoken of?{clear}With that thought, {name} turned back.",
+  "status": "done"
  },
  {
   "id": "0D2FAC",
@@ -1228,8 +1228,8 @@
   ],
   "jp": "{name}は立ち止まり、考えた。{clear}この先にはベリンガム達が、待ち構えている。{clear}伝説の魔獣の完成無しで、はたして勝てるのだろうか？{clear}魔獣を完成させるため{name}はその場を離れた。",
   "bytes": 164,
-  "en": "",
-  "status": "todo"
+  "en": "{name} stopped and thought.{clear}Bellingham and his forces lay in wait ahead.{clear}Could {name} really win without completing the Legendary Monster?{clear}Resolved to complete it first, {name} turned back.",
+  "status": "done"
  },
  {
   "id": "0D3050",
@@ -1238,8 +1238,8 @@
   ],
   "jp": "{name}は立ち止まり、考えた。{clear}この先にはベリンガム達が、待ち構えている。{clear}伝説の魔獣の完成無しではたして勝てるのだろうか？{clear}魔獣を完成させるため、{name}はその場を離れた。",
   "bytes": 164,
-  "en": "",
-  "status": "todo"
+  "en": "{name} stopped and thought.{clear}Bellingham and his forces lay in wait ahead.{clear}Could {name} really win without completing the Legendary Monster?{clear}Resolved to complete it first, {name} turned back.",
+  "status": "done"
  },
  {
   "id": "0D30F4",

@@ -19,7 +19,8 @@ import vwf  # noqa: E402
 FREE_START, FREE_END = 0x770000, 0x800000
 # bank -> font size, font struct offset, original glyph count, layout (line px, lines per page)
 BANKS = {
-    'story': dict(font=11, struct=0x0D6C24, nglyphs=685, width=204, lines=2),  # 17 cells, measured in-game
+    # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP
+    'story': dict(font=11, struct=0x0D6C24, nglyphs=685, width=192, lines=2),
     'ui9': dict(font=9, struct=0x0CF520, nglyphs=317, width=110, lines=2),
 }
 NAME_CHARS = 6            # player name length budget for wrapping ({name} = one 12 px OBJ per character)

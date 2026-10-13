@@ -14,8 +14,8 @@
   ],
   "jp": "命令を決めてください",
   "bytes": 22,
-  "en": "",
-  "status": "todo"
+  "en": "Choose an order.",
+  "status": "done"
  },
  {
   "id": "0CC942",
@@ -249,8 +249,8 @@
   ],
   "jp": "プレイヤーポイントが足りません",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Not enough Player Points.",
+  "status": "done"
  },
  {
   "id": "0CCD22",
@@ -259,8 +259,8 @@
   ],
   "jp": "モンスターを選んでください",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Choose a monster.",
+  "status": "done"
  },
  {
   "id": "0CCD3E",
@@ -269,8 +269,8 @@
   ],
   "jp": "指示対象を決めてください",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Choose who gets the order.",
+  "status": "done"
  },
  {
   "id": "0CCD58",
@@ -287,8 +287,8 @@
   ],
   "jp": "全部のモンスターに指示を出します",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Give orders to all monsters.",
+  "status": "done"
  },
  {
   "id": "0CCD90",
@@ -297,8 +297,8 @@
   ],
   "jp": "モンスター個別に指示を出します",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Give orders to each monster separately.",
+  "status": "done"
  },
  {
   "id": "0CCDB0",
@@ -307,8 +307,8 @@
   ],
   "jp": "対象となるモンスターがいません",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "There are no monsters to target.",
+  "status": "done"
  },
  {
   "id": "0CCDD0",
@@ -317,8 +317,8 @@
   ],
   "jp": "　クリア条件　　　　　　戦闘終了",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Clear Condition{br}End of battle",
+  "status": "done"
  },
  {
   "id": "0CCDF2",
@@ -327,8 +327,8 @@
   ],
   "jp": "通信中です。Ｂボタンでキャンセルできます",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Communicating... Press the B Button to cancel.",
+  "status": "done"
  },
  {
   "id": "0CCE1C",
@@ -337,8 +337,8 @@
   ],
   "jp": "通信エラーです。ケーブルを確認してください",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Communication error. Check the cable.",
+  "status": "done"
  },
  {
   "id": "0CCE48",
@@ -347,8 +347,8 @@
   ],
   "jp": "通信準備ができたらＡボタンを押してください",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Press the A Button when ready to link.",
+  "status": "done"
  },
  {
   "id": "0CCE74",
@@ -357,8 +357,8 @@
   ],
   "jp": "　　相手の作戦中！",
   "bytes": 20,
-  "en": "",
-  "status": "todo"
+  "en": "Opponent is planning!",
+  "status": "done"
  },
  {
   "id": "0CCE88",
@@ -367,8 +367,8 @@
   ],
   "jp": "【クリア条件】　　　　行く手を阻む魔獣を殲滅",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the monsters in your way!",
+  "status": "done"
  },
  {
   "id": "0CCEB6",
@@ -377,8 +377,8 @@
   ],
   "jp": "【クリア条件】　　　　襲いくる魔獣達を倒せ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the attacking monsters!",
+  "status": "done"
  },
  {
   "id": "0CCEE4",
@@ -387,8 +387,8 @@
   ],
   "jp": "【クリア条件】　　　　追手の魔獣を全滅せよ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the pursuing monsters!",
+  "status": "done"
  },
  {
   "id": "0CCF12",
@@ -397,8 +397,8 @@
   ],
   "jp": "【クリア条件】　　　　追手の魔獣を全滅せよ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the pursuing monsters!",
+  "status": "done"
  },
  {
   "id": "0CCF40",
@@ -407,8 +407,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の魔獣の全滅！",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the enemy monsters!",
+  "status": "done"
  },
  {
   "id": "0CCF68",
@@ -417,8 +417,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の魔獣達を全滅せよ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out all the enemy monsters!",
+  "status": "done"
  },
  {
   "id": "0CCF96",
@@ -427,8 +427,8 @@
   ],
   "jp": "【クリア条件】　　　　警備の魔獣を倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the guard monsters!",
+  "status": "done"
  },
  {
   "id": "0CCFC0",
@@ -437,8 +437,8 @@
   ],
   "jp": "【クリア条件】　　　　城内の魔獣を倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the monsters in the castle!",
+  "status": "done"
  },
  {
   "id": "0CCFEA",
@@ -447,8 +447,8 @@
   ],
   "jp": "【クリア条件】　　　　城内の魔獣の殲滅！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the monsters in the castle!",
+  "status": "done"
  },
  {
   "id": "0CD014",
@@ -457,8 +457,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の魔獣達を全滅せよ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out all the enemy monsters!",
+  "status": "done"
  },
  {
   "id": "0CD042",
@@ -467,8 +467,8 @@
   ],
   "jp": "【クリア条件】　　　　ザーゴを倒せ！",
   "bytes": 38,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Zago!",
+  "status": "done"
  },
  {
   "id": "0CD068",
@@ -477,8 +477,8 @@
   ],
   "jp": "【クリア条件】　　　　岩の番人達の殲滅！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the rock guardians!",
+  "status": "done"
  },
  {
   "id": "0CD092",
@@ -487,8 +487,8 @@
   ],
   "jp": "【クリア条件】　　　　森の先住者を倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the forest natives!",
+  "status": "done"
  },
  {
   "id": "0CD0BC",
@@ -497,8 +497,8 @@
   ],
   "jp": "【クリア条件】　　　　魔物たちを倒せ！",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the fiends!",
+  "status": "done"
  },
  {
   "id": "0CD0E4",
@@ -507,8 +507,8 @@
   ],
   "jp": "【クリア条件】　　　　蘇った武士の殲滅！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the risen warriors!",
+  "status": "done"
  },
  {
   "id": "0CD10E",
@@ -517,8 +517,8 @@
   ],
   "jp": "【クリア条件】　　　　待ち伏せた魔獣を倒せ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the monsters lying in ambush!",
+  "status": "done"
  },
  {
   "id": "0CD13C",
@@ -527,8 +527,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の放った魔獣を倒せ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the monsters the enemy sent!",
+  "status": "done"
  },
  {
   "id": "0CD16A",
@@ -537,8 +537,8 @@
   ],
   "jp": "【クリア条件】　　　　ザーゴを倒せ！",
   "bytes": 38,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Zago!",
+  "status": "done"
  },
  {
   "id": "0CD190",
@@ -547,8 +547,8 @@
   ],
   "jp": "【クリア条件】　　　　ラミレスを倒せ！",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Ramirez!",
+  "status": "done"
  },
  {
   "id": "0CD1B8",
@@ -557,8 +557,8 @@
   ],
   "jp": "【クリア条件】　　　　魔獣を倒せ！",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the monsters!",
+  "status": "done"
  },
  {
   "id": "0CD1DC",
@@ -567,8 +567,8 @@
   ],
   "jp": "【クリア条件】　　　　イグニスを倒せ！",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Ignis!",
+  "status": "done"
  },
  {
   "id": "0CD204",
@@ -577,8 +577,8 @@
   ],
   "jp": "【クリア条件】　　　　追手の魔獣を殲滅せよ！",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the pursuing monsters!",
+  "status": "done"
  },
  {
   "id": "0CD232",
@@ -587,8 +587,8 @@
   ],
   "jp": "【クリア条件】　　　　砂漠の魔獣達を倒せ！",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the desert monsters!",
+  "status": "done"
  },
  {
   "id": "0CD25E",
@@ -597,8 +597,8 @@
   ],
   "jp": "【クリア条件】　　　　廃墟の魔獣達を倒せ！",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the monsters in the Ruins!",
+  "status": "done"
  },
  {
   "id": "0CD28A",
@@ -607,8 +607,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の追跡者を倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the enemy trackers!",
+  "status": "done"
  },
  {
   "id": "0CD2B4",
@@ -617,8 +617,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の見張りを倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the enemy lookouts!",
+  "status": "done"
  },
  {
   "id": "0CD2DE",
@@ -627,8 +627,8 @@
   ],
   "jp": "【クリア条件】　　　　ザーゴを倒せ！",
   "bytes": 38,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Zago!",
+  "status": "done"
  },
  {
   "id": "0CD304",
@@ -637,8 +637,8 @@
   ],
   "jp": "【クリア条件】　　　　ラミレスを倒せ！",
   "bytes": 40,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Ramirez!",
+  "status": "done"
  },
  {
   "id": "0CD32C",
@@ -647,8 +647,8 @@
   ],
   "jp": "【クリア条件】　　　　敵の合成魔獣を倒せ！",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the enemy's fused monster!",
+  "status": "done"
  },
  {
   "id": "0CD358",
@@ -657,8 +657,8 @@
   ],
   "jp": "【クリア条件】　　　　ベリンガムを倒せ！",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat Bellingham!",
+  "status": "done"
  },
  {
   "id": "0CD382",
@@ -667,8 +667,8 @@
   ],
   "jp": "【クリア条件】　　　　敵最終形態の魔獣を倒せ",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Defeat the enemy monster's final form!",
+  "status": "done"
  },
  {
   "id": "0CD3B0",
@@ -678,8 +678,8 @@
   ],
   "jp": "【クリア条件】　　　　現れた魔獣達の殲滅！",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Goal: Wipe out the monsters that appear!",
+  "status": "done"
  },
  {
   "id": "0CD3DC",
@@ -689,8 +689,8 @@
   ],
   "jp": "　【命令：戦え】　　　敵をみつけて攻撃する",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Fight]{br}Find enemies and attack",
+  "status": "done"
  },
  {
   "id": "0CD408",
@@ -700,8 +700,8 @@
   ],
   "jp": "　【命令：待機】　　　その場で立ち止まる",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Wait]{br}Stay in place",
+  "status": "done"
  },
  {
   "id": "0CD432",
@@ -710,8 +710,8 @@
   ],
   "jp": "　【命令：捕獲】　　　敵を指定して捕まえる",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Capture]{br}Pick an enemy and catch it",
+  "status": "done"
  },
  {
   "id": "0CD45E",
@@ -721,8 +721,8 @@
   ],
   "jp": "　【命令：アイテム】　アイテムを拾いにいく",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Item]{br}Go pick up items",
+  "status": "done"
  },
  {
   "id": "0CD48A",
@@ -732,8 +732,8 @@
   ],
   "jp": "　【命令：逃げろ】　　敵から逃げる",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Flee]{br}Run away from enemies",
+  "status": "done"
  },
  {
   "id": "0CD4AE",
@@ -743,8 +743,8 @@
   ],
   "jp": "　【命令：守れ】　　　ガードして攻撃をかわす",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Guard]{br}Block and avoid attacks",
+  "status": "done"
  },
  {
   "id": "0CD4DC",
@@ -753,8 +753,8 @@
   ],
   "jp": "　【命令：ポコれ】　　集中攻撃",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "[Order: Gang Up]{br}Focus attacks on one foe",
+  "status": "done"
  },
  {
   "id": "0CD4FC",
@@ -828,8 +828,8 @@
   ],
   "jp": "記録が破壊されています　削除完了しました",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Save data was corrupted.{br}Deletion complete.",
+  "status": "done"
  },
  {
   "id": "0CD64E",
@@ -867,8 +867,8 @@
   ],
   "jp": "ワールドマップへ切替えます",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to the world map.",
+  "status": "done"
  },
  {
   "id": "0CD6D4",
@@ -881,8 +881,8 @@
   ],
   "jp": "ブリーフィングへ切替えます",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to the Briefing.",
+  "status": "done"
  },
  {
   "id": "0CD6F0",
@@ -895,8 +895,8 @@
   ],
   "jp": "モンスター管理へ切替えます",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to monster management.",
+  "status": "done"
  },
  {
   "id": "0CD70C",
@@ -909,8 +909,8 @@
   ],
   "jp": "パーティ編成へ切替えます",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to party formation.",
+  "status": "done"
  },
  {
   "id": "0CD726",
@@ -923,8 +923,8 @@
   ],
   "jp": "アイテム管理へ切替えます",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to item management.",
+  "status": "done"
  },
  {
   "id": "0CD740",
@@ -937,8 +937,8 @@
   ],
   "jp": "システム処理へ切替えます",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Switch to the system menu.",
+  "status": "done"
  },
  {
   "id": "0CD75A",
@@ -947,8 +947,8 @@
   ],
   "jp": "プレイヤーの名前を変更します",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "Change the player's name.",
+  "status": "done"
  },
  {
   "id": "0CD778",
@@ -957,8 +957,8 @@
   ],
   "jp": "メッセージ表示を行います",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Show messages.",
+  "status": "done"
  },
  {
   "id": "0CD792",
@@ -967,8 +967,8 @@
   ],
   "jp": "通信イベント中のパーティ状態を表示します",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Show the party status during link events.",
+  "status": "done"
  },
  {
   "id": "0CD7BC",
@@ -977,8 +977,8 @@
   ],
   "jp": "攻略に必要なモンスターの情報を表示します",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Show info on the monsters needed to win.",
+  "status": "done"
  },
  {
   "id": "0CD7E6",
@@ -989,8 +989,8 @@
   ],
   "jp": "モンスターパラメータを確認します",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Check monster stats.",
+  "status": "done"
  },
  {
   "id": "0CD808",
@@ -999,8 +999,8 @@
   ],
   "jp": "モンスターの名前変更が行えます",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Rename monsters.",
+  "status": "done"
  },
  {
   "id": "0CD828",
@@ -1020,8 +1020,8 @@
   ],
   "jp": "出撃設定にできます",
   "bytes": 20,
-  "en": "",
-  "status": "todo"
+  "en": "Can be set as the sortie party.",
+  "status": "done"
  },
  {
   "id": "0CD864",
@@ -1031,8 +1031,8 @@
   ],
   "jp": "このパーティが戦闘を行います",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "This party will fight.",
+  "status": "done"
  },
  {
   "id": "0CD882",
@@ -1042,8 +1042,8 @@
   ],
   "jp": "修行中の為、出撃設定にはできません",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Can't be set for sortie while in training.",
+  "status": "done"
  },
  {
   "id": "0CD8A6",
@@ -1053,8 +1053,8 @@
   ],
   "jp": "編成されていないので出撃設定にはできません",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Can't be set for sortie: not formed yet.",
+  "status": "done"
  },
  {
   "id": "0CD8D2",
@@ -1064,8 +1064,8 @@
   ],
   "jp": "パーティ名未設定の為、出撃設定できません",
   "bytes": 42,
-  "en": "",
-  "status": "todo"
+  "en": "Can't be set for sortie: no party name.",
+  "status": "done"
  },
  {
   "id": "0CD8FC",
@@ -1074,8 +1074,8 @@
   ],
   "jp": "パーティ名を設定します",
   "bytes": 24,
-  "en": "",
-  "status": "todo"
+  "en": "Set a party name.",
+  "status": "done"
  },
  {
   "id": "0CD914",
@@ -1086,8 +1086,8 @@
   ],
   "jp": "パーティ名を変更します",
   "bytes": 24,
-  "en": "",
-  "status": "todo"
+  "en": "Change the party name.",
+  "status": "done"
  },
  {
   "id": "0CD92C",
@@ -1096,8 +1096,8 @@
   ],
   "jp": "修行中の為、名前の変更は行えません",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Can't be renamed while in training.",
+  "status": "done"
  },
  {
   "id": "0CD950",
@@ -1108,8 +1108,8 @@
   ],
   "jp": "パーティ編成を行います",
   "bytes": 24,
-  "en": "",
-  "status": "todo"
+  "en": "Arrange the party formation.",
+  "status": "done"
  },
  {
   "id": "0CD968",
@@ -1118,8 +1118,8 @@
   ],
   "jp": "修行中の為、編成は行えません",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "Can't be arranged while in training.",
+  "status": "done"
  },
  {
   "id": "0CD986",
@@ -1129,8 +1129,8 @@
   ],
   "jp": "パーティに加えることができます",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Can be added to the party.",
+  "status": "done"
  },
  {
   "id": "0CD9A6",
@@ -1139,8 +1139,8 @@
   ],
   "jp": "位置変更／パーティから外せます",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Change position / remove from the party.",
+  "status": "done"
  },
  {
   "id": "0CD9C6",
@@ -1149,8 +1149,8 @@
   ],
   "jp": "修行中の為、操作は行えません",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "Not available while in training.",
+  "status": "done"
  },
  {
   "id": "0CD9E4",
@@ -1162,8 +1162,8 @@
   ],
   "jp": "アイテムの装備を行います",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Equip items.",
+  "status": "done"
  },
  {
   "id": "0CD9FE",
@@ -1172,8 +1172,8 @@
   ],
   "jp": "アイテムの装備／解除を行います",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Equip or remove items.",
+  "status": "done"
  },
  {
   "id": "0CDA1E",
@@ -1183,8 +1183,8 @@
   ],
   "jp": "このアイテムの装備変更は行えません",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "This item's equipment can't be changed.",
+  "status": "done"
  },
  {
   "id": "0CDA42",
@@ -1195,8 +1195,8 @@
   ],
   "jp": "モンスターにアイテムを装備します",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Equip an item on a monster.",
+  "status": "done"
  },
  {
   "id": "0CDA64",
@@ -1206,8 +1206,8 @@
   ],
   "jp": "装備中のアイテムを外します",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Remove the equipped item.",
+  "status": "done"
  },
  {
   "id": "0CDA80",
@@ -1216,8 +1216,8 @@
   ],
   "jp": "このモンスターには装備できません",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "This monster can't equip it.",
+  "status": "done"
  },
  {
   "id": "0CDAA2",
@@ -1238,8 +1238,8 @@
   ],
   "jp": "このパラメータを強化します",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Raise this stat.",
+  "status": "done"
  },
  {
   "id": "0CDABE",
@@ -1248,8 +1248,8 @@
   ],
   "jp": "これがなくなるとダウンします",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "At zero, the monster goes down.",
+  "status": "done"
  },
  {
   "id": "0CDADC",
@@ -1258,8 +1258,8 @@
   ],
   "jp": "ダメージ時のスキが小さくなります",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Less of an opening when hit.",
+  "status": "done"
  },
  {
   "id": "0CDAFE",
@@ -1268,8 +1268,8 @@
   ],
   "jp": "与えるダメージが大きくなります",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Deal more damage.",
+  "status": "done"
  },
  {
   "id": "0CDB1E",
@@ -1278,8 +1278,8 @@
   ],
   "jp": "受けたダメージを軽減します",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Reduce damage taken.",
+  "status": "done"
  },
  {
   "id": "0CDB3A",
@@ -1288,8 +1288,8 @@
   ],
   "jp": "移動するスピードが速くなります",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Move faster.",
+  "status": "done"
  },
  {
   "id": "0CDB5A",
@@ -1298,8 +1298,8 @@
   ],
   "jp": "行動のムダな動作が減ります",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Fewer wasted moves when acting.",
+  "status": "done"
  },
  {
   "id": "0CDB76",
@@ -1308,8 +1308,8 @@
   ],
   "jp": "必殺技を行いやすくなります",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Use Specials more easily.",
+  "status": "done"
  },
  {
   "id": "0CDB92",
@@ -1318,8 +1318,8 @@
   ],
   "jp": "反撃を行いやすくなります",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Counterattack more easily.",
+  "status": "done"
  },
  {
   "id": "0CDBAC",
@@ -1328,8 +1328,8 @@
   ],
   "jp": "相性の良い敵を選ぶようになります",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Seek out enemies it matches up well against.",
+  "status": "done"
  },
  {
   "id": "0CDBCE",
@@ -1338,8 +1338,8 @@
   ],
   "jp": "命令に服従しやすくなります",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Obey orders more readily.",
+  "status": "done"
  },
  {
   "id": "0CDBEA",
@@ -1348,8 +1348,8 @@
   ],
   "jp": "攻撃が命中しやすくなります",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Attacks hit more easily.",
+  "status": "done"
  },
  {
   "id": "0CDC06",
@@ -1358,8 +1358,8 @@
   ],
   "jp": "攻撃を回避しやすくなります",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Dodge attacks more easily.",
+  "status": "done"
  },
  {
   "id": "0CDC22",
@@ -1368,8 +1368,8 @@
   ],
   "jp": "捕獲の成功する確率がアップします",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Raise the chance of a successful capture.",
+  "status": "done"
  },
  {
   "id": "0CDC44",
@@ -1378,8 +1378,8 @@
   ],
   "jp": "データを保存します",
   "bytes": 20,
-  "en": "",
-  "status": "todo"
+  "en": "Save your data.",
+  "status": "done"
  },
  {
   "id": "0CDC58",
@@ -1389,8 +1389,8 @@
   ],
   "jp": "いままでのイベントを見ます",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Watch past events.",
+  "status": "done"
  },
  {
   "id": "0CDC74",
@@ -1400,8 +1400,8 @@
   ],
   "jp": "仲間にした事のあるモンスターなどを表示します",
   "bytes": 46,
-  "en": "",
-  "status": "todo"
+  "en": "Show monsters you have recruited and more.",
+  "status": "done"
  },
  {
   "id": "0CDCA2",
@@ -1411,8 +1411,8 @@
   ],
   "jp": "サウンド関連の調整を行います",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "Adjust sound settings.",
+  "status": "done"
  },
  {
   "id": "0CDCC0",
@@ -1422,8 +1422,8 @@
   ],
   "jp": "メッセージの表示スピードを変更します",
   "bytes": 38,
-  "en": "",
-  "status": "todo"
+  "en": "Change the message display speed.",
+  "status": "done"
  },
  {
   "id": "0CDCE6",
@@ -1433,8 +1433,8 @@
   ],
   "jp": "自分のモンスターにマークをつけます",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Mark your own monsters.",
+  "status": "done"
  },
  {
   "id": "0CDD0A",
@@ -1444,8 +1444,8 @@
   ],
   "jp": "ヘルプの自動表示を行うか設定します",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Set whether help shows automatically.",
+  "status": "done"
  },
  {
   "id": "0CDD2E",
@@ -1463,8 +1463,8 @@
   ],
   "jp": "音楽のＯＮ／ＯＦＦを設定します",
   "bytes": 32,
-  "en": "",
-  "status": "todo"
+  "en": "Turn music ON/OFF.",
+  "status": "done"
  },
  {
   "id": "0CDD66",
@@ -1474,8 +1474,8 @@
   ],
   "jp": "効果音のＯＮ／ＯＦＦを設定します",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Turn sound effects ON/OFF.",
+  "status": "done"
  },
  {
   "id": "0CDD88",
@@ -1489,8 +1489,8 @@
   ],
   "jp": "データを保存するファイルを選択してください",
   "bytes": 44,
-  "en": "",
-  "status": "todo"
+  "en": "Choose a file to save the data to.",
+  "status": "done"
  },
  {
   "id": "0CDDB4",
@@ -1500,8 +1500,8 @@
   ],
   "jp": "見たいイベントを選択してください",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Choose an event to watch.",
+  "status": "done"
  },
  {
   "id": "0CDDD6",
@@ -1511,8 +1511,8 @@
   ],
   "jp": "閲覧モンスターを選択してください",
   "bytes": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Choose a monster to view.",
+  "status": "done"
  },
  {
   "id": "0CDDF8",
@@ -1522,8 +1522,8 @@
   ],
   "jp": "全ての保存データのクリアを行います",
   "bytes": 36,
-  "en": "",
-  "status": "todo"
+  "en": "Clear all saved data.",
+  "status": "done"
  },
  {
   "id": "0CDE1C",
@@ -1533,8 +1533,8 @@
   ],
   "jp": "パスワードの削除を行います",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "Delete the password.",
+  "status": "done"
  },
  {
   "id": "0CDE38",
@@ -1543,8 +1543,8 @@
   ],
   "jp": "前回の続きからはじめます",
   "bytes": 26,
-  "en": "",
-  "status": "todo"
+  "en": "Continue from where you left off.",
+  "status": "done"
  },
  {
   "id": "0CDE52",
@@ -1553,8 +1553,8 @@
   ],
   "jp": "セーブデータが存在しません",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "No save data found.",
+  "status": "done"
  },
  {
   "id": "0CDE6E",

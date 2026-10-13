@@ -41,6 +41,14 @@ class LayoutTest(unittest.TestCase):
         ctls = [v for k, v in insert.layout(three, self.font, 192, 2, 72, auto=True) if k == 'ctl']
         self.assertEqual(ctls, ['{br}', insert.AUTO_WAIT, '{page}', '{page}', '{wait:003C}', '{page}'])
 
+    def test_pad_replaces_br_with_blank_cells(self):
+        g = insert.Glyphs.__new__(insert.Glyphs)
+        g.n, g.index, g.data = 10, {}, bytearray()
+        f9 = vwf.Font(9)
+        codes = insert.encode([('run', 'ab'), ('ctl', '{br}'), ('run', 'cd')], f9, g, pad=(11, 0x31))
+        self.assertEqual(codes.count(0x31), 10)
+        self.assertNotIn(0x7530, codes)
+
     def test_encode_roundtrips_controls(self):
         rom = bytearray(64)
         g = insert.Glyphs.__new__(insert.Glyphs)

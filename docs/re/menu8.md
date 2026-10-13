@@ -23,6 +23,14 @@
 | 0x0BCC2C-0x0BEDC4 | name-entry kana grid, menu labels, menu messages |
 | 0x0C5884-0x0C6DF0 | stage names, map labels |
 
-## Plan
-Fixed-width English with a restyled Latin font; relocate strings and patch pointer literals + length immediates
-per call site; pre-rendered proportional label tiles (in freed kana/kanji tile codes) where a label cannot fit.
+## Plan (decided 2026-10-14)
+Per-site relocation is fragile: packed strings are often reached by base+offset arithmetic, lengths are Thumb
+immediates spread over ~750 code sites (work/sites8.py, work/lencov.py). So:
+- **In place by default**: English must fit the JP code count. Normal text uses the 8 px Latin tiles (restyled).
+- **Condensed digraph tiles** (two 3-4 px letters per tile, in the freed kana/kanji codes 0x40-0xDF, 0x170-0x193)
+  only where the English does not fit; chosen globally by an encoder. Monster/item names live in fixed 8-code
+  record fields (also the rename/save buffer): >8 letters -> digraphs (draft names need ~171 pairs).
+- **Relocate** only 0-terminated strings whose every slot is a plain pointer with no length immediate (long shop /
+  message dialogue), repointing all slots.
+- Name entry: the kana pages of the grid (0x0BCC44) become Latin; default names レオ/ティーナ -> Leo/Tina.
+- Messages with mid-string pointers (msg 5, mobile 37) are paged/scrolled pieces: keep the piece structure.

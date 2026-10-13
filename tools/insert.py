@@ -21,7 +21,8 @@ FREE_START, FREE_END = 0x770000, 0x800000
 BANKS = {
     # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP
     'story': dict(font=11, struct=0x0D6C24, nglyphs=685, width=192, lines=2),
-    'ui9': dict(font=9, struct=0x0CF520, nglyphs=317, width=110, lines=2),
+    # battle popups draw {br} as a glyph and auto-wrap at 11 cells: line breaks become blank-cell padding
+    'ui9': dict(font=9, struct=0x0CF520, nglyphs=317, width=110, lines=2, pad=(11, 0x031)),
 }
 NAME_CHARS = 6            # player name length budget for wrapping ({name} = one 12 px OBJ per character)
 PAGE = '{clear}'          # control emitted when a page fills up (story: waits for A, then clears)
@@ -146,13 +147,21 @@ def layout(text, font, width, lines, name_w, auto=False):
     return out
 
 
-def encode(tokens, font, glyphs):
-    codes = []
+def encode(tokens, font, glyphs, pad=None):
+    """pad=(cells per line, blank glyph code): {br} becomes blank cells up to the line end (engine auto-wrap)."""
+    codes, n = [], 0
     for kind, val in tokens:
         if kind == 'run':
-            codes += [glyphs.code(c) for c in font.cells(val)]
+            cells = [glyphs.code(c) for c in font.cells(val)]
+            codes += cells
+            n += len(cells)
+        elif pad and val == '{br}':
+            codes += [pad[1]] * (-n % pad[0])
+            n = 0
         else:
             codes += romlib.encode(val, {})
+            if val in ('{clear}', '{page}'):
+                n = 0
     return codes + [romlib.END]
 
 
@@ -195,7 +204,7 @@ def build(out_path, marker=False, qa=None):
                 raise SystemExit(f'{bank} {e["id"]}: no glyph for {miss}')
             auto = bank == 'story' and AUTO[0] <= int(e['id'], 16) < AUTO[1]
             tokens = layout(text, font, cfg['width'], cfg['lines'], NAME_CHARS * 12, auto)
-            codes = encode(tokens, font, glyphs)
+            codes = encode(tokens, font, glyphs, cfg.get('pad'))
             off = free.put(struct.pack('<%dH' % len(codes), *codes), 2)
             for s in e['slots']:
                 struct.pack_into('<I', rom, int(s, 16), romlib.BASE + off)

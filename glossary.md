@@ -53,4 +53,19 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | タクト | baton | | a tamer's baton | wand |
 | ハイドラゴン | High Dragon | | | |
 
+| 狂暴な力 / 狂暴な魔獣 | savage power / savage monster | | | |
+| 暗黒系 | Dark-type | | attribute アンコク = Dark | |
+| 中庭 | courtyard | | | |
+| ザコ | small fry | | | |
+| 祭壇のある部屋 | the room with the altar | | | |
+| クリア条件 | Goal: (inline header) | | 9px boxes are 2 x 11 cells | Clear Condition |
+| 命令 | Order | | 戦え Fight, 待機 Wait, 捕獲 Capture, アイテム Item, 逃げろ Flee, 守れ Guard, ボコれ Gang Up | |
+| プレイヤーポイント | Player Points | | | |
+| 魔物 | fiends | | kept apart from 魔獣 = monster | |
+| 合成魔獣 | fused monster | | | |
+| 修行中 / 出撃設定 | in training / set for sortie | | | |
+| 岩の番人 / 森の先住者 / 蘇った武士 | rock guardians / forest natives / risen warriors | | | |
+
 ## Decisions from earlier batches
+- ui01: 9px boxes hold 2 lines x 11 cells and cannot page; clear conditions use an inline "Goal:" header
+  instead of "[Clear Condition]" so the objective keeps its full meaning.

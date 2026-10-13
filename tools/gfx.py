@@ -294,7 +294,52 @@ def job_buttons(rom, free=None, preview=None):
         sheet.resize((sheet.width * 3, sheet.height * 3), 0).save(preview)
 
 
-JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles, 'buttons': job_buttons}
+SFX = [   # story pictures with hand-drawn sound effects: (palette, tiles hdr, tiles off, size, map off, size, edits)
+    # Ancient castle scene, man with the baton: ゴゴ (left) / ゴゴゴ (right) -> RUMBLE. Boxes in 256x256 map px.
+    (0x1002D4, 0x1002F4, 0x1002F8, 0x1882, 0x101B80, 0x309, [((48, 52, 92, 84), 'RUMBLE'),
+                                                             ((136, 46, 192, 84), 'RUMBLE')]),
+    # Ruins, monsters attack the pursuers: light lettering ドガッ / バキッ on the dark backdrop
+    (0x540858, 0x540878, 0x54087C, 0x0C17, 0x541498, 0x216, [((28, 48, 92, 108), 'WHAM!', 'light'),
+                                                             ((152, 52, 214, 108), 'CRACK!', 'light')]),
+]
+
+
+def scene_px(rom, toff, tsize, moff, msize):
+    tiles = resource(rom, toff, tsize)
+    mp = struct.unpack('<1024H', resource(rom, moff, msize)[:2048])
+    ids = [e & 0x3FF for e in mp]
+    return tiles, ids, tiles_to_px(tiles + bytes(32), 32, [i if i * 32 < len(tiles) else None for i in ids])
+
+
+def job_sfx(rom, free=None, preview=None):
+    shots = []
+    for pal, thdr, toff, tsize, moff, msize, edits in SFX:
+        tiles, ids, px = scene_px(rom, toff, tsize, moff, msize)
+        colors = struct.unpack_from('<16H', rom, pal)
+        lum = sorted(range(1, 16), key=lambda i: (colors[i] & 31) + (colors[i] >> 5 & 31) + (colors[i] >> 10 & 31))
+        for box, text, *mode in edits:
+            inks = lum[4:] if mode == ['light'] else lum[:3]
+            ink = inks[-1] if mode == ['light'] else inks[0]
+            inpaint(px, box, ink=set(inks), fill=set(range(16)) - set(inks) - {0})
+            cx, cy = (box[0] + box[2]) // 2, (box[1] + box[3]) // 2 - 5
+            draw_text(px, text, 9, cx, cy, ink)
+            draw_text(px, text, 9, cx + 1, cy, ink)   # bold
+        if preview:
+            p = [((x & 31) * 8, (x >> 5 & 31) * 8, (x >> 10 & 31) * 8) for x in colors]
+            shots.append(to_image(px, p).convert('RGB'))
+            continue
+        used = [i if i is not None and i * 32 < len(tiles) else None for i in ids]
+        store(rom, free, thdr, px_to_tiles(tiles, 32, used, px))
+    if preview:
+        from PIL import Image
+        sheet = Image.new('RGB', (512 * len(shots), 512))
+        for k, s in enumerate(shots):
+            sheet.paste(s.resize((512, 512)), (512 * k, 0))
+        sheet.save(preview)
+
+
+JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles, 'buttons': job_buttons,
+        'sfx': job_sfx}
 
 
 def apply_all(rom, free):

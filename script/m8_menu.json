@@ -1,0 +1,2763 @@
+[
+ {
+  "id": "0BD388",
+  "slots": [],
+  "jp": "ＣＯＭＰＬＥＴＥ",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD398",
+  "slots": [
+   "0544D0"
+  ],
+  "jp": "ＣＬＥＡＲ",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3A2",
+  "slots": [
+   "041AD8",
+   "041E90",
+   "042E1C",
+   "048980",
+   "04D650",
+   "04DC04",
+   "059628",
+   "05CEA4",
+   "05FB48"
+  ],
+  "jp": "はい",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3A6",
+  "slots": [
+   "041ADC",
+   "041E94",
+   "042E20",
+   "048984",
+   "04D65C",
+   "04DC10",
+   "059668",
+   "05CEA8",
+   "05FB4C"
+  ],
+  "jp": "いいえ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3AC",
+  "slots": [
+   "04883C",
+   "0488E0",
+   "048C8C",
+   "048D54",
+   "04C6F0",
+   "04C9C0",
+   "04CFFC",
+   "04D2EC"
+  ],
+  "jp": "ＯＮ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3B0",
+  "slots": [
+   "048844",
+   "0488E8",
+   "048C94",
+   "048D5C",
+   "04C6FC",
+   "04C9CC",
+   "04D008",
+   "04D2F8"
+  ],
+  "jp": "ＯＦＦ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3B6",
+  "slots": [
+   "046B18",
+   "0544B4"
+  ],
+  "jp": "ステージけっていキャンセル",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3D0",
+  "slots": [
+   "057F30",
+   "05ECE8"
+  ],
+  "jp": "なまえ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3D6",
+  "slots": [
+   "058B80",
+   "058C8C",
+   "05ECF4"
+  ],
+  "jp": "ぞくせい",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3DE",
+  "slots": [
+   "029830",
+   "036D6C",
+   "0383C4",
+   "060910"
+  ],
+  "jp": "みせってい",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3E8",
+  "slots": [
+   "03808C",
+   "04576C",
+   "046FB4",
+   "048BAC",
+   "0542FC",
+   "05ECFC"
+  ],
+  "jp": "ＬＶ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3EC",
+  "slots": [
+   "038118",
+   "045768"
+  ],
+  "jp": "ＥＸＰけっとう",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD3FA",
+  "slots": [
+   "0382AC",
+   "05ED84"
+  ],
+  "jp": "ごうせい",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD402",
+  "slots": [
+   "0BAA1C"
+  ],
+  "jp": "いのち",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD408",
+  "slots": [
+   "0BAA24"
+  ],
+  "jp": "たいきゅう",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD412",
+  "slots": [
+   "0BAA2C"
+  ],
+  "jp": "こうげき",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD41A",
+  "slots": [
+   "0BAA34"
+  ],
+  "jp": "ぼうぎょ",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD422",
+  "slots": [
+   "0BAA3C"
+  ],
+  "jp": "こうどう",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD42A",
+  "slots": [
+   "0BAA44"
+  ],
+  "jp": "ちしき",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD430",
+  "slots": [
+   "0BAA4C"
+  ],
+  "jp": "ひっさつわざ",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD43C",
+  "slots": [
+   "0BAA54"
+  ],
+  "jp": "はんげき",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD444",
+  "slots": [
+   "0BAA5C"
+  ],
+  "jp": "さくてき",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD44C",
+  "slots": [
+   "0BAA64"
+  ],
+  "jp": "じゅうじゅん",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD458",
+  "slots": [
+   "0BAA6C"
+  ],
+  "jp": "めいちゅう",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD462",
+  "slots": [
+   "0BAA74"
+  ],
+  "jp": "かいひ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD468",
+  "slots": [
+   "0BAA7C"
+  ],
+  "jp": "ぎのうきしょういどうひこう",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD482",
+  "slots": [
+   "045770"
+  ],
+  "jp": "Ｇｏｌｄ",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD48A",
+  "slots": [
+   "05B0B4",
+   "05CD84"
+  ],
+  "jp": "Ｇモンスターアイテムブリーフィング",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4AC",
+  "slots": [
+   "045764"
+  ],
+  "jp": "ＰＰＵＳＥＤ",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4B8",
+  "slots": [
+   "036D70"
+  ],
+  "jp": "はいぶん",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4C0",
+  "slots": [
+   "036D74"
+  ],
+  "jp": "めいれい",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4C8",
+  "slots": [
+   "02FB5C",
+   "02FC04",
+   "03841C"
+  ],
+  "jp": "ＰＰ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4CC",
+  "slots": [
+   "0BAB8C"
+  ],
+  "jp": "ゴブリン",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4D4",
+  "slots": [
+   "0BAB94"
+  ],
+  "jp": "ヨクジン",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4DC",
+  "slots": [
+   "0BAB9C"
+  ],
+  "jp": "ゴーレム",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4E4",
+  "slots": [
+   "0BABA4"
+  ],
+  "jp": "[01A0][01A1][01A2][01A3]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4EC",
+  "slots": [
+   "0BABAC"
+  ],
+  "jp": "[01A4][01A5][01A6][01A7]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4F4",
+  "slots": [
+   "0BABB4"
+  ],
+  "jp": "ムシャ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD4FA",
+  "slots": [
+   "0BABC4"
+  ],
+  "jp": "[01A8][01A9][01AA][01AB]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD502",
+  "slots": [
+   "0BABCC"
+  ],
+  "jp": "ドラゴン",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD50A",
+  "slots": [
+   "0BABDC"
+  ],
+  "jp": "[01AC][01AD][01AE][01AF]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD512",
+  "slots": [
+   "0BABE4"
+  ],
+  "jp": "[01B0][01B1][01B2][01B3]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD51A",
+  "slots": [
+   "0BABEC"
+  ],
+  "jp": "[01B4][01B5][01B6][01B7]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD522",
+  "slots": [
+   "0BABF4"
+  ],
+  "jp": "[01B8][01B9][01BA][01BB]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD52A",
+  "slots": [
+   "0381E8",
+   "05ED04"
+  ],
+  "jp": "[01BC][01BD][01BE][01BF]",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD532",
+  "slots": [
+   "058FD4",
+   "0590DC"
+  ],
+  "jp": "でんせつ",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD53A",
+  "slots": [
+   "0BABFC"
+  ],
+  "jp": "カゼ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD53E",
+  "slots": [
+   "0BAC04"
+  ],
+  "jp": "ミズ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD542",
+  "slots": [
+   "0BAC0C"
+  ],
+  "jp": "ホノオ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD548",
+  "slots": [
+   "0BAC14"
+  ],
+  "jp": "ダイチ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD54E",
+  "slots": [
+   "0BAC1C"
+  ],
+  "jp": "シンセイ",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD556",
+  "slots": [
+   "0BAC24"
+  ],
+  "jp": "アンコク",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD55E",
+  "slots": [
+   "0BAE3C"
+  ],
+  "jp": "ザーゴ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD564",
+  "slots": [
+   "0BAE48"
+  ],
+  "jp": "ラミレス",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD56C",
+  "slots": [
+   "0BAE54"
+  ],
+  "jp": "大地のイグニス",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD57A",
+  "slots": [
+   "0BAE60"
+  ],
+  "jp": "だいいちけいたい",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD58A",
+  "slots": [
+   "0BAE6C"
+  ],
+  "jp": "だいにけいたい",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD598",
+  "slots": [
+   "0BAE78"
+  ],
+  "jp": "さいしゅうけい",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5A6",
+  "slots": [
+   "0492C8",
+   "049318",
+   "055118",
+   "055394",
+   "0577E0",
+   "057E58"
+  ],
+  "jp": "レオ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5AA",
+  "slots": [
+   "0492F0",
+   "04935C",
+   "0577E4",
+   "057E14"
+  ],
+  "jp": "ティーナ",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5B2",
+  "slots": [
+   "0553B0"
+  ],
+  "jp": "カノン",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5C2",
+  "slots": [
+   "0553A4"
+  ],
+  "jp": "ベッフル",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5D2",
+  "slots": [
+   "0553A8"
+  ],
+  "jp": "ファーブス",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD5E2",
+  "slots": [
+   "0577F0"
+  ],
+  "jp": "しゅじんこうをえらんでください",
+  "len": 15,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD600",
+  "slots": [
+   "058028",
+   "058488"
+  ],
+  "jp": "なまえをへんこうしますか？",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD61A",
+  "slots": [
+   "0584CC"
+  ],
+  "jp": "このなまえでよろしいですか？",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD636",
+  "slots": [
+   "05887C"
+  ],
+  "jp": "しゅじんこうのゾクセイをえらんでください",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD65E",
+  "slots": [
+   "058D34"
+  ],
+  "jp": "でんせつのモンスターをせんたくしてください",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD688",
+  "slots": [
+   "0590F4"
+  ],
+  "jp": "すべてのせっていをしゅうりょうしました/これでよろしいですか？",
+  "len": 31,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD6C6",
+  "slots": [
+   "05A1E4",
+   "05BF84"
+  ],
+  "jp": "ん？、どうするんじゃ。",
+  "len": 11,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD6DC",
+  "slots": [
+   "05A208"
+  ],
+  "jp": "ん？、ゴウセイできるモンスターがたりんぞ。/ちゃんとそろえてからきてくれんか。",
+  "len": 39,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD72A",
+  "slots": [
+   "05A274"
+  ],
+  "jp": "ん？、モンスターがおらんぞ、かえったかえった。",
+  "len": 23,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD758",
+  "slots": [
+   "05AFB8"
+  ],
+  "jp": "ごうせい",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD760",
+  "slots": [
+   "05AFBC"
+  ],
+  "jp": "みせをでる",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD76A",
+  "slots": [
+   "05B470",
+   "05B988",
+   "05BD08",
+   "05BDB0"
+  ],
+  "jp": "どのモンスターをゴウセイするんじゃ？",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD78E",
+  "slots": [
+   "05BCA4",
+   "05BD38"
+  ],
+  "jp": "このモンスターとゴウセイするのはどれじゃ？",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD7B8",
+  "slots": [
+   "05B8C8"
+  ],
+  "jp": "そのモンスターはもうえらんでおるぞ。/ちがうモンスターをえらぶんじゃ。",
+  "len": 35,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD7FE",
+  "slots": [
+   "05CD64"
+  ],
+  "jp": "この２タイをゴウセイすると、",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD81A",
+  "slots": [
+   "05CD6C"
+  ],
+  "jp": "デンセツのモンスター",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD82E",
+  "slots": [
+   "05CD74"
+  ],
+  "jp": "/「",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD832",
+  "slots": [
+   "05CD7C"
+  ],
+  "jp": "」になるようじゃ。/ゴウセイには",
+  "len": 16,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD852",
+  "slots": [
+   "05CD88"
+  ],
+  "jp": "かかるが、よいな？",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD864",
+  "slots": [
+   "05D280"
+  ],
+  "jp": "それでは、ゴウセイをしてくるとするかの。",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD88C",
+  "slots": [
+   "05EF90"
+  ],
+  "jp": "まだ、ごうせいしたいモンスターはおるかの？",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD8B6",
+  "slots": [
+   "05F00C"
+  ],
+  "jp": "ゴウセイできるモンスターがおらんのぅ。/また、きてくれよ。まっておるぞ。",
+  "len": 36,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD8FE",
+  "slots": [
+   "05B6E4"
+  ],
+  "jp": "すまんが、タマゴはゴウセイできんのじゃ。/べつのモンスターをえらんでくれんか。",
+  "len": 39,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD94C",
+  "slots": [
+   "05B724"
+  ],
+  "jp": "ん？、そいつはいまここにはいないようじゃ。/べつのモンスターをえらんでくれんか。",
+  "len": 40,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD99C",
+  "slots": [
+   "05A1B4",
+   "05AA88"
+  ],
+  "jp": "ん？、Ｇｏｌｄがたりんぞ。/はらうものがはらえるようになってからきてくれんか/のぉ。",
+  "len": 42,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BD9F0",
+  "slots": [
+   "05EF6C"
+  ],
+  "jp": "Ｇｏｌｄがなくなったようじゃな。/また、きてくれよ。まっておるぞ。",
+  "len": 33,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDA32",
+  "slots": [
+   "05B858"
+  ],
+  "jp": "そいつとはゴウセイできないようじゃ、すまんのぉ。",
+  "len": 24,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDA62",
+  "slots": [
+   "05AAD0"
+  ],
+  "jp": "ん？、モンスターがすくなくてゴウセイできんのぅ。/モンスターをそろえてからきてくれんかの。",
+  "len": 45,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDABC",
+  "slots": [
+   "05B770"
+  ],
+  "jp": "そいつとゴウセイできるモンスターはいないようじゃ。/べつのモンスターをえらんでくれんかの。",
+  "len": 45,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDB16",
+  "slots": [
+   "05E824"
+  ],
+  "jp": "ホッホッホッ、ゴウセイはせいこうじゃ。/",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDB3E",
+  "slots": [
+   "05E834"
+  ],
+  "jp": "になったようじゃの。",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDB52",
+  "slots": [
+   "05C6FC"
+  ],
+  "jp": "みせんたくあたらしいじょうほうは、とどいていませんしゅぎょうからパーティがかえってきています",
+  "len": 46,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDBAE",
+  "slots": [
+   "045EDC"
+  ],
+  "jp": "しゅぎょうちゅうのためしゅつげきできません",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDBD8",
+  "slots": [
+   "045EF4",
+   "0469A8"
+  ],
+  "jp": "パーティがへんせいされていません",
+  "len": 16,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDBF8",
+  "slots": [
+   "045F68"
+  ],
+  "jp": "パーティのナマエがきまっていないため、しゅつげきできません",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDC32",
+  "slots": [
+   "046C64"
+  ],
+  "jp": "しゅぎょうちゅうのパーティはありません/",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDC5A",
+  "slots": [
+   "046CB4"
+  ],
+  "jp": "しゅぎょうパーティのキカンよてい/",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDC7C",
+  "slots": [
+   "0469C8"
+  ],
+  "jp": "しゅつげきパーティがせっていされていません",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDCA6",
+  "slots": [
+   "0469F0",
+   "046A04"
+  ],
+  "jp": "しゅつげきできるパーティがありません",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDCCA",
+  "slots": [
+   "0469B8"
+  ],
+  "jp": "へんせいされたパーティがすべてしゅぎょうにいっています",
+  "len": 27,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDD00",
+  "slots": [
+   "046990"
+  ],
+  "jp": "すべてのパーティがしゅぎょうにいっています",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDD2A",
+  "slots": [
+   "046978"
+  ],
+  "jp": "すべてのモンスターがしゅぎょうにいっています",
+  "len": 22,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDD56",
+  "slots": [
+   "0469F8"
+  ],
+  "jp": "へんせいされていますが、なまえがきまっていないパーティがあります",
+  "len": 32,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDD96",
+  "slots": [
+   "046B30"
+  ],
+  "jp": "しゅつげきパーティにステージコウリャクにひつようなモンスターがいません",
+  "len": 35,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDDDC",
+  "slots": [
+   "0468A4"
+  ],
+  "jp": "モンスターがいません",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDDF0",
+  "slots": [
+   "045EA8"
+  ],
+  "jp": "パーティは、すでにしゅつげきにせっていされています",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE22",
+  "slots": [
+   "046B10"
+  ],
+  "jp": "つぎのこうりゃくは",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE34",
+  "slots": [
+   "046B20"
+  ],
+  "jp": "です",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE38",
+  "slots": [
+   "046B50"
+  ],
+  "jp": "つぎはモンスターじてんをそろえよう",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE5A",
+  "slots": [
+   "046B8C"
+  ],
+  "jp": "モンスターじてんコンプリート！！/おめでとう！！",
+  "len": 24,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE8A",
+  "slots": [
+   "046C50"
+  ],
+  "jp": "メッセージ",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE94",
+  "slots": [
+   "046F8C"
+  ],
+  "jp": "つうしん",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDE9C",
+  "slots": [
+   "047058"
+  ],
+  "jp": "モンスター",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDEA6",
+  "slots": [
+   "046FFC"
+  ],
+  "jp": "いまひつようなモンスターはありません",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDECA",
+  "slots": [
+   "046FAC"
+  ],
+  "jp": "のゴウセイほうほう！/",
+  "len": 11,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDEE0",
+  "slots": [
+   "046FB8"
+  ],
+  "jp": "いじょうの",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDEEA",
+  "slots": [
+   "046FC0"
+  ],
+  "jp": "と",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDEEC",
+  "slots": [
+   "046FC4"
+  ],
+  "jp": "いじょうの",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDEF6",
+  "slots": [
+   "046FC8"
+  ],
+  "jp": "をゴウセイする",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDF04",
+  "slots": [
+   "02B408"
+  ],
+  "jp": "モンスターがいませんアイテムのソウビをおこないます",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDF36",
+  "slots": [
+   "02D380"
+  ],
+  "jp": "そうびかのうなアイテムを/もっていません",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDF5E",
+  "slots": [
+   "02D448"
+  ],
+  "jp": "しゅぎょうちゅうのため、/なまえのへんこうはおこな/えません",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDF9A",
+  "slots": [
+   "02D3C8"
+  ],
+  "jp": "しゅぎょうちゅうのため、/アイテムへんこうはおこな/えません",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDFD6",
+  "slots": [
+   "02D3E4"
+  ],
+  "jp": "たまごへアイテムのソウビ/はできません",
+  "len": 19,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BDFFC",
+  "slots": [
+   "02D4C8"
+  ],
+  "jp": "しゅぎょうちゅうのため、/プレイヤーポイントわりふ/りはできません",
+  "len": 33,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE03E",
+  "slots": [
+   "02D4E4"
+  ],
+  "jp": "たまごへのプレイヤーポイ/ントわりふりはできません",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE070",
+  "slots": [
+   "0BAA84"
+  ],
+  "jp": "なくなるとモンスターはせんとうできなくなります",
+  "len": 23,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE09E",
+  "slots": [
+   "0BAA8C"
+  ],
+  "jp": "ダメージをうけたときにスキができにくくなります",
+  "len": 23,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE0CC",
+  "slots": [
+   "0BAA94"
+  ],
+  "jp": "あいてにあたえるダメージがおおきくなります",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE0F6",
+  "slots": [
+   "0BAA9C"
+  ],
+  "jp": "あいてからうけるダメージをへらします",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE11A",
+  "slots": [
+   "0BAAA4"
+  ],
+  "jp": "はんだんしてうごくスピードがアップします",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE142",
+  "slots": [
+   "0BAAAC"
+  ],
+  "jp": "メイレイをリカイするようになります",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE164",
+  "slots": [
+   "0BAAB4"
+  ],
+  "jp": "ひっさつわざをだしやすくなります",
+  "len": 16,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE184",
+  "slots": [
+   "0BAABC"
+  ],
+  "jp": "コウゲキされたさいにハンゲキをするかのうせいがアップします",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE1BE",
+  "slots": [
+   "0BAAC4"
+  ],
+  "jp": "かてそうなモンスターにむかうようになります",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE1E8",
+  "slots": [
+   "0BAACC"
+  ],
+  "jp": "メイレイをききやすくなります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE204",
+  "slots": [
+   "0BAAD4"
+  ],
+  "jp": "コウゲキがメイチュウしやすくなります",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE228",
+  "slots": [
+   "0BAADC"
+  ],
+  "jp": "コウゲキをよけやすくなります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE244",
+  "slots": [
+   "0BAAE4"
+  ],
+  "jp": "ホカクがせいこうしやすくなりますへんせいされていませんしようできるめいれい",
+  "len": 37,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE28E",
+  "slots": [
+   "0296CC",
+   "036C48"
+  ],
+  "jp": "みへんせい",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE298",
+  "slots": [
+   "02972C",
+   "036C64"
+  ],
+  "jp": "たいき",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE29E",
+  "slots": [
+   "029758",
+   "036C84"
+  ],
+  "jp": "しゅつげき",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE2A8",
+  "slots": [
+   "0297B4",
+   "036CD0",
+   "03848C"
+  ],
+  "jp": "しゅぎょうちゅうパーティせんたくにもどる",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE2D0",
+  "slots": [
+   "041AE0"
+  ],
+  "jp": "へんせいをつづける",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE2E2",
+  "slots": [
+   "041AC0"
+  ],
+  "jp": "へんせいをしゅうりょうして/へんこうをはんえいします",
+  "len": 26,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE316",
+  "slots": [
+   "041E78"
+  ],
+  "jp": "パーティへんせいを/しゅうりょうしますか",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE33E",
+  "slots": [
+   "0447E0"
+  ],
+  "jp": "パーティからはずす",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE350",
+  "slots": [
+   "044700"
+  ],
+  "jp": "パーティから/はずしてよろしいですかはずしてよろしいですか",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE38A",
+  "slots": [
+   "0438FC"
+  ],
+  "jp": "はずすモンスターを/えらんでください",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE3AE",
+  "slots": [
+   "043AF8",
+   "044184"
+  ],
+  "jp": "パーティにはいぞく",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE3C0",
+  "slots": [
+   "043FD8"
+  ],
+  "jp": "パーティにはいぞくしますか",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE3DA",
+  "slots": [
+   "043AFC"
+  ],
+  "jp": "いったいはずしてはいぞくいったいはずして、/はいぞくしますか",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE416",
+  "slots": [
+   "044188"
+  ],
+  "jp": "しょぞくモンスターと/こうかん",
+  "len": 15,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE434",
+  "slots": [
+   "044520"
+  ],
+  "jp": "しょぞくモンスターと/こうかんしますか",
+  "len": 19,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE45A",
+  "slots": [
+   "043880",
+   "043EB0"
+  ],
+  "jp": "げんざいのパーティから/はずしてはいぞくしますかげんざいのパーティから/はずしてはいぞく",
+  "len": 44,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE4B2",
+  "slots": [
+   "043CF8",
+   "044370",
+   "04459C"
+  ],
+  "jp": "こうかんするモンスター//をえらんでください",
+  "len": 22,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE4DE",
+  "slots": [
+   "0447DC"
+  ],
+  "jp": "ポジションへんこうポジションをへんこうしますか",
+  "len": 23,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE50C",
+  "slots": [
+   "044800"
+  ],
+  "jp": "どのモンスターと//ポジションをへんこうしますか",
+  "len": 24,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE53C",
+  "slots": [
+   "043948",
+   "043BA8",
+   "043D54",
+   "044234",
+   "0443CC",
+   "0445E4"
+  ],
+  "jp": "はいぶんパラメータが/おおいためクリアします/よろしいですか",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE578",
+  "slots": [
+   "0400D0",
+   "044A64"
+  ],
+  "jp": "しゅぎょうちゅうのため/へんせいさぎょうはおこ/なえません",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE5B2",
+  "slots": [
+   "0400F4"
+  ],
+  "jp": "モンスターがいないため、/へんせいさぎょうはおこ/なえません",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE5EE",
+  "slots": [
+   "04015C"
+  ],
+  "jp": "しゅぎょうちゅうのため/パーティめいへんこう/はおこなえません",
+  "len": 31,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE62C",
+  "slots": [
+   "040198"
+  ],
+  "jp": "しゅぎょうちゅうのため/しゅつげきせっていには/できません",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE666",
+  "slots": [
+   "0401BC"
+  ],
+  "jp": "みへんせいのためしゅつ/げきせっていにはできま/せん",
+  "len": 26,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE69A",
+  "slots": [
+   "0401EC"
+  ],
+  "jp": "パーティめいがみせってい/のためしゅつげきせっていには/できません",
+  "len": 33,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE6DC",
+  "slots": [
+   "04FC48"
+  ],
+  "jp": "アイテムをもっていません",
+  "len": 12,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE6F4",
+  "slots": [
+   "032888",
+   "050EA0"
+  ],
+  "jp": "しゅぎょうちゅうのモンスター/がソウビしているためセンタク/できません。",
+  "len": 36,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE73C",
+  "slots": [
+   "051FE0"
+  ],
+  "jp": "しゅぎょうちゅうのため/ソウビできません。",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE766",
+  "slots": [
+   "051FB0"
+  ],
+  "jp": "タマゴにはソウビすること/はできません。",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE78E",
+  "slots": [
+   "032B4C",
+   "05168C",
+   "052034"
+  ],
+  "jp": "アイテムをはずします、/よろしいですか？",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE7B6",
+  "slots": [
+   "032918",
+   "05207C"
+  ],
+  "jp": "アイテムをそうびします、/よろしいですか？",
+  "len": 21,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE7E0",
+  "slots": [
+   "050EF4"
+  ],
+  "jp": "ほかのモンスターにソウビする",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE7FC",
+  "slots": [
+   "050EF8"
+  ],
+  "jp": "アイテムをはずす",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE80C",
+  "slots": [
+   "03292C",
+   "052058"
+  ],
+  "jp": "げんざいのアイテムをはず/してソウビします、よろし/いですか？",
+  "len": 31,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE84A",
+  "slots": [
+   "0329C4"
+  ],
+  "jp": "ほかのモンスターがソウビし/ていますので、はずしてソウビ/します。よろしいですか？",
+  "len": 41,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE89C",
+  "slots": [
+   "050F30"
+  ],
+  "jp": "そうびできるモンスターが/いません。",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE8C0",
+  "slots": [
+   "048618"
+  ],
+  "jp": "セーブ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE8C6",
+  "slots": [
+   "048678"
+  ],
+  "jp": "サウンド",
+  "len": 4,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE8CE",
+  "slots": [
+   "048794"
+  ],
+  "jp": "メッセージスピード",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE8E0",
+  "slots": [
+   "048830"
+  ],
+  "jp": "モンスターマーク",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE8F0",
+  "slots": [
+   "048638"
+  ],
+  "jp": "イベントリプレイ",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE900",
+  "slots": [
+   "0488D4"
+  ],
+  "jp": "ヘルプ",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE906",
+  "slots": [
+   "048658"
+  ],
+  "jp": "モンスターじてん",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE916",
+  "slots": [
+   "048974"
+  ],
+  "jp": "データクリア",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE922",
+  "slots": [
+   "048904"
+  ],
+  "jp": "パスワードさくじょスピーカー",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE93E",
+  "slots": [
+   "048C80"
+  ],
+  "jp": "ミュージック",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE94A",
+  "slots": [
+   "048D48"
+  ],
+  "jp": "こうかおんモノラルステレオ",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE964",
+  "slots": [
+   "048BD4",
+   "054334"
+  ],
+  "jp": "つかわれていません",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE976",
+  "slots": [
+   "04A4B4"
+  ],
+  "jp": "リプレイできるイベントがありません",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE998",
+  "slots": [
+   "04D9BC"
+  ],
+  "jp": "このコマンドをおこなうと、カートリッジにセーブしたデータをすべてクリアします",
+  "len": 38,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BE9E4",
+  "slots": [
+   "04DB1C"
+  ],
+  "jp": "ほんとうに消しますよ？セーブはおこなえません、ごめんね。サウンドのそうさはできません。このそうさはできません、ごめんね。モンスターリストはじゅんびちゅう。",
+  "len": 77,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEA7E",
+  "slots": [
+   "04DD38"
+  ],
+  "jp": "セーブデータをすべてクリアしました",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEAA0",
+  "slots": [
+   "04D47C"
+  ],
+  "jp": "カセットにほぞんしているモバイルアダプタＧＢのパスワードをさくじょします",
+  "len": 36,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEAE8",
+  "slots": [
+   "04D75C"
+  ],
+  "jp": "パスワードをさくじょしました",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEB04",
+  "slots": [
+   "049FA0",
+   "04EEE0"
+  ],
+  "jp": "いまあるデータにうわがきセーブします。/よろしいですか？",
+  "len": 28,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEB3C",
+  "slots": [
+   "04A0A4",
+   "04EFDC"
+  ],
+  "jp": "データはせいじょうにセーブできました。",
+  "len": 19,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEB62",
+  "slots": [
+   "04A2B8",
+   "04F1E0"
+  ],
+  "jp": "データのセーブにシッパイしました。",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEB84",
+  "slots": [
+   "0BCA74"
+  ],
+  "jp": "プロローグ",
+  "len": 5,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEB8E",
+  "slots": [
+   "0BCA7C"
+  ],
+  "jp": "オープニング　ぜんはん",
+  "len": 11,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBA4",
+  "slots": [
+   "0BCA84"
+  ],
+  "jp": "オープニング　こうはん",
+  "len": 11,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBBA",
+  "slots": [
+   "0BCA8C"
+  ],
+  "jp": "テスト",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBC0",
+  "slots": [
+   "0BCA94"
+  ],
+  "jp": "ザーゴあらわる",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBCE",
+  "slots": [
+   "0BCA9C"
+  ],
+  "jp": "カコとゲンザイと・・・",
+  "len": 11,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBE4",
+  "slots": [
+   "0BCAA4"
+  ],
+  "jp": "ファムファンタルかざんへ",
+  "len": 12,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEBFC",
+  "slots": [
+   "0BCAAC"
+  ],
+  "jp": "ベリンガムのインボウ",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC10",
+  "slots": [
+   "0BCAB4"
+  ],
+  "jp": "イグニスのめざめ",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC20",
+  "slots": [
+   "0BCABC"
+  ],
+  "jp": "イグニスやぶれる",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC30",
+  "slots": [
+   "0BCAC4"
+  ],
+  "jp": "ザーゴとラミレス",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC40",
+  "slots": [
+   "0BCACC"
+  ],
+  "jp": "ゴウセイジュウ",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC4E",
+  "slots": [
+   "0BCAD4"
+  ],
+  "jp": "ベリンガムのカケ",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC5E",
+  "slots": [
+   "0BCADC"
+  ],
+  "jp": "さいごのたたかい",
+  "len": 8,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC6E",
+  "slots": [
+   "0BCAE4"
+  ],
+  "jp": "エンディング",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC7A",
+  "slots": [
+   "0BCAEC"
+  ],
+  "jp": "マジュウがいない　１",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEC8E",
+  "slots": [
+   "0BCAF4"
+  ],
+  "jp": "マジュウがいない　２",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECA2",
+  "slots": [
+   "0BCAFC"
+  ],
+  "jp": "マジュウがいない　３",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECB6",
+  "slots": [
+   "0BCB04"
+  ],
+  "jp": "デモ",
+  "len": 2,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECBA",
+  "slots": [
+   "0BCB0C"
+  ],
+  "jp": "オープニングオール",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECCC",
+  "slots": [
+   "0BCB14"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECCE",
+  "slots": [
+   "0BCB1C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECD0",
+  "slots": [
+   "0BCB24"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECD2",
+  "slots": [
+   "0BCB2C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECD4",
+  "slots": [
+   "0BCB34"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECD6",
+  "slots": [
+   "0BCB3C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECD8",
+  "slots": [
+   "0BCB44"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECDA",
+  "slots": [
+   "0BCB4C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECDC",
+  "slots": [
+   "0BCB54"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECDE",
+  "slots": [
+   "0BCB5C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECE0",
+  "slots": [
+   "0BCB64"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECE2",
+  "slots": [
+   "0BCB6C"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECE4",
+  "slots": [
+   "0BCB74"
+  ],
+  "jp": "？？？",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECEA",
+  "slots": [
+   "0492F4"
+  ],
+  "jp": "Ａ",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECEC",
+  "slots": [
+   "049300"
+  ],
+  "jp": "Ｂ",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECEE",
+  "slots": [
+   "0496E0"
+  ],
+  "jp": "？",
+  "len": 1,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECF0",
+  "slots": [
+   "053E68"
+  ],
+  "jp": "ロード",
+  "len": 3,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BECF6",
+  "slots": [
+   "053834"
+  ],
+  "jp": "ロードしますよろしいですか？",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BED12",
+  "slots": [
+   "053C8C"
+  ],
+  "jp": "セーブデータが無いため/ロードできません",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BED3A",
+  "slots": [
+   "053A70"
+  ],
+  "jp": "ロードにしっぱいしました/データはしょうきょされます。",
+  "len": 27,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BED70",
+  "slots": [
+   "0538C8"
+  ],
+  "jp": "ロードにせいこうしました/ゲームをかいしします。",
+  "len": 24,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEDA0",
+  "slots": [
+   "063C20"
+  ],
+  "jp": "いやだ・・・",
+  "len": 6,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0BEDAC",
+  "slots": [
+   "063C84"
+  ],
+  "jp": "たすけ・・・て・・・！",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ }
+]

@@ -1,0 +1,464 @@
+[
+ {
+  "id": "0B720C",
+  "slots": [
+   "0B5760"
+  ],
+  "jp": "コウゲキリョクがすこしつよくなります",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7230",
+  "slots": [
+   "0B57A0"
+  ],
+  "jp": "コウゲキリョクがアップします",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B724C",
+  "slots": [
+   "0B57E0"
+  ],
+  "jp": "とってもコウゲキリョクがアップします",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7270",
+  "slots": [
+   "0B5820"
+  ],
+  "jp": "コウゲキリョクがアップして、アタマもよくなります",
+  "len": 24,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B72A0",
+  "slots": [
+   "0B5860"
+  ],
+  "jp": "コウゲキにかんするチカラがアップします",
+  "len": 19,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B72C6",
+  "slots": [
+   "0B58A0"
+  ],
+  "jp": "ボウギョリョクがすこしアップします",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B72E8",
+  "slots": [
+   "0B58E0"
+  ],
+  "jp": "ボウギョリョクがアップします",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7304",
+  "slots": [
+   "0B5920"
+  ],
+  "jp": "ボウギョリョクがアップします",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7320",
+  "slots": [
+   "0B5960"
+  ],
+  "jp": "キビンにうごくようになります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B733C",
+  "slots": [
+   "0B59A0"
+  ],
+  "jp": "コウゲキをよけやすくなります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7358",
+  "slots": [
+   "0B59E0"
+  ],
+  "jp": "すこしメイレイをききやすくなります",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B737A",
+  "slots": [
+   "0B5A20"
+  ],
+  "jp": "メイレイをききやすくなります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7396",
+  "slots": [
+   "0B5A60"
+  ],
+  "jp": "とてもメイレイをききやすくなります",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B73B8",
+  "slots": [
+   "0B5AA0"
+  ],
+  "jp": "あたまがよくなります",
+  "len": 10,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B73CC",
+  "slots": [
+   "0B5AE0"
+  ],
+  "jp": "あたまがよくなって、うごきもキビンになります",
+  "len": 22,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B73F8",
+  "slots": [
+   "0B5B20"
+  ],
+  "jp": "ゾクセイがむこうかされます",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7412",
+  "slots": [
+   "0B5B60"
+  ],
+  "jp": "ゾクセイがむこうかされます",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B742C",
+  "slots": [
+   "0B5BA0"
+  ],
+  "jp": "ゾクセイがむこうかされます",
+  "len": 13,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7446",
+  "slots": [
+   "0B5BE0"
+  ],
+  "jp": "セイメイリョクがすこしアップします",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7468",
+  "slots": [
+   "0B5C20"
+  ],
+  "jp": "セイメイリョクがたいへんアップします",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B748C",
+  "slots": [
+   "0B5C60"
+  ],
+  "jp": "セイメイリョクがアップしてすこしボウギョがあがります",
+  "len": 26,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B74C0",
+  "slots": [
+   "0B5CA0"
+  ],
+  "jp": "メイレイをききやすくなります",
+  "len": 14,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B74DC",
+  "slots": [
+   "0B5CE0"
+  ],
+  "jp": "たいへんメイレイをききやすくなります",
+  "len": 18,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7500",
+  "slots": [
+   "0B5D20"
+  ],
+  "jp": "メイレイをきかなくなるかわりに、コウゲキリョクがあがります",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B753A",
+  "slots": [
+   "0B5D60"
+  ],
+  "jp": "メイレイをききにくくなりますが、コウゲキリョクがアップします",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7576",
+  "slots": [
+   "0B5DA0"
+  ],
+  "jp": "ほかのパラメータがさがりますがメイレイをききやすくなります",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B75B0",
+  "slots": [
+   "0B5DE0"
+  ],
+  "jp": "ハンゲキしにくくなりますが、コウゲキリョクがあがります",
+  "len": 27,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B75E6",
+  "slots": [
+   "0B5E20"
+  ],
+  "jp": "コウゲキをよけにくくなるかわりに、コウゲキリョクがアップします",
+  "len": 31,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7624",
+  "slots": [
+   "0B5E60"
+  ],
+  "jp": "モンスターのコウゲキをつよくしてメイレイをききやすくします",
+  "len": 29,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B765E",
+  "slots": [
+   "0B5EA0"
+  ],
+  "jp": "みているとほしくなるアイテムです",
+  "len": 16,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B767E",
+  "slots": [
+   "0B5EE0"
+  ],
+  "jp": "こんじきにかがやくよろい",
+  "len": 12,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7696",
+  "slots": [
+   "0B5F20"
+  ],
+  "jp": "なめらかにうごくようになれるピアス",
+  "len": 17,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B76B8",
+  "slots": [
+   "0B5F60"
+  ],
+  "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B76EA",
+  "slots": [
+   "0B5FA0"
+  ],
+  "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B771C",
+  "slots": [
+   "0B5FE0"
+  ],
+  "jp": "これをつけてゴウセイするとゾクセイがへんかしません",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B774E",
+  "slots": [
+   "0B6020"
+  ],
+  "jp": "これをつけてゴウセイするとゴウセイケッカにえいきょうをあたえます",
+  "len": 32,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B778E",
+  "slots": [
+   "0B6060"
+  ],
+  "jp": "これをつけてゴウセイするとゴウセイケッカにえいきょうをあたえます",
+  "len": 32,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B77CE",
+  "slots": [
+   "0B60A0"
+  ],
+  "jp": "モンスターをミリョウしてメイレイをききやすくします",
+  "len": 25,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7800",
+  "slots": [
+   "0B60E0"
+  ],
+  "jp": "ココロをつなぎとめてメイレイをききやすくします",
+  "len": 23,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B782E",
+  "slots": [
+   "0B6120"
+  ],
+  "jp": "シュジンのココロをリカイしやすくなります",
+  "len": 20,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7856",
+  "slots": [
+   "0B6160"
+  ],
+  "jp": "まぼろしのモンスターのツノ　ゴウセイのときソウビしたら・・・",
+  "len": 30,
+  "term": false,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0B7892",
+  "slots": [
+   "0B61A0"
+  ],
+  "jp": "フシギなかたちをしたツバサ　ゴウセイのときソウビしたら・・・",
+  "len": 30,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ }
+]

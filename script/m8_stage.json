@@ -1,0 +1,1865 @@
+[
+ {
+  "id": "0C5D9C",
+  "slots": [],
+  "jp": "０１２３４５６７",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DAE",
+  "slots": [],
+  "jp": "すたーとちてん",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DBE",
+  "slots": [],
+  "jp": "へいげん",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DC8",
+  "slots": [],
+  "jp": "へいげん２",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DD4",
+  "slots": [],
+  "jp": "おか",
+  "len": 2,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DDA",
+  "slots": [],
+  "jp": "よるのまち",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DE6",
+  "slots": [],
+  "jp": "こはんのもり",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5DF4",
+  "slots": [],
+  "jp": "じょうがい＜じょうもんまえ＞",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E12",
+  "slots": [],
+  "jp": "じょうない＜なかにわ＞",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E2A",
+  "slots": [],
+  "jp": "じょうない",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E36",
+  "slots": [],
+  "jp": "じょうない",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E42",
+  "slots": [],
+  "jp": "じょうない",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E4E",
+  "slots": [],
+  "jp": "じょうない＜さいだん＞",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E66",
+  "slots": [],
+  "jp": "こうげん",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E70",
+  "slots": [],
+  "jp": "もり",
+  "len": 2,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E76",
+  "slots": [],
+  "jp": "しつげん＜ぬま＞",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E88",
+  "slots": [],
+  "jp": "もり＜よる＞",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5E96",
+  "slots": [],
+  "jp": "やま＜せまいたに＞",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5EAA",
+  "slots": [],
+  "jp": "やま＜おか＞",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5EB8",
+  "slots": [],
+  "jp": "やまいりぐち",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5EC6",
+  "slots": [],
+  "jp": "やま＜けいこく＞",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5ED8",
+  "slots": [],
+  "jp": "やま＜ちょうてん＞",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5EEC",
+  "slots": [],
+  "jp": "やま＜かこう＞",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5EFC",
+  "slots": [],
+  "jp": "やま＜でぐち＞",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F0C",
+  "slots": [],
+  "jp": "さばく",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F14",
+  "slots": [],
+  "jp": "はいきょのまち",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F24",
+  "slots": [],
+  "jp": "もり＜こはん＞",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F34",
+  "slots": [],
+  "jp": "こじょういせきせきじょうもんまえ",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F56",
+  "slots": [],
+  "jp": "こじょうなか",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F64",
+  "slots": [],
+  "jp": "こじょうなか",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F72",
+  "slots": [],
+  "jp": "こじょうない",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F80",
+  "slots": [],
+  "jp": "こじょうないこじょうない",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5F9A",
+  "slots": [],
+  "jp": "こじょうない＜２９とおなじ＞",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5FB8",
+  "slots": [],
+  "jp": "こじょうない＜ごうせいしつ＞",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5FD6",
+  "slots": [],
+  "jp": "こじょうない＜ごうせいしつ＞",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C5FF4",
+  "slots": [],
+  "jp": "べんりなショップ",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6006",
+  "slots": [],
+  "jp": "いせき？",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6010",
+  "slots": [],
+  "jp": "しんかサーバー",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6020",
+  "slots": [],
+  "jp": "スーパーしんかサーバー",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6038",
+  "slots": [
+   "068AB0"
+  ],
+  "jp": "しょうきん",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6044",
+  "slots": [
+   "068B0C"
+  ],
+  "jp": "せんか",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C604C",
+  "slots": [],
+  "jp": "おかね",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6054",
+  "slots": [
+   "068B14",
+   "068D20",
+   "068DC0"
+  ],
+  "jp": "ＥＸＰ",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C605C",
+  "slots": [
+   "068AB8",
+   "068BA8",
+   "068C48",
+   "068D28",
+   "068DC4"
+  ],
+  "jp": "Ｇｏｌｄ",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6066",
+  "slots": [
+   "068C40"
+  ],
+  "jp": "じかん",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C606E",
+  "slots": [
+   "06ABD8"
+  ],
+  "jp": "ＥＸＰ",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6076",
+  "slots": [],
+  "jp": "おかね",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C607E",
+  "slots": [],
+  "jp": "ポイント",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6088",
+  "slots": [
+   "06ABEC",
+   "06ACF4"
+  ],
+  "jp": "Ｇｏｌｄ",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6092",
+  "slots": [],
+  "jp": "せんとうけっか",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60A2",
+  "slots": [
+   "068D10"
+  ],
+  "jp": "モンスター",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60AE",
+  "slots": [
+   "06937C"
+  ],
+  "jp": "をなかまにくわえますか？",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60C8",
+  "slots": [
+   "06A520"
+  ],
+  "jp": "をはずして",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60D4",
+  "slots": [
+   "0694B0",
+   "06A524"
+  ],
+  "jp": "をなかまにくわえました",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60EC",
+  "slots": [
+   "0C4F78",
+   "0C505C",
+   "0C50C8"
+  ],
+  "jp": "はい",
+  "len": 2,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60F2",
+  "slots": [
+   "0C4F80",
+   "0C5064",
+   "0C50D0"
+  ],
+  "jp": "いいえ",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C60FA",
+  "slots": [],
+  "jp": "もとのじょうたいにもどします",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6118",
+  "slots": [
+   "0691D4"
+  ],
+  "jp": "アイテムがもちきれないので、どれかをすてますか？",
+  "len": 24,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C614A",
+  "slots": [
+   "0C4FC0"
+  ],
+  "jp": "すてるアイテムをえらんでください",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C616C",
+  "slots": [
+   "06A0FC"
+  ],
+  "jp": "をすてて",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6176",
+  "slots": [
+   "06A100"
+  ],
+  "jp": "をアイテムにくわえてよろしいですか？",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C619C",
+  "slots": [
+   "06A42C"
+  ],
+  "jp": "をすてて",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C61A6",
+  "slots": [
+   "06A430"
+  ],
+  "jp": "をアイテムにくわえました",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C61C0",
+  "slots": [
+   "06A2B8"
+  ],
+  "jp": "はしゅぎょうちゅうのモンスターがそうびしているのでこうかんできません",
+  "len": 34,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6206",
+  "slots": [
+   "06A36C"
+  ],
+  "jp": "はしゅぎょうにでているのでこうかんできません",
+  "len": 22,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6234",
+  "slots": [],
+  "jp": "たおしたモンスター",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6248",
+  "slots": [],
+  "jp": "ほかくモンスター",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C625A",
+  "slots": [],
+  "jp": "いきのこったモンスター",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6272",
+  "slots": [
+   "06C038",
+   "06C078"
+  ],
+  "jp": "ＬＶ",
+  "len": 2,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6278",
+  "slots": [
+   "06C084",
+   "06C0BC"
+  ],
+  "jp": "ぞくせい",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6282",
+  "slots": [
+   "07E100",
+   "0C4F98"
+  ],
+  "jp": "こうかんするモンスターをえらんでください",
+  "len": 20,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C62AC",
+  "slots": [],
+  "jp": "そのモンスターでよろしいですか？",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C62CE",
+  "slots": [
+   "069F98"
+  ],
+  "jp": "モンスターをこうかんしないでせんとうけっかがめんにもどってよろしいですか？",
+  "len": 37,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C631A",
+  "slots": [
+   "069F50"
+  ],
+  "jp": "アイテムをこうかんしないでせんとうけっかがめんにもどってよろしいですか？",
+  "len": 36,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6364",
+  "slots": [],
+  "jp": "モンスターをいれかえました",
+  "len": 13,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6380",
+  "slots": [
+   "06A1AC"
+  ],
+  "jp": "をはずして",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C638C",
+  "slots": [
+   "06A1B0"
+  ],
+  "jp": "をなかまにくわえてよろしいですか？",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C63B0",
+  "slots": [
+   "068AB4",
+   "068B10",
+   "068BA4",
+   "068C44",
+   "068D1C"
+  ],
+  "jp": "・",
+  "len": 1,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C63B4",
+  "slots": [
+   "068DBC"
+  ],
+  "jp": "トータル",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C63BE",
+  "slots": [
+   "068B98"
+  ],
+  "jp": "アイテム",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C63C8",
+  "slots": [
+   "0CC6B0",
+   "0CC6D8"
+  ],
+  "jp": "パーティのしゅつげきせっていがされていません",
+  "len": 22,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C63F6",
+  "slots": [
+   "084B68"
+  ],
+  "jp": "じゅうじキー・・・せんとうステージ",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C641A",
+  "slots": [
+   "084B64"
+  ],
+  "jp": "Ｌ／Ｒ・・・・・・ほんきょち／ほか",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C643E",
+  "slots": [
+   "085980"
+  ],
+  "jp": "ステージ１　へいげん",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6454",
+  "slots": [
+   "085988"
+  ],
+  "jp": "ステージ２　へいげん",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C646A",
+  "slots": [
+   "085990"
+  ],
+  "jp": "ステージ３　おか",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C647C",
+  "slots": [
+   "085998"
+  ],
+  "jp": "ステージ４　まち",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C648E",
+  "slots": [
+   "0859A0"
+  ],
+  "jp": "ステージ５　もりこはん",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C64A6",
+  "slots": [
+   "0859AC"
+  ],
+  "jp": "ステージ６　しろのそと",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C64BE",
+  "slots": [
+   "0859B4"
+  ],
+  "jp": "ステージ７　しろのなかにわ",
+  "len": 13,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C64DA",
+  "slots": [
+   "0859BC"
+  ],
+  "jp": "ステージ８　じょうない",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C64F2",
+  "slots": [
+   "0859C4"
+  ],
+  "jp": "ステージ９　じょうない",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C650A",
+  "slots": [
+   "0859CC"
+  ],
+  "jp": "ステージ１０　じょうない",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6524",
+  "slots": [
+   "0859D4"
+  ],
+  "jp": "ステージ１１　じょうないさいだん",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6546",
+  "slots": [
+   "0859DC"
+  ],
+  "jp": "ステージ１２　こうげん",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C655E",
+  "slots": [
+   "0859E8"
+  ],
+  "jp": "ステージ１３　もり",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6572",
+  "slots": [
+   "0859F4"
+  ],
+  "jp": "ステージ１４　しつげん",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C658A",
+  "slots": [
+   "0859FC"
+  ],
+  "jp": "ステージ１５　もり　よる",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C65A4",
+  "slots": [
+   "085A04"
+  ],
+  "jp": "ステージ１６　やま　いりぐち",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C65C2",
+  "slots": [
+   "085A0C"
+  ],
+  "jp": "ステージ１７　やま　けいこく",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C65E0",
+  "slots": [
+   "085A14"
+  ],
+  "jp": "ステージ１８　やま　おか",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C65FA",
+  "slots": [
+   "085A1C"
+  ],
+  "jp": "ステージ１９　やま　けいこく２",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C661A",
+  "slots": [
+   "085A24"
+  ],
+  "jp": "ステージ２０　やま　さんちょう",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C663A",
+  "slots": [
+   "085A2C"
+  ],
+  "jp": "ステージ２１　やま　さんちょう",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C665A",
+  "slots": [
+   "085A34"
+  ],
+  "jp": "ステージ２２　やま　でぐち",
+  "len": 13,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6676",
+  "slots": [
+   "085A3C"
+  ],
+  "jp": "ステージ２３　さばく",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C668C",
+  "slots": [
+   "085A44"
+  ],
+  "jp": "ステージ２４　はいきょのまち",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C66AA",
+  "slots": [
+   "085A4C"
+  ],
+  "jp": "ステージ２５　ぬまち",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C66C0",
+  "slots": [
+   "085A54"
+  ],
+  "jp": "ステージ２６　こじょういりぐち",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C66E0",
+  "slots": [
+   "085A5C"
+  ],
+  "jp": "ステージ２７　こじょうない１",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C66FE",
+  "slots": [
+   "085A64"
+  ],
+  "jp": "ステージ２８　こじょうない２",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C671C",
+  "slots": [
+   "085A6C"
+  ],
+  "jp": "ステージ２９　ごうせいしついりぐち１",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6742",
+  "slots": [
+   "085A74"
+  ],
+  "jp": "ステージ３０　ごうせいしついりぐち２",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6768",
+  "slots": [
+   "085A7C"
+  ],
+  "jp": "ステージ３１　ごうせいしつ",
+  "len": 13,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6784",
+  "slots": [
+   "085A80"
+  ],
+  "jp": "ほんきょち",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6790",
+  "slots": [
+   "085A84"
+  ],
+  "jp": "ごうせいや",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C679C",
+  "slots": [
+   "085A8C"
+  ],
+  "jp": "ショップ",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C67A6",
+  "slots": [
+   "085A90"
+  ],
+  "jp": "とうぎじょう",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C67B4",
+  "slots": [
+   "085A94"
+  ],
+  "jp": "みなと",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C67BC",
+  "slots": [],
+  "jp": "ショップ・ごうせいや・そのた",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C67DA",
+  "slots": [
+   "0CC514"
+  ],
+  "jp": "せんとうをかいしする",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C67F0",
+  "slots": [
+   "0CC51C"
+  ],
+  "jp": "せんきょうをみる",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6802",
+  "slots": [],
+  "jp": "しょうりじょうけん：",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6818",
+  "slots": [
+   "084A58",
+   "086AEC"
+  ],
+  "jp": "ミッション",
+  "len": 5,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6824",
+  "slots": [
+   "084BBC"
+  ],
+  "jp": "あらわれたまじゅうたちを、ぜんめつさせろ！！",
+  "len": 22,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6852",
+  "slots": [
+   "08597C"
+  ],
+  "jp": "ゆくてをはばむ、やせいのまじゅうたちのせんめつ！！",
+  "len": 25,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6886",
+  "slots": [
+   "085984"
+  ],
+  "jp": "おそいくる、まじゅうたちをたおせ！！",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C68AC",
+  "slots": [
+   "08598C"
+  ],
+  "jp": "おってのまじゅうを、ぜんめつさせろ！！",
+  "len": 19,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C68D4",
+  "slots": [
+   "085994"
+  ],
+  "jp": "おってのついげきを、かわせ！！",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C68F4",
+  "slots": [
+   "08599C"
+  ],
+  "jp": "てきのまじゅうたちを、ぜんめつさせろ！！",
+  "len": 20,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C691E",
+  "slots": [
+   "0859A8"
+  ],
+  "jp": "まじゅうたちを、ぜんめつさせろ！！",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6942",
+  "slots": [
+   "0859B0"
+  ],
+  "jp": "けいびのまじゅうたちを、たおせ！",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6964",
+  "slots": [
+   "0859B8"
+  ],
+  "jp": "じょうないのまじゅうを、たおせ！",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6986",
+  "slots": [
+   "0859C0"
+  ],
+  "jp": "じょうないのまじゅうを、ぜんめつさせろ！！",
+  "len": 21,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C69B2",
+  "slots": [
+   "0859C8"
+  ],
+  "jp": "てきのまじゅうを、ぜんめつさせろ！！",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C69D8",
+  "slots": [
+   "0859D0"
+  ],
+  "jp": "あらわれたザーゴを、たおせ！！",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C69F8",
+  "slots": [
+   "0859D8"
+  ],
+  "jp": "いわの、ばんにんたちのせんめつ！！",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6A1C",
+  "slots": [
+   "0859E4"
+  ],
+  "jp": "ゆくてをはばむ、もりのせんじゅうしゃをたおせ！！",
+  "len": 24,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6A4E",
+  "slots": [
+   "0859F0"
+  ],
+  "jp": "あんこくからの、つかいをたおせ！！",
+  "len": 17,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6A72",
+  "slots": [
+   "0859F8"
+  ],
+  "jp": "よみがえった、ぶしのたましいを、たおせ！！",
+  "len": 21,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6A9E",
+  "slots": [
+   "085A00"
+  ],
+  "jp": "まちぶせていた、てきのせんめつ！",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6AC0",
+  "slots": [
+   "085A08"
+  ],
+  "jp": "てきの、はなったまじゅうを、たおせ！",
+  "len": 18,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6AE6",
+  "slots": [
+   "085A10"
+  ],
+  "jp": "ザーゴをたおせ！",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6AF8",
+  "slots": [
+   "085A18"
+  ],
+  "jp": "ラミレスをたおせ！",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6B0C",
+  "slots": [
+   "085A20"
+  ],
+  "jp": "ベリンガムの、まじゅうたちを、たおせ！！",
+  "len": 20,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6B36",
+  "slots": [
+   "085A28"
+  ],
+  "jp": "よみがえったイグニスを、たおせ！",
+  "len": 16,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6B58",
+  "slots": [
+   "085A30"
+  ],
+  "jp": "おってのまじゅうたちをせんめつしろ！！",
+  "len": 19,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6B80",
+  "slots": [
+   "085A38"
+  ],
+  "jp": "さばくにすくう、まじゅうたちをたおせ！",
+  "len": 19,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6BA8",
+  "slots": [
+   "085A40"
+  ],
+  "jp": "はいきょの、まじゅうたちをせんめつしろ！",
+  "len": 20,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6BD2",
+  "slots": [
+   "085A48"
+  ],
+  "jp": "てきの、ついせきしゃをたおせ！",
+  "len": 15,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6BF2",
+  "slots": [
+   "085A50"
+  ],
+  "jp": "てきの、みはりをたおせ！",
+  "len": 12,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C0C",
+  "slots": [
+   "085A58"
+  ],
+  "jp": "ザーゴを、たおせ！！",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C22",
+  "slots": [
+   "085A60"
+  ],
+  "jp": "ラミレスを、たおせ！",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C38",
+  "slots": [
+   "085A68"
+  ],
+  "jp": "あらたに、あらわれてきたてきをたおせ！！",
+  "len": 20,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C62",
+  "slots": [
+   "085A70"
+  ],
+  "jp": "ベリンガムを、たおせ！",
+  "len": 11,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C7A",
+  "slots": [
+   "085A78"
+  ],
+  "jp": "さいきょうのてきを、たおせ！",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6C98",
+  "slots": [
+   "0CC558"
+  ],
+  "jp": "ほんきょちにはいる",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6CAC",
+  "slots": [
+   "0CC59C"
+  ],
+  "jp": "ごうせいやにはいる",
+  "len": 9,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6CC0",
+  "slots": [
+   "0CC5E0"
+  ],
+  "jp": "ショップにはいる",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6CD2",
+  "slots": [
+   "0CC624"
+  ],
+  "jp": "とうぎじょうにはいる",
+  "len": 10,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6CE8",
+  "slots": [
+   "0CC668"
+  ],
+  "jp": "みなとにはいる",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6CF8",
+  "slots": [
+   "0CC560",
+   "0CC5A4",
+   "0CC5E8",
+   "0CC62C",
+   "0CC670"
+  ],
+  "jp": "もどる",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D00",
+  "slots": [],
+  "jp": "ここはアイテムとモンスターのみせ。なんのようじゃ？",
+  "len": 25,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D34",
+  "slots": [],
+  "jp": "アイテムをかう",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D44",
+  "slots": [],
+  "jp": "モンスターをかう",
+  "len": 8,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D56",
+  "slots": [],
+  "jp": "もどる",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D5E",
+  "slots": [],
+  "jp": "まだじゅんびできてないんじゃ",
+  "len": 14,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D7C",
+  "slots": [
+   "0CC4A0"
+  ],
+  "jp": "せんとうかいし",
+  "len": 7,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D8C",
+  "slots": [
+   "0CC4A4"
+  ],
+  "jp": "マップをみる",
+  "len": 6,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6D9A",
+  "slots": [
+   "0CC4A8"
+  ],
+  "jp": "もどる",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DA2",
+  "slots": [],
+  "jp": "モンスターいちらんへもどる",
+  "len": 13,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DBE",
+  "slots": [
+   "086ADC"
+  ],
+  "jp": "ステージ",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DC8",
+  "slots": [],
+  "jp": "　０[FFFF]",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DD0",
+  "slots": [],
+  "jp": "[0154]",
+  "len": 1,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DD4",
+  "slots": [],
+  "jp": "タマゴ",
+  "len": 3,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DDC",
+  "slots": [
+   "07ED60"
+  ],
+  "jp": "レオ",
+  "len": 2,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DE2",
+  "slots": [
+   "07ED64"
+  ],
+  "jp": "ティーナ",
+  "len": 4,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ },
+ {
+  "id": "0C6DEC",
+  "slots": [
+   "080378"
+  ],
+  "jp": "　",
+  "len": 1,
+  "term": true,
+  "en": "",
+  "status": "todo"
+ }
+]

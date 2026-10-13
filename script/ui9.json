@@ -5,7 +5,7 @@
   "jp": "モモンスターを選んでください",
   "bytes": 30,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC92C",
@@ -23,7 +23,7 @@
   "jp": "指示の対象を決めてください",
   "bytes": 28,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC95E",
@@ -31,7 +31,7 @@
   "jp": "全部のモンスターに指示を出します",
   "bytes": 34,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC980",
@@ -39,7 +39,7 @@
   "jp": "モンスター個別に指示を出します",
   "bytes": 32,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC9A0",
@@ -47,7 +47,7 @@
   "jp": "どのモンスターを狙うか決めてください",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC9C6",
@@ -55,7 +55,7 @@
   "jp": "コマンド対象モンスターを決めてください",
   "bytes": 40,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC9EE",
@@ -63,7 +63,7 @@
   "jp": "戦闘終了",
   "bytes": 10,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CC9F8",
@@ -71,7 +71,7 @@
   "jp": "クリア条件",
   "bytes": 12,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCA04",
@@ -79,7 +79,7 @@
   "jp": "一　クリア条件　一　　　全ての敵を倒す",
   "bytes": 40,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCA2C",
@@ -87,7 +87,7 @@
   "jp": "一　命令：戦え　一　　　敵をみつけて攻撃する",
   "bytes": 46,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCA5A",
@@ -95,7 +95,7 @@
   "jp": "一　命令：待機　一　　　その場で立ち止まる",
   "bytes": 44,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCA86",
@@ -103,7 +103,7 @@
   "jp": "一　命令：捕獲　一　　　敵を指定して捕まえる",
   "bytes": 46,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCAB4",
@@ -111,7 +111,7 @@
   "jp": "一　命令：アイテム　一　アイテムを拾いにいく",
   "bytes": 46,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCAE2",
@@ -119,7 +119,7 @@
   "jp": "一　命令：逃げろ　一　　敵から逃げる",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCB08",
@@ -127,7 +127,7 @@
   "jp": "一　命令：守れ　一　　　ガードして攻撃をかわす",
   "bytes": 48,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCB38",
@@ -135,7 +135,7 @@
   "jp": "一　命令：ボコれ　一　　集中攻撃",
   "bytes": 34,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCB5A",
@@ -143,7 +143,7 @@
   "jp": "プレイヤーポイントが足りません",
   "bytes": 32,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCB7A",
@@ -151,7 +151,7 @@
   "jp": "対象となるモンスターがいません",
   "bytes": 32,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCB9A",
@@ -159,7 +159,7 @@
   "jp": "通信準備ができたらボタンを押してください",
   "bytes": 42,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCBC4",
@@ -167,7 +167,7 @@
   "jp": "通信できませんでした",
   "bytes": 22,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCBDA",
@@ -175,7 +175,7 @@
   "jp": "通信中",
   "bytes": 8,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCBE2",
@@ -183,7 +183,7 @@
   "jp": "無制限クラス　　　　　　賞金０Ｇ",
   "bytes": 34,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCC04",
@@ -191,7 +191,7 @@
   "jp": "Ｌｖ５１以上クラス　　　賞金３００Ｇ",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCC2A",
@@ -199,7 +199,7 @@
   "jp": "Ｌｖ３１～Ｌｖ５０クラス賞金６０Ｇ",
   "bytes": 36,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCC4E",
@@ -207,7 +207,7 @@
   "jp": "Ｌｖ１１～Ｌｖ３０クラス賞金２０Ｇ",
   "bytes": 36,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCC72",
@@ -215,7 +215,7 @@
   "jp": "Ｌｖ１～Ｌｖ１０クラス　賞金１０Ｇ",
   "bytes": 36,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCC96",
@@ -223,7 +223,7 @@
   "jp": "参加できないモンスターがパーティーに入っています",
   "bytes": 50,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCCC8",
@@ -231,7 +231,7 @@
   "jp": "対戦成績　勝　　　負　　　引き分け",
   "bytes": 36,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCCEC",
@@ -239,7 +239,8 @@
   "jp": "０１２３４５６７８９",
   "bytes": 22,
   "en": "",
-  "status": "todo"
+  "status": "unused",
+  "notes": "digit glyph source"
  },
  {
   "id": "0CCD02",
@@ -277,7 +278,7 @@
   "jp": "命令を決めてください",
   "bytes": 22,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CCD6E",
@@ -761,7 +762,7 @@
   "jp": "無制限級　　　　　　　　　賞金０Ｇ",
   "bytes": 36,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD520",
@@ -769,7 +770,7 @@
   "jp": "レベル５１以上級　　　　　賞金３００Ｇ",
   "bytes": 40,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD548",
@@ -777,7 +778,7 @@
   "jp": "レベル３１～レベル５０級　賞金６０Ｇ",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD56E",
@@ -785,7 +786,7 @@
   "jp": "レベル１１～レベル３０級　賞金２０Ｇ",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD594",
@@ -793,7 +794,7 @@
   "jp": "レベル１～レベル１０級　　賞金１０Ｇ",
   "bytes": 38,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD5BA",
@@ -801,7 +802,7 @@
   "jp": "参加できないモンスターがパーティーに入っています",
   "bytes": 50,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD5EC",
@@ -809,7 +810,7 @@
   "jp": "対戦成績　　勝　　負　　引き分け",
   "bytes": 34,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD60E",
@@ -817,7 +818,8 @@
   "jp": "０１２３４５６７８９",
   "bytes": 22,
   "en": "",
-  "status": "todo"
+  "status": "unused",
+  "notes": "digit glyph source"
  },
  {
   "id": "0CD624",
@@ -835,7 +837,7 @@
   "jp": "データをセーブしますか　はい　　いいえ",
   "bytes": 40,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD676",
@@ -843,7 +845,7 @@
   "jp": "データをセーブしました",
   "bytes": 24,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD68E",
@@ -851,7 +853,7 @@
   "jp": "残念ですがデータはセーブできないようです",
   "bytes": 42,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD6B8",
@@ -1006,7 +1008,7 @@
   "jp": "モンスターの名前変更は、只今行えません",
   "bytes": 40,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CD850",
@@ -1451,7 +1453,7 @@
   "jp": "出力タイプを選択します",
   "bytes": 24,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDD46",
@@ -1562,7 +1564,8 @@
   "jp": "０１２３４５６７８９",
   "bytes": 22,
   "en": "",
-  "status": "todo"
+  "status": "keep",
+  "notes": "digit glyph source"
  },
  {
   "id": "0CDE84",
@@ -1570,7 +1573,7 @@
   "jp": "生命",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDE8A",
@@ -1578,7 +1581,7 @@
   "jp": "耐久",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDE90",
@@ -1586,7 +1589,7 @@
   "jp": "攻撃",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDE96",
@@ -1594,7 +1597,7 @@
   "jp": "防御",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDE9C",
@@ -1602,7 +1605,7 @@
   "jp": "行動",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEA2",
@@ -1610,7 +1613,7 @@
   "jp": "知識",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEA8",
@@ -1618,7 +1621,7 @@
   "jp": "必殺技",
   "bytes": 8,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEB0",
@@ -1626,7 +1629,7 @@
   "jp": "反撃",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEB6",
@@ -1634,7 +1637,7 @@
   "jp": "索敵",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEBC",
@@ -1642,7 +1645,7 @@
   "jp": "従順",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEC2",
@@ -1650,7 +1653,7 @@
   "jp": "命中",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDEC8",
@@ -1658,7 +1661,7 @@
   "jp": "回避",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  },
  {
   "id": "0CDECE",
@@ -1666,6 +1669,6 @@
   "jp": "技能",
   "bytes": 6,
   "en": "",
-  "status": "todo"
+  "status": "unused"
  }
 ]

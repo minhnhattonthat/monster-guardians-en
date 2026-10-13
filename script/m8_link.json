@@ -1,0 +1,138 @@
+[
+ {
+  "id": "099BBA",
+  "slots": [
+   "00450C"
+  ],
+  "jp": "ほのお",
+  "len": 3,
+  "term": false,
+  "en": "Fire",
+  "status": "done"
+ },
+ {
+  "id": "099BC0",
+  "slots": [
+   "0044CC"
+  ],
+  "jp": "かぜ",
+  "len": 2,
+  "term": false,
+  "en": "Wind",
+  "status": "done"
+ },
+ {
+  "id": "099BC4",
+  "slots": [
+   "0044EC"
+  ],
+  "jp": "みず",
+  "len": 2,
+  "term": false,
+  "en": "Water",
+  "status": "done",
+  "reloc": 3,
+  "len_imm": [
+   "0044E6"
+  ]
+ },
+ {
+  "id": "099BC8",
+  "slots": [
+   "00452C"
+  ],
+  "jp": "だいち",
+  "len": 3,
+  "term": false,
+  "en": "Earth",
+  "status": "done"
+ },
+ {
+  "id": "099BCE",
+  "slots": [
+   "004554"
+  ],
+  "jp": "しんせい",
+  "len": 4,
+  "term": false,
+  "en": "Holy",
+  "status": "done"
+ },
+ {
+  "id": "099BD6",
+  "slots": [
+   "0045A0"
+  ],
+  "jp": "あんこく",
+  "len": 4,
+  "term": false,
+  "en": "Dark",
+  "status": "done"
+ },
+ {
+  "id": "099BDE",
+  "slots": [
+   "0C36E0"
+  ],
+  "jp": "むせいげんクラス　　　　　　　　　しょうきん　　０Ｇ",
+  "len": 26,
+  "term": false,
+  "en": "Unlimited Class                   Prize           0G",
+  "status": "done"
+ },
+ {
+  "id": "099C12",
+  "slots": [
+   "0C36E8"
+  ],
+  "jp": "Ｌｖ５１いじょうクラス　　　　　　しょうきん３００Ｇ",
+  "len": 26,
+  "term": false,
+  "en": "LV51+ Class                       Prize         300G",
+  "status": "done"
+ },
+ {
+  "id": "099C46",
+  "slots": [
+   "0C36F0"
+  ],
+  "jp": "Ｌｖ３１～Ｌｖ５０クラス　　　　　しょうきん　６０Ｇ",
+  "len": 26,
+  "term": false,
+  "en": "LV31-50 Class                     Prize          60G",
+  "status": "done"
+ },
+ {
+  "id": "099C7A",
+  "slots": [
+   "0C36F8"
+  ],
+  "jp": "Ｌｖ１１～Ｌｖ３０クラス　　　　　しょうきん　２０Ｇ",
+  "len": 26,
+  "term": false,
+  "en": "LV11-30 Class                     Prize          20G",
+  "status": "done"
+ },
+ {
+  "id": "099CAE",
+  "slots": [
+   "0C3700"
+  ],
+  "jp": "Ｌｖ１～Ｌｖ１０クラス　　　　　　しょうきん　１０Ｇさんかできないモンスターが　パーティーにはいっています",
+  "len": 53,
+  "term": false,
+  "en": "LV1-10 Class                      Prize          10GA monster that can't enter is in the party.           ",
+  "status": "done"
+ },
+ {
+  "id": "099D18",
+  "slots": [
+   "002A7C"
+  ],
+  "jp": "たいせんせいせき　かち　　　まけ　　　ひきわけ　　ＬｖＮ",
+  "len": 28,
+  "term": false,
+  "en": "Battle Record     Wins      Loss      Draws       LV N  ",
+  "status": "done"
+ }
+]

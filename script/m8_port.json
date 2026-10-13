@@ -1,0 +1,218 @@
+[
+ {
+  "id": "0A9C14",
+  "slots": [
+   "0C4D60"
+  ],
+  "jp": "ちごらに）ｅ[7FFF]",
+  "len": 7,
+  "term": false,
+  "en": "",
+  "status": "data"
+ },
+ {
+  "id": "0A9C22",
+  "slots": [
+   "0C4D64"
+  ],
+  "jp": "[7FFE]Ｓべちらに）ｅ[7FFF]",
+  "len": 9,
+  "term": false,
+  "en": "",
+  "status": "data"
+ },
+ {
+  "id": "0A9C34",
+  "slots": [
+   "029C08",
+   "029C40"
+  ],
+  "jp": "は　い",
+  "len": 3,
+  "term": true,
+  "en": "Yes",
+  "status": "done"
+ },
+ {
+  "id": "0A9C3C",
+  "slots": [
+   "029C0C",
+   "029C44"
+  ],
+  "jp": "いいえ",
+  "len": 3,
+  "term": true,
+  "en": "No",
+  "status": "done"
+ },
+ {
+  "id": "0A9C44",
+  "slots": [
+   "0296D0"
+  ],
+  "jp": "パーティがへんせいされていません",
+  "len": 16,
+  "term": true,
+  "en": "No party has been formed.",
+  "status": "done"
+ },
+ {
+  "id": "0A9C66",
+  "slots": [
+   "029040"
+  ],
+  "jp": "しゅぎょうにだすパーティをえらんでください！",
+  "len": 22,
+  "term": true,
+  "en": "Choose a party to send to training!",
+  "status": "done"
+ },
+ {
+  "id": "0A9C94",
+  "slots": [
+   "029C04"
+  ],
+  "jp": "このパーティでいいんですか？",
+  "len": 14,
+  "term": true,
+  "en": "Is this party OK?",
+  "status": "done"
+ },
+ {
+  "id": "0A9CB2",
+  "slots": [
+   "029CA8"
+  ],
+  "jp": "つづけてせんたくしますか？",
+  "len": 13,
+  "term": true,
+  "en": "Continue choosing?",
+  "status": "done"
+ },
+ {
+  "id": "0A9CCE",
+  "slots": [
+   "029CAC",
+   "029CEC",
+   "029D38"
+  ],
+  "jp": "パーティをせんたくする",
+  "len": 11,
+  "term": true,
+  "en": "Choose a party",
+  "status": "done"
+ },
+ {
+  "id": "0A9CE6",
+  "slots": [
+   "029CB0",
+   "029CF0",
+   "029D3C"
+  ],
+  "jp": "ふねをしゅっこうさせる",
+  "len": 11,
+  "term": true,
+  "en": "Launch the ship",
+  "status": "done"
+ },
+ {
+  "id": "0A9CFE",
+  "slots": [
+   "029CF4",
+   "029D40"
+  ],
+  "jp": "やっぱりやめる",
+  "len": 7,
+  "term": true,
+  "en": "Never mind",
+  "status": "done"
+ },
+ {
+  "id": "0A9D0E",
+  "slots": [
+   "029DAC"
+  ],
+  "jp": "ふねはぶじ、しゅっこうしていきました！",
+  "len": 19,
+  "term": true,
+  "en": "The ship set sail safely!",
+  "status": "done"
+ },
+ {
+  "id": "0A9D36",
+  "slots": [
+   "029E1C"
+  ],
+  "jp": "しゅっこうをとりけしました。",
+  "len": 14,
+  "term": true,
+  "en": "Departure canceled.",
+  "status": "done"
+ },
+ {
+  "id": "0A9D54",
+  "slots": [
+   "029E8C"
+  ],
+  "jp": "あとはほんきょちにもどってセーブするだけだから。/わすれずにセーブするんだよ。",
+  "len": 39,
+  "term": true,
+  "en": "Now just go back to Home Base and save./Don't forget to save!",
+  "status": "done"
+ },
+ {
+  "id": "0A9DA4",
+  "slots": [
+   "029B20"
+  ],
+  "jp": "パーティがへんせいされてないんで、/そんなことできません！",
+  "len": 29,
+  "term": true,
+  "en": "No party formed, so/I can't do that!",
+  "status": "done"
+ },
+ {
+  "id": "0A9DE0",
+  "slots": [
+   "029B2C"
+  ],
+  "jp": "そのパーティはしゅぎょうにいっちゃってるじゃない。/そんなむりなこといわないで！",
+  "len": 40,
+  "term": true,
+  "en": "That party's off training already./Don't ask the impossible!",
+  "status": "done"
+ },
+ {
+  "id": "0A9E32",
+  "slots": [
+   "029B44"
+  ],
+  "jp": "えぇ、でもそのパーティ、もうふねにのってるし。/べつのパーティをえらんでほしいな。",
+  "len": 41,
+  "term": true,
+  "en": "Hm, but that party's already aboard./Please pick another party.",
+  "status": "done"
+ },
+ {
+  "id": "0A9E86",
+  "slots": [
+   "029B98"
+  ],
+  "jp": "たまごがはいってるパーティは/しゅぎょうにはいけないんだよ。/ね！　わかった？",
+  "len": 39,
+  "term": true,
+  "en": "Parties carrying eggs/can't go training./Got it?",
+  "status": "done"
+ },
+ {
+  "id": "0A9ED6",
+  "slots": [
+   "029700"
+  ],
+  "jp": "じょうせん",
+  "len": 5,
+  "term": true,
+  "en": "Board",
+  "status": "done"
+ }
+]

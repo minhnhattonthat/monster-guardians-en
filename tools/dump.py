@@ -62,8 +62,9 @@ def merge_write(bank, entries):
         o = old.get(e['id'], {})
         e['en'] = o.get('en', '')
         e['status'] = o.get('status', 'todo')
-        if o.get('notes'):
-            e['notes'] = o['notes']
+        for k, v in o.items():   # notes, box, ...: hand-set fields survive a re-dump
+            if k not in e:
+                e[k] = v
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
 

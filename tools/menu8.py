@@ -25,6 +25,8 @@ BANKS = {
     'itemdesc': [(0x0B720C, 0x0B78D0)],
     'menu': [(0x0BD388, 0x0BEDC4)],
     'stage': [(0x0C5D9A, 0x0C6DF0)],
+    'link': [(0x099BBA, 0x099D50)],     # link battle: elements, classes, prize, record (found by leftover scan)
+    'port': [(0x0A9C14, 0x0A9EE4)],     # port / ship departure dialogue
 }
 TOKEN = re.compile(r'\{pal:([0-9A-F]+)\}|\[([0-9A-F]{4})\]')
 
@@ -211,7 +213,13 @@ def build(rom, marker=False, free=None):
                 for s in e['slots']:
                     s = int(s, 16)
                     struct.pack_into('<I', rom, s, romlib.BASE + off)
-                    struct.pack_into('<H', rom, s + 4, len(codes))
+                    if not e.get('len_imm'):
+                        struct.pack_into('<H', rom, s + 4, len(codes))
+                for a in e.get('len_imm', []):   # Thumb `movs rX,#len` holding the length
+                    a = int(a, 16)
+                    if rom[a] != e['len'] or rom[a + 1] >> 3 != 0b00100:
+                        raise SystemExit(f'm8 {e["id"]}: no movs #{e["len"]} at {a:06X}')
+                    rom[a] = len(codes)
                 n += 1
                 continue
             pad = [0] if e['term'] or int(e['id'], 16) in zero_pad else []
@@ -264,8 +272,9 @@ def dump(report=False):
         for e in entries:
             o = old.get(e['id'], {})
             e['en'], e['status'] = o.get('en', ''), o.get('status', 'todo')
-            if o.get('notes'):
-                e['notes'] = o['notes']
+            for k, v in o.items():   # notes, reloc, len_imm, ...: hand-set fields survive a re-dump
+                if k not in e:
+                    e[k] = v
         path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
         if report:
             noref = sum(1 for e in entries if not e['slots'])

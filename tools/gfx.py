@@ -81,18 +81,18 @@ def store(rom, free, old_hdr, data):
 def inpaint(px, box, ink, fill):
     """Replace `ink` colours inside box (x0, y0, x1, y1) with the nearest `fill` colour on the same row."""
     x0, y0, x1, y1 = box
+    src = [r[:] for r in px]
+    h, w = len(px), len(px[0])
     for y in range(y0, y1):
-        row = px[y]
-        src = row[:]
         for x in range(x0, x1):
-            if src[x] in ink:
-                for d in range(1, 40):
-                    for xx in (x - d, x + d):
-                        if 0 <= xx < len(row) and src[xx] in fill:
-                            row[x] = src[xx]
-                            break
-                    else:
-                        continue
+            if src[y][x] not in ink:
+                continue
+            for d in range(1, 40):   # nearest fill pixel on the square ring at distance d
+                ring = [(x + dx, y + dy) for dx in range(-d, d + 1) for dy in (-d, d)] + \
+                       [(x + dx, y + dy) for dy in range(-d + 1, d) for dx in (-d, d)]
+                hits = [src[yy][xx] for xx, yy in ring if 0 <= xx < w and 0 <= yy < h and src[yy][xx] in fill]
+                if hits:
+                    px[y][x] = max(set(hits), key=hits.count)
                     break
 
 
@@ -301,6 +301,14 @@ SFX = [   # story pictures with hand-drawn sound effects: (palette, tiles hdr, t
     # Ruins, monsters attack the pursuers: light lettering ドガッ / バキッ on the dark backdrop
     (0x540858, 0x540878, 0x54087C, 0x0C17, 0x541498, 0x216, [((28, 48, 92, 108), 'WHAM!', 'light'),
                                                              ((152, 52, 214, 108), 'CRACK!', 'light')]),
+    (0x543008, 0x543028, 0x54302C, 0x0C70, 0x543CA0, 0x210, [((28, 48, 92, 108), 'WHAM!', 'light'),   # Tina
+                                                             ((152, 52, 214, 108), 'CRACK!', 'light')]),
+    # monsters charging: ドドドド (white, spills below the picture: fill may be transparent)
+    (0x4A85B8, 0x4A85D8, 0x4A85DC, 0x2120, 0x4AA700, 0x36B, [((14, 86, 158, 132), 'THUD THUD THUD', 'light0')]),
+    (0x4AAA80, 0x4AAAA0, 0x4AAAA4, 0x225C, 0x4ACD04, 0x366, [((14, 86, 158, 132), 'THUD THUD THUD', 'light0')]),
+    (0x4C6678, 0x4C6698, 0x4C669C, 0x2898, 0x4C8F38, 0x3BC, [((6, 94, 98, 138), 'KA-BOOM!', 'light0')]),
+    (0x4CA62C, 0x4CA64C, 0x4CA650, 0x1788, 0x4CBDDC, 0x2A3, [((146, 52, 186, 76), 'WHACK', 'white')]),
+    (0x521180, 0x5211A0, 0x5211A4, 0x14FB, 0x5226A4, 0x2EB, [((62, 38, 94, 70), 'CLANG', 'white')]),
 ]
 
 
@@ -318,9 +326,14 @@ def job_sfx(rom, free=None, preview=None):
         colors = struct.unpack_from('<16H', rom, pal)
         lum = sorted(range(1, 16), key=lambda i: (colors[i] & 31) + (colors[i] >> 5 & 31) + (colors[i] >> 10 & 31))
         for box, text, *mode in edits:
-            inks = lum[4:] if mode == ['light'] else lum[:3]
-            ink = inks[-1] if mode == ['light'] else inks[0]
-            inpaint(px, box, ink=set(inks), fill=set(range(16)) - set(inks) - {0})
+            # mode: none = dark ink (3 darkest); 'light' = all but the 4 darkest; 'white' = 3 brightest;
+            # a trailing '0' lets the fill use transparency (lettering spilling outside the picture)
+            m = mode[0] if mode else ''
+            light = m.startswith(('light', 'white'))
+            inks = lum[-3:] if m.startswith('white') else lum[4:] if light else lum[:3]
+            ink = inks[-1] if light else inks[0]
+            fill = set(range(16)) - set(inks) - (set() if m.endswith('0') else {0})
+            inpaint(px, box, ink=set(inks), fill=fill)
             cx, cy = (box[0] + box[2]) // 2, (box[1] + box[3]) // 2 - 5
             draw_text(px, text, 9, cx, cy, ink)
             draw_text(px, text, 9, cx + 1, cy, ink)   # bold

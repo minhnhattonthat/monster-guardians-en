@@ -30,8 +30,8 @@
   ],
   "jp": "ゴーレムライト",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Golem Light",
+  "status": "done"
  },
  {
   "id": "0CFA2E",
@@ -40,8 +40,8 @@
   ],
   "jp": "ホワイトドラゴン",
   "bytes": 18,
-  "en": "",
-  "status": "todo"
+  "en": "White Dragon",
+  "status": "done"
  },
  {
   "id": "0CFA40",
@@ -50,8 +50,8 @@
   ],
   "jp": "リトルガウ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "Little Gau",
+  "status": "done"
  },
  {
   "id": "0CFA4C",
@@ -60,8 +60,8 @@
   ],
   "jp": "リトルガウ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "Little Gau",
+  "status": "done"
  },
  {
   "id": "0CFA58",
@@ -70,8 +70,8 @@
   ],
   "jp": "こあくま",
   "bytes": 10,
-  "en": "",
-  "status": "todo"
+  "en": "Imp",
+  "status": "done"
  },
  {
   "id": "0CFA62",
@@ -80,8 +80,8 @@
   ],
   "jp": "メインガウ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "Main Gau",
+  "status": "done"
  },
  {
   "id": "0CFA6E",
@@ -90,8 +90,8 @@
   ],
   "jp": "メインガウ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "Main Gau",
+  "status": "done"
  },
  {
   "id": "0CFA7A",
@@ -100,8 +100,8 @@
   ],
   "jp": "ＬＶ１５以上のミノドラゴン",
   "bytes": 28,
-  "en": "",
-  "status": "todo"
+  "en": "a Minodragon of Level 15 or higher",
+  "status": "done"
  },
  {
   "id": "0CFA96",
@@ -110,8 +110,8 @@
   ],
   "jp": "ヘビーガウ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "Heavy Gau",
+  "status": "done"
  },
  {
   "id": "0CFAA2",
@@ -120,8 +120,8 @@
   ],
   "jp": "ゴブリンフライ",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Goblin Fly",
+  "status": "done"
  },
  {
   "id": "0CFAB2",
@@ -130,8 +130,8 @@
   ],
   "jp": "ブラックドラゴン",
   "bytes": 18,
-  "en": "",
-  "status": "todo"
+  "en": "Black Dragon",
+  "status": "done"
  },
  {
   "id": "0CFAC4",
@@ -140,8 +140,8 @@
   ],
   "jp": "チンビュアリー",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Chinbeaury",
+  "status": "done"
  },
  {
   "id": "0CFAD4",
@@ -150,8 +150,8 @@
   ],
   "jp": "チンビュアリー",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Chinbeaury",
+  "status": "done"
  },
  {
   "id": "0CFAE4",
@@ -160,8 +160,8 @@
   ],
   "jp": "ハイエルフ",
   "bytes": 12,
-  "en": "",
-  "status": "todo"
+  "en": "High Elf",
+  "status": "done"
  },
  {
   "id": "0CFAF0",
@@ -170,8 +170,8 @@
   ],
   "jp": "リンビュアリー",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Linbeaury",
+  "status": "done"
  },
  {
   "id": "0CFB00",
@@ -180,8 +180,8 @@
   ],
   "jp": "リンビュアリー",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Linbeaury",
+  "status": "done"
  },
  {
   "id": "0CFB10",
@@ -190,8 +190,8 @@
   ],
   "jp": "ＬＶ１５以上のドラグリフォン",
   "bytes": 30,
-  "en": "",
-  "status": "todo"
+  "en": "a Dragriffon of Level 15 or higher",
+  "status": "done"
  },
  {
   "id": "0CFB2E",
@@ -200,8 +200,8 @@
   ],
   "jp": "メインビュアリー",
   "bytes": 18,
-  "en": "",
-  "status": "todo"
+  "en": "Main Beaury",
+  "status": "done"
  },
  {
   "id": "0CFB40",
@@ -210,8 +210,8 @@
   ],
   "jp": "僕",
   "bytes": 4,
-  "en": "",
-  "status": "todo"
+  "en": "I",
+  "status": "done"
  },
  {
   "id": "0CFB44",
@@ -220,8 +220,8 @@
   ],
   "jp": "ご子息",
   "bytes": 8,
-  "en": "",
-  "status": "todo"
+  "en": "son",
+  "status": "done"
  },
  {
   "id": "0CFB4C",
@@ -230,8 +230,8 @@
   ],
   "jp": "伝説の魔獣使い",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Legendary Monster Tamer",
+  "status": "done"
  },
  {
   "id": "0CFB5C",
@@ -240,8 +240,8 @@
   ],
   "jp": "彼",
   "bytes": 4,
-  "en": "",
-  "status": "todo"
+  "en": "he",
+  "status": "done"
  },
  {
   "id": "0CFB60",
@@ -250,8 +250,8 @@
   ],
   "jp": "私",
   "bytes": 4,
-  "en": "",
-  "status": "todo"
+  "en": "I",
+  "status": "done"
  },
  {
   "id": "0CFB64",
@@ -260,8 +260,8 @@
   ],
   "jp": "ご息女",
   "bytes": 8,
-  "en": "",
-  "status": "todo"
+  "en": "daughter",
+  "status": "done"
  },
  {
   "id": "0CFB6C",
@@ -270,8 +270,8 @@
   ],
   "jp": "伝説の魔獣使い",
   "bytes": 16,
-  "en": "",
-  "status": "todo"
+  "en": "Legendary Monster Tamer",
+  "status": "done"
  },
  {
   "id": "0CFB7C",
@@ -280,8 +280,8 @@
   ],
   "jp": "彼女",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "she",
+  "status": "done"
  },
  {
   "id": "0CFF84",
@@ -1248,8 +1248,8 @@
   ],
   "jp": "生命",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Life",
+  "status": "done"
  },
  {
   "id": "0D30FA",
@@ -1258,8 +1258,8 @@
   ],
   "jp": "耐久",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Stamina",
+  "status": "done"
  },
  {
   "id": "0D3100",
@@ -1268,8 +1268,8 @@
   ],
   "jp": "攻撃",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Attack",
+  "status": "done"
  },
  {
   "id": "0D3106",
@@ -1278,8 +1278,8 @@
   ],
   "jp": "防御",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Defense",
+  "status": "done"
  },
  {
   "id": "0D310C",
@@ -1288,8 +1288,8 @@
   ],
   "jp": "行動",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Action",
+  "status": "done"
  },
  {
   "id": "0D3112",
@@ -1298,8 +1298,8 @@
   ],
   "jp": "知識",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Wisdom",
+  "status": "done"
  },
  {
   "id": "0D3118",
@@ -1308,8 +1308,8 @@
   ],
   "jp": "必殺技",
   "bytes": 8,
-  "en": "",
-  "status": "todo"
+  "en": "Special",
+  "status": "done"
  },
  {
   "id": "0D3120",
@@ -1318,8 +1318,8 @@
   ],
   "jp": "反撃",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Counter",
+  "status": "done"
  },
  {
   "id": "0D3126",
@@ -1328,8 +1328,8 @@
   ],
   "jp": "索敵",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Search",
+  "status": "done"
  },
  {
   "id": "0D312C",
@@ -1338,8 +1338,8 @@
   ],
   "jp": "従順",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Obedience",
+  "status": "done"
  },
  {
   "id": "0D3132",
@@ -1348,8 +1348,8 @@
   ],
   "jp": "命中",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Accuracy",
+  "status": "done"
  },
  {
   "id": "0D3138",
@@ -1358,8 +1358,8 @@
   ],
   "jp": "回避",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Evasion",
+  "status": "done"
  },
  {
   "id": "0D313E",
@@ -1368,7 +1368,7 @@
   ],
   "jp": "技能",
   "bytes": 6,
-  "en": "",
-  "status": "todo"
+  "en": "Skill",
+  "status": "done"
  }
 ]

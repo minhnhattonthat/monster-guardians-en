@@ -4,6 +4,7 @@ import unittest
 from tools import romlib, dump
 
 
+@unittest.skipUnless(romlib.ROM.exists(), 'needs rom/mg_jp.gba')
 class RoundtripTest(unittest.TestCase):
     """Every extracted string re-encodes to the original bytes, and the banks cover their ranges gap-free."""
 

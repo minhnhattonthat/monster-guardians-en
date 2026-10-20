@@ -1,0 +1,2 @@
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too).
+350351b03349728a8ff0a5b0985ad62df7baacc9  rom/mg_jp.gba

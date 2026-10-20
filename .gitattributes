@@ -2,6 +2,7 @@
 *.gba binary
 *.bin binary
 *.png binary
+*.ttf binary
 *.bps binary
 *.ips binary
 *.ss1 binary

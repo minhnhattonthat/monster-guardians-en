@@ -1,0 +1,19 @@
+# Status
+
+Updated at the end of every session. Keep it to what the next session needs; history is in git.
+
+- **Phase:** 9 (release). Last build: after the 2026-10-20 playtest fixes.
+- **Done:** all text banks (story, ui9, m8 menu/shop/msg/itemdesc/stage/mobile/link/port), 8x8 engine (condensed
+  pairs + tile cache), 523 name fields (all condensed), Leo/Tina, Latin keyboard, graphics (title, 3 chapter cards,
+  class tiles, battle buttons, 9 scene SFX, battle-map "Back" hint), reviews (story, m8 Critical/Important).
+  2026-10-19 playtest bugs all closed (`docs/bugs.md`): story-font per-glyph advance (asm/story.asm), word-level
+  wrap + widow control, 15-cell line cap, shop typewriter, white condensed text, cursor gaps, Time-row alignment.
+- **Next:** rebuild the release (release/ v1.0 predates the playtest fixes): `python -X utf8 tools/release.py 1.0`.
+- **Open:**
+  - Status tags 修行中 / 使用中 (OBJ tiles 0x50F7D8-0x50FE18, `docs/graphics.md` 5c): not redrawn; need a savestate
+    showing them.
+  - Order descriptions (ui9 0CD3DC-0CD4DC) indented but not seen in game (probably Options > Help ON).
+  - 17 m8 Minor review notes (work/review/m8.report.md).
+  - Chapters 2-3, shops other than the first, fusion, link and password screens not toured in-emulator.
+  - Free space used to 0x79CFB8 of 0x7A0000 (pair table at 0x7A0000).
+- **Waiting on the user:** title banner left blank (no "Monster Guardians" overlay): keep or draw text?

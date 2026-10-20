@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import check_rom  # noqa: E402
 import gfx  # noqa: E402
 import menu8  # noqa: E402
 import records  # noqa: E402
@@ -417,6 +418,7 @@ if __name__ == '__main__':
     ap.add_argument('--out', default=str(romlib.ROOT / 'build' / 'mg_en.gba'))
     ap.add_argument('--width', action='append', default=[], help='BANK=PX line width override (measuring)')
     a = ap.parse_args()
+    check_rom.check()
     for w in a.width:
         bank, px = w.split('=')
         BANKS[bank]['width'] = int(px)

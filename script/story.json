@@ -430,7 +430,7 @@
   ],
   "jp": "～廃墟～{c7533}朝もやの中、人里離れた廃墟から、{br}男達の声が聞こえた！{clear}追っ手１「見つけ出すぞ！」{clear}追っ手２「逃がすな！！」",
   "bytes": 120,
-  "en": "- The Ruins -{c7533}Through the morning mist, men's voices rang out from ruins far from any village!{clear}Pursuer 1: \"We'll find the kid!\"{clear}Pursuer 2: \"Don't let the kid escape!!\"",
+  "en": "- The Ruins -{c7533}Through the morning mist, men's voices rang out from ruins far from any village.{clear}Pursuer 1: \"We'll find the kid!\"{clear}Pursuer 2: \"Don't let the kid escape!!\"",
   "status": "done"
  },
  {
@@ -570,7 +570,7 @@
   ],
   "jp": "{c7538:0007,0008}クリムト「{c7535:0001,0010}・・・{c7536}」{clear}クリムト「伝説の魔獣使いのタクトが目的か？{br}いや・・・なんでもない。{clear}それよりおぬし・・・{br}父や家族の仇をとるつもりか？{clear}何も言わんでも{br}その目が語っとるわい！」",
   "bytes": 198,
-  "en": "{c7538:0007,0008}Klimt: \"{c7535:0001,0010}...{c7536}\"{clear}Klimt: \"Was he after the baton of the Legendary Monster Tamer? No... never mind.{clear}More to the point, you... Do you mean to avenge your father and family?{clear}You needn't say a word. Your eyes say it all!\"",
+  "en": "{c7538:0007,0008}Klimt: \"{c7535:0001,0010}...{c7536}\"{clear}Klimt: \"Was he after the baton of {col:0002}the Legendary Monster Tamer{colend}? No... never mind.{clear}More to the point, you... Do you mean to avenge your father and family?{clear}You needn't say a word. Your eyes say it all!\"",
   "status": "done"
  },
  {
@@ -750,7 +750,7 @@
   ],
   "jp": "{c7539:0015,0016}{c7539:0017,0018}クリムト「よいか、それまでに{clear}伝説の魔獣{col:0002}{word1:0008}{colend}の中型体を{br}完成させるのじゃ！{clear}次は{col:0002}{word1:0003}{colend}と{clear}{col:0002}{word1:0004}{colend}を合成する。{clear}さすれば、{col:0002}{word1:0008}{colend}の{clear}中型体{col:0002}{word1:0005}{colend}が{br}完成するはずじゃ！」",
   "bytes": 202,
-  "en": "{c7539:0015,0016}{c7539:0017,0018}Klimt: \"Listen, before then{clear}you must complete the mid form of the Legendary Monster {col:0002}{word1:0008}{colend}!{clear}Next, fuse {col:0002}{word1:0003}{colend} with{clear}{col:0002}{word1:0004}{colend}.{clear}Do that, and the mid form of {col:0002}{word1:0008}{colend},{clear}{col:0002}{word1:0005}{colend}, should be complete!\"",
+  "en": "{c7539:0015,0016}{c7539:0017,0018}Klimt: \"Listen, before then{clear}you must complete the mid form of the Legendary Monster {col:0002}{word1:0008}{colend}!{clear}Next, fuse {col:0002}{word1:0003}{colend} with {col:0002}{word1:0004}{colend}.{clear}Do that, and the mid form of {col:0002}{word1:0008}{colend},{clear}{col:0002}{word1:0005}{colend}, should be complete!\"",
   "status": "done"
  },
  {
@@ -1010,7 +1010,7 @@
   ],
   "jp": "{c7539:0023,0024}{c7539:0025,0026}クリムト{br}「いいか！これで伝説の魔獣{br}{col:0002}{word1:0008}{colend}が完成する。{clear}中型体の{col:0002}{word1:0006}{colend}と{clear}{col:0002}{word1:0007}{colend}を合成するんじゃ！",
   "bytes": 126,
-  "en": "{c7539:0023,0024}{c7539:0025,0026}Klimt: \"Listen! This will complete the Legendary Monster, {col:0002}{word1:0008}{colend}.{clear}Fuse the mid form {col:0002}{word1:0006}{colend} with{clear}{col:0002}{word1:0007}{colend}!\"",
+  "en": "{c7539:0023,0024}{c7539:0025,0026}Klimt: \"Listen! This will complete the Legendary Monster, {col:0002}{word1:0008}{colend}.{clear}Fuse the mid form {col:0002}{word1:0006}{colend} with {col:0002}{word1:0007}{colend}!\"",
   "status": "done"
  },
  {
@@ -1110,7 +1110,7 @@
   ],
   "jp": "ウィンスロー{br}「これが目的だったのか！」{clear}ウィンスロー王が{br}伝説の魔獣使いのタクトを{clear}ベリンガムの前に差し出した時！{clear}タクトを見た{br}{name}の心がカノンの{br}魂に支配され",
   "bytes": 164,
-  "en": "Winslow: \"So this was what you were after!\"{clear}The moment King Winslow held out the Legendary Monster Tamer's baton{clear}before Bellingham...!{clear}At the sight of the baton, {name}'s heart was seized by Canon's soul--",
+  "en": "Winslow: \"So this was what you were after!\"{clear}The moment King Winslow held out {col:0002}the Legendary Monster Tamer{colend}'s baton{clear}before Bellingham...!{clear}At the sight of the baton, {name}'s heart was seized by Canon's soul--",
   "status": "done"
  },
  {
@@ -1120,7 +1120,7 @@
   ],
   "jp": "伝説の魔獣使いに{br}恨みを持つカノンが、{clear}弟であるウィンスロー王に{br}何をしたのか・・・",
   "bytes": 86,
-  "en": "Canon, which bore a grudge against the Legendary Monster Tamer...{clear}What had it done to {name}'s younger brother, King Winslow...?",
+  "en": "Canon, which bore a grudge against {col:0002}the Legendary Monster Tamer{colend}...{clear}What had it done to {name}'s younger brother, King Winslow...?",
   "status": "done"
  },
  {

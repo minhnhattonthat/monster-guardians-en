@@ -1,6 +1,6 @@
 """Fixed 8-code name fields in data records (8x8 font): monster table and item table.
 
-script/names.json maps each Japanese name to English (<= 16 chars; > 8 chars are drawn condensed, 2 per tile).
+script/names.json maps each Japanese name to English (<= 16 chars; all drawn condensed, 2 per tile, so short and long names match).
 Every record whose name matches gets the English, so duplicate records stay consistent.
 
     python -X utf8 tools/records.py list      # JP names per table, with EN and status

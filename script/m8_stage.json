@@ -417,7 +417,7 @@
   "jp": "じかん",
   "len": 3,
   "term": true,
-  "en": "Time",
+  "en": "Time  ",
   "status": "done"
  },
  {
@@ -530,6 +530,7 @@
  },
  {
   "id": "0C60F2",
+  "condense": true,
   "slots": [
    "0C4F80",
    "0C5064",

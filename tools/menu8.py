@@ -93,9 +93,10 @@ def plain_len(line):
     return len(TOKEN_EN.sub('', line))
 
 
-def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None):
+def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None, condense=False):
     """English -> codes (no terminator). Normal 8 px tiles when every line fits `width` tiles and the total fits
-    `budget` codes; otherwise condensed pairs (2 chars per tile). Returns (codes, mode) or raises ValueError."""
+    `budget` codes; otherwise condensed pairs (2 chars per tile). condense: always pairs (an entry shown next
+    to condensed ones, e.g. No beside Yes). Returns (codes, mode) or raises ValueError."""
     ls = lines_of(text)
     if len(ls) > nlines:
         raise ValueError(f'{len(ls)} lines (max {nlines})')
@@ -134,7 +135,7 @@ def encode_en(text, budget, width, nlines, enc, pairs=None, cond_chars=None):
         return out
 
     codes = normal()
-    if len(codes) <= budget and all(plain_len(l) <= width for l in ls):
+    if not condense and len(codes) <= budget and all(plain_len(l) <= width for l in ls):
         return codes, 'normal'
     codes = condensed()
     if len(codes) <= budget and all(-(-plain_len(l) // 2) <= width for l in ls):
@@ -204,7 +205,7 @@ def build(rom, marker=False, free=None):
                 continue
             budget, width, nl = limits(e)
             try:
-                codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars)
+                codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars, e.get('condense', False))
             except ValueError as err:
                 raise SystemExit(f'm8_{bank} {e["id"]}: {err}')
             if e.get('reloc'):

@@ -20,6 +20,7 @@ FONT_SIG  equ 0x080BEDF0 + 0x0C * 32   ; ROM font tile for 'A' (code 0x0C): neve
 ; ---- hooks: each replaces 4 bytes with a bl to its stub ----
 .org 0x08027E1C :: bl stub_r3_strh      ; draw0 (0x08027DE8): adds r0,r3,r0 / strh r0,[r1]
 .org 0x08027F58 :: bl stub_r3_strh      ; draw (0x08027F1C)
+.org 0x08027EE8 :: bl stub_r1_r3_strh4  ; typewriter (shop dialogue): adds r0,r1,r3 / strh r0,[r4]
 .org 0x08027FC0 :: bl stub_ip_strh      ; draw (0x08027F78): add r0,ip / strh r0,[r1]
 .org 0x0802803C :: bl stub_r5_strh      ; draw (0x08027FF8): adds r0,r5,r0 / strh r0,[r1]
 .org 0x0803D178 :: bl stub_ip_orr5      ; line drawer (0x0803D114): add r0,ip / orrs r0,r5
@@ -40,13 +41,21 @@ FONT_SIG  equ 0x080BEDF0 + 0x0C * 32   ; ROM font tile for 'A' (code 0x0C): neve
 ; Code must be within bl range (4 MB) of the hooks: the zero gap 0x0809C3F0-0x0809C8D0 after the program code
 ; (no pointer into it; never read in boot/story/menu/map/battle tours).
 CODE_START equ 0x0809C400
-CODE_END   equ 0x0809C8C0
+CODE_END   equ 0x0809C800      ; 0x0809C800-0x0809C8C0: story.asm
 .org CODE_START
 stub_r3_strh:
   push {lr}
   bl conv
   add r0,r3,r0
   strh r0,[r1]
+  pop {pc}
+
+stub_r1_r3_strh4:
+  push {lr}
+  mov r0,r1
+  bl conv
+  add r0,r0,r3
+  strh r0,[r4]
   pop {pc}
 
 stub_ip_strh:
@@ -306,6 +315,8 @@ check:
 .if . > CODE_END
   .error "menu8 code overflows the gap"
 .endif
+
+.include "story.asm"
 
 .org MENU8_DATA
 .align 4

@@ -22,12 +22,16 @@ import vwf  # noqa: E402
 FREE_START, FREE_END = 0x770000, 0x7A0000   # 0x7A0000-: asm/menu8.asm (see assemble)
 # bank -> font size, font struct offset, original glyph count, layout (line px, lines per page)
 BANKS = {
-    # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP
-    'story': dict(font=11, struct=0x0D6C24, nglyphs=685, width=192, lines=2),
+    # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP.
+    # put-glyph breaks the line itself at the 16th glyph when its line index is 1 (then our page break shows an
+    # empty page). After {c7533} the first line on the page already has index 1, so every line is capped at 15.
+    'story': dict(font=11, struct=0x0D6C24, nglyphs=685, width=192, lines=2, caps=(15,)),
     # battle popups draw {br} as a glyph and auto-wrap at 11 cells: line breaks become blank-cell padding
     'ui9': dict(font=9, struct=0x0CF520, nglyphs=317, width=110, lines=2, pad=(11, 0x031)),
 }
-NAME_CHARS = 6            # player name length budget for wrapping ({name} = one 12 px OBJ per character)
+NAME_CHARS = 6            # player name length budget for wrapping ({name} = one OBJ per character)
+GRID = 0x0CFB82           # {name}: 8x8 code (name-entry grid index) -> story font glyph code
+WORD_TABLES = {'word1': 0x0C7410, 'word2': 0x0C73F0}   # {wordN:i}: string pointers [2i], [2i + 1] (variants)
 PAGE = '{clear}'          # control emitted when a page fills up (story: waits for A, then clears)
 # Auto-advancing intro: {page} scrolls ONE line up (no wait) and {clear} clears without waiting, so a full page
 # gets a timed wait and one {page} per line on screen.
@@ -71,26 +75,30 @@ class Free:
 
 
 class Glyphs:
-    """Original glyph array + appended English cells (deduplicated)."""
+    """Original glyph array + appended English cells (deduplicated), each with its advance in px (story font:
+    asm/story.asm reads the advance table; original glyphs keep the pitch)."""
 
-    def __init__(self, rom, struct_off, n):
+    def __init__(self, rom, struct_off, n, pitch):
         self.struct = struct_off
         ptr = struct.unpack_from('<I', rom, struct_off + 8)[0] - romlib.BASE
         self.bpg = struct.unpack_from('<I', rom, struct_off + 16)[0]
         self.data = bytearray(rom[ptr:ptr + n * self.bpg])
-        self.n, self.index = n, {}
+        self.n, self.index, self.adv = n, {}, bytearray([pitch] * n)
 
-    def code(self, cell):
-        if cell not in self.index:
-            self.index[cell] = self.n + len(self.index)
+    def code(self, cell, adv=None):
+        key = (cell, adv)
+        if key not in self.index:
+            self.index[key] = self.n + len(self.index)
             self.data += cell
-            if self.index[cell] >= 0x7530:
+            self.adv.append(self.adv[0] if adv is None else adv)
+            if self.index[key] >= 0x7530:
                 raise SystemExit('glyph codes ran into the control-code range')
-        return self.index[cell]
+        return self.index[key]
 
     def commit(self, rom, free):
         off = free.put(bytes(self.data))
         struct.pack_into('<I', rom, self.struct + 8, romlib.BASE + off)
+        return free.put(bytes(self.adv)), len(self.adv)
 
 
 def box_of(bank, e):
@@ -103,31 +111,120 @@ def box_of(bank, e):
     return cfg['width'], cfg['lines'], cfg.get('pad')
 
 
+def name_glyphs(rom, font, glyphs):
+    """{name} maps each 8x8 name code through GRID to a story glyph: point every Latin keyboard code at a
+    proportional English glyph (advance = its width) instead of the fullwidth JIS one. -> {name} (px, cells)."""
+    dec, _ = romlib.load_table('jp8')
+    ascii_of = {v: k for k, v in menu8.ASCII.items()}
+    widest = 0
+    for k in set(struct.unpack_from('<228H', rom, KEYBOARD + 2 * 456)) | {menu8.SPACE}:
+        ch = ascii_of.get(dec.get(k))
+        if ch and ch in font.glyphs:
+            struct.pack_into('<H', rom, GRID + 2 * k, glyphs.code(font.cells(ch)[0], font.width(ch)))
+            widest = max(widest, font.width(ch))
+    return NAME_CHARS * widest, NAME_CHARS
+
+
+def inline_widths(rom, entries, font, name):
+    """Controls that print text -> (px, cells): {name}, and {wordN:i} = its widest variant."""
+    by_slot = {int(s, 16): e for e in entries for s in e['slots']}
+    out = {'{name}': name}
+    for ctl, table in WORD_TABLES.items():
+        for i in range(0x100):
+            variants = [by_slot.get(table + 8 * i + 4 * v) for v in (0, 1)]
+            if not all(variants):
+                break
+            texts = [''.join(v for k, v in parse(e['en'] or '') if k == 'text') for e in variants]
+            out['{%s:%04X}' % (ctl, i)] = (max(font.width(t) for t in texts),
+                                           max(font.ncells(t) for t in texts))
+    return out
+
+
 def parse(text):
     """-> list of ('text', str) / ('ctl', '{...}')."""
     return [('ctl', p) if TOKEN.fullmatch(p) else ('text', p) for p in TOKEN.split(text) if p]
 
 
-def layout(text, font, width, lines, name_w, auto=False):
+def words(text):
+    """-> (kind, items) list: ('word', [('text', s) / ('ctl', c)...]) split at spaces only, so a control inside a
+    word ({colend}.) keeps the punctuation with it; ('break', c) for {br} {clear} {page} {c7533}."""
+    out, cur = [], []
+    for kind, val in parse(text):
+        if kind == 'ctl':
+            if val[1:-1].split(':')[0] in ('br', 'clear', 'page', 'c7533'):
+                if cur:
+                    out.append(('word', cur))
+                out.append(('break', val))
+                cur = []
+            else:
+                cur.append((kind, val))
+            continue
+        for chunk in re.findall(r' +[^ ]*|[^ ]+', val):
+            if chunk[0] == ' ' and cur:
+                out.append(('word', cur))
+                cur = []
+            cur.append(('text', chunk))
+    if cur:
+        out.append(('word', cur))
+    return out
+
+
+def layout(text, font, width, lines, inline, auto=False, abut=False, caps=None, early=frozenset()):
     """English text with controls -> token list of runs ('run', str) and controls ('ctl', '{...}'), with {br} and
-    page breaks inserted so that no line exceeds width px (runs start on cell boundaries) and no page exceeds lines.
-    auto: intro mode, where {page} scrolls one line: pages end with AUTO_WAIT + one {page} per line shown."""
-    out, cur, x0, line = [], '', 0, 0
-    cell = font.cell
+    page breaks inserted so that no line exceeds width px and no page exceeds lines.
+    inline: control -> (px, cells) for controls that print text ({name}, {word1:N}, {word2:N}).
+    abut: the engine advances by each cell's own width (story font, asm/story.asm), so a run continues where the
+    previous one ended; else every run starts on a cell boundary.
+    caps: max glyph cells per line, by line index on the page.
+    auto: intro mode, where {page} scrolls one line: pages end with AUTO_WAIT + one {page} per line shown.
+    early: word indices that start a new line (widow control: a page break that would leave one word alone on
+    its page is redone one word earlier)."""
+    out, cur, x, cells, line = [], '', 0, 0, 0
+    opener, count, widows = None, 0, set()   # word that opened the current automatic page, words on it
+
+    def run_px(s):
+        return font.width(s) if abut else font.ncells(s) * font.cell
+
+    def cap():
+        return caps[min(line, len(caps) - 1)] if caps else 1 << 16
+
+    def fits(items):
+        px, n, run = x, cells, cur
+        for kind, val in items + [('ctl', '')]:
+            if kind == 'text':
+                run += val
+                continue
+            if run:
+                px, n, run = px + run_px(run), n + font.ncells(run), ''
+            w, c = inline.get(val, (0, 0))
+            px, n = px + w, n + c
+        return px <= width and n <= cap()
 
     def flush():
-        nonlocal cur, x0
+        nonlocal cur, x, cells
         if cur:
             out.append(('run', cur))
-            x0 += font.ncells(cur) * cell
-            cur = ''
+            x, cells, cur = x + run_px(cur), cells + font.ncells(cur), ''
+
+    def put(items):
+        nonlocal cur, x, cells
+        for kind, val in items:
+            if kind == 'text':
+                cur += val
+            else:
+                flush()
+                out.append((kind, val))
+                w, c = inline.get(val, (0, 0))
+                x, cells = x + w, cells + c
 
     def scroll_all():
         out.extend([('ctl', '{page}')] * (line + 1))
 
     def newline():
-        nonlocal x0, line
+        """-> True when it started a new page."""
+        nonlocal x, cells, line
         flush()
+        x = cells = 0
         if line + 1 >= lines:
             if auto:
                 out.append(('ctl', AUTO_WAIT))
@@ -135,49 +232,59 @@ def layout(text, font, width, lines, name_w, auto=False):
             else:
                 out.append(('ctl', PAGE))
             line = 0
-        else:
-            out.append(('ctl', '{br}'))
-            line += 1
-        x0 = 0
+            return True
+        out.append(('ctl', '{br}'))
+        line += 1
+        return False
 
-    for kind, val in parse(text):
-        if kind == 'ctl':
+    def end_page():
+        nonlocal opener
+        if opener is not None and count == 1:
+            widows.add(opener - 1)
+        opener = None
+
+    wi = -1
+    for kind, val in words(text):
+        if kind == 'break':
             name = val[1:-1].split(':')[0]
             if name == 'br':
-                newline()
-            elif name in ('clear', 'page', 'c7533'):
-                flush()
-                if auto and name == 'page':
-                    scroll_all()
-                else:
-                    out.append((kind, val))
-                x0, line = 0, 0
-            elif name == 'name':
-                flush()
-                if x0 + name_w > width:
-                    newline()
-                out.append((kind, val))
-                x0 += name_w
+                if newline():
+                    end_page()
+                continue
+            end_page()
+            flush()
+            if auto and name == 'page':
+                scroll_all()
             else:
-                flush()
-                out.append((kind, val))
+                out.append(('ctl', val))
+            x, cells, line = 0, 0, 0
             continue
-        for word in re.findall(r' *[^ ]+| +$', val):
-            cand = cur + word
-            if x0 + font.width(cand) > width and (cur.strip() or x0 > 0):
-                newline()
-                cand = word.lstrip(' ')
-            cur = cand
+        wi += 1
+        if (wi in early or not fits(val)) and (x or cur.strip()):
+            if newline():
+                end_page()
+                opener, count = wi, 0
+            first = val[0]
+            if first[0] == 'text':
+                val = ([('text', first[1].lstrip(' '))] if first[1].strip() else []) + val[1:]
+        put(val)
+        count += any(v.strip() if k == 'text' else v in inline for k, v in val)
+    end_page()
     flush()
+    if widows - early:
+        return layout(text, font, width, lines, inline, auto, abut, caps, early | widows)
     return out
 
 
-def encode(tokens, font, glyphs, pad=None):
-    """pad=(cells per line, blank glyph code): {br} becomes blank cells up to the line end (engine auto-wrap)."""
+def encode(tokens, font, glyphs, pad=None, abut=False):
+    """pad=(cells per line, blank glyph code): {br} becomes blank cells up to the line end (engine auto-wrap).
+    abut: a run's last cell advances only to the run's end."""
     codes, n = [], 0
     for kind, val in tokens:
         if kind == 'run':
-            cells = [glyphs.code(c) for c in font.cells(val)]
+            cells = font.cells(val)
+            advs = [font.cell] * (len(cells) - 1) + [font.width(val) - font.cell * (len(cells) - 1)]
+            cells = [glyphs.code(c, a if abut else None) for c, a in zip(cells, advs)]
             codes += cells
             n += len(cells)
         elif pad and val == '{br}':
@@ -215,13 +322,16 @@ def build(out_path, marker=False, qa=None):
     default_names(rom, free)
     keyboard(rom)
     qa = qa or {}
-    stats = {}
+    stats, adv = {}, None
     for bank, cfg in BANKS.items():
         path = romlib.ROOT / 'script' / f'{bank}.json'
         font = vwf.Font(cfg['font'])
-        glyphs = Glyphs(rom, cfg['struct'], cfg['nglyphs'])
+        glyphs = Glyphs(rom, cfg['struct'], cfg['nglyphs'], font.cell)
+        entries = json.loads(path.read_text(encoding='utf-8'))
+        abut = bank == 'story'
+        inline = inline_widths(rom, entries, font, name_glyphs(rom, font, glyphs)) if abut else {}
         done = 0
-        for e in json.loads(path.read_text(encoding='utf-8')):
+        for e in entries:
             if e['status'] == 'unused' or not e['slots']:
                 continue
             text = qa.get(e['id']) or e['en'] or (marker_text(e) if marker else '')
@@ -232,22 +342,24 @@ def build(out_path, marker=False, qa=None):
                 raise SystemExit(f'{bank} {e["id"]}: no glyph for {miss}')
             auto = bank == 'story' and AUTO[0] <= int(e['id'], 16) < AUTO[1]
             width, lines, pad = box_of(bank, e)
-            tokens = layout(text, font, width, lines, NAME_CHARS * 12, auto)
+            tokens = layout(text, font, width, lines, inline, auto, abut, cfg.get('caps'))
             if bank == 'ui9' and sum(v == '{clear}' for k, v in tokens) > text.count('{clear}'):
                 raise SystemExit(f'ui9 {e["id"]}: more than {lines} line(s) at {width}px')
-            codes = encode(tokens, font, glyphs, pad)
+            codes = encode(tokens, font, glyphs, pad, abut)
             off = free.put(struct.pack('<%dH' % len(codes), *codes), 2)
             for s in e['slots']:
                 struct.pack_into('<I', rom, int(s, 16), romlib.BASE + off)
             done += 1
-        glyphs.commit(rom, free)
+        table = glyphs.commit(rom, free)
+        if abut:
+            adv = table
         stats[bank] = (done, len(glyphs.index))
     stats['gfx'] = (gfx.apply_all(rom, free), 0)
     n8, pool, kept = menu8.build(rom, marker, free)
-    n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1])[0])
+    n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1], condense=True)[0])
     Path(out_path).parent.mkdir(exist_ok=True)
     Path(out_path).write_bytes(rom)
-    assemble(out_path, pool)
+    assemble(out_path, pool, adv)
     for bank, (n, cells) in stats.items():
         print(f'{bank}: {n} strings, {cells} cells')
     print(f'menu8: {n8} strings/names, cache pool {len(pool)} slots'
@@ -280,8 +392,9 @@ def keyboard(rom):
 ASM_AT = 0x7A0000   # asm/menu8.asm code + pair tiles (296 KB) up to ROM end
 
 
-def assemble(rom_path, pool):
-    """Assemble asm/menu8.asm onto the built ROM (armips), with the pair tiles and the cache pool."""
+def assemble(rom_path, pool, adv):
+    """Assemble asm/menu8.asm (+ story.asm) onto the built ROM (armips), with the pair tiles, the cache pool and
+    the story font advance table adv = (offset, count)."""
     import subprocess
     work = romlib.ROOT / 'build'
     (work / 'pairs.bin').write_bytes(menu8.pairs_bin())
@@ -290,8 +403,9 @@ def assemble(rom_path, pool):
     cmd = [str(exe), str(romlib.ROOT / 'asm' / 'menu8.asm'),
            '-strequ', 'BUILD_ROM', str(Path(rom_path).resolve()),
            '-strequ', 'POOL_BIN', str(work / 'pool.bin'), '-strequ', 'PAIRS_BIN', str(work / 'pairs.bin'),
-           '-equ', 'MENU8_DATA', hex(0x08000000 + ASM_AT)]
-    r = subprocess.run(cmd, capture_output=True, text=True)
+           '-equ', 'MENU8_DATA', hex(0x08000000 + ASM_AT),
+           '-equ', 'ADV_TABLE', hex(romlib.BASE + adv[0]), '-equ', 'ADV_COUNT', str(adv[1])]
+    r = subprocess.run(cmd, capture_output=True, text=True, cwd=romlib.ROOT / 'asm')   # .include is cwd-relative
     if r.returncode:
         raise SystemExit('armips failed:\n' + r.stdout + r.stderr)
 

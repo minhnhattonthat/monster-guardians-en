@@ -33,6 +33,8 @@ Read it before ROM, text or QA work. `$S` below = `.claude/skills/translate-retr
   fields, Leo/Tina, Latin keyboard, graphics (title, 3 cards, class tiles, buttons, 9 scene SFX), reviews (story,
   m8 Critical/Important fixed). RC v1.0: `python -X utf8 tools/release.py 1.0` -> release/ (local, unpublished);
   cold-boot tour to menu/map OK, 0 truncated strings.
+- 2026-10-20: playtest bugs (docs/bugs.md) fixed: story-font per-glyph advance (asm/story.asm), word-level wrap
+  + widow control, 15-cell line cap. RC v1.0 in release/ predates this: rebuild before release.
 - Open: 17 m8 Minor review notes (work/review/m8.report.md); chapters 2-3 + shops/fusion/link/password screens
   not toured in-emulator; free space 0x79B3C0 of 0x7A0000 (pair table at 0x7A0000).
 - Release command: `python -X utf8 tools/release.py VERSION`. Never publish without the user.

@@ -17,6 +17,11 @@ ROM: `Monster Guardians (Japan).gba`, 8 MiB, CRC32 93815CDE, SHA-1 350351b033497
   (JIS order). Tables: `tools/mktbl.py` -> `tbl/jp11.tbl`, `tbl/jp9.tbl` (readings checked against decoded text).
 - Rendering (11px story): each glyph becomes its own 16x16 OBJ (4bpp), cell pitch 12 px; glyph bitmap expanded at
   0x0807D384 into EWRAM 0x02001170, CpuSet to OBJ VRAM. Object slots per box: 34 (0x0808102C `cmp r3,#0x21`).
+- put-glyph 0x08081010 (one caller, 0x08080F30): cursor x at obj+0x448 (px; OBJ x = x << 5), y +0x44A, glyphs on
+  the line +0x44C (the 17th on line 1 / 16th on line 2 breaks the line itself), line +0x44E. It added font w + 1;
+  `asm/story.asm` hooks 0x0808107E to add a per-code advance from a table built by `tools/insert.py` for the
+  story font (English cells end where their ink ends; {name} letters proportional via the grid table 0x0CFB82,
+  whose only reader is the {name} expansion at 0x0808140C).
 - Interpreter object (EWRAM, e.g. 0x02000AAC): `+0x0C` owner, `+0x10` font struct, `+0x48` u16 text buffer,
   `+0x450` read index, `+0x460` source ptr, `+0x464` buffer write ptr.
   - Loader 0x08081450 copies the source string into the buffer; codes with a load-time handler

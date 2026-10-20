@@ -40,6 +40,7 @@
  },
  {
   "id": "0BD3A6",
+  "condense": true,
   "slots": [
    "041ADC",
    "041E94",
@@ -600,6 +601,7 @@
  },
  {
   "id": "0BD54E",
+  "condense": true,
   "slots": [
    "0BAC1C"
   ],
@@ -611,6 +613,7 @@
  },
  {
   "id": "0BD556",
+  "condense": true,
   "slots": [
    "0BAC24"
   ],

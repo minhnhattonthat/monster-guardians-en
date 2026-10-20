@@ -1,6 +1,6 @@
 """8x8 BG font (menus): condensed two-letters-per-tile glyphs from font/cond8.txt.
 
-Original glyphs use palette index 5 = ink, 1 = 1 px outline. Tiles: 4bpp, 8x8, low nibble = left pixel.
+Original glyphs (ROM font 0x0BEDF0) use palette index 15 = ink, 1 = 1 px outline. Tiles: 4bpp, 8x8, low nibble = left pixel.
 
     python -X utf8 tools/font8.py preview "Text to show" OUT.png [--pal work/qa/menu1/ppu.pal.bin --pal-index N]
 """
@@ -14,7 +14,7 @@ import vwf  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 ART = ROOT / 'font' / 'cond8.txt'
 FONT8 = 0x0BEDF0   # 512 raw 4bpp tiles (tile index == text code)
-INK, EDGE = 5, 1
+INK, EDGE = 15, 1
 
 
 def load_art():

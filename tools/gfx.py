@@ -110,7 +110,8 @@ def draw_text(px, text, size, cx, y, color):
 
 # ---- jobs ------------------------------------------------------------------------------------------------
 def job_title(rom, free=None, preview=None):
-    """Title logo banner: katakana reading of the logo -> small English lettering (BG1 rows 13-16)."""
+    """Title logo banner: the katakana reading of the logo is inpainted away (BG1 rows 13-16); English lettering
+    there only repeated the logo (2026-10-19 playtest), so the banner stays blank."""
     hdr, data_off, size = 0x14F1D8, 0x14F1DC, 0x163A
     data = resource(rom, data_off, size)
     # BG1 map rows 13-16 (title screen): tile value - 1 = resource tile; values <= 2 are blank
@@ -121,7 +122,6 @@ def job_title(rom, free=None, preview=None):
             ids[k * 30 + col + i] = first + i - 1
     px = tiles_to_px(data, 30, ids)
     inpaint(px, (52, 12, 194, 26), ink={1, 2, 3, 4, 5, 6, 7, 8, 9}, fill={10, 11, 12, 13, 14, 15})
-    draw_text(px, 'Monster Guardians', 9, 121, 14, 3)
     if preview:
         pal = [((x & 31) * 8, (x >> 5 & 31) * 8, (x >> 10 & 31) * 8) for x in struct.unpack_from('<16H', rom, 0x14F1B8)]
         img = to_image(px, pal)
@@ -351,8 +351,23 @@ def job_sfx(rom, free=None, preview=None):
         sheet.save(preview)
 
 
+BACK_HINT = 0x45279C   # battle map "(B) -> もどる" hint: 64x16 OBJ, 16 raw 4bpp tiles (rows 1-2 of a 64x32 sprite)
+
+
+def job_back_hint(rom, free=None, preview=None):
+    ids = list(range(16))
+    data = rom[BACK_HINT:BACK_HINT + 0x200]
+    px = tiles_to_px(data, 8, ids)
+    inpaint(px, (29, 3, 55, 13), ink={7, 0xE, 0xF}, fill={5, 0xB, 0xD})
+    draw_text(px, 'Back', 9, 43, 4, 0xF)
+    if preview:
+        to_image(px, [(i * 16, i * 16, i * 16) for i in range(16)]).resize((64 * 6, 16 * 6)).save(preview)
+        return
+    rom[BACK_HINT:BACK_HINT + 0x200] = px_to_tiles(data, 8, ids, px)
+
+
 JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles, 'buttons': job_buttons,
-        'sfx': job_sfx}
+        'sfx': job_sfx, 'back_hint': job_back_hint}
 
 
 def apply_all(rom, free):

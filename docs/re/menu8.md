@@ -34,7 +34,8 @@
   Every hit re-verifies the 32-byte tile, so font reloads are healed automatically. One code = one tile, so all
   layout code is unchanged. Code lives in the zero gap 0x0809C400-0x0809C8C0 (bl range); the 96x96 pair table
   (296 KB) at 0x087A0000.
-- Hooked sites: 0x08027E1C/F58/FC0/803C (0-terminated drawers), 0x0803D178/1F6 (line drawer), 0x0803D306/31A/3B2/3C6
+- Hooked sites: 0x08027E1C/F58/FC0/803C (0-terminated drawers), 0x08027EE8 (typewriter: shop dialogue, code |
+  0xF000), 0x0803D178/1F6 (line drawer), 0x0803D306/31A/3B2/3C6
   (renderer + palette tests), 0x0807CBA4 (window module: world map), sprite tile copies 0x0801C788/0801F6B2/
   0807EBD2/08082B0C/08064BDC. New garbage on a screen = an unhooked drawer: find its map write (watch.lua on the BG
   map row), add a stub.

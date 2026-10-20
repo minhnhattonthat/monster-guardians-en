@@ -317,7 +317,7 @@
   ],
   "jp": "　クリア条件　　　　　　戦闘終了",
   "bytes": 34,
-  "en": "Clear Condition{br}End of battle",
+  "en": "   Clear Condition{br}   End of battle",
   "status": "done"
  },
  {
@@ -689,7 +689,7 @@
   ],
   "jp": "　【命令：戦え】　　　敵をみつけて攻撃する",
   "bytes": 44,
-  "en": "[Order: Fight]{br}Find enemies and attack",
+  "en": "   [Order: Fight]{br}Find enemies and attack",
   "status": "done"
  },
  {
@@ -700,7 +700,7 @@
   ],
   "jp": "　【命令：待機】　　　その場で立ち止まる",
   "bytes": 42,
-  "en": "[Order: Wait]{br}Stay in place",
+  "en": "   [Order: Wait]{br}Stay in place",
   "status": "done"
  },
  {
@@ -710,7 +710,7 @@
   ],
   "jp": "　【命令：捕獲】　　　敵を指定して捕まえる",
   "bytes": 44,
-  "en": "[Order: Catch]{br}Pick an enemy and catch it",
+  "en": "   [Order: Catch]{br}Pick an enemy and catch it",
   "status": "done"
  },
  {
@@ -721,7 +721,7 @@
   ],
   "jp": "　【命令：アイテム】　アイテムを拾いにいく",
   "bytes": 44,
-  "en": "[Order: Item]{br}Go pick up items",
+  "en": "   [Order: Item]{br}Go pick up items",
   "status": "done"
  },
  {
@@ -732,7 +732,7 @@
   ],
   "jp": "　【命令：逃げろ】　　敵から逃げる",
   "bytes": 36,
-  "en": "[Order: Flee]{br}Run away from enemies",
+  "en": "   [Order: Flee]{br}Run away from enemies",
   "status": "done"
  },
  {
@@ -743,7 +743,7 @@
   ],
   "jp": "　【命令：守れ】　　　ガードして攻撃をかわす",
   "bytes": 46,
-  "en": "[Order: Guard]{br}Block and avoid attacks",
+  "en": "   [Order: Guard]{br}Block and avoid attacks",
   "status": "done"
  },
  {
@@ -753,7 +753,7 @@
   ],
   "jp": "　【命令：ポコれ】　　集中攻撃",
   "bytes": 32,
-  "en": "[Order: Swarm]{br}Focus attacks on one foe",
+  "en": "   [Order: Swarm]{br}Focus attacks on one foe",
   "status": "done"
  },
  {

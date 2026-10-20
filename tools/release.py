@@ -12,7 +12,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PY = [sys.executable, '-X', 'utf8']
-SKILL = ROOT / '.claude' / 'skills' / 'translate-retro-game' / 'scripts'
 
 README = """Monster Guardians (GBA) - English translation patch v{version}
 ================================================================
@@ -76,7 +75,7 @@ def main(version):
     out = ROOT / 'release'
     out.mkdir(exist_ok=True)
     patch = out / f'Monster_Guardians_EN_v{version}.bps'
-    run(PY + [str(SKILL / 'bps.py'), 'make', str(ROOT / 'rom' / 'mg_jp.gba'), str(built), str(patch)])
+    run(PY + [str(ROOT / 'tools' / 'bps.py'), 'make', str(ROOT / 'rom' / 'mg_jp.gba'), str(built), str(patch)])
     data = built.read_bytes()
     readme = out / 'README.txt'
     readme.write_text(README.format(version=version, crc='%08X' % (zlib.crc32(data) & 0xFFFFFFFF),

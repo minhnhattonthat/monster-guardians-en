@@ -405,5 +405,8 @@ pool:
 .align 4
 pairs:
 .incbin PAIRS_BIN
+.if . > 0x087E9000
+  .error "menu8 data runs into the graphics free space (tools/insert.py GFX_FREE)"
+.endif
 
 .close

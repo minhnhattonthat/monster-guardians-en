@@ -21,6 +21,7 @@ import romlib  # noqa: E402
 import vwf  # noqa: E402
 
 FREE_START, FREE_END = 0x770000, 0x7A0000   # 0x7A0000-: asm/menu8.asm (see assemble)
+GFX_FREE = (0x7E9000, 0x800000)   # edited graphics (~82 KB); menu8.asm data ends ~0x7E8200 (guarded there)
 # bank -> font size, font struct offset, original glyph count, layout (line px, lines per page)
 BANKS = {
     # 17 cells fit, but the page-wait arrow is drawn in the cell after the text: 16 cells like the JP.
@@ -355,7 +356,7 @@ def build(out_path, marker=False, qa=None):
         if abut:
             adv = table
         stats[bank] = (done, len(glyphs.index))
-    stats['gfx'] = (gfx.apply_all(rom, free), 0)
+    stats['gfx'] = (gfx.apply_all(rom, Free(rom, *GFX_FREE)), 0)
     n8, pool, kept = menu8.build(rom, marker, free)
     n8 += records.build(rom, lambda t, b, w, n: menu8.encode_en(t, b, w, n, romlib.load_table('jp8')[1], condense=True)[0])
     Path(out_path).parent.mkdir(exist_ok=True)

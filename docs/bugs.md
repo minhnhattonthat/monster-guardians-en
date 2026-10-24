@@ -86,3 +86,6 @@ and stale pair-cache tiles: garbled/kana names, "SaVe", "Home.Base", wide "G o l
 - [ ] (limit) Odd-length names end in a half-space (`"Golem "`, `Golem Light ,`): names are 2 letters per tile and
   the name is coloured, so the next text can't share its last tile. Widening the inner space of multi-word names
   ("Golem  Light") was tried and reverted: the wide gap shows in every list.
+- [x] (fixed) **Sound-effect lettering clipped in squares** (user, WHAM!/CRACK! scene): pictures reuse backdrop
+  tiles across the map, so pixels drawn into a shared tile were lost. gfx.restore_cells gives every edited cell
+  its own tile and stores the map too (graphics now in their own free region 0x7E9000-0x800000).

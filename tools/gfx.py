@@ -315,10 +315,40 @@ SFX = [   # story pictures with hand-drawn sound effects: (palette, tiles hdr, t
 
 
 def scene_px(rom, toff, tsize, moff, msize):
+    """-> (tiles, map entries, 256x256 pixels as shown: map flips applied)."""
     tiles = resource(rom, toff, tsize)
     mp = struct.unpack('<1024H', resource(rom, moff, msize)[:2048])
-    ids = [e & 0x3FF for e in mp]
-    return tiles, ids, tiles_to_px(tiles + bytes(32), 32, [i if i * 32 < len(tiles) else None for i in ids])
+    px = [[0] * 256 for _ in range(256)]
+    for k, e in enumerate(mp):
+        t = e & 0x3FF
+        if t * 32 >= len(tiles):
+            continue
+        cell = tiles_to_px(tiles, 1, [t])
+        if e & 0x400:
+            cell = [r[::-1] for r in cell]
+        if e & 0x800:
+            cell = cell[::-1]
+        for y in range(8):
+            px[k // 32 * 8 + y][k % 32 * 8:k % 32 * 8 + 8] = cell[y]
+    return tiles, mp, px
+
+
+def restore_cells(rom, free, thdr, tiles, mhdr, mapdata, px0, px):
+    """Store an edited scene: every map cell whose pixels changed gets a new tile of its own (pictures reuse
+    backdrop tiles across the map, so writing into a shared tile would lose the edit in the other cells)."""
+    tiles = bytearray(tiles)
+    mp = list(struct.unpack_from('<1024H', mapdata))
+    for k in range(1024):
+        x, y = k % 32 * 8, k // 32 * 8
+        if all(px[y + r][x:x + 8] == px0[y + r][x:x + 8] for r in range(8)):
+            continue
+        n = len(tiles) // 32
+        tiles += px_to_tiles(bytes(32), 1, [0], [px[y + r][x:x + 8] for r in range(8)])
+        mp[k] = mp[k] & 0xF000 | n
+    mapdata = bytearray(mapdata)
+    struct.pack_into('<1024H', mapdata, 0, *mp)
+    store(rom, free, thdr, bytes(tiles))
+    store(rom, free, mhdr, bytes(mapdata))
 
 
 SFX_FONT = ROOT / 'font' / 'Bangers-Regular.ttf'
@@ -355,7 +385,8 @@ def draw_sfx(px, text, box, ink, outline=None, angle=10):
 def job_sfx(rom, free=None, preview=None):
     shots = []
     for pal, thdr, toff, tsize, moff, msize, edits in SFX:
-        tiles, ids, px = scene_px(rom, toff, tsize, moff, msize)
+        tiles, _, px = scene_px(rom, toff, tsize, moff, msize)
+        px0 = [r[:] for r in px]
         colors = struct.unpack_from('<16H', rom, pal)
         lum = sorted(range(1, 16), key=lambda i: (colors[i] & 31) + (colors[i] >> 5 & 31) + (colors[i] >> 10 & 31))
         for box, text, *rest in edits:
@@ -374,8 +405,7 @@ def job_sfx(rom, free=None, preview=None):
             p = [((x & 31) * 8, (x >> 5 & 31) * 8, (x >> 10 & 31) * 8) for x in colors]
             shots.append(to_image(px, p).convert('RGB'))
             continue
-        used = [i if i is not None and i * 32 < len(tiles) else None for i in ids]
-        store(rom, free, thdr, px_to_tiles(tiles, 32, used, px))
+        restore_cells(rom, free, thdr, tiles, moff - 4, resource(rom, moff, msize), px0, px)
     if preview:
         from PIL import Image
         sheet = Image.new('RGB', (512 * len(shots), 512))

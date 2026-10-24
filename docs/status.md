@@ -13,7 +13,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   class tiles, battle buttons, 9 scene SFX, battle-map "Back" hint), reviews (story, m8 Critical/Important).
   2026-10-19 playtest bugs all closed (`docs/bugs.md`): story-font per-glyph advance (asm/story.asm), word-level
   wrap + widow control, 15-cell line cap, shop typewriter, white condensed text, cursor gaps, Time-row alignment.
-- **Next:** rebuild the release (release/ v1.0 predates the playtest fixes): `python -X utf8 tools/release.py 1.0`.
+- **Released:** v1.1 (2026-10-24, GitHub release v1.1): 2026-10-19/20/24 playtest fixes.
 - **Open:**
   - Status tags 修行中 / 使用中 (OBJ tiles 0x50F7D8-0x50FE18, `docs/graphics.md` 5c): not redrawn; need a savestate
     showing them.

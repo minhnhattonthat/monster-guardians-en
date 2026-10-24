@@ -296,7 +296,7 @@ def job_buttons(rom, free=None, preview=None):
 
 SFX = [   # story pictures with hand-drawn sound effects: (palette, tiles hdr, tiles off, size, map off, size, edits)
     # Ancient castle scene, man with the baton: ゴゴ (left) / ゴゴゴ (right) -> RUMBLE. Boxes in 256x256 map px.
-    (0x1002D4, 0x1002F4, 0x1002F8, 0x1882, 0x101B80, 0x309, [((48, 52, 92, 84), 'RUMBLE'),
+    (0x1002D4, 0x1002F4, 0x1002F8, 0x1882, 0x101B80, 0x309, [((48, 52, 92, 84), 'RUMBLE', '', (53, 50, 96, 84)),
                                                              ((136, 46, 192, 84), 'RUMBLE')]),
     # Ruins, monsters attack the pursuers: light lettering ドガッ / バキッ on the dark backdrop
     (0x540858, 0x540878, 0x54087C, 0x0C17, 0x541498, 0x216, [((28, 48, 92, 108), 'WHAM!', 'light'),
@@ -307,8 +307,10 @@ SFX = [   # story pictures with hand-drawn sound effects: (palette, tiles hdr, t
     (0x4A85B8, 0x4A85D8, 0x4A85DC, 0x2120, 0x4AA700, 0x36B, [((14, 86, 158, 132), 'THUD THUD THUD', 'light0')]),
     (0x4AAA80, 0x4AAAA0, 0x4AAAA4, 0x225C, 0x4ACD04, 0x366, [((14, 86, 158, 132), 'THUD THUD THUD', 'light0')]),
     (0x4C6678, 0x4C6698, 0x4C669C, 0x2898, 0x4C8F38, 0x3BC, [((6, 94, 98, 138), 'KA-BOOM!', 'light0')]),
-    (0x4CA62C, 0x4CA64C, 0x4CA650, 0x1788, 0x4CBDDC, 0x2A3, [((146, 52, 186, 76), 'WHACK', 'white')]),
-    (0x521180, 0x5211A0, 0x5211A4, 0x14FB, 0x5226A4, 0x2EB, [((62, 38, 94, 70), 'CLANG', 'white')]),
+    (0x4CA62C, 0x4CA64C, 0x4CA650, 0x1788, 0x4CBDDC, 0x2A3, [((146, 52, 186, 76), 'WHACK', 'white',
+                                                              (138, 42, 189, 76))]),
+    (0x521180, 0x5211A0, 0x5211A4, 0x14FB, 0x5226A4, 0x2EB, [((62, 38, 94, 70), 'CLANG', 'white',
+                                                              (57, 32, 104, 72))]),
 ]
 
 
@@ -319,24 +321,55 @@ def scene_px(rom, toff, tsize, moff, msize):
     return tiles, ids, tiles_to_px(tiles + bytes(32), 32, [i if i * 32 < len(tiles) else None for i in ids])
 
 
+SFX_FONT = ROOT / 'font' / 'Bangers-Regular.ttf'
+
+
+def draw_sfx(px, text, box, ink, outline=None, angle=10):
+    """Comic lettering for a sound effect: Bangers, rotated `angle` degrees (clockwise, like the stepped JP
+    lettering), as large as fits in box (x0, y0, x1, y1) with its 1 px outline; outline colour optional."""
+    from PIL import Image, ImageDraw, ImageFont
+    x0, y0, x1, y1 = box
+    pad = 1 if outline is not None else 0
+    for size in range(40, 7, -1):
+        f = ImageFont.truetype(str(SFX_FONT), size)
+        l, t, r, b = f.getbbox(text)
+        im = Image.new('L', (r - l + 4, b - t + 4))
+        ImageDraw.Draw(im).text((2 - l, 2 - t), text, font=f, fill=255)
+        im = im.rotate(-angle, resample=Image.BICUBIC, expand=True)
+        im = im.crop(im.getbbox())
+        if im.width + 2 * pad <= x1 - x0 and im.height + 2 * pad <= y1 - y0:
+            break
+    w, h = im.size
+    ox, oy = x0 + (x1 - x0 - w) // 2, y0 + (y1 - y0 - h) // 2
+    on = {(x, y) for y in range(h) for x in range(w) if im.getpixel((x, y)) > 110}
+    if outline is not None:
+        for x, y in on:
+            for dx in (-1, 0, 1):
+                for dy in (-1, 0, 1):
+                    if (x + dx, y + dy) not in on:
+                        px[oy + y + dy][ox + x + dx] = outline
+    for x, y in on:
+        px[oy + y][ox + x] = ink
+
+
 def job_sfx(rom, free=None, preview=None):
     shots = []
     for pal, thdr, toff, tsize, moff, msize, edits in SFX:
         tiles, ids, px = scene_px(rom, toff, tsize, moff, msize)
         colors = struct.unpack_from('<16H', rom, pal)
         lum = sorted(range(1, 16), key=lambda i: (colors[i] & 31) + (colors[i] >> 5 & 31) + (colors[i] >> 10 & 31))
-        for box, text, *mode in edits:
-            # mode: none = dark ink (3 darkest); 'light' = all but the 4 darkest; 'white' = 3 brightest;
-            # a trailing '0' lets the fill use transparency (lettering spilling outside the picture)
-            m = mode[0] if mode else ''
+        for box, text, *rest in edits:
+            # mode: '' = dark ink (3 darkest); 'light' = all but the 4 darkest; 'white' = 3 brightest;
+            # a trailing '0' lets the fill use transparency (lettering spilling outside the picture).
+            # Optional 4th item: area for the English lettering when the JP box is too small or off the picture.
+            m = rest[0] if rest else ''
+            area = rest[1] if len(rest) > 1 else box
             light = m.startswith(('light', 'white'))
             inks = lum[-3:] if m.startswith('white') else lum[4:] if light else lum[:3]
             ink = inks[-1] if light else inks[0]
             fill = set(range(16)) - set(inks) - (set() if m.endswith('0') else {0})
             inpaint(px, box, ink=set(inks), fill=fill)
-            cx, cy = (box[0] + box[2]) // 2, (box[1] + box[3]) // 2 - 5
-            draw_text(px, text, 9, cx, cy, ink)
-            draw_text(px, text, 9, cx + 1, cy, ink)   # bold
+            draw_sfx(px, text, area, ink, outline=lum[0] if light else None)
         if preview:
             p = [((x & 31) * 8, (x >> 5 & 31) * 8, (x >> 10 & 31) * 8) for x in colors]
             shots.append(to_image(px, p).convert('RGB'))

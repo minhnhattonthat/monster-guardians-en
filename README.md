@@ -48,6 +48,6 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 Tools and English translation: MIT. The original Japanese text in `script/` is Konami's and is included only so
 the translation can be checked against it. Monster Guardians is (c) 2001 Konami / Mobile21; this project is not
-affiliated with them. Do not share patched ROMs. The chapter-card font is STIX (SIL Open Font License, `font/`).
+affiliated with them. Do not share patched ROMs. The chapter-card font is STIX and the sound-effect font is Bangers (both SIL Open Font License, `font/`).
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.

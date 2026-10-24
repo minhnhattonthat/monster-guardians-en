@@ -48,3 +48,41 @@ Fix build adcb8bfc29b8: re-checked by replaying `log.tsv` from a cold boot (Mese
   "Time  " (3 tiles; m8_stage 0C6066).
 - [x] (fixed) Stage briefing (`mg_battle_status.mss`): short names (Griffon, Imp) in the wide font next to condensed
   long ones (Mini Golem). All 523 name fields now condensed (records.build passes condense=True).
+
+## 2026-10-24 playtest - mg_en.gba (3 agent playtesters + user report)
+Sessions `work/pt/{menus,world,battle,base,mgmt,fresh}`; fresh new-game state on this build: `work/qa/cold/end.mss`
+(cold tour, Home Base). Old states (`work/playtest/2026-10-19/0057.mss`, `work/states/*`) hold pre-condense names
+and stale pair-cache tiles: garbled/kana names, "SaVe", "Home.Base", wide "G o l e m" seen only there.
+
+- [x] (fixed) **Battle unit panel: every unit name and most element words garbled** (fresh save, `work/pt/fbattle`
+  0014-0023, 0039-0044): the panel copies glyph tiles by DMA from font + code*32 (0x0800DEA6), no pair-code path.
+  Hooked (`tile_dma_r3`); Golem/Fire, Minotaur/Holy, Goblin/Wind, Elf/Wind checked.
+- [x] (fixed) **Party menu popup garbled** (Formation > monster > A): "Change Position / Remove from Party" drawn
+  by an unhooked drawer 0x0803DE48. Hooked (`stub_ldrh_ip1e`, asm/menu8.asm).
+- [x] (fixed) **Monster stat box: left pixel column of every cell missing** (`01 _i^e`, `At ze-o`): the stat box
+  plotters 0x080628D8 (9px) / 0x080629E4 (11px) start at glyph column 1 (JP glyphs never ink column 0). Patched to 0.
+- [x] (fixed) Item card (Seed Ring) broke mid-word (`...keep it` / `s element.`): cards break after 17 tiles with no
+  word wrap; tools/menu8.py `card_wrap` pads item descriptions to word boundaries.
+- [x] (fixed) Delete Password help line 2 started with a space: reworded so the 19-tile break lands on a word.
+- [x] (fixed) Two fonts in one menu/box: condensed Yes (shop/port/msg), Leave (Fusion Lab), Link tab, Music, Shop,
+  Arena, "This one?".
+- [x] (fixed) Battle Start menu "Clear Condition / End of battle" -> "Goal / Quit Battle" (glossary: クリア条件 = Goal).
+- [x] (fixed) "Switch to the Briefing." -> lowercase like the other icon help.
+- [x] (not reproduced) **User report: monster name clipped on the stat screen** (screenshot `05 Action`, name shows
+  as bottom pixel rows): renders correctly on this build from a fresh game, via Home Base and the world map, with a
+  long pair-code name poked in (`tools/lua/pairname.lua`). The screenshot's `Exp` label predates the current build:
+  the user is on the old v1.0 release (rebuild pending).
+- [x] (fixed) **World map labels with stray glyphs on first draw** (`Home.Base`; likely also the user's clipped
+  stat-screen name): the pair cache wrote each tile into the first font copy found (BG3, char block 0) while the
+  map labels draw from block 1. `put_tile` now writes into the font copy of every enabled BG.
+- [x] (fixed) World map `Mission  :Wipe out...`: label is "Mission:" (pair tile) and the format's colon `%c`
+  (0x08084A64) is a space.
+- [x] (fixed) Fusion prompt `It'll cost you    20G . That`: dropped the trailing space and the separate "G" copy
+  (0x0805CD06); the last piece starts with the pair "G." -> `It'll cost you 20G. That suit you?`. Opening quote
+  is a pair (` "Golem`), no fullwidth ” at line start.
+- [x] (not a bug) Event Replay `Opening, Part 2   Leo A`: JP shows `オープニング こうはん レオ A` too.
+- [x] (fixed) "Unformed" -> "Empty" (+ "Can't send an empty/party on sortie."); Beffle / Farbus / Empty in
+  glossary.md.
+- [ ] (limit) Odd-length names end in a half-space (`"Golem "`, `Golem Light ,`): names are 2 letters per tile and
+  the name is coloured, so the next text can't share its last tile. Widening the inner space of multi-word names
+  ("Golem  Light") was tried and reverted: the wide gap shows in every list.

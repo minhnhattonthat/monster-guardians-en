@@ -2,7 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release). Last build: after the 2026-10-20 playtest fixes.
+- **Phase:** 9 (release). Last build: after the 2026-10-24 agent-playtest fixes.
+- **2026-10-24:** 4 agent playtests (`docs/bugs.md`): hooked battle unit panel (0x0800DEA6) and party popup
+  (0x0803DE48), stat-box plotters draw glyph column 0, item-card word wrap, font consistency, Goal/Quit Battle,
+  pair cache writes every enabled BG's font copy (map labels), Mission: label, fusion price line.
+  Fresh new-game state on the current build: `work/qa/cold/end.mss` (old states hold pre-condense names: don't
+  judge names/cache tiles from them). `docs/playtester-brief.md` has this game's notes.
 - **Done:** all text banks (story, ui9, m8 menu/shop/msg/itemdesc/stage/mobile/link/port), 8x8 engine (condensed
   pairs + tile cache), 523 name fields (all condensed), Leo/Tina, Latin keyboard, graphics (title, 3 chapter cards,
   class tiles, battle buttons, 9 scene SFX, battle-map "Back" hint), reviews (story, m8 Critical/Important).

@@ -10,6 +10,7 @@
  },
  {
   "id": "0A7FFC",
+  "condense": true,
   "slots": [
    "01D2A0",
    "01D2E0"
@@ -376,6 +377,7 @@
  },
  {
   "id": "0A865C",
+  "condense": true,
   "slots": [
    "020490",
    "0204D0"
@@ -412,6 +414,7 @@
  },
  {
   "id": "0A868C",
+  "condense": true,
   "slots": [
    "02044C"
   ],
@@ -641,6 +644,7 @@
  },
  {
   "id": "0A8890",
+  "condense": true,
   "slots": [
    "022E24",
    "022E64"
@@ -1104,6 +1108,7 @@
  },
  {
   "id": "0A8D00",
+  "condense": true,
   "slots": [
    "024D7C",
    "024DBC"
@@ -1321,6 +1326,7 @@
  },
  {
   "id": "0A903C",
+  "condense": true,
   "slots": [
    "026354",
    "02638C",

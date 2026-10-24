@@ -206,6 +206,8 @@ def build(rom, marker=False, free=None):
             budget, width, nl = limits(e)
             try:
                 codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars, e.get('condense', False))
+                if bank == 'itemdesc':
+                    codes = card_codes(text, codes, budget, width, nl, enc, pairs, cond_chars, e.get('condense', False))
             except ValueError as err:
                 raise SystemExit(f'm8_{bank} {e["id"]}: {err}')
             if e.get('reloc'):
@@ -230,6 +232,36 @@ def build(rom, marker=False, free=None):
             n += 1
     pool = [c for c in FREE_CODES if c not in jp_used]
     return n, pool, sorted(jp_used & set(FREE_CODES))
+
+
+CARD_TILES = 17   # item cards (shop, item lists) break the line after 17 tiles, mid-word
+
+
+def card_wrap(text, chars):
+    """Pad with spaces so each card line ends on a word boundary (chars per line)."""
+    lines, cur = [], ''
+    for w in text.split(' '):
+        if cur and len(cur) + 1 + len(w) > chars:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = f'{cur} {w}' if cur else w
+    return ''.join(l.ljust(chars) for l in lines) + cur
+
+
+def card_codes(text, codes, budget, width, nl, enc, pairs, cond_chars, condense):
+    """Item description codes word-wrapped for the card; unchanged when it fits one line or padding overflows."""
+    for cond, chars in ((False, CARD_TILES), (True, 2 * CARD_TILES)):
+        if condense and not cond:
+            continue
+        try:
+            wrapped, mode = encode_en(card_wrap(text, chars), budget, width, nl, enc, pairs, cond_chars, cond)
+        except ValueError:
+            continue
+        if mode == ('condensed' if cond else 'normal'):
+            return wrapped
+    print(f'menu8: item card mid-word break kept: {text!r}')
+    return codes
 
 
 def marker_text(e):

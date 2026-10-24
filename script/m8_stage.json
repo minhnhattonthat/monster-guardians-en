@@ -1200,6 +1200,7 @@
  },
  {
   "id": "0C679C",
+  "condense": true,
   "slots": [
    "085A8C"
   ],
@@ -1211,6 +1212,7 @@
  },
  {
   "id": "0C67A6",
+  "condense": true,
   "slots": [
    "085A90"
   ],
@@ -1280,7 +1282,7 @@
   "jp": "ミッション",
   "len": 5,
   "term": true,
-  "en": "Mission",
+  "en": "Mission:",
   "status": "done"
  },
  {

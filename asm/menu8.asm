@@ -29,12 +29,24 @@ FONT_SIG  equ 0x080BEDF0 + 0x0C * 32   ; ROM font tile for 'A' (code 0x0C): neve
 .org 0x0803D31A :: bl stub_ldrh_r4      ; renderer: ldrh r4,[r4] / adds r0,r4,r2
 .org 0x0803D3B2 :: bl stub_pal_r4       ; renderer, wrapped: ldr r4,=0x1FF / cmp r2,r4
 .org 0x0803D3C6 :: bl stub_ldrh_r5      ; renderer, wrapped: ldrh r5,[r5] / adds r0,r5,r2
+.org 0x0803DE48 :: bl stub_ldrh_ip1e    ; popup drawer (Home Base party menu): ldrh r0,[r0] / ldrh r3,[r3,#0x1e]
+; world map stage box "%s\n%s%c%s": the colon (code 0xE6) after "Mission" is now in the label (a pair tile, so no
+; half-tile gap); the %c becomes a space
+.org 0x08084A64 :: mov r0,#1
+; fusion cost prompt: the "G" after the price (1 code of 0BD48A) is skipped; m8 0BD852 starts with the pair "G."
+; so the price reads "20G. That suit you?" with no half-tile gap
+.org 0x0805CD06 :: mov r2,#0
+; monster stat box glyph plotters (9px 0x080628D8, 11px 0x080629E4) start at glyph column 1 (JP glyphs never
+; ink column 0); English VWF cells do, so start at column 0
+.org 0x08062906 :: mov r5,#0
+.org 0x08062A12 :: mov r5,#0
 ; sprite text: single glyph tiles copied from the ROM font at font + code*32 (r0 = code << 5)
 .org 0x0801C788 :: bl tile_r0           ; ldr r1,=font / adds r0,r0,r1
 .org 0x0801F6B2 :: bl tile_r0
 .org 0x0807EBD2 :: bl tile_r0           ; world map labels
 .org 0x08082B0C :: bl tile_r0
 .org 0x08064BDC :: bl tile_r3           ; ldr r0,=font / adds r0,r3,r0 (r3 = code << 5)
+.org 0x0800DEA6 :: bl tile_dma_r3       ; battle unit panel (name, element): lsls r0,r3,#5 / adds r0,r0,r2 (r2 = font)
 ; window text module (0x0807CB34, world map labels): lsls r0,#12 / orrs r0,r5 (r5 = code)
 .org 0x0807CBA4 :: bl stub_win
 
@@ -102,6 +114,13 @@ stub_ldrh_r5:
   add r0,r5,r0
   pop {pc}
 
+stub_ldrh_ip1e:
+  push {lr}
+  ldrh r0,[r0]
+  bl conv
+  ldrh r3,[r3,#0x1e]
+  pop {pc}
+
 stub_win:
   push {lr}
   lsl r0,r0,#12
@@ -136,6 +155,22 @@ tile_r3:
 @@font:
   ldr r0,=0x080BEDF0
   add r0,r3,r0
+  bx lr
+
+; r3 = code, r2 = font -> r0 = source tile address. Keeps r1 (DMA base).
+tile_dma_r3:
+  lsl r0,r3,#5
+  push {r1}
+  ldr r1,=0x80000
+  cmp r0,r1
+  blo @@font
+  ldr r1,=pairs - 0x80000
+  b @@add
+@@font:
+  mov r1,r2
+@@add:
+  add r0,r0,r1
+  pop {r1}
   bx lr
 
 ; palette test: codes 0x200-0xFFF are palette changes (bhi taken); pair codes 0x1000+ are glyphs (not taken)
@@ -213,22 +248,10 @@ conv:
   ldr r3,=pool + 2
   lsl r0,r1,#1
   ldrh r7,[r3,r0]                 ; slot's tile code
-  lsl r0,r7,#5
-  add r5,r5,r0                    ; dst tile
   ldr r6,=pairs - 0x80000
   lsl r0,r4,#5
-  add r6,r6,r0                    ; src tile
-  mov r2,#0
-@@copy:
-  ldr r0,[r6,r2]
-  ldr r3,[r5,r2]
-  cmp r0,r3
-  beq @@same
-  str r0,[r5,r2]
-@@same:
-  add r2,#4
-  cmp r2,#32
-  blo @@copy
+  add r4,r6,r0                    ; src tile
+  bl put_tile
   ldr r3,=COUNTER
   ldr r0,[r3]
   add r0,#1
@@ -292,6 +315,63 @@ locate:
   str r5,[r7]
 @@done:
   pop {pc}
+
+; ---- put_tile: r4 = src tile, r7 = tile code -> written into the font copy of every enabled BG (the world map
+; draws its labels from char block 1 while BG2/3 hold another copy at block 0), else at r5. Uses r0-r6. ----
+put_tile:
+  push {r1,lr}
+  push {r5}                       ; fallback, dropped once a BG copy is written
+  ldr r6,=FONT_SIG
+  mov r1,#3
+@@bg:
+  ldr r0,=0x04000000
+  ldrh r2,[r0]                    ; DISPCNT
+  mov r3,r1
+  add r3,#8
+  lsr r2,r3
+  lsl r2,r2,#31
+  beq @@next                      ; BG off
+  lsl r3,r1,#1
+  add r3,#8
+  ldrh r2,[r0,r3]                 ; BGxCNT
+  lsl r2,r2,#28
+  lsr r2,r2,#30                   ; char base block
+  lsl r5,r2,#14
+  ldr r0,=0x06000000
+  add r5,r5,r0
+  push {r1}
+  bl check
+  pop {r1}
+  bne @@next
+  bl copy32
+  mov r0,#0
+  str r0,[sp]
+@@next:
+  sub r1,#1
+  bpl @@bg
+  pop {r5}
+  cmp r5,#0
+  beq @@out
+  bl copy32
+@@out:
+  pop {r1,pc}
+
+; copy the 32-byte tile r4 to font r5 slot r7, writing only changed words. Uses r0, r2, r3, r5.
+copy32:
+  lsl r0,r7,#5
+  add r3,r5,r0
+  mov r2,#0
+@@c:
+  ldr r0,[r4,r2]
+  ldr r5,[r3,r2]
+  cmp r0,r5
+  beq @@s
+  str r0,[r3,r2]
+@@s:
+  add r2,#4
+  cmp r2,#32
+  blo @@c
+  bx lr
 
 ; Z set when the 32 bytes at r5 + 0x180 equal FONT_SIG (r6). Uses r0-r3.
 check:

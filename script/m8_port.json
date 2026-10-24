@@ -23,6 +23,7 @@
  },
  {
   "id": "0A9C34",
+  "condense": true,
   "slots": [
    "029C08",
    "029C40"

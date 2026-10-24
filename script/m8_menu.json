@@ -869,6 +869,7 @@
  },
  {
   "id": "0BD760",
+  "condense": true,
   "slots": [
    "05AFBC"
   ],
@@ -939,13 +940,14 @@
  },
  {
   "id": "0BD82E",
+  "condense": true,
   "slots": [
    "05CD74"
   ],
   "jp": "/「",
   "len": 2,
   "term": false,
-  "en": "/\"",
+  "en": "/ \"",
   "status": "done"
  },
  {
@@ -956,7 +958,7 @@
   "jp": "」になるようじゃ。/ゴウセイには",
   "len": 16,
   "term": false,
-  "en": "\", it seems./It'll cost you ",
+  "en": "\", it seems./It'll cost you",
   "status": "done"
  },
  {
@@ -967,7 +969,7 @@
   "jp": "かかるが、よいな？",
   "len": 9,
   "term": false,
-  "en": ". That suit you?",
+  "en": "G. That suit you?",
   "status": "done"
  },
  {
@@ -1327,6 +1329,7 @@
  },
  {
   "id": "0BDE94",
+  "condense": true,
   "slots": [
    "046F8C"
   ],
@@ -1642,7 +1645,8 @@
   "jp": "みへんせい",
   "len": 5,
   "term": false,
-  "en": "Unformed",
+  "en": "Empty",
+  "condense": true,
   "status": "done"
  },
  {
@@ -1920,7 +1924,7 @@
   "jp": "みへんせいのためしゅつ/げきせっていにはできま/せん",
   "len": 26,
   "term": false,
-  "en": "Can't set an unformed/party for sortie.",
+  "en": "Can't send an empty/party on sortie.",
   "status": "done"
  },
  {
@@ -2161,6 +2165,7 @@
  },
  {
   "id": "0BE93E",
+  "condense": true,
   "slots": [
    "048C80"
   ],
@@ -2245,7 +2250,7 @@
   "jp": "カセットにほぞんしているモバイルアダプタＧＢのパスワードをさくじょします",
   "len": 36,
   "term": false,
-  "en": "Deletes the Mobile Adapter GB password saved on the cartridge.",
+  "en": "Erases the Mobile Adapter GB password saved on the cartridge.",
   "status": "done"
  },
  {

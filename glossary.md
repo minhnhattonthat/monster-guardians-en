@@ -25,6 +25,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ラミレス | Ramirez | | Bellingham's monster | |
 | 天空のカノン | Sky Dragon Canon | | カノン alone = Canon | Kanon |
 | 大地のイグニス | Earth Dragon Ignis | | イグニス alone = Ignis | |
+| ベッフル / ファーブス | Beffle / Farbus | | default team names 2-3 (team 1 = Canon) | |
+| みへんせい (未編成) | Empty | | team with no monsters | Unformed |
 | 男 / 老人 | Man / Old Man | | speaker labels before names are known | |
 | 追っ手1 / 追っ手達 | Pursuer 1 / Pursuers | | | |
 | 法王 | the Pontiff | | | Pope |

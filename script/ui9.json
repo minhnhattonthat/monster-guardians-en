@@ -317,7 +317,7 @@
   ],
   "jp": "　クリア条件　　　　　　戦闘終了",
   "bytes": 34,
-  "en": "   Clear Condition{br}   End of battle",
+  "en": "   Goal{br}   Quit Battle",
   "status": "done"
  },
  {
@@ -881,7 +881,7 @@
   ],
   "jp": "ブリーフィングへ切替えます",
   "bytes": 28,
-  "en": "Switch to the Briefing.",
+  "en": "Switch to the briefing.",
   "status": "done"
  },
  {

@@ -100,3 +100,12 @@ class LayoutTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class CardWrapTest(unittest.TestCase):
+    def test_line_ends_on_word(self):
+        from tools import menu8
+        s = menu8.card_wrap('Fuse with this equipped to keep its element.', 34)
+        self.assertEqual(s[:34].rstrip(), 'Fuse with this equipped to keep')
+        self.assertEqual(s[34:], 'its element.')
+        self.assertEqual(menu8.card_wrap('Short one.', 34), 'Short one.')

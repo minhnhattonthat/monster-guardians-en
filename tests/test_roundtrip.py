@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from tools import romlib, dump
+from tools import romlib, dump, menu8
 
 
 @unittest.skipUnless(romlib.ROM.exists(), 'needs rom/mg_jp.gba')
@@ -38,6 +38,15 @@ class RoundtripTest(unittest.TestCase):
             for e in json.loads(path.read_text(encoding='utf-8')):
                 off = int(e['id'], 16)
                 self.assertEqual(romlib.encode(e['jp'], enc) + [romlib.END], romlib.read_codes(self.rom, off), e['id'])
+
+    def test_m8_entries_inside_banks(self):
+        # 0x0A1A38 is the port map tile set header right after the msg bank: writing it broke the port (issue #1)
+        self.assertLessEqual(menu8.BANKS['msg'][-1][1], 0x0A1A38)
+        for bank, ranges in menu8.BANKS.items():
+            path = romlib.ROOT / 'script' / f'm8_{bank}.json'
+            for e in json.loads(path.read_text(encoding='utf-8')):
+                off = int(e['id'], 16)
+                self.assertTrue(any(s <= off and off + 2 * e['len'] <= t for s, t in ranges), f'm8_{bank} {e["id"]}')
 
 
 if __name__ == '__main__':

@@ -463,25 +463,5 @@
   "term": true,
   "en": "Hmm, seems they're still training hard./Check again in a little while, okay?",
   "status": "done"
- },
- {
-  "id": "0A1A38",
-  "slots": [
-   "026E14"
-  ],
-  "jp": "ぁ",
-  "len": 1,
-  "term": true,
-  "en": " ",
-  "status": "done"
- },
- {
-  "id": "0A1A3C",
-  "slots": [],
-  "jp": "ＵＵ",
-  "len": 2,
-  "term": false,
-  "en": "UU",
-  "status": "done"
  }
 ]

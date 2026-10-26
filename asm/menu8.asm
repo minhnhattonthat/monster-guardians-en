@@ -30,6 +30,8 @@ FONT_SIG  equ 0x080BEDF0 + 0x0C * 32   ; ROM font tile for 'A' (code 0x0C): neve
 .org 0x0803D3B2 :: bl stub_pal_r4       ; renderer, wrapped: ldr r4,=0x1FF / cmp r2,r4
 .org 0x0803D3C6 :: bl stub_ldrh_r5      ; renderer, wrapped: ldrh r5,[r5] / adds r0,r5,r2
 .org 0x0803DE48 :: bl stub_ldrh_ip1e    ; popup drawer (Home Base party menu): ldrh r0,[r0] / ldrh r3,[r3,#0x1e]
+.org 0x080625D0 :: bl stub_ldrh_r2_r6   ; char animator (fusion result labels, issue #1): ldrh r2,[r6,#4] / ldr r3,[r7,#8]
+.org 0x08062666 :: bl stub_ldrh_r2_r6
 ; world map stage box "%s\n%s%c%s": the colon (code 0xE6) after "Mission" is now in the label (a pair tile, so no
 ; half-tile gap); the %c becomes a space
 .org 0x08084A64 :: mov r0,#1
@@ -120,6 +122,14 @@ stub_ldrh_ip1e:
   bl conv
   ldrh r3,[r3,#0x1e]
   pop {pc}
+
+stub_ldrh_r2_r6:
+  push {r0,lr}
+  ldrh r0,[r6,#4]
+  bl conv
+  mov r2,r0
+  ldr r3,[r7,#8]
+  pop {r0,pc}
 
 stub_win:
   push {lr}

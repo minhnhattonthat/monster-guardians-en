@@ -20,7 +20,7 @@ import romlib  # noqa: E402
 NL = 0x1FF
 BANKS = {
     'mobile': [(0x09DB34, 0x0A1108)],
-    'msg': [(0x0A12A8, 0x0A1A40)],
+    'msg': [(0x0A12A8, 0x0A1A38)],     # 0x0A1A38: port map tile set header (issue #1), not text
     'shop': [(0x0A7FF6, 0x0A9764)],
     'itemdesc': [(0x0B720C, 0x0B78D0)],
     'menu': [(0x0BD388, 0x0BEDC4)],

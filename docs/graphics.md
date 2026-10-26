@@ -10,7 +10,7 @@ Status: todo / located / done. Shots: work/qa/*.
 | 4 | 8x8 font tiles 0x1A0-0x1BF (pre-drawn class names) | ミノタウロス ゲリフォン ゲレムリン テンペスト ガリオーント ベヒーモス ファーブニル レジェンド | done | gfx.job_class_tiles (condensed glyphs) |
 | 5 | Story scene sound effects | ゴゴゴ (castle), ドガッ/バキッ (ruins) | done | gfx.job_sfx: RUMBLE, WHAM!, CRACK!, THUD, KA-BOOM!, WHACK, CLANG in comic lettering (Bangers, rotated 10°, outlined when light; user request 2026-10-24); later chapters not toured - may hold more |
 | 5b | Battle map preview hint (64x16 OBJ, raw tiles 0x45279C) | Ⓑ➔もどる | done | gfx.job_back_hint: "Back" (found 2026-10-20, state mg_battle_map.mss) |
-| 5c | Status tags (OBJ, raw tiles; piece table 0x510344, sizes in it) | 修行中 (32x16 0x50F7D8 + cap 0x50F9D8; 64x32 0x50FA18 + cap 0x50FE18), 使用中 (32x16 0x50F8D8) | todo | found by the 2026-10-20 raw-tile sweep; need an in-game shot to confirm how body + cap pieces join |
+| 5c | Status tags (OBJ, raw tiles; piece table 0x510344, sizes in it) | 修行中 (32x16 0x50F7D8 + cap 0x50F9D8; 64x32 0x50FA18 + cap 0x50FE18), 使用中 (32x16 0x50F8D8) | done (small) | gfx.job_tags: TRAINING / IN USE; the 8x16 cap (tile 0x4A, right half of 中) is shared by both bodies, now a plain frame end. IN USE seen in the equip menu (issue #1); TRAINING and the 64x32 修行中 not yet seen in game |
 | 5d | Unreferenced kana/kanji glyph block 0x0AC040-0x0AE1E8 | font | n/a? | no pointer into it found; likely unused |
 | 6 | Menu icons (right column) | (pictograms) | n/a | no text |
 | 7 | "MISSION START", "Grandate", "Sinker" | English already | n/a | |

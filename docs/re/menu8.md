@@ -16,7 +16,7 @@
 | range | content |
 |---|---|
 | 0x09DB34-0x0A1108 | Mobile Adapter / communication messages (~5300 kana) |
-| 0x0A12A8-0x0A1A40 | training / event messages |
+| 0x0A12A8-0x0A1A38 | training / event messages (0x0A1A38 = port map tile set header, not text: issue #1) |
 | 0x0A7FF6-0x0A9764 | shop dialogue (0-terminated) |
 | 0x0AEE14-0x0B6AF0 | monster/item data records with embedded names |
 | 0x0B720C-0x0B78D0 | item descriptions |
@@ -36,7 +36,8 @@
   (296 KB) at 0x087A0000.
 - Hooked sites: 0x08027E1C/F58/FC0/803C (0-terminated drawers), 0x08027EE8 (typewriter: shop dialogue, code |
   0xF000), 0x0803D178/1F6 (line drawer), 0x0803D306/31A/3B2/3C6
-  (renderer + palette tests), 0x0807CBA4 (window module: world map), sprite tile copies 0x0801C788/0801F6B2/
+  (renderer + palette tests), 0x080625D0/0x08062666 (char animator: fusion result labels),
+  0x0807CBA4 (window module: world map), sprite tile copies 0x0801C788/0801F6B2/
   0807EBD2/08082B0C/08064BDC. New garbage on a screen = an unhooked drawer: find its map write (watch.lua on the BG
   map row), add a stub.
 - Name fields: `tools/records.py` replaces every zero-padded 8-code name field in 0x0AE000-0x0B6B00 (463 fields).

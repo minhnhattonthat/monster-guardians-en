@@ -226,12 +226,13 @@ def job_class_tiles(rom, free=None, preview=None):
                 rom[font8.FONT8 + code * 32:font8.FONT8 + code * 32 + 32] = tile
 
 
-def draw_cond(px, text, cx, y, color):
-    """Proportional text with the condensed 8x8 glyphs (font/cond8.txt): advance = ink width + 1. -> width."""
+def draw_cond(px, text, cx, y, color, arts=None):
+    """Proportional text with the condensed 8x8 glyphs (font/cond8.txt): advance = ink width + 1. -> width.
+    `arts` overrides glyphs by character."""
     import font8
     glyphs = []
     for ch in text:
-        art = font8.ARTS[ch]
+        art = (arts or {}).get(ch) or font8.ARTS[ch]
         cols = [x for x in range(3) if any(r[x] for r in art)]
         glyphs.append((art, (cols[-1] + 1) if cols else 2))
     width = sum(w + 1 for _, w in glyphs) - 1
@@ -429,8 +430,45 @@ def job_back_hint(rom, free=None, preview=None):
     rom[BACK_HINT:BACK_HINT + 0x200] = px_to_tiles(data, 8, ids, px)
 
 
+TAG_CAP = 0x50F9D8   # status tags: 8x16 cap (right end, OBJ tile 0x4A) shared by the 32x16 bodies below
+# 修行中 (port training), 使用中 (equipped item, issue #1): word, centre x (the word must end by col 31)
+TAGS = {0x50F7D8: ('TRAINING', 18), 0x50F8D8: ('IN USE', 20)}
+THIN_I = [[1, 0, 0]] * 7 + [[0, 0, 0]]   # 1 px I: TRAINING is 31 px with the serif I, the body holds 28
+
+
+def job_tags(rom, free=None, preview=None):
+    """Status tags 修行中 / 使用中 (piece table 0x510344): body + the shared cap drawn as one 40x16 label. The cap held
+    the right half of 中; it becomes a plain frame end, so the English word sits in the body (interior cols 3-31).
+    Colours: 1 black outline/fill, 2 dark red frame (cols 2 and 37, rows 1 and 14), 5 red text."""
+    cap = rom[TAG_CAP:TAG_CAP + 0x40]
+    out = []
+    for k, (off, (word, cx)) in enumerate(TAGS.items()):
+        px = [b + c for b, c in zip(tiles_to_px(rom[off:off + 0x100], 4, list(range(8))),
+                                    tiles_to_px(cap, 1, [0, 1]))]
+        for x in range(3, 37):          # the kanji strokes broke the frame with outline pixels
+            px[1][x] = px[14][x] = 2
+        for y in range(2, 14):
+            px[y][2] = px[y][37] = 2
+            for x in range(3, 37):
+                px[y][x] = 1
+        width = draw_cond(px, word, cx, 4, 5, {'I': THIN_I} if len(word) > 6 else None)
+        assert cx - width // 2 + width <= 32, word   # the cap is shared: no text in it
+        out.append(px)
+        if not preview:
+            rom[off:off + 0x100] = px_to_tiles(rom[off:off + 0x100], 4, list(range(8)), [r[:32] for r in px])
+            if k == 0:
+                rom[TAG_CAP:TAG_CAP + 0x40] = px_to_tiles(cap, 1, [0, 1], [r[32:] for r in px])
+    if preview:
+        from PIL import Image
+        pal = [(0, 64, 0), (0, 0, 0), (140, 20, 60)] + [(255, 0, 255)] * 2 + [(230, 60, 110)] + [(255, 0, 255)] * 10
+        sheet = Image.new('RGB', (40, 16 * len(out)))
+        for k, px in enumerate(out):
+            sheet.paste(to_image(px, pal).convert('RGB'), (0, 16 * k))
+        sheet.resize((sheet.width * 8, sheet.height * 8), 0).save(preview)
+
+
 JOBS = {'title': job_title, 'cards': job_cards, 'class_tiles': job_class_tiles, 'buttons': job_buttons,
-        'sfx': job_sfx, 'back_hint': job_back_hint}
+        'sfx': job_sfx, 'back_hint': job_back_hint, 'tags': job_tags}
 
 
 def apply_all(rom, free):

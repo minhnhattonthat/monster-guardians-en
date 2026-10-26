@@ -14,11 +14,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   2026-10-19 playtest bugs all closed (`docs/bugs.md`): story-font per-glyph advance (asm/story.asm), word-level
   wrap + widow control, 15-cell line cap, shop typewriter, white condensed text, cursor gaps, Time-row alignment.
 - **Released:** v1.1 (2026-10-24, GitHub release v1.1): 2026-10-19/20/24 playtest fixes.
+- **2026-10-26, issue #1 (unreleased):** port map corrupted (m8 msg bank ran 8 bytes into the port tile set header
+  0x0A1A38: range fixed, bogus entries dropped, test added); fusion result labels garbled (char animator
+  0x080625D0/0x08062666 hooked); 使用中/修行中 small tags drawn as IN USE / TRAINING (gfx.job_tags).
+  States: `work/issue1/{port,fus,eq2}/` (from `work/pt/world` in the main checkout).
 - **Open:**
-  - Status tags 修行中 / 使用中 (OBJ tiles 0x50F7D8-0x50FE18, `docs/graphics.md` 5c): not redrawn; need a savestate
-    showing them.
+  - Status tags: TRAINING (small) not seen in game yet; 64x32 修行中 (0x50FA18 + cap 0x50FE18) still Japanese.
   - Order descriptions (ui9 0CD3DC-0CD4DC) indented but not seen in game (probably Options > Help ON).
   - 17 m8 Minor review notes (work/review/m8.report.md).
-  - Chapters 2-3, shops other than the first, fusion, link and password screens not toured in-emulator.
+  - Chapters 2-3, shops other than the first, link and password screens not toured in-emulator.
   - Free space used to 0x79CFB8 of 0x7A0000 (pair table at 0x7A0000).
 - **Waiting on the user:** title banner left blank (no "Monster Guardians" overlay): keep or draw text?

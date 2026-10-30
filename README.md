@@ -9,6 +9,20 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Story dialogue | Translated (chapters 2-3 checked by tools and review, not played through in full) |
+| Menus, shops, battle prompts, item and monster names | Translated |
+| Title screen, chapter cards, battle buttons, drawn sound effects | Translated (the katakana banner under the logo is left blank) |
+| Status tags (IN USE / TRAINING) | Partly translated (the large 修行中 tag is still Japanese) |
+| Name entry | Translated (Latin keyboard) |
+| Link, Mobile Adapter and password screens | Translated, not checked in play |
+
+Known issues: odd-length names end in a half-space ("Golem Light ,"); the chapter-card glow can show a faint copy of the
+title (as in the original); password entry may show odd characters.
+
 ## What's here
 
 | Path | What it is |

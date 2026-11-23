@@ -1840,8 +1840,9 @@
   "jp": "レオ",
   "len": 2,
   "term": true,
-  "en": "Leo",
-  "status": "done"
+  "en": "",
+  "status": "special",
+  "notes": "Event Replay default name, copied into the name buffer ({name} needs normal tiles): handled by tools (issue #3)"
  },
  {
   "id": "0C6DE2",
@@ -1851,8 +1852,9 @@
   "jp": "ティーナ",
   "len": 4,
   "term": true,
-  "en": "Tina",
-  "status": "done"
+  "en": "",
+  "status": "special",
+  "notes": "Event Replay default name, copied into the name buffer ({name} needs normal tiles): handled by tools (issue #3)"
  },
  {
   "id": "0C6DEC",

@@ -19,6 +19,9 @@ TABLES = {
     'item': (0x0B5728, 0x40, 42, 8),
 }
 NAMES = romlib.ROOT / 'script' / 'names.json'
+# fields whose JP name is shared by two species: offset -> (jp, en). The Mobile System GB Dra Tempest (monster
+# records 122/123, species rows 0B04C8/0B04F8, Monster Book no. 65) vs the base-game one (110/111, no. 59): issue #3
+OVERRIDES = {off: ('ドラテンペスト', 'Dra Tempest II') for off in (0x0B230C, 0x0B2340, 0x0B04C8, 0x0B04F8)}
 
 
 def fields(rom, dec):
@@ -65,8 +68,12 @@ def build(rom, encode, width=8):
     _, enc = romlib.load_table('jp8')
     names = load_names()
     n = 0
-    for off, jp in find_fields(romlib.rom_bytes(), enc, names).items():
-        codes = encode(names[jp], width, width, 1)
+    found = find_fields(romlib.rom_bytes(), enc, names)
+    for off, (jp, _) in OVERRIDES.items():
+        if found.get(off) != jp:
+            raise SystemExit(f'records: no {jp} field at {off:06X}')
+    for off, jp in found.items():
+        codes = encode(OVERRIDES[off][1] if off in OVERRIDES else names[jp], width, width, 1)
         codes += [0] * (width - len(codes))
         struct.pack_into('<%dH' % width, rom, off, *codes)
         n += 1

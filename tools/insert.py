@@ -56,6 +56,7 @@ PATCHES16 = {
 }
 # default names: drawn by the 8x8 font AND mapped into the story font by {name}, so normal tiles only
 HERO, HEROINE = (0x0BD5A6, 'Leo'), (0x0BD5AA, 'Tina')
+REPLAY_HERO, REPLAY_HEROINE = 0x0C6DDC, 0x0C6DE2   # Event Replay copies (m8 stage bank, issue #3)
 TOKEN = re.compile(r'(\{[^}]*\})')
 FILLER = 'the quick brown fox jumps over a lazy dog and then '
 
@@ -370,15 +371,17 @@ def build(out_path, marker=False, qa=None):
 
 
 def default_names(rom, free):
-    """Leo: relocated (3 codes + 0) and every slot repointed; Tina: in place (4 codes, same as ティーナ)."""
+    """Leo: relocated (3 codes + 0) and every slot repointed; Tina: in place (4 codes, same as ティーナ).
+    Same for the Event Replay copies (REPLAY_*)."""
     _, enc = romlib.load_table('jp8')
     leo = [enc[menu8.ASCII[c]] for c in HERO[1]] + [0]
     off = free.put(struct.pack('<%dH' % len(leo), *leo), 2)
     for s in range(0, len(rom) - 3, 4):
-        if struct.unpack_from('<I', rom, s)[0] == romlib.BASE + HERO[0]:
+        if struct.unpack_from('<I', rom, s)[0] in (romlib.BASE + HERO[0], romlib.BASE + REPLAY_HERO):
             struct.pack_into('<I', rom, s, romlib.BASE + off)
     tina = [enc[menu8.ASCII[c]] for c in HEROINE[1]]
-    struct.pack_into('<4H', rom, HEROINE[0], *tina)
+    for a in (HEROINE[0], REPLAY_HEROINE):
+        struct.pack_into('<4H', rom, a, *tina)
 
 
 KEYBOARD = 0x0BCC44   # name entry: 3 pages x 228 u16 codes (hiragana, katakana, Latin)

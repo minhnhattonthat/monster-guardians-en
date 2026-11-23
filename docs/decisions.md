@@ -18,3 +18,5 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D10 | 2026-10-20 | Text under a cursor | - | Keep the Japanese one-cell indent (3 spaces in the 9px font). |
 | D11 | 2026-10-20 | Monster/item names: wide font when short, condensed when long | mixed, one font | One font: all names condensed, for consistency. |
 | D12 | 2026-10-24 | Story scene sound effects | menu font, comic lettering | Comic lettering like the JP hand-drawn effects (Bangers, OFL). |
+| D13 | 2026-11-23 | Two species both named ドラテンペスト (issue #3, player request; pre-approved worker fix) | keep one name, rename one | Base-game one (book no. 59) stays Dra Tempest; Mobile System GB one (no. 65) is Dra Tempest II (tools/records.py OVERRIDES). Revisit if the user prefers another name. |
+| D14 | 2026-11-23 | Item card descriptions: wide font when short (issue #3) | mixed, one font | One font: always condensed, as D11 for names. |

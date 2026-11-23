@@ -13,12 +13,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   class tiles, battle buttons, 9 scene SFX, battle-map "Back" hint), reviews (story, m8 Critical/Important).
   2026-10-19 playtest bugs all closed (`docs/bugs.md`): story-font per-glyph advance (asm/story.asm), word-level
   wrap + widow control, 15-cell line cap, shop typewriter, white condensed text, cursor gaps, Time-row alignment.
-- **Released:** v1.1 (2026-10-24, GitHub release v1.1): 2026-10-19/20/24 playtest fixes.
-- **2026-10-26, issue #1 (unreleased):** port map corrupted (m8 msg bank ran 8 bytes into the port tile set header
+- **Released:** v1.1 (2026-10-24): 2026-10-19/20/24 playtest fixes. v1.2 (2026-10-26): issue #1.
+  v1.3 (2026-11-23, from main dae39f4, patched CRC 6318E588): issue #3. v1.3 published without a QA-tour manifest
+  (smoke only); the release hook wants `work/qa/**/manifest.tsv` + qa_gate.py before the next one.
+- **2026-10-26, issue #1 (v1.2):** port map corrupted (m8 msg bank ran 8 bytes into the port tile set header
   0x0A1A38: range fixed, bogus entries dropped, test added); fusion result labels garbled (char animator
   0x080625D0/0x08062666 hooked); 使用中/修行中 small tags drawn as IN USE / TRAINING (gfx.job_tags).
   States: `work/issue1/{port,fus,eq2}/` (from `work/pt/world` in the main checkout).
-- **2026-11-23, issue #3 (unreleased):** name keyboard cursor skips/dead letters (kana per-tab movement rules:
+- **2026-11-23, issue #3 (v1.3):** name keyboard cursor skips/dead letters (kana per-tab movement rules:
   tabs locked to the Latin pair 4/5), Event Replay name garbled (stage-bank Leo/Tina copies condensed -> normal
   tiles), Fafnir species row ファーブニル added to names.json, online Dra Tempest -> Dra Tempest II (D13), item
   cards always condensed (D14). Reporter's save + states: `work/issue3/` (player.sav, grid.mss, replay.mss, mm.mss).

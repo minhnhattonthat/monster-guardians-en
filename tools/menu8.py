@@ -204,10 +204,12 @@ def build(rom, marker=False, free=None):
                     jp_used.update(encode(e['jp'], enc) if '[' not in e['jp'] else [])
                 continue
             budget, width, nl = limits(e)
+            # item cards: always condensed, so a short description matches its neighbours (issue #3)
+            condense = e.get('condense', bank == 'itemdesc')
             try:
-                codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars, e.get('condense', False))
+                codes, _ = encode_en(text, budget, width, nl, enc, pairs, cond_chars, condense)
                 if bank == 'itemdesc':
-                    codes = card_codes(text, codes, budget, width, nl, enc, pairs, cond_chars, e.get('condense', False))
+                    codes = card_codes(text, codes, budget, width, nl, enc, pairs, cond_chars, condense)
             except ValueError as err:
                 raise SystemExit(f'm8_{bank} {e["id"]}: {err}')
             if e.get('reloc'):

@@ -98,6 +98,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | リンビュアリー | Linbeaury | メインビュアリー | Main Beaury | チンビュアリー | Chinbeaury |
 | こあくま | Imp | ゼラートドラゴン | Zerat Dragon | ヨクジン | Yokujin |
 | たまご / タマゴ | Egg | | | | |
+| ドラテンペスト (Mobile System GB, book no. 65) | Dra Tempest II | ファーニブル (record spelling) | Fafnir | | |
 
 ## Menu terms (8x8)
 | JP | EN | notes | Avoid |

@@ -18,6 +18,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0x0A1A38: range fixed, bogus entries dropped, test added); fusion result labels garbled (char animator
   0x080625D0/0x08062666 hooked); 使用中/修行中 small tags drawn as IN USE / TRAINING (gfx.job_tags).
   States: `work/issue1/{port,fus,eq2}/` (from `work/pt/world` in the main checkout).
+- **2026-11-23, issue #3 (unreleased):** name keyboard cursor skips/dead letters (kana per-tab movement rules:
+  tabs locked to the Latin pair 4/5), Event Replay name garbled (stage-bank Leo/Tina copies condensed -> normal
+  tiles), Fafnir species row ファーブニル added to names.json, online Dra Tempest -> Dra Tempest II (D13), item
+  cards always condensed (D14). Reporter's save + states: `work/issue3/` (player.sav, grid.mss, replay.mss, mm.mss).
+  Not checked in game: Tina replays, Monster Book pages 59/65/72, rename-monster keyboard (same init 0x0805578C).
 - **Open:**
   - Status tags: TRAINING (small) not seen in game yet; 64x32 修行中 (0x50FA18 + cap 0x50FE18) still Japanese.
   - Order descriptions (ui9 0CD3DC-0CD4DC) indented but not seen in game (probably Options > Help ON).

@@ -54,5 +54,8 @@ immediates spread over ~750 code sites (work/sites8.py, work/lencov.py). So:
   record fields (also the rename/save buffer): >8 letters -> digraphs (draft names need ~171 pairs).
 - **Relocate** only 0-terminated strings whose every slot is a plain pointer with no length immediate (long shop /
   message dialogue), repointing all slots.
-- Name entry: the kana pages of the grid (0x0BCC44) become Latin; default names レオ/ティーナ -> Leo/Tina.
+- Name entry: the kana pages of the grid (0x0BCC44) become Latin; default names レオ/ティーナ -> Leo/Tina (also
+  the Event Replay copies at 0x0C6DDC/0x0C6DE2: normal tiles, since {name} maps them through GRID).
+  Cursor moves/picks follow hardcoded per-tab rules (tab = half-page, [p+0x62], p = [0x03001DF0]); tabs 0-3 keep
+  the kana gaps, so asm/menu8.asm opens on tab 4 (Latin letters) and L/R toggles 4 <-> 5 only (issue #3).
 - Messages with mid-string pointers (msg 5, mobile 37) are paged/scrolled pieces: keep the piece structure.

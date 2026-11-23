@@ -51,6 +51,19 @@ FONT_SIG  equ 0x080BEDF0 + 0x0C * 32   ; ROM font tile for 'A' (code 0x0C): neve
 .org 0x0800DEA6 :: bl tile_dma_r3       ; battle unit panel (name, element): lsls r0,r3,#5 / adds r0,r0,r2 (r2 = font)
 ; window text module (0x0807CB34, world map labels): lsls r0,#12 / orrs r0,r5 (r5 = code)
 .org 0x0807CBA4 :: bl stub_win
+; name entry (issue #3): cursor moves and picks follow hardcoded per-tab layouts, tabs 0-3 kana (blank slots in
+; the kana grid), 4-5 the original Latin page. Open on tab 4 and let L/R toggle 4 <-> 5 only.
+.org 0x080557EC                         ; init: ... strh r2,[p+0x60] / strb r5,[p+0x4d] / [p+0x62] = 0
+  add r0,#2                             ; p+0x60
+  mov r2,#4
+  strh r2,[r0]                          ; shown tab
+  strh r2,[r0,#2]                       ; tab
+  sub r0,#0x13
+  strb r5,[r0]
+  ldr r1,[r4]
+  mov r8,r8
+.org 0x0805661C :: mov r0,#4            ; L: tab 5 wraps to 4 (was 0)
+.org 0x0805666E :: cmp r0,#4            ; R: tab 4 wraps to 5 (was tab 0)
 
 ; Code must be within bl range (4 MB) of the hooks: the zero gap 0x0809C3F0-0x0809C8D0 after the program code
 ; (no pointer into it; never read in boot/story/menu/map/battle tours).
